@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5108830484295412755}
   - component: {fileID: 5108466512667121561}
   m_Layer: 5
-  m_Name: BottomTap
+  m_Name: BottomTab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
