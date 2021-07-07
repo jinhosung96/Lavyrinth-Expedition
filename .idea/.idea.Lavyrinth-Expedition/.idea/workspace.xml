@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../Match3/Assets/01. JHS/02. Scripts/## Default/03. Manager/ObjectPool/PoolData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Cave/Scripts/Animal.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -41,7 +42,7 @@
       <workItem from="1625566065564" duration="3662000" />
       <workItem from="1625582515593" duration="352000" />
       <workItem from="1625582926201" duration="2000" />
-      <workItem from="1625622098419" duration="1243000" />
+      <workItem from="1625622098419" duration="1955000" />
     </task>
     <servers />
   </component>
