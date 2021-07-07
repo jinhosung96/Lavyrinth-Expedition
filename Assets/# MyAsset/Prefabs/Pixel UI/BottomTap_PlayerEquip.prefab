@@ -73,7 +73,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4930802689723218409, guid: c2e28a979b0f41340a0481acc8f7bd4b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 4930802689723218409, guid: c2e28a979b0f41340a0481acc8f7bd4b, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -91,9 +91,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5108830484295412755, guid: c2e28a979b0f41340a0481acc8f7bd4b, type: 3}
+      propertyPath: m_Color.a
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5108830484295412755, guid: c2e28a979b0f41340a0481acc8f7bd4b, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5108830484295412755, guid: c2e28a979b0f41340a0481acc8f7bd4b, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5108830484295412755, guid: c2e28a979b0f41340a0481acc8f7bd4b, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5148791032032251833, guid: c2e28a979b0f41340a0481acc8f7bd4b, type: 3}
       propertyPath: m_Name
-      value: BottomTap
+      value: BottomTap_PlayerEquip
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2e28a979b0f41340a0481acc8f7bd4b, type: 3}
