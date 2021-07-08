@@ -7,10 +7,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5430749330788331893, guid: d4daad0681e9cb64298becbb5b2aa430, type: 3}
-      propertyPath: m_Text
-      value: <color=#DAD9FF>dps</color> 3.56<color=#DAD9FF>k</color>
-      objectReference: {fileID: 0}
     - target: {fileID: 5430749330788331894, guid: d4daad0681e9cb64298becbb5b2aa430, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

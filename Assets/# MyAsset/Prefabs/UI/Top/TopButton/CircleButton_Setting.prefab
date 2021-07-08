@@ -15,6 +15,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CircleButton_Setting
       objectReference: {fileID: 0}
+    - target: {fileID: 4713091320723629995, guid: cf88c1d868a28a643a5127054fba9b7a, type: 3}
+      propertyPath: m_Interactable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4891210753791216091, guid: cf88c1d868a28a643a5127054fba9b7a, type: 3}
       propertyPath: m_Pivot.x
       value: 1
