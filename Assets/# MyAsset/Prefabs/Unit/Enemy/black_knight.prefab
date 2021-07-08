@@ -1236,6 +1236,7 @@ GameObject:
   - component: {fileID: 1469008419669253340}
   - component: {fileID: 1530450521311182122}
   - component: {fileID: 1621529739324204534}
+  - component: {fileID: 712793699}
   m_Layer: 0
   m_Name: black_knight
   m_TagString: Untagged
@@ -1250,9 +1251,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1472482615739102760}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_LocalScale: {x: 0.008, y: 0.008, z: 0.008}
   m_Children:
   - {fileID: 1469008419831462728}
   - {fileID: 1469008417929650502}
@@ -1292,6 +1293,22 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 100
+--- !u!114 &712793699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472482615739102760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a36c833cc906d0a498d1656bdf56ed8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1530450521311182122}
+  hitSound: {fileID: 0}
+  deathSound: {fileID: 0}
+  maxHP: 9876543210
 --- !u!1 &1472482615756335668
 GameObject:
   m_ObjectHideFlags: 0
