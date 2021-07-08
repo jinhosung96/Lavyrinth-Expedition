@@ -17,6 +17,7 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/# MyAsset/Scripts/NewBehaviourScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/# MyAsset/Scripts/BigInteger/BigInteger.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uw9rJBfPVv3wpsOSag1MuBns4y" />
@@ -42,7 +43,7 @@
       <workItem from="1625566065564" duration="3662000" />
       <workItem from="1625582515593" duration="352000" />
       <workItem from="1625582926201" duration="2000" />
-      <workItem from="1625622098419" duration="2494000" />
+      <workItem from="1625622098419" duration="3712000" />
     </task>
     <servers />
   </component>
