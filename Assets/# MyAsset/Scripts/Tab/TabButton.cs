@@ -8,17 +8,17 @@ namespace JHS
     /// <summary>
     ///
     /// 원 저작자(개발자) : 진호성 <para></para>
-    /// 개요 : 다이아 재화를 텍스트로 표기 <para></para>
+    /// 개요 : 탭을 통해 영웅으로 하여금 공격하게 한다<para></para>
     /// 
     /// </summary>
     #endregion
-    public class DiamondText : TextFrame
+    public class TabButton : ButtonClick
     {
         #region 재정의 메소드
 
-        protected override string WriteText()
+        public override void OnClick()
         {
-            return CurrencyData.Instance.Diamond.ToString();
+            HeroSystem.Instance.Attack.Attack();
         }
 
         #endregion
