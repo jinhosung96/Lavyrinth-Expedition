@@ -33,7 +33,7 @@ namespace JHS
             m_currentHP = MaxHP;
 
             // 체력바 갱신
-            HPBarSystem.Instance.MonsterHPBar.value = 1;
+            HPBarSystem.Instance.MonsterHPBar.ResetHPBar();
 
             // 용사의 현재 타겟을 자기자신으로 갱신
             HeroSystem.Instance.CurrentTarget = this;
@@ -61,20 +61,7 @@ namespace JHS
 
         protected override void RefreshUIElement()
         {
-            int currentHPLength = CurrentHP.ToString().Length;
-            int maxHPLength = MaxHP.ToString().Length;
-            if (maxHPLength > 4)
-            {
-                int offset = maxHPLength - currentHPLength;
-
-                if (offset < 4)
-                {
-                    HPBarSystem.Instance.MonsterHPBar.value = float.Parse(CurrentHP.ToString().Substring(0, 4 - offset)) / float.Parse(MaxHP.ToString().Substring(0, 4));
-                }
-                else HPBarSystem.Instance.MonsterHPBar.value = 0;
-
-            }
-            else HPBarSystem.Instance.MonsterHPBar.value = float.Parse(CurrentHP.ToString()) / float.Parse(MaxHP.ToString());
+            HPBarSystem.Instance.MonsterHPBar.RefreshHPBar(CurrentHP, MaxHP);
         }
 
         #endregion

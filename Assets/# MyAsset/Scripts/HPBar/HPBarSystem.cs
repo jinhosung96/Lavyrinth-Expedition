@@ -17,17 +17,17 @@ namespace JHS
     {
         #region 필드
 
-        [SerializeField] Slider monsterHPBar;
-        [SerializeField] Slider bossHPBar;
-        [SerializeField] Slider heroHPBar;
+        [SerializeField] HPBar monsterHPBar;
+        [SerializeField] HPBar bossHPBar;
+        [SerializeField] HPBar heroHPBar;
 
         #endregion
 
         #region 속성
 
-        public Slider MonsterHPBar => monsterHPBar;
-        public Slider BossHPBar => bossHPBar;
-        public Slider HeroHPBar => heroHPBar;
+        public HPBar MonsterHPBar => monsterHPBar;
+        public HPBar BossHPBar => bossHPBar;
+        public HPBar HeroHPBar => heroHPBar;
 
         #endregion
     }
