@@ -130,7 +130,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8189044052172476034, guid: 987f5ccf0543b3e41b63631574151119, type: 3}
       propertyPath: m_Name
-      value: HPBar_Enemy
+      value: HPBar_Monster
       objectReference: {fileID: 0}
     - target: {fileID: 8267965779168875916, guid: 987f5ccf0543b3e41b63631574151119, type: 3}
       propertyPath: m_Pivot.x

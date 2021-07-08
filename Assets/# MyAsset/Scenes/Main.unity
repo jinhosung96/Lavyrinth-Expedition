@@ -1137,10 +1137,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2640672913611361773, guid: 05ca122b49b2ec544bd649fc6e722ee0, type: 3}
-      propertyPath: m_Name
-      value: BottomTab_HeroEquip
-      objectReference: {fileID: 0}
     - target: {fileID: 2843224365419140773, guid: 05ca122b49b2ec544bd649fc6e722ee0, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1232,10 +1228,6 @@ PrefabInstance:
     - target: {fileID: 4902684039003146558, guid: 05ca122b49b2ec544bd649fc6e722ee0, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5120665247757336430, guid: 05ca122b49b2ec544bd649fc6e722ee0, type: 3}
-      propertyPath: m_Name
-      value: BottomTab_Hero
       objectReference: {fileID: 0}
     - target: {fileID: 5146924452494545947, guid: 05ca122b49b2ec544bd649fc6e722ee0, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1372,6 +1364,10 @@ PrefabInstance:
     - target: {fileID: 8125162666039052256, guid: 05ca122b49b2ec544bd649fc6e722ee0, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8347520550836979974, guid: 05ca122b49b2ec544bd649fc6e722ee0, type: 3}
+      propertyPath: m_Name
+      value: HPBar_Monster
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05ca122b49b2ec544bd649fc6e722ee0, type: 3}
