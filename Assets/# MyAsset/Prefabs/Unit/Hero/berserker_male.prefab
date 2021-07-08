@@ -1573,7 +1573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4530d25191bbeb342951cf40ce894240, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tapDamage: 1234567890
+  tapDamage: 123456789012345678901234567890123456789012345678901234567890
 --- !u!1 &1186180089235165797
 GameObject:
   m_ObjectHideFlags: 0

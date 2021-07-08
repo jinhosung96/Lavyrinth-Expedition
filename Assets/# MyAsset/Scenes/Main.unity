@@ -1377,10 +1377,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 810574602}
     m_Modifications:
-    - target: {fileID: 712793699, guid: 24e719d5fe60af241990ef41bbdce476, type: 3}
-      propertyPath: maxHP
-      value: 987654321098765432109876543210987654321098765432109876543210
-      objectReference: {fileID: 0}
     - target: {fileID: 1469008419669253340, guid: 24e719d5fe60af241990ef41bbdce476, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1429,10 +1425,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: black_knight
       objectReference: {fileID: 0}
-    - target: {fileID: 1530450521311182122, guid: 24e719d5fe60af241990ef41bbdce476, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 07fbbb2858650314486b99003b343a16, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24e719d5fe60af241990ef41bbdce476, type: 3}
 --- !u!1001 &3492391971521411649
@@ -1442,10 +1434,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2004052445}
     m_Modifications:
-    - target: {fileID: 48882550, guid: 96017de060889d4418f552504172921a, type: 3}
-      propertyPath: tapDamage
-      value: 123456789012345678901234567890123456789012345678901234567890
-      objectReference: {fileID: 0}
     - target: {fileID: 1180914886109717571, guid: 96017de060889d4418f552504172921a, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1580,10 +1568,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2287632498082516112, guid: 05ca122b49b2ec544bd649fc6e722ee0, type: 3}
-      propertyPath: m_Name
-      value: TapArea
-      objectReference: {fileID: 0}
     - target: {fileID: 2843224365419140773, guid: 05ca122b49b2ec544bd649fc6e722ee0, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1655,10 +1639,6 @@ PrefabInstance:
     - target: {fileID: 3254271203329620455, guid: 05ca122b49b2ec544bd649fc6e722ee0, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3723157371215168445, guid: 05ca122b49b2ec544bd649fc6e722ee0, type: 3}
-      propertyPath: m_Name
-      value: HPBar_Hero
       objectReference: {fileID: 0}
     - target: {fileID: 4902684039003146558, guid: 05ca122b49b2ec544bd649fc6e722ee0, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1815,14 +1795,6 @@ PrefabInstance:
     - target: {fileID: 8125162666039052256, guid: 05ca122b49b2ec544bd649fc6e722ee0, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8235723282844112276, guid: 05ca122b49b2ec544bd649fc6e722ee0, type: 3}
-      propertyPath: m_Value
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8347520550836979974, guid: 05ca122b49b2ec544bd649fc6e722ee0, type: 3}
-      propertyPath: m_Name
-      value: HPBar_Monster
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05ca122b49b2ec544bd649fc6e722ee0, type: 3}

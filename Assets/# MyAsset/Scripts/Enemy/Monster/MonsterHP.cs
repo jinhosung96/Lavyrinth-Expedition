@@ -37,6 +37,7 @@ namespace JHS
 
             // 용사의 현재 타겟을 자기자신으로 갱신
             HeroSystem.Instance.CurrentTarget = this;
+            animator.SetTrigger("DoReset");
         }
 
         protected override void OnTakeDamage(BigInteger delta)
@@ -57,6 +58,15 @@ namespace JHS
             // 골드 드랍
             // 다음 몬스터 출현
             print("Death");
+
+            StartCoroutine(Test());
+        }
+
+        IEnumerator Test()
+        {
+            yield return new WaitForSeconds(2f);
+            this.gameObject.SetActive(false);
+            this.gameObject.SetActive(true);
         }
 
         protected override void RefreshUIElement()

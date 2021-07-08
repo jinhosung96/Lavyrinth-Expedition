@@ -18,16 +18,7 @@ namespace JHS
     {
         #region 필드
 
-        Slider hpBar;
-
-        #endregion
-
-        #region 유니티 생명주기
-
-        private void Awake()
-        {
-            hpBar = GetComponent<Slider>();
-        }
+        [SerializeField] Slider hpBar;
 
         #endregion
 

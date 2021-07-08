@@ -1273,7 +1273,7 @@ Animator:
   m_GameObject: {fileID: 1472482615739102760}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3b37125c3fd7ae24e9d29a2a93d9f29c, type: 2}
+  m_Controller: {fileID: 9100000, guid: 07fbbb2858650314486b99003b343a16, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1308,7 +1308,7 @@ MonoBehaviour:
   animator: {fileID: 1530450521311182122}
   hitSound: {fileID: 0}
   deathSound: {fileID: 0}
-  maxHP: 9876543210
+  maxHP: 987654321098765432109876543210987654321098765432109876543210
 --- !u!1 &1472482615756335668
 GameObject:
   m_ObjectHideFlags: 0
