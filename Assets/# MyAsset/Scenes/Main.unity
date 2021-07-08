@@ -1377,6 +1377,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 810574602}
     m_Modifications:
+    - target: {fileID: 712793699, guid: 24e719d5fe60af241990ef41bbdce476, type: 3}
+      propertyPath: maxHP
+      value: 987654321098765432109876543210987654321098765432109876543210
+      objectReference: {fileID: 0}
     - target: {fileID: 1469008419669253340, guid: 24e719d5fe60af241990ef41bbdce476, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1425,6 +1429,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: black_knight
       objectReference: {fileID: 0}
+    - target: {fileID: 1530450521311182122, guid: 24e719d5fe60af241990ef41bbdce476, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 07fbbb2858650314486b99003b343a16, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24e719d5fe60af241990ef41bbdce476, type: 3}
 --- !u!1001 &3492391971521411649
@@ -1434,6 +1442,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2004052445}
     m_Modifications:
+    - target: {fileID: 48882550, guid: 96017de060889d4418f552504172921a, type: 3}
+      propertyPath: tapDamage
+      value: 123456789012345678901234567890123456789012345678901234567890
+      objectReference: {fileID: 0}
     - target: {fileID: 1180914886109717571, guid: 96017de060889d4418f552504172921a, type: 3}
       propertyPath: m_RootOrder
       value: 0
