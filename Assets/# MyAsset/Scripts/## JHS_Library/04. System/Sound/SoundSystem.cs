@@ -19,7 +19,7 @@ namespace JHS
 
         #endregion
 
-        #region 인터페이스 메소드
+        #region 공개 메소드
 
         /// <summary>
         /// 해당 오디오 클립으로 BGM 재생 (반복 재생)

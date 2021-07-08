@@ -40,7 +40,7 @@ namespace JHS
 
         #endregion
 
-        #region 구현 메소드
+        #region 내부 메소드
 
         void RefreshUIElement()
         {

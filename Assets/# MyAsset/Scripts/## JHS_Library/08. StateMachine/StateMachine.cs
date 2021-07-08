@@ -36,7 +36,7 @@ namespace JHS
 
         #endregion
 
-        #region 인터페이스 메소드
+        #region 공개 메소드
         
         /// <summary>
         /// 현재 상태를 _nextState로 전환. _isReset이 true일 시 상태를 바꾸기 전에 OnReset() 함수 호출 후 상태 전환

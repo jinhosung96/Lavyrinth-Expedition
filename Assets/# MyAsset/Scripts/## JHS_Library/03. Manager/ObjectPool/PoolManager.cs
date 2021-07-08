@@ -44,7 +44,7 @@ namespace JHS
 
         #endregion
 
-        #region 인터페이스 메소드
+        #region 공개 메소드
 
         /// <summary>
         /// 풀 초기화
@@ -246,7 +246,7 @@ namespace JHS
 
         #endregion
 
-        #region 구현 메소드
+        #region 내부 메소드
 
         IEnumerator Co_DelayPushObject(GameObject _obj, float _delay)
         {

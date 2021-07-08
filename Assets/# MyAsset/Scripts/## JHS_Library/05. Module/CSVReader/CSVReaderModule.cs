@@ -20,7 +20,7 @@ namespace JHS
 
         #endregion
 
-        #region 인터페이스 메소드
+        #region 공개 메소드
 
         /// <summary>
         /// 머리행을 기준으로 세로로 파일을 읽어드린다.

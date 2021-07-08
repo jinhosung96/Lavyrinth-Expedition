@@ -35,7 +35,7 @@ namespace JHS
 
         #endregion
 
-        #region 인터페이스 메소드
+        #region 공개 메소드
 
         public void ResetTimer()
         {
@@ -70,7 +70,7 @@ namespace JHS
 
         #endregion
 
-        #region 인터페이스 메소드
+        #region 공개 메소드
 
         /// <summary>
         /// 해당 이름의 타이머를 초기화한다.
@@ -151,7 +151,7 @@ namespace JHS
 
         #endregion
 
-        #region 구현 메소드
+        #region 내부 메소드
 
         IEnumerator Co_Timer(string name)
         {

@@ -26,7 +26,7 @@ namespace JHS
 
         #endregion
 
-        #region 인터페이스 메소드
+        #region 공개 메소드
 
         /// <summary>
         /// 리스너 추가
