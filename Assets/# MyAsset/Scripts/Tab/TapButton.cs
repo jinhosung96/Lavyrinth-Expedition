@@ -12,7 +12,7 @@ namespace JHS
     /// 
     /// </summary>
     #endregion
-    public class TabButton : ButtonClick
+    public class TapButton : ButtonClick
     {
         #region 재정의 메소드
 

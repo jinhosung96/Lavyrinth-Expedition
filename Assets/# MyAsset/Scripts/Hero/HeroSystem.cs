@@ -8,7 +8,7 @@ namespace JHS
     /// <summary>
     ///
     /// 원 저작자(개발자) : 진호성 <para></para>
-    /// 개요 : <para></para>
+    /// 개요 : 용사에 관련된 데이터 관리 <para></para>
     /// 
     /// </summary>
     #endregion
@@ -20,6 +20,7 @@ namespace JHS
         Transform heroTr;
         HeroAttack attack;
         Animator animator;
+        BigIntegerHPFrame currentTarget;
 
         #endregion
 
@@ -53,6 +54,8 @@ namespace JHS
                 return animator;
             }
         }
+
+        public BigIntegerHPFrame CurrentTarget { get => currentTarget; set => currentTarget = value; }
 
         #endregion
     }
