@@ -14,6 +14,20 @@ namespace JHS
     #endregion
     public class MercenarySystem : JHS.SystemObject<MercenarySystem>
     {
-    
+        #region 필드
+
+        [SerializeField] GameObject currentWarrior;
+        [SerializeField] GameObject currentArcher;
+        [SerializeField] GameObject currentMage;
+
+        #endregion
+
+        #region 속성
+
+        public GameObject CurrentWarrior => currentWarrior;
+        public GameObject CurrentArcher => currentArcher;
+        public GameObject CurrentMage => currentMage;
+
+        #endregion
     }
 }

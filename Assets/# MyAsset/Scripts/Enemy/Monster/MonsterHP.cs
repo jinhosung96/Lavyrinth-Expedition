@@ -65,7 +65,7 @@ namespace JHS
             //SoundSystem.Instance.PlaySoundEffect(deathSound);
             // 골드 드랍
             // 다음 라운드 시작
-            StageSystem.Instance.ChangeRound();            
+            StartCoroutine(Co_ChangeRound());
         }
 
         protected override void RefreshUIElement()
@@ -77,7 +77,15 @@ namespace JHS
 
         #region 내부 메소드
 
+        IEnumerator Co_ChangeRound()
+        {
+            bool IsAnimationExit() => animator.GetCurrentAnimatorStateInfo(0).IsName("Death") 
+                && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f - animator.GetAnimatorTransitionInfo(0).duration;
 
+            while (!IsAnimationExit()) yield return null;
+
+            StageSystem.Instance.ChangeRound();
+        }
 
         #endregion
     }

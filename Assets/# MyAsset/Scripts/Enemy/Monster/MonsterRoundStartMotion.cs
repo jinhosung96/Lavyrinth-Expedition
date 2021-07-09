@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,7 +19,7 @@ namespace JHS
 
         public void StartRoundChange()
         {
-
+            transform.DOMoveX(transform.position.x - 7.8f, StageSystem.Instance.RoundChangeDelay);
         }
 
         public void EndRoundChange()

@@ -52,13 +52,20 @@ namespace JHS
             GameObject tile = TileSystem.Instance.SpawnRandomTile();
 
             HeroSystem.Instance.HeroRoundChangeMotion.StartRoundChange();
+            MercenarySystem.Instance.CurrentWarrior.GetComponent<MercenaryRoundChangeMotion>().StartRoundChange();
+            MercenarySystem.Instance.CurrentArcher.GetComponent<MercenaryRoundChangeMotion>().StartRoundChange();
+            MercenarySystem.Instance.CurrentMage.GetComponent<MercenaryRoundChangeMotion>().StartRoundChange();
             HeroSystem.Instance.CurrentTarget?.GetComponent<MonsterRoundEndMotion>().StartRoundChange();
             TileSystem.Instance.CurrentTile.GetComponent<TileRoundEndMotion>().StartRoundChange();
             monster.GetComponent<MonsterRoundStartMotion>().StartRoundChange();
             tile.GetComponent<TileRoundStartMotion>().StartRoundChange();
 
             yield return new WaitForSeconds(roundChangeDelay);
+
             HeroSystem.Instance.HeroRoundChangeMotion.EndRoundChange();
+            MercenarySystem.Instance.CurrentWarrior.GetComponent<MercenaryRoundChangeMotion>().EndRoundChange();
+            MercenarySystem.Instance.CurrentArcher.GetComponent<MercenaryRoundChangeMotion>().EndRoundChange();
+            MercenarySystem.Instance.CurrentMage.GetComponent<MercenaryRoundChangeMotion>().EndRoundChange();
             HeroSystem.Instance.CurrentTarget?.GetComponent<MonsterRoundEndMotion>().EndRoundChange();
             TileSystem.Instance.CurrentTile.GetComponent<TileRoundEndMotion>().EndRoundChange();
             monster.GetComponent<MonsterRoundStartMotion>().EndRoundChange();

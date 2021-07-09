@@ -25,7 +25,7 @@ namespace JHS
 
         #region 속성
 
-        public GameObject CurrentTile => currentTile;
+        public GameObject CurrentTile { get { return currentTile; } set { currentTile = value; } }
 
         public float TileWidth => tileWidth;
 
