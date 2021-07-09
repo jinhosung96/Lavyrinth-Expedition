@@ -8,17 +8,22 @@ namespace JHS
     /// <summary>
     ///
     /// 원 저작자(개발자) : 진호성 <para></para>
-    /// 개요 : 탭을 통해 영웅으로 하여금 공격하게 한다<para></para>
+    /// 개요 : <para></para>
     /// 
     /// </summary>
     #endregion
-    public class TapButton : ButtonClick
+    public class TileRoundEndMotion : MonoBehaviour
     {
-        #region 재정의 메소드
+        #region 공개 메소드
 
-        public override void OnClick()
+        public void StartRoundChange()
         {
-            HeroSystem.Instance.Attack.Attack();
+
+        }
+
+        public void EndRoundChange()
+        {
+            PoolManager.Instance.PushObject(gameObject);
         }
 
         #endregion

@@ -25,19 +25,27 @@ namespace JHS
 
         #endregion
 
-        #region 재정의 메소드
+        #region 공개 메소드
 
-        protected override void OnSpawn()
+        public void ChangeTarget()
         {
-            MaxHP = BigInteger.Parse(maxHP);
-            m_currentHP = MaxHP;
-
             // 체력바 갱신
             HPBarSystem.Instance.MonsterHPBar.ResetHPBar();
 
             // 용사의 현재 타겟을 자기자신으로 갱신
             HeroSystem.Instance.CurrentTarget = this;
+        }
+
+        #endregion
+
+        #region 재정의 메소드
+
+        protected override void OnSpawn()
+        {
             animator.SetTrigger("DoReset");
+
+            MaxHP = BigInteger.Parse(maxHP);
+            m_currentHP = MaxHP;
         }
 
         protected override void OnTakeDamage(BigInteger delta)
@@ -56,17 +64,8 @@ namespace JHS
             // Death 사운드 출력
             //SoundSystem.Instance.PlaySoundEffect(deathSound);
             // 골드 드랍
-            // 다음 몬스터 출현
-            print("Death");
-
-            StartCoroutine(Test());
-        }
-
-        IEnumerator Test()
-        {
-            yield return new WaitForSeconds(2f);
-            this.gameObject.SetActive(false);
-            this.gameObject.SetActive(true);
+            // 다음 라운드 시작
+            StageSystem.Instance.ChangeRound();            
         }
 
         protected override void RefreshUIElement()

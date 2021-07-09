@@ -1504,6 +1504,7 @@ GameObject:
   - component: {fileID: 1236201962872340181}
   - component: {fileID: 1341806721540188269}
   - component: {fileID: 48882550}
+  - component: {fileID: 48882551}
   m_Layer: 0
   m_Name: berserker_male
   m_TagString: Untagged
@@ -1574,6 +1575,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tapDamage: 123456789012345678901234567890123456789012345678901234567890
+--- !u!114 &48882551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186179906813385329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43a3a4983df408c46a599c7e9b3a0404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1186180089235165797
 GameObject:
   m_ObjectHideFlags: 0

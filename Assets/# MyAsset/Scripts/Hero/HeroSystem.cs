@@ -21,39 +21,17 @@ namespace JHS
         HeroAttack attack;
         Animator animator;
         BigIntegerHPFrame currentTarget;
+        HeroRoundChangeMotion heroRoundChangeMotion;
 
         #endregion
 
         #region 속성
 
         public GameObject HeroGO => heroGO;
-
-        public Transform HeroTr
-        {
-            get
-            {
-                if (heroTr == null) heroTr = heroGO.transform;
-                return heroTr;
-            }
-        }
-
-        public HeroAttack Attack
-        {
-            get
-            {
-                if (attack == null) attack = heroGO.GetComponent<HeroAttack>();
-                return attack;
-            }
-        }
-
-        public Animator Animator
-        {
-            get
-            {
-                if (animator == null) animator = heroGO.GetComponent<Animator>();
-                return animator;
-            }
-        }
+        public Transform HeroTr => heroTr == null ? heroTr = heroGO.transform : heroTr;
+        public HeroAttack HeroAttack => attack == null ? attack = heroGO.GetComponent<HeroAttack>() : attack;
+        public Animator Animator => animator == null ? animator = heroGO.GetComponent<Animator>() : animator;
+        public HeroRoundChangeMotion HeroRoundChangeMotion => heroRoundChangeMotion == null ? heroRoundChangeMotion = heroGO.GetComponent<HeroRoundChangeMotion>() : heroRoundChangeMotion;
 
         public BigIntegerHPFrame CurrentTarget { get => currentTarget; set => currentTarget = value; }
 
