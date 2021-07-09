@@ -96,7 +96,7 @@ namespace JHS
                 //오브젝트를 스택에 넣음
                 m_objPool[_obj.name].Push(_obj);
                 //오브젝트를 풀에 넣음
-                _obj.transform.parent = m_trPool;
+                _obj.transform.SetParent(m_trPool);
                 //위치 초기화
                 _obj.transform.position = Vector3.zero;
                 // 스케일 초기화
