@@ -63,8 +63,24 @@ namespace JHS
 
         #region 속성
 
-        public BigInteger Gold { get; set; }
-        public int Diamond { get; set; }
+        public BigInteger Gold
+        {
+            get => gold; 
+            set
+            {
+                gold = value;
+                ObserverSystem.Instance.PostNofication("SetGold");
+            }
+        }
+        public int Diamond
+        {
+            get => diamond; 
+            set
+            {
+                diamond = value;
+                ObserverSystem.Instance.PostNofication("SetDiamond");
+            }
+        }
         public string GoldRoughNumber { get { return gold.GetRoughNumber(); } }
         public string GoldUnit { get { return gold.GetUnit(); } }
 

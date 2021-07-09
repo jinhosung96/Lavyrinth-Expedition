@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using UnityEngine;
 
 namespace JHS
@@ -17,12 +18,30 @@ namespace JHS
         #region 필드
 
         [SerializeField] float roundChangeDelay;
+        [SerializeField] string initRoundHP;
+        [SerializeField] float increaseRoundHP;
+        [SerializeField] string initRoundGold;
+        [SerializeField] float increaseRoundGold;
+        int round = 0;
 
         #endregion
 
         #region 속성
 
         public float RoundChangeDelay => roundChangeDelay;
+
+        public int Round
+        {
+            get => round; private set
+            {
+                round = value;
+                ObserverSystem.Instance.PostNofication("NextRound");
+            }
+        }
+
+        public BigInteger RoundHP => BigInteger.Parse(initRoundHP) * (int)(Mathf.Pow(increaseRoundHP, round - 1)*100) / 100;
+
+        public BigInteger RoundGold => BigInteger.Parse(initRoundGold) * (int)(Mathf.Pow(increaseRoundGold, round - 1) * 100) / 100;
 
         #endregion
 
@@ -39,6 +58,7 @@ namespace JHS
 
         public void ChangeRound()
         {
+            Round++;
             StartCoroutine(Co_ChangeRound());
         }
 

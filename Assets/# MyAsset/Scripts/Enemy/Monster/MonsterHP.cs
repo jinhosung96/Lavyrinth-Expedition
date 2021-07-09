@@ -24,7 +24,6 @@ namespace JHS
         [SerializeField] Animator animator;
         [SerializeField] AudioClip hitSound;
         [SerializeField] AudioClip deathSound;
-        [SerializeField] string maxHP;
 
         #endregion
 
@@ -47,7 +46,7 @@ namespace JHS
         {
             animator.SetTrigger("DoReset");
 
-            MaxHP = BigInteger.Parse(maxHP);
+            MaxHP = StageSystem.Instance.RoundHP;
             m_currentHP = MaxHP;
         }
 
@@ -68,6 +67,7 @@ namespace JHS
             // Death 사운드 출력
             //SoundSystem.Instance.PlaySoundEffect(deathSound);
             // 골드 드랍
+            CurrencyData.Instance.Gold += StageSystem.Instance.RoundGold;
             // 다음 라운드 시작
             StartCoroutine(Co_ChangeRound());
         }

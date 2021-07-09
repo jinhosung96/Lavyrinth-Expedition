@@ -306,6 +306,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 163552374}
     m_Modifications:
+    - target: {fileID: 1547308652, guid: 8d06f8a5ed56c44429a7288c53ddc012, type: 3}
+      propertyPath: attackDamage
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2698814330324311999, guid: 8d06f8a5ed56c44429a7288c53ddc012, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -727,6 +731,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 163552374}
     m_Modifications:
+    - target: {fileID: 967408457, guid: bb3cf95f2e0db7347a2b3976a8124523, type: 3}
+      propertyPath: attackDamage
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 7753139411361745920, guid: bb3cf95f2e0db7347a2b3976a8124523, type: 3}
       propertyPath: m_Name
       value: Mage0
@@ -921,6 +929,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 163552374}
     m_Modifications:
+    - target: {fileID: 1220501762, guid: 95d2a809a05539447aae445cb9dd7fcb, type: 3}
+      propertyPath: attackDamage
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7284470743368517692, guid: 95d2a809a05539447aae445cb9dd7fcb, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1020,6 +1032,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roundChangeDelay: 1
+  initRoundHP: 100
+  increaseRoundHP: 1.2
+  initRoundGold: 5
+  increaseRoundGold: 1.2
 --- !u!1 &1220501758 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9144302225806459097, guid: 95d2a809a05539447aae445cb9dd7fcb, type: 3}
@@ -1679,6 +1695,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2004052445}
     m_Modifications:
+    - target: {fileID: 48882550, guid: 96017de060889d4418f552504172921a, type: 3}
+      propertyPath: tapDamage
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 1180914886109717571, guid: 96017de060889d4418f552504172921a, type: 3}
       propertyPath: m_RootOrder
       value: 0
