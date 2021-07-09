@@ -1034,7 +1034,7 @@ MonoBehaviour:
   roundChangeDelay: 1
   initRoundHP: 100
   increaseRoundHP: 1.2
-  initRoundGold: 5
+  initRoundGold: 50
   increaseRoundGold: 1.2
 --- !u!1 &1220501758 stripped
 GameObject:
