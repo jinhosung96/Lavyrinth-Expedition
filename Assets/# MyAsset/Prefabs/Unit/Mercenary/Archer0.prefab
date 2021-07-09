@@ -1409,6 +1409,8 @@ GameObject:
   - component: {fileID: 2698814330324311999}
   - component: {fileID: 3138086072683544687}
   - component: {fileID: 3502935958191052561}
+  - component: {fileID: 1547308651}
+  - component: {fileID: 1547308652}
   m_Layer: 0
   m_Name: Archer0
   m_TagString: Untagged
@@ -1462,6 +1464,37 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1547308651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4504911016085165914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bba50f244db91cd4e904c950f0d49d5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 3502935958191052561}
+  jumpPower: 0.5
+  jumpDuration: 0.3
+  jumpDelay: 0.35
+--- !u!114 &1547308652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4504911016085165914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afea9240da9a89944874113c088e06bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 3502935958191052561}
+  attackDamage: 12345678901234567890123456789012345678901234567890123456789
+  attackSpeed: 1.5
 --- !u!1 &4659848987128568726
 GameObject:
   m_ObjectHideFlags: 0

@@ -1311,6 +1311,12 @@ MonoBehaviour:
   hitSound: {fileID: 0}
   deathSound: {fileID: 0}
   maxHP: 987654321098765432109876543210987654321098765432109876543210
+  damageText: {fileID: 525427574080241279, guid: 5ed558a064f0180478d5d9aac52cbef9, type: 3}
+  damageTextPool: {fileID: 0}
+  damageTextStartPos: {x: 50, y: 30, z: 0}
+  damageTextEndPos: {x: 120, y: -17, z: 0}
+  damageTextJumpPower: 30
+  damageTextJumpDuration: 1
 --- !u!114 &712793700
 MonoBehaviour:
   m_ObjectHideFlags: 0

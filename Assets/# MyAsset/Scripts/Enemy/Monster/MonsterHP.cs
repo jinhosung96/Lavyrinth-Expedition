@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Numerics;
 using UnityEngine;
 using System;
+using Vector3 = UnityEngine.Vector3;
+using UnityEngine.UI;
+using DG.Tweening;
 
 namespace JHS
 {
@@ -55,6 +58,7 @@ namespace JHS
             // Hit 사운드 출력
             //SoundSystem.Instance.PlaySoundEffect(hitSound);
             // 플로팅 데미지 출력
+            DamageTextSystem.Instance.PopDamageText(delta);
         }
 
         protected override void OnDeath()

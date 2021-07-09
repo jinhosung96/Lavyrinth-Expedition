@@ -3024,6 +3024,8 @@ GameObject:
   - component: {fileID: 8099753417586148581}
   - component: {fileID: 9119999441697970997}
   - component: {fileID: 7314103311763229771}
+  - component: {fileID: 967408456}
+  - component: {fileID: 967408457}
   m_Layer: 0
   m_Name: Mage0
   m_TagString: Untagged
@@ -3077,6 +3079,37 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &967408456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7753139411361745920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bba50f244db91cd4e904c950f0d49d5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 7314103311763229771}
+  jumpPower: 0.5
+  jumpDuration: 0.3
+  jumpDelay: 0.6
+--- !u!114 &967408457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7753139411361745920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c486d6ae4c75744997cb85a20942d29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 7314103311763229771}
+  attackDamage: 12345678901234567890123456789012345678901234567890123456789
+  attackSpeed: 0.6
 --- !u!1 &7851691955920459277
 GameObject:
   m_ObjectHideFlags: 0
