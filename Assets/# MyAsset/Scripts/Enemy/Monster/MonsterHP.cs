@@ -88,7 +88,7 @@ namespace JHS
 
             while (!IsAnimationExit()) yield return null;
 
-            StageSystem.Instance.ChangeRound();
+            ObserverSystem.Instance.PostNofication("KillMonster");
         }
 
         #endregion

@@ -16,13 +16,14 @@ namespace JHS
         #region 필드
 
         [SerializeField, LabelName("초기 상태")] State m_initState;
-        State m_prevState;
+        [SerializeField] State m_currentState;
+        [SerializeField] State m_prevState;
 
         #endregion
 
         #region 속성
 
-        public State CurrentState { get; private set; }
+        public State CurrentState { get => m_currentState; private set => m_currentState = value; }
         public State PrevState { get => m_prevState; private set => m_prevState = value; }
 
         #endregion

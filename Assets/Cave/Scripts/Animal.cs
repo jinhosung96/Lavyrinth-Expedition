@@ -22,7 +22,7 @@ namespace Cave{
 		public float radius = 1f;
 		private int i = 0;
 
-		void Start(){
+		void OnEnable(){
 			animator = gameObject.GetComponent<Animator> ();
 			if (animalType == AnimalType.horizontal) {
 				widthLimite = moveLimite.sizeDelta.x / 2f;

@@ -1493,7 +1493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 3502935958191052561}
-  attackDamage: 12345678901234567890123456789012345678901234567890123456789
+  attackDamage: 5
   attackSpeed: 1.5
 --- !u!1 &4659848987128568726
 GameObject:

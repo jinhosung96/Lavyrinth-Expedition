@@ -37,7 +37,7 @@ namespace JHS
         {
             int rnd = (int)(Random.value * tiles.Length);
             GameObject tile = PoolManager.Instance.PopObject(tiles[rnd]);
-            tile.transform.parent = FolderSystem.Instance.MonsterFolder;
+            tile.transform.parent = FolderSystem.Instance.BackgroundFolder;
             tile.transform.localPosition = tileSpawnPos;
 
             return tile;

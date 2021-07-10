@@ -3833,5 +3833,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 8142318390341107858}
-  attackDamage: 12345678901234567890123456789012345678901234567890123456789
+  attackDamage: 10
   attackSpeed: 1
