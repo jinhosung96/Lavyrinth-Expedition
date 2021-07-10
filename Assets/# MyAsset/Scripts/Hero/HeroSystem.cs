@@ -22,6 +22,7 @@ namespace JHS
         Animator animator;
         BigIntegerHPFrame currentTarget;
         HeroRoundChangeMotion heroRoundChangeMotion;
+        HeroHP heroHP;
 
         #endregion
 
@@ -32,6 +33,7 @@ namespace JHS
         public HeroAttack HeroAttack => attack == null ? attack = heroGO.GetComponent<HeroAttack>() : attack;
         public Animator Animator => animator == null ? animator = heroGO.GetComponent<Animator>() : animator;
         public HeroRoundChangeMotion HeroRoundChangeMotion => heroRoundChangeMotion == null ? heroRoundChangeMotion = heroGO.GetComponent<HeroRoundChangeMotion>() : heroRoundChangeMotion;
+        public HeroHP HeroHP => heroHP == null ? heroHP = heroGO.GetComponent<HeroHP>() : heroHP;
 
         public BigIntegerHPFrame CurrentTarget { get => currentTarget; set => currentTarget = value; }
 

@@ -1,6 +1,8 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace JHS
 {
@@ -14,6 +16,13 @@ namespace JHS
     #endregion
     public class InfinityState : State
     {
+        #region 필드
+
+        [SerializeField] Image fadeObj;
+        [SerializeField] GameObject retryButton;
+
+        #endregion
+
         #region 재정의 메소드
 
         /// <summary>
@@ -23,36 +32,39 @@ namespace JHS
         {
             ObserverSystem.Instance.AddListener("KillMonster", gameObject, () =>
             {
-                if (Machine.CurrentState == this) NextMonster();
+                if (Machine.CurrentState == this) Machine.SetState(this);
             });
             ObserverSystem.Instance.AddListener("RetryBoss", gameObject, () =>
             {
-                if (Machine.CurrentState == this) RetryBoss();
+                if (Machine.CurrentState != this) return;
+
+                fadeObj.DOFade(1, StageSystem.Instance.RoundChangeDelay * 0.5f).OnComplete(() =>
+                {
+                    fadeObj.DOFade(0, StageSystem.Instance.RoundChangeDelay * 0.5f);
+                    PoolManager.Instance.PushObject(HeroSystem.Instance.CurrentTarget.gameObject);
+                    HPBarSystem.Instance.MonsterHPBarGO.SetActive(false);
+                    HPBarSystem.Instance.BossAndHeroHPBarGO.SetActive(true);
+                    HPBarSystem.Instance.BossHPBar.ResetHPBar();
+                    Machine.SetState(GetComponent<BossState>());
+                });
             });
         }
 
         /// <summary>
         /// 본 상태로 진입했을 때 실행
         /// </summary>
-        public override void OnEnter() { }
+        public override void OnEnter()
+        {
+            retryButton.SetActive(true);
+            StageSystem.Instance.NextEnemy(EnemySystem.Instance.SpawnRandomMonster());
+        }
 
         /// <summary>
         /// 본 상태에서 나갈 때 실행 
         /// </summary>
-        public override void OnExit() { }
-
-        #endregion
-
-        #region 내부 메소드
-
-        void NextMonster()
+        public override void OnExit()
         {
-            Machine.SetState(GetComponent<NextMonsterState>());
-        }
-
-        void RetryBoss()
-        {
-            Machine.SetState(GetComponent<BossState>());
+            retryButton.SetActive(false);
         }
 
         #endregion

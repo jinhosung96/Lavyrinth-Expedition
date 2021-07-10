@@ -16,8 +16,8 @@ namespace JHS
         #region 필드
 
         [SerializeField, LabelName("초기 상태")] State m_initState;
-        [SerializeField] State m_currentState;
-        [SerializeField] State m_prevState;
+        State m_currentState;
+        State m_prevState;
 
         #endregion
 

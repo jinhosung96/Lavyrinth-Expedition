@@ -13,14 +13,13 @@ namespace JHS
     /// 
     /// </summary>
     #endregion
-    public class HeroHP : BigIntegerHPFrame
+    public abstract class EnemyHP : BigIntegerHPFrame
     {
         #region 필드
 
         Animator animator;
         [SerializeField] AudioClip hitSound;
         [SerializeField] AudioClip deathSound;
-        [SerializeField] string maxHP;
 
         #endregion
 
@@ -35,14 +34,23 @@ namespace JHS
 
         #region 공개 메소드
 
-        public void ResetHP()
+        public void ChangeTarget()
         {
-            MaxHP = BigInteger.Parse(maxHP);
-            m_currentHP = MaxHP;
-
             // 체력바 갱신
-            HPBarSystem.Instance.HeroHPBar.ResetHPBar();
+            GetHPBar().ResetHPBar();
+
+            // 용사의 현재 타겟을 자기자신으로 갱신
+            HeroSystem.Instance.CurrentTarget = this;
         }
+
+        #endregion
+
+        #region 가상 메소드
+
+        protected abstract HPBar GetHPBar();
+        protected abstract string GetEventName();
+        protected abstract BigInteger GetRoundHP();
+        protected abstract BigInteger GetRoundGold();
 
         #endregion
 
@@ -50,25 +58,37 @@ namespace JHS
 
         protected override void OnSpawn()
         {
-            
+            animator.SetTrigger("DoReset");
+
+            MaxHP = GetRoundHP();
+            m_currentHP = MaxHP;
         }
 
         protected override void OnTakeDamage(BigInteger delta)
         {
-
+            // Hit 애니메이션 출력
+            animator.SetTrigger("DoHit");
+            // Hit 사운드 출력
+            //SoundSystem.Instance.PlaySoundEffect(hitSound);
+            // 플로팅 데미지 출력
+            DamageTextSystem.Instance.PopDamageText(delta);
         }
 
         protected override void OnDeath()
         {
             // Death 애니메이션 출력
             animator.SetTrigger("DoDeath");
+            // Death 사운드 출력
+            //SoundSystem.Instance.PlaySoundEffect(deathSound);
+            // 골드 드랍
+            CurrencyData.Instance.Gold += GetRoundGold();
             // 다음 라운드 시작
             StartCoroutine(Co_ChangeRound());
         }
 
         protected override void RefreshUIElement()
         {
-            HPBarSystem.Instance.HeroHPBar.RefreshHPBar(CurrentHP, MaxHP);
+            GetHPBar().RefreshHPBar(CurrentHP, MaxHP);
         }
 
         #endregion
@@ -82,7 +102,7 @@ namespace JHS
 
             while (!IsAnimationExit()) yield return null;
 
-            ObserverSystem.Instance.PostNofication("DeathHero");
+            ObserverSystem.Instance.PostNofication(GetEventName());
         }
 
         #endregion

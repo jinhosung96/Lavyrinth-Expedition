@@ -17,6 +17,8 @@ namespace JHS
     {
         #region 필드
 
+        [SerializeField] GameObject monsterHPBarGO;
+        [SerializeField] GameObject bossAndHeroHPBarGO;
         [SerializeField] HPBar monsterHPBar;
         [SerializeField] HPBar bossHPBar;
         [SerializeField] HPBar heroHPBar;
@@ -25,6 +27,8 @@ namespace JHS
 
         #region 속성
 
+        public GameObject MonsterHPBarGO => monsterHPBarGO;
+        public GameObject BossAndHeroHPBarGO => bossAndHeroHPBarGO;
         public HPBar MonsterHPBar => monsterHPBar;
         public HPBar BossHPBar => bossHPBar;
         public HPBar HeroHPBar => heroHPBar;

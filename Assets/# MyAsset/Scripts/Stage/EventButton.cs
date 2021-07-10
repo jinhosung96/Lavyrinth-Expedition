@@ -12,19 +12,20 @@ namespace JHS
     /// 
     /// </summary>
     #endregion
-    public class FolderSystem : JHS.SystemObject<FolderSystem>
+    public class EventButton : ButtonClick
     {
         #region 필드
 
-        [SerializeField] Transform enemyFolder;
-        [SerializeField] Transform backgroundFolder;
+        [SerializeField] string eventName;
 
         #endregion
 
-        #region 속성
+        #region 재정의 메소드
 
-        public Transform EnemyFolder => enemyFolder;
-        public Transform BackgroundFolder => backgroundFolder;
+        public override void OnClick()
+        {
+            ObserverSystem.Instance.PostNofication(eventName);
+        }
 
         #endregion
     }

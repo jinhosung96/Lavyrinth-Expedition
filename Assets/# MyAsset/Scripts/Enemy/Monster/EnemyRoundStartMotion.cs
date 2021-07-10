@@ -13,7 +13,7 @@ namespace JHS
     /// 
     /// </summary>
     #endregion
-    public class MonsterRoundEndMotion : MonoBehaviour, IRoundChangeMotion
+    public class EnemyRoundStartMotion : MonoBehaviour, IRoundChangeMotion
     {
         #region 공개 메소드
 
@@ -24,7 +24,19 @@ namespace JHS
 
         public void EndRoundChange()
         {
-            PoolManager.Instance.PushObject(gameObject);
+            EnemyHP hp = GetComponent<EnemyHP>();
+            hp.ChangeTarget();
+            if(hp is MonsterHP)
+            {
+                HPBarSystem.Instance.BossAndHeroHPBarGO.SetActive(false);
+                HPBarSystem.Instance.MonsterHPBarGO.SetActive(true);
+            }
+            else
+            {
+                HPBarSystem.Instance.MonsterHPBarGO.SetActive(false);
+                HPBarSystem.Instance.BossAndHeroHPBarGO.SetActive(true);
+            }
+
         }
 
         #endregion

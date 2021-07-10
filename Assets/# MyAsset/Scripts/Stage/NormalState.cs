@@ -23,34 +23,28 @@ namespace JHS
         {
             ObserverSystem.Instance.AddListener("KillMonster", gameObject, () =>
             {
-                if (Machine.CurrentState == this) NextRound();
+                if (Machine.CurrentState == this)
+                {
+                    if (StageSystem.Instance.Round % 10 != 9) Machine.SetState(this);
+                    else Machine.SetState(GetComponent<BossState>());
+                }
             });
         }
 
         /// <summary>
         /// 본 상태로 진입했을 때 실행
         /// </summary>
-        public override void OnEnter() { }
+        public override void OnEnter()
+        {
+            StageSystem.Instance.NextEnemy(EnemySystem.Instance.SpawnRandomMonster());
+        }
 
         /// <summary>
         /// 본 상태에서 나갈 때 실행 
         /// </summary>
-        public override void OnExit() { StageSystem.Instance.Round++; }
-
-        #endregion
-
-        #region 내부 메소드
-
-        void NextRound()
+        public override void OnExit()
         {
-            if (StageSystem.Instance.Round % 10 == 9)
-            {
-                Machine.SetState(GetComponent<BossState>());
-            }
-            else
-            {
-                Machine.SetState(GetComponent<NextMonsterState>());
-            }
+            StageSystem.Instance.Round++;
         }
 
         #endregion

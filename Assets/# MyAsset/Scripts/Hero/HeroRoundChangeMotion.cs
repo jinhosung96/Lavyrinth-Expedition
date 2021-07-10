@@ -25,6 +25,7 @@ namespace JHS
         {
             HeroSystem.Instance.Animator.ResetTrigger("DoAttack");
             HeroSystem.Instance.Animator.SetTrigger("DoReset");
+            HeroSystem.Instance.HeroHP.ResetHP();
         }
 
         #endregion

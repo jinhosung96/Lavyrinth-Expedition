@@ -16,8 +16,9 @@ namespace JHS
     {
         #region 필드
 
-        [SerializeField] Vector3 monsterSpawnPos;
+        [SerializeField] Vector3 enemySpawnPos;
         [SerializeField] GameObject[] monsters;
+        [SerializeField] GameObject[] bosses;
 
         #endregion
 
@@ -27,10 +28,20 @@ namespace JHS
         {
             int rnd = (int)(Random.value * monsters.Length);
             GameObject monster = PoolManager.Instance.PopObject(monsters[rnd]);
-            monster.transform.parent = FolderSystem.Instance.MonsterFolder;
-            monster.transform.localPosition = monsterSpawnPos;
+            monster.transform.parent = FolderSystem.Instance.EnemyFolder;
+            monster.transform.localPosition = enemySpawnPos;
 
             return monster;
+        }
+
+        public GameObject SpawnRandomBoss()
+        {
+            int rnd = (int)(Random.value * bosses.Length);
+            GameObject boss = PoolManager.Instance.PopObject(bosses[rnd]);
+            boss.transform.parent = FolderSystem.Instance.EnemyFolder;
+            boss.transform.localPosition = enemySpawnPos;
+
+            return boss;
         }
 
         #endregion
