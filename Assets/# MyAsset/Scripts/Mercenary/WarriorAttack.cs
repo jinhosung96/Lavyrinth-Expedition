@@ -15,36 +15,14 @@ namespace JHS
     #endregion
     public class WarriorAttack : MercenaryAttack
     {
-        #region 필드
-
-
-
-        #endregion
-
-        #region 속성
-
-
-
-        #endregion
-
-        #region 유니티 생명주기
-
-
-
-        #endregion
-
         #region 재정의 메소드
 
         public override void AttackStart()
         {
             HeroSystem.Instance.CurrentTarget.CurrentHP -= BigInteger.Parse(attackDamage);
+            print(attackSounds[(int)(Random.value * attackSounds.Length)]);
+            SoundSystem.Instance.PlaySoundEffect(attackSounds[(int)(Random.value * attackSounds.Length)]);
         }
-
-        #endregion
-
-        #region 내부 메소드
-
-
 
         #endregion
 

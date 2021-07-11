@@ -81,7 +81,7 @@ namespace JHS
             // Death 애니메이션 출력
             animator.SetTrigger("DoDeath");
             // Death 사운드 출력
-            //SoundSystem.Instance.PlaySoundEffect(deathSound);
+            SoundSystem.Instance.PlaySoundEffect(deathSound);
             // 골드 드랍
             CurrencyData.Instance.Gold += GetRoundGold();
             // 다음 라운드 시작

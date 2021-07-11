@@ -38,9 +38,13 @@ namespace JHS
             {
                 if (Machine.CurrentState != this) return;
 
-                fadeObj.DOFade(1, StageSystem.Instance.RoundChangeDelay * 0.5f).OnComplete(() =>
+                fadeObj.raycastTarget = true;
+                fadeObj.DOFade(1, StageSystem.Instance.RoundChangeDelay).OnComplete(() =>
                 {
-                    fadeObj.DOFade(0, StageSystem.Instance.RoundChangeDelay * 0.5f);
+                    fadeObj.DOFade(0, StageSystem.Instance.RoundChangeDelay).OnComplete(() =>
+                    {
+                        fadeObj.raycastTarget = false;
+                    });
                     PoolManager.Instance.PushObject(HeroSystem.Instance.CurrentTarget.gameObject);
                     HPBarSystem.Instance.MonsterHPBarGO.SetActive(false);
                     HPBarSystem.Instance.BossAndHeroHPBarGO.SetActive(true);

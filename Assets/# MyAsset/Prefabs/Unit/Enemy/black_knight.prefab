@@ -1332,7 +1332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitSound: {fileID: 0}
-  deathSound: {fileID: 0}
+  deathSound: {fileID: 8300000, guid: 0fbfa31b188452646bd6c3d3dab6b6ed, type: 3}
 --- !u!1 &1472482615756335668
 GameObject:
   m_ObjectHideFlags: 0

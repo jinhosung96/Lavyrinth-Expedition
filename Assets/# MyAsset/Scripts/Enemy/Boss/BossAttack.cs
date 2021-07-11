@@ -20,6 +20,7 @@ namespace JHS
         Animator animator;
         [SerializeField] string attackDamage;
         [SerializeField] float attackDelay;
+        [SerializeField] AudioClip[] attackSounds;
 
         #endregion
 
@@ -47,6 +48,7 @@ namespace JHS
         public void AttackStart()
         {
             HeroSystem.Instance.HeroHP.CurrentHP -= BigInteger.Parse(attackDamage);
+            SoundSystem.Instance.PlaySoundEffect(attackSounds[(int)(Random.value * attackSounds.Length)]);
         }
 
         #endregion

@@ -20,6 +20,7 @@ namespace JHS
         [SerializeField] Animator animator;
         [SerializeField] protected string attackDamage;
         [SerializeField] float attackSpeed;
+        [SerializeField] protected AudioClip[] attackSounds;
 
         #endregion
 
