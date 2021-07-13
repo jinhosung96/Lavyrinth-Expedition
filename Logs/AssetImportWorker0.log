@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19041.1052; Version 2004; 64bit' Language: 'ko' Physical Memory: 32175 MB
+OS: 'Windows 10 Pro; OS build 19041.1083; Version 2004; 64bit' Language: 'ko' Physical Memory: 32175 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/user/Documents/## JHS/UnityProject/Lavyrinth-Expedition
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59520
+52918
 Successfully changed project path to: C:/Users/user/Documents/## JHS/UnityProject/Lavyrinth-Expedition
 C:/Users/user/Documents/## JHS/UnityProject/Lavyrinth-Expedition
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 73.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 243.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001764 seconds.
+Registered in 0.114011 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 73.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 71.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.576 seconds
+- Completed reload, in  4.089 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006636 seconds.
+Registered in 0.716353 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 72.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 70.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.155 seconds
+- Completed reload, in  3.857 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2465 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2464 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 109.5 MB.
 System memory in use after: 109.5 MB.
 
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2907.
-Total: 3.363200 ms (FindLiveObjects: 0.279400 ms CreateObjectMapping: 0.061700 ms MarkObjects: 2.875300 ms  DeleteObjects: 0.144800 ms)
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2906.
+Total: 3.281900 ms (FindLiveObjects: 0.272500 ms CreateObjectMapping: 0.074600 ms MarkObjects: 2.796600 ms  DeleteObjects: 0.136700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,29 +79,197 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/# MyAsset/Prefabs/UI/Top/HPBar/Enemy/Button_Retry.prefab
-  artifactKey: Guid(63c76494d0217cf48a55b458078ae722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/UI/Top/HPBar/Enemy/Button_Retry.prefab using Guid(63c76494d0217cf48a55b458078ae722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea7afc20548239a945ddd552d5603b8') in 0.063871 seconds 
-  Import took 0.069009 seconds .
+  path: Assets/berserker_male/berserker_male_spine/Export/berserker_male.atlas.txt
+  artifactKey: Guid(a12a9167975b0435a82f5d8200d088cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/berserker_male/berserker_male_spine/Export/berserker_male.atlas.txt using Guid(a12a9167975b0435a82f5d8200d088cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ca5c653d571afdb77a9a06e7fc3ea1') in 0.036308 seconds 
+  Import took 0.040608 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 118.890295 seconds.
-  path: Assets/# MyAsset/Prefabs/UI/Top/HPBar/Monster
-  artifactKey: Guid(b6fadec0d6337b54e9ca707d469c04e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/UI/Top/HPBar/Monster using Guid(b6fadec0d6337b54e9ca707d469c04e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefc6b6dffd5d965def7afb1d4b2d938') in 0.008077 seconds 
-  Import took 0.012730 seconds .
+  Time since last request: 0.000363 seconds.
+  path: Assets/berserker_male/berserker_male_spine/Export/berserker_male.json
+  artifactKey: Guid(d1b62d22323cc46e08a1900df25e816a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/berserker_male/berserker_male_spine/Export/berserker_male.json using Guid(d1b62d22323cc46e08a1900df25e816a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994f3474b003cfd51e357f44bbef3240') in 0.023578 seconds 
+  Import took 0.028355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/berserker_male/berserker_male_spine/Export
+  artifactKey: Guid(086c8acbefd23466f9de270125ffee87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/berserker_male/berserker_male_spine/Export using Guid(086c8acbefd23466f9de270125ffee87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac65a3252d5715393f19619baadf4a3a') in 0.007326 seconds 
+  Import took 0.011668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Berserker/berserker
+  artifactKey: Guid(143aec75d4ba05f48af7f048e105fada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Berserker/berserker using Guid(143aec75d4ba05f48af7f048e105fada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f8f03921ff3a985327bb3ae12536ea') in 0.009135 seconds 
+  Import took 0.013923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.104507 seconds.
+  path: Assets/berserker_male/berserker_male_spine/Project
+  artifactKey: Guid(4b585ba551c2f4527bf1cf89aa9364d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/berserker_male/berserker_male_spine/Project using Guid(4b585ba551c2f4527bf1cf89aa9364d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b183464b9749da2eba16270cc56621') in 0.006229 seconds 
+  Import took 0.011075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001248 seconds.
+  path: Assets/berserker_male/berserker_male_spine/Project
+  artifactKey: Guid(4b585ba551c2f4527bf1cf89aa9364d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/berserker_male/berserker_male_spine/Project using Guid(4b585ba551c2f4527bf1cf89aa9364d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b183464b9749da2eba16270cc56621') in 0.002012 seconds 
+  Import took 0.005931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.425205 seconds.
+  path: Assets/berserker_male/berserker_male_spine/Project/png
+  artifactKey: Guid(b6de2c2bca9d34927a83e7482fe29dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/berserker_male/berserker_male_spine/Project/png using Guid(b6de2c2bca9d34927a83e7482fe29dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440a001f14f69b931ddd8bd3579818cf') in 0.006745 seconds 
+  Import took 0.011202 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006354 seconds.
+Registered in 0.005491 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.196 seconds
+- Completed reload, in  1.011 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.5 MB.
+System memory in use after: 109.6 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2910.
+Total: 2.642700 ms (FindLiveObjects: 0.296700 ms CreateObjectMapping: 0.069100 ms MarkObjects: 2.144300 ms  DeleteObjects: 0.130700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006104 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.913 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.6 MB.
+System memory in use after: 109.7 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2914.
+Total: 2.338500 ms (FindLiveObjects: 0.266100 ms CreateObjectMapping: 0.063200 ms MarkObjects: 1.880300 ms  DeleteObjects: 0.127400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005585 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.924 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.6 MB.
+System memory in use after: 109.7 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2918.
+Total: 2.662300 ms (FindLiveObjects: 0.345900 ms CreateObjectMapping: 0.114800 ms MarkObjects: 2.081000 ms  DeleteObjects: 0.118800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005627 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.931 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.6 MB.
+System memory in use after: 109.7 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2922.
+Total: 3.150900 ms (FindLiveObjects: 0.283200 ms CreateObjectMapping: 0.115700 ms MarkObjects: 2.619200 ms  DeleteObjects: 0.131200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006548 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.915 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
@@ -110,8 +278,8 @@ Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 109.6 MB.
 System memory in use after: 109.6 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2910.
-Total: 3.326000 ms (FindLiveObjects: 0.401800 ms CreateObjectMapping: 0.105500 ms MarkObjects: 2.618400 ms  DeleteObjects: 0.197800 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2926.
+Total: 2.733600 ms (FindLiveObjects: 0.348400 ms CreateObjectMapping: 0.120900 ms MarkObjects: 2.132200 ms  DeleteObjects: 0.129900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -127,215 +295,23 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007553 seconds.
+Registered in 0.006105 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.107 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 109.6 MB.
-System memory in use after: 109.7 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2914.
-Total: 2.590900 ms (FindLiveObjects: 0.302500 ms CreateObjectMapping: 0.069400 ms MarkObjects: 2.100200 ms  DeleteObjects: 0.117000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006696 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.997 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 109.6 MB.
-System memory in use after: 109.7 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2918.
-Total: 2.723200 ms (FindLiveObjects: 0.371400 ms CreateObjectMapping: 0.085400 ms MarkObjects: 2.127200 ms  DeleteObjects: 0.137400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1870.199134 seconds.
-  path: Assets/# MyAsset/AudioClips/Hero
-  artifactKey: Guid(764a6e97d8dfe6343a737c6f676b9b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Hero using Guid(764a6e97d8dfe6343a737c6f676b9b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36e6488f3a6379b528e2a611aa7a873') in 0.011090 seconds 
-  Import took 0.016181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000907 seconds.
-  path: Assets/# MyAsset/AudioClips/Hero
-  artifactKey: Guid(764a6e97d8dfe6343a737c6f676b9b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Hero using Guid(764a6e97d8dfe6343a737c6f676b9b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36e6488f3a6379b528e2a611aa7a873') in 0.002824 seconds 
-  Import took 0.006937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.319738 seconds.
-  path: Assets/# MyAsset/AudioClips/Mercenary
-  artifactKey: Guid(04a820a5b2d3fe24ca2bb5f205ede4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Mercenary using Guid(04a820a5b2d3fe24ca2bb5f205ede4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c04518713f9c0a602c95e0582bf6c13') in 0.007079 seconds 
-  Import took 0.011992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000660 seconds.
-  path: Assets/# MyAsset/AudioClips/Mercenary
-  artifactKey: Guid(04a820a5b2d3fe24ca2bb5f205ede4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Mercenary using Guid(04a820a5b2d3fe24ca2bb5f205ede4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c04518713f9c0a602c95e0582bf6c13') in 0.002489 seconds 
-  Import took 0.006378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.497909 seconds.
-  path: Assets/# MyAsset/AudioClips/Enemy
-  artifactKey: Guid(43ab3178b77f4b147bb249c1fa1d64f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Enemy using Guid(43ab3178b77f4b147bb249c1fa1d64f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2315214ced5f5d6671e815d82a31c7') in 0.007822 seconds 
-  Import took 0.012812 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000688 seconds.
-  path: Assets/# MyAsset/AudioClips/Enemy
-  artifactKey: Guid(43ab3178b77f4b147bb249c1fa1d64f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Enemy using Guid(43ab3178b77f4b147bb249c1fa1d64f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2315214ced5f5d6671e815d82a31c7') in 0.002820 seconds 
-  Import took 0.006802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.418536 seconds.
-  path: Assets/# MyAsset/AudioClips/BGM
-  artifactKey: Guid(bb26bd35563b4a444befa10e0a75aad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/BGM using Guid(bb26bd35563b4a444befa10e0a75aad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1e7a157cd02903b97098fa619401c5') in 0.007690 seconds 
-  Import took 0.012422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 81.852136 seconds.
-  path: Assets/# MyAsset/AudioClips/Hero/Swing 3.wav
-  artifactKey: Guid(d7eb2306131730745992efe9d6bd9e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Hero/Swing 3.wav using Guid(d7eb2306131730745992efe9d6bd9e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553726a3719696cea10f30ffef3267f5') in 0.149842 seconds 
-  Import took 0.154621 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005925 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.976 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.6 MB.
-System memory in use after: 112.7 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2931.
-Total: 3.337600 ms (FindLiveObjects: 0.451600 ms CreateObjectMapping: 0.160400 ms MarkObjects: 2.589600 ms  DeleteObjects: 0.133800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005945 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.973 seconds
+- Completed reload, in  0.972 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.6 MB.
-System memory in use after: 112.6 MB.
+System memory in use before: 109.7 MB.
+System memory in use after: 109.7 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2935.
-Total: 2.495600 ms (FindLiveObjects: 0.313200 ms CreateObjectMapping: 0.068500 ms MarkObjects: 1.986600 ms  DeleteObjects: 0.126100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006169 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.026 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.7 MB.
-System memory in use after: 112.7 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2939.
-Total: 2.684900 ms (FindLiveObjects: 0.284900 ms CreateObjectMapping: 0.063900 ms MarkObjects: 2.195300 ms  DeleteObjects: 0.139300 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2930.
+Total: 2.875800 ms (FindLiveObjects: 0.274100 ms CreateObjectMapping: 0.062900 ms MarkObjects: 2.402300 ms  DeleteObjects: 0.135100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -351,23 +327,23 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005721 seconds.
+Registered in 0.008309 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.978 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.006 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.7 MB.
-System memory in use after: 112.7 MB.
+System memory in use before: 109.7 MB.
+System memory in use after: 109.8 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2943.
-Total: 3.001400 ms (FindLiveObjects: 0.300700 ms CreateObjectMapping: 0.164200 ms MarkObjects: 2.401800 ms  DeleteObjects: 0.133100 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2934.
+Total: 2.723800 ms (FindLiveObjects: 0.347000 ms CreateObjectMapping: 0.117500 ms MarkObjects: 2.119800 ms  DeleteObjects: 0.137800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -383,183 +359,23 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005954 seconds.
+Registered in 0.006394 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.969 seconds
+- Completed reload, in  1.084 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.7 MB.
-System memory in use after: 112.8 MB.
+System memory in use before: 109.7 MB.
+System memory in use after: 109.8 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2947.
-Total: 2.479800 ms (FindLiveObjects: 0.344100 ms CreateObjectMapping: 0.064600 ms MarkObjects: 1.942500 ms  DeleteObjects: 0.126700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 331.841705 seconds.
-  path: Assets/# MyAsset/Scripts/## JHS_Library/06. Controller/Button/ButtonController.cs
-  artifactKey: Guid(73660885a6aedd841b9cd5169d65a957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Scripts/## JHS_Library/06. Controller/Button/ButtonController.cs using Guid(73660885a6aedd841b9cd5169d65a957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f84d0febd3876de4198bfef0ae5ddd') in 0.012941 seconds 
-  Import took 0.017375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.767641 seconds.
-  path: Assets/# MyAsset/Prefabs/UI/Top/HPBar/Boss&Player/HPBar_Boss&Player.prefab
-  artifactKey: Guid(f5cf0b9d9d254ef4590d5e30bba1ca6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/UI/Top/HPBar/Boss&Player/HPBar_Boss&Player.prefab using Guid(f5cf0b9d9d254ef4590d5e30bba1ca6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1da196309b0a57e80a2dca80271ef88') in 0.035963 seconds 
-  Import took 0.040626 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006931 seconds.
-  path: Assets/# MyAsset/Prefabs/UI/Top/HPBar/Boss&Player/HPBar_Boss&Player.prefab
-  artifactKey: Guid(f5cf0b9d9d254ef4590d5e30bba1ca6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/UI/Top/HPBar/Boss&Player/HPBar_Boss&Player.prefab using Guid(f5cf0b9d9d254ef4590d5e30bba1ca6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1da196309b0a57e80a2dca80271ef88') in 0.005153 seconds 
-  Import took 0.009413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.429677 seconds.
-  path: Assets/# MyAsset/Prefabs/UI/Top/HPBar/Boss&Player/HPBar_Boss.prefab
-  artifactKey: Guid(dc080a82eb592504dbc79ffc7dca26c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/UI/Top/HPBar/Boss&Player/HPBar_Boss.prefab using Guid(dc080a82eb592504dbc79ffc7dca26c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538cfd1fcb13b587facd9722e6bb0296') in 0.010519 seconds 
-  Import took 0.014742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014417 seconds.
-  path: Assets/# MyAsset/Prefabs/UI/Top/HPBar/Boss&Player/HPBar_Boss.prefab
-  artifactKey: Guid(dc080a82eb592504dbc79ffc7dca26c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/UI/Top/HPBar/Boss&Player/HPBar_Boss.prefab using Guid(dc080a82eb592504dbc79ffc7dca26c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538cfd1fcb13b587facd9722e6bb0296') in 0.005668 seconds 
-  Import took 0.009865 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.208005 seconds.
-  path: Assets/# MyAsset/Prefabs/UI/Top/HPBar/Boss&Player/HPBar_Hero.prefab
-  artifactKey: Guid(ef7442a30f3937d4b8ebb5354095f0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/UI/Top/HPBar/Boss&Player/HPBar_Hero.prefab using Guid(ef7442a30f3937d4b8ebb5354095f0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f009bcf29ad9d149b682d71e01f29b4') in 0.011308 seconds 
-  Import took 0.015918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.604950 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Boss/black_knight_boss.prefab
-  artifactKey: Guid(5fcf8d989eaf3e84b8dd1f3604f02d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Boss/black_knight_boss.prefab using Guid(5fcf8d989eaf3e84b8dd1f3604f02d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf77914f01196b407e0a1a6fe137e5e') in 0.076379 seconds 
-  Import took 0.081581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.364666 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/black_knight.prefab
-  artifactKey: Guid(24e719d5fe60af241990ef41bbdce476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/black_knight.prefab using Guid(24e719d5fe60af241990ef41bbdce476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba6c2dbf5f4e97f1e18fc4930e2638a') in 0.049417 seconds 
-  Import took 0.055033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.581928 seconds.
-  path: Assets/# MyAsset/AudioClips/Hero/Swing/Swing 1.wav
-  artifactKey: Guid(b6a87ecb4db5c96489184bf5f2642e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Hero/Swing/Swing 1.wav using Guid(b6a87ecb4db5c96489184bf5f2642e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5330c973f141d7a65b2983da6cf4900') in 0.018386 seconds 
-  Import took 0.023043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 103.560992 seconds.
-  path: Assets/# MyAsset/AudioClips/Mercenary/Spear Swing 2.wav
-  artifactKey: Guid(dee9f6729a92b64479be2b798df54e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Mercenary/Spear Swing 2.wav using Guid(dee9f6729a92b64479be2b798df54e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a3e218af2b6b1ee0a5cc520517b23e') in 0.016593 seconds 
-  Import took 0.021554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002236 seconds.
-  path: Assets/# MyAsset/AudioClips/Mercenary/Spear Swing 2.wav
-  artifactKey: Guid(dee9f6729a92b64479be2b798df54e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Mercenary/Spear Swing 2.wav using Guid(dee9f6729a92b64479be2b798df54e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a3e218af2b6b1ee0a5cc520517b23e') in 0.009679 seconds 
-  Import took 0.015026 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007661 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.029 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.8 MB.
-System memory in use after: 112.9 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2952.
-Total: 2.586000 ms (FindLiveObjects: 0.284000 ms CreateObjectMapping: 0.063600 ms MarkObjects: 2.070100 ms  DeleteObjects: 0.166600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 4.449398 seconds.
-  path: Assets/# MyAsset/AudioClips/Mercenary/Releasing Bow String 1.wav
-  artifactKey: Guid(a5a615cc88819a74580f896b092f5ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Mercenary/Releasing Bow String 1.wav using Guid(a5a615cc88819a74580f896b092f5ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57765ad2a397f8e9def2de5d2fcc1c3') in 0.047810 seconds 
-  Import took 0.052561 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006688 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.989 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.7 MB.
-System memory in use after: 112.8 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2957.
-Total: 2.591800 ms (FindLiveObjects: 0.284400 ms CreateObjectMapping: 0.065900 ms MarkObjects: 2.111300 ms  DeleteObjects: 0.128800 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2938.
+Total: 2.491400 ms (FindLiveObjects: 0.283200 ms CreateObjectMapping: 0.064000 ms MarkObjects: 2.017400 ms  DeleteObjects: 0.125400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -575,223 +391,23 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005825 seconds.
+Registered in 0.005686 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.007 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.8 MB.
-System memory in use after: 112.9 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2961.
-Total: 2.759200 ms (FindLiveObjects: 0.313900 ms CreateObjectMapping: 0.069500 ms MarkObjects: 2.242300 ms  DeleteObjects: 0.131800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005786 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.009 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.8 MB.
-System memory in use after: 112.9 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2965.
-Total: 3.237500 ms (FindLiveObjects: 0.385800 ms CreateObjectMapping: 0.167100 ms MarkObjects: 2.552100 ms  DeleteObjects: 0.130500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005771 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.013 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.8 MB.
-System memory in use after: 112.9 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2969.
-Total: 2.578600 ms (FindLiveObjects: 0.292300 ms CreateObjectMapping: 0.067700 ms MarkObjects: 2.082100 ms  DeleteObjects: 0.134800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 162.673840 seconds.
-  path: Assets/# MyAsset/Animators/Mercenary/WarriorAnim.controller
-  artifactKey: Guid(ef7b51e5d83840d4984ea63898ffc9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animators/Mercenary/WarriorAnim.controller using Guid(ef7b51e5d83840d4984ea63898ffc9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4bf5ec8dc22055d06a0cf8f36215be') in 0.025877 seconds 
-  Import took 0.030750 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005707 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.019 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.8 MB.
-System memory in use after: 112.9 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2973.
-Total: 2.626100 ms (FindLiveObjects: 0.330300 ms CreateObjectMapping: 0.082200 ms MarkObjects: 2.082900 ms  DeleteObjects: 0.129200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005851 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.026 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.8 MB.
-System memory in use after: 112.8 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2977.
-Total: 2.871500 ms (FindLiveObjects: 0.356300 ms CreateObjectMapping: 0.120000 ms MarkObjects: 2.261000 ms  DeleteObjects: 0.131900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005774 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.038 seconds
+- Completed reload, in  0.999 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.9 MB.
-System memory in use after: 112.9 MB.
+System memory in use before: 109.7 MB.
+System memory in use after: 109.8 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2981.
-Total: 2.540300 ms (FindLiveObjects: 0.303500 ms CreateObjectMapping: 0.070100 ms MarkObjects: 2.036200 ms  DeleteObjects: 0.129100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005699 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.051 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.9 MB.
-System memory in use after: 112.9 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2985.
-Total: 3.393300 ms (FindLiveObjects: 0.288000 ms CreateObjectMapping: 0.066900 ms MarkObjects: 2.905600 ms  DeleteObjects: 0.131400 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2942.
+Total: 3.105300 ms (FindLiveObjects: 0.347300 ms CreateObjectMapping: 0.063100 ms MarkObjects: 2.557400 ms  DeleteObjects: 0.135700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -807,55 +423,23 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005820 seconds.
+Registered in 0.005500 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.030 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.9 MB.
-System memory in use after: 113.0 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2989.
-Total: 3.052100 ms (FindLiveObjects: 0.385200 ms CreateObjectMapping: 0.132400 ms MarkObjects: 2.398800 ms  DeleteObjects: 0.133800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005785 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.031 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.996 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.9 MB.
-System memory in use after: 113.0 MB.
+System memory in use before: 109.6 MB.
+System memory in use after: 109.7 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2993.
-Total: 2.913600 ms (FindLiveObjects: 0.382000 ms CreateObjectMapping: 0.133400 ms MarkObjects: 2.259700 ms  DeleteObjects: 0.136800 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2946.
+Total: 3.436900 ms (FindLiveObjects: 0.440500 ms CreateObjectMapping: 0.166000 ms MarkObjects: 2.693400 ms  DeleteObjects: 0.134600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -871,135 +455,23 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005839 seconds.
+Registered in 0.005765 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.031 seconds
+- Completed reload, in  1.012 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.8 MB.
-System memory in use after: 112.9 MB.
+System memory in use before: 109.7 MB.
+System memory in use after: 109.8 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2997.
-Total: 2.709800 ms (FindLiveObjects: 0.487900 ms CreateObjectMapping: 0.072600 ms MarkObjects: 2.018700 ms  DeleteObjects: 0.128400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 288.797804 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/black_knight.prefab
-  artifactKey: Guid(24e719d5fe60af241990ef41bbdce476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/black_knight.prefab using Guid(24e719d5fe60af241990ef41bbdce476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d45a716c69de9b6f72230f5db00405') in 0.080835 seconds 
-  Import took 0.087797 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005746 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.051 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.9 MB.
-System memory in use after: 113.0 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3002.
-Total: 2.954000 ms (FindLiveObjects: 0.313100 ms CreateObjectMapping: 0.065300 ms MarkObjects: 2.448300 ms  DeleteObjects: 0.125900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 15.294946 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/black_knight.prefab
-  artifactKey: Guid(24e719d5fe60af241990ef41bbdce476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/black_knight.prefab using Guid(24e719d5fe60af241990ef41bbdce476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3188dfdb8e81042f27f7d6c3a713aad') in 0.078096 seconds 
-  Import took 0.084065 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005693 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.059 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.9 MB.
-System memory in use after: 113.0 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3007.
-Total: 3.300600 ms (FindLiveObjects: 0.392700 ms CreateObjectMapping: 0.121200 ms MarkObjects: 2.635400 ms  DeleteObjects: 0.148700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005857 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.044 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.9 MB.
-System memory in use after: 113.0 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3011.
-Total: 2.652400 ms (FindLiveObjects: 0.381300 ms CreateObjectMapping: 0.128900 ms MarkObjects: 2.008400 ms  DeleteObjects: 0.132200 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2950.
+Total: 2.553500 ms (FindLiveObjects: 0.276300 ms CreateObjectMapping: 0.062600 ms MarkObjects: 2.081800 ms  DeleteObjects: 0.131400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1018,652 +490,20 @@ Registering precompiled user dll's ...
 Registered in 0.005735 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.065 seconds
+- Completed reload, in  1.025 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.0 MB.
-System memory in use after: 113.0 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3015.
-Total: 2.524000 ms (FindLiveObjects: 0.355200 ms CreateObjectMapping: 0.065000 ms MarkObjects: 1.973900 ms  DeleteObjects: 0.128200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007222 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.142 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.9 MB.
-System memory in use after: 113.0 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3019.
-Total: 2.684100 ms (FindLiveObjects: 0.408500 ms CreateObjectMapping: 0.156100 ms MarkObjects: 1.987100 ms  DeleteObjects: 0.130700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006028 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.100 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.0 MB.
-System memory in use after: 113.1 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3023.
-Total: 2.596400 ms (FindLiveObjects: 0.348900 ms CreateObjectMapping: 0.069200 ms MarkObjects: 1.963300 ms  DeleteObjects: 0.213300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005743 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.085 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.0 MB.
-System memory in use after: 113.1 MB.
+System memory in use before: 109.7 MB.
+System memory in use after: 109.8 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3027.
-Total: 2.573800 ms (FindLiveObjects: 0.321000 ms CreateObjectMapping: 0.066000 ms MarkObjects: 2.058000 ms  DeleteObjects: 0.127100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1105.124009 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Boss/black_knight_boss.prefab
-  artifactKey: Guid(5fcf8d989eaf3e84b8dd1f3604f02d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Boss/black_knight_boss.prefab using Guid(5fcf8d989eaf3e84b8dd1f3604f02d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fafa1aefb276cb7c005cf0e9113bbce6') in 0.083425 seconds 
-  Import took 0.089096 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.447961 seconds.
-  path: Assets/# MyAsset/AudioClips/Hero/Swing/Swing 2.wav
-  artifactKey: Guid(f964e0f831a71014aa1a5aec87295f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Hero/Swing/Swing 2.wav using Guid(f964e0f831a71014aa1a5aec87295f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4425ff1a47357f6838c74e66333586') in 0.019137 seconds 
-  Import took 0.023279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000543 seconds.
-  path: Assets/# MyAsset/AudioClips/Hero/Swing/Swing 2.wav
-  artifactKey: Guid(f964e0f831a71014aa1a5aec87295f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Hero/Swing/Swing 2.wav using Guid(f964e0f831a71014aa1a5aec87295f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4425ff1a47357f6838c74e66333586') in 0.020666 seconds 
-  Import took 0.025607 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.750271 seconds.
-  path: Assets/# MyAsset/AudioClips/Hero/Swing/Swing 3.wav
-  artifactKey: Guid(7441216a70fc19440b1906d9e40e58b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Hero/Swing/Swing 3.wav using Guid(7441216a70fc19440b1906d9e40e58b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e139bc3a4ce422ad8492f2052d92251e') in 0.014963 seconds 
-  Import took 0.019452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002925 seconds.
-  path: Assets/# MyAsset/AudioClips/Hero/Swing/Swing 3.wav
-  artifactKey: Guid(7441216a70fc19440b1906d9e40e58b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Hero/Swing/Swing 3.wav using Guid(7441216a70fc19440b1906d9e40e58b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e139bc3a4ce422ad8492f2052d92251e') in 0.015662 seconds 
-  Import took 0.019729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.636575 seconds.
-  path: Assets/# MyAsset/AudioClips/Hero/Swing/Swing 4.wav
-  artifactKey: Guid(d84b91e53620cc445a4445d2fd196900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Hero/Swing/Swing 4.wav using Guid(d84b91e53620cc445a4445d2fd196900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25cc38c29e237963db8d1380b237858') in 0.017461 seconds 
-  Import took 0.023364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002700 seconds.
-  path: Assets/# MyAsset/AudioClips/Hero/Swing/Swing 4.wav
-  artifactKey: Guid(d84b91e53620cc445a4445d2fd196900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Hero/Swing/Swing 4.wav using Guid(d84b91e53620cc445a4445d2fd196900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25cc38c29e237963db8d1380b237858') in 0.014973 seconds 
-  Import took 0.019113 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.630362 seconds.
-  path: Assets/# MyAsset/AudioClips/Hero/Swing/Swing 5.wav
-  artifactKey: Guid(2583b7adf89c3c040a600f9ec5c0966b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Hero/Swing/Swing 5.wav using Guid(2583b7adf89c3c040a600f9ec5c0966b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e37cc5ab3455a5b9bcc34880086234') in 0.015346 seconds 
-  Import took 0.020099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/# MyAsset/AudioClips/Hero/Swing/Swing 5.wav
-  artifactKey: Guid(2583b7adf89c3c040a600f9ec5c0966b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Hero/Swing/Swing 5.wav using Guid(2583b7adf89c3c040a600f9ec5c0966b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e37cc5ab3455a5b9bcc34880086234') in 0.016807 seconds 
-  Import took 0.021770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.557582 seconds.
-  path: Assets/# MyAsset/AudioClips/Hero/Heavy Sword Swing 2.wav
-  artifactKey: Guid(84fc051500ceadd4a9eda7b35ee8097d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Hero/Heavy Sword Swing 2.wav using Guid(84fc051500ceadd4a9eda7b35ee8097d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6686292a72343bfa55f8e41040f6288a') in 0.015233 seconds 
-  Import took 0.020024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001988 seconds.
-  path: Assets/# MyAsset/AudioClips/Hero/Heavy Sword Swing 2.wav
-  artifactKey: Guid(84fc051500ceadd4a9eda7b35ee8097d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Hero/Heavy Sword Swing 2.wav using Guid(84fc051500ceadd4a9eda7b35ee8097d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6686292a72343bfa55f8e41040f6288a') in 0.015258 seconds 
-  Import took 0.019781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.597388 seconds.
-  path: Assets/# MyAsset/AudioClips/Hero/Heavy Sword Swing 3.wav
-  artifactKey: Guid(88d00648c066cd94ebbaa7c4990b2686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Hero/Heavy Sword Swing 3.wav using Guid(88d00648c066cd94ebbaa7c4990b2686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60dafd0efdf27ed64904da508c011a12') in 0.013727 seconds 
-  Import took 0.018526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000607 seconds.
-  path: Assets/# MyAsset/AudioClips/Hero/Heavy Sword Swing 3.wav
-  artifactKey: Guid(88d00648c066cd94ebbaa7c4990b2686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Hero/Heavy Sword Swing 3.wav using Guid(88d00648c066cd94ebbaa7c4990b2686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60dafd0efdf27ed64904da508c011a12') in 0.007709 seconds 
-  Import took 0.012056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.619523 seconds.
-  path: Assets/# MyAsset/AudioClips/Hero/Heavy Sword Swing 4.wav
-  artifactKey: Guid(b81548ecb68c2064da5f00ee5ad9457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Hero/Heavy Sword Swing 4.wav using Guid(b81548ecb68c2064da5f00ee5ad9457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd003ca40666a7320b77109670db3af') in 0.014171 seconds 
-  Import took 0.019319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003149 seconds.
-  path: Assets/# MyAsset/AudioClips/Hero/Heavy Sword Swing 4.wav
-  artifactKey: Guid(b81548ecb68c2064da5f00ee5ad9457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Hero/Heavy Sword Swing 4.wav using Guid(b81548ecb68c2064da5f00ee5ad9457b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd003ca40666a7320b77109670db3af') in 0.008761 seconds 
-  Import took 0.013368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 63.436765 seconds.
-  path: Assets/# MyAsset/AudioClips/Mercenary/Light Sword Swing 7.wav
-  artifactKey: Guid(c0d49794cd8af9541a1c3d1374482f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Mercenary/Light Sword Swing 7.wav using Guid(c0d49794cd8af9541a1c3d1374482f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f122ffbdeef22fca8a256959570c6c2a') in 0.017094 seconds 
-  Import took 0.022484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002224 seconds.
-  path: Assets/# MyAsset/AudioClips/Mercenary/Light Sword Swing 7.wav
-  artifactKey: Guid(c0d49794cd8af9541a1c3d1374482f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Mercenary/Light Sword Swing 7.wav using Guid(c0d49794cd8af9541a1c3d1374482f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f122ffbdeef22fca8a256959570c6c2a') in 0.009497 seconds 
-  Import took 0.014532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.716938 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Boss/black_knight_boss.prefab
-  artifactKey: Guid(5fcf8d989eaf3e84b8dd1f3604f02d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Boss/black_knight_boss.prefab using Guid(5fcf8d989eaf3e84b8dd1f3604f02d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c63bd1e67cc28be514ff325ad2d75c') in 0.035818 seconds 
-  Import took 0.041775 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005995 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.138 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.0 MB.
-System memory in use after: 113.1 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3032.
-Total: 3.199500 ms (FindLiveObjects: 0.374500 ms CreateObjectMapping: 0.121900 ms MarkObjects: 2.568000 ms  DeleteObjects: 0.133200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 62.733722 seconds.
-  path: Assets/# MyAsset/AudioClips/Mercenary/whoosh_swish_high_fast_02.wav
-  artifactKey: Guid(5758c6d2a99a03845b96c7254decac30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/AudioClips/Mercenary/whoosh_swish_high_fast_02.wav using Guid(5758c6d2a99a03845b96c7254decac30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0fd4793c4c3c98f708c132cb8fc02d') in 0.042467 seconds 
-  Import took 0.047101 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005861 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.086 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.0 MB.
-System memory in use after: 113.1 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3037.
-Total: 2.720900 ms (FindLiveObjects: 0.300000 ms CreateObjectMapping: 0.069700 ms MarkObjects: 2.214600 ms  DeleteObjects: 0.135100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005798 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.081 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.9 MB.
-System memory in use after: 113.0 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3041.
-Total: 2.565500 ms (FindLiveObjects: 0.307900 ms CreateObjectMapping: 0.075100 ms MarkObjects: 2.053000 ms  DeleteObjects: 0.128000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008340 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.100 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.0 MB.
-System memory in use after: 113.1 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3045.
-Total: 2.816100 ms (FindLiveObjects: 0.459100 ms CreateObjectMapping: 0.125200 ms MarkObjects: 2.094000 ms  DeleteObjects: 0.135900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006798 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.222 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.0 MB.
-System memory in use after: 113.1 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3049.
-Total: 3.025700 ms (FindLiveObjects: 0.335400 ms CreateObjectMapping: 0.081300 ms MarkObjects: 2.458000 ms  DeleteObjects: 0.149200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005963 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.205 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.1 MB.
-System memory in use after: 113.1 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3053.
-Total: 3.704300 ms (FindLiveObjects: 0.659400 ms CreateObjectMapping: 0.196300 ms MarkObjects: 2.716100 ms  DeleteObjects: 0.130500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005969 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.267 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.1 MB.
-System memory in use after: 113.1 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3057.
-Total: 3.525300 ms (FindLiveObjects: 0.369300 ms CreateObjectMapping: 0.187300 ms MarkObjects: 2.804500 ms  DeleteObjects: 0.161500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006494 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.231 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.0 MB.
-System memory in use after: 113.1 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3061.
-Total: 3.153100 ms (FindLiveObjects: 0.388600 ms CreateObjectMapping: 0.083400 ms MarkObjects: 2.531600 ms  DeleteObjects: 0.147400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005849 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.207 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.1 MB.
-System memory in use after: 113.2 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3065.
-Total: 3.847000 ms (FindLiveObjects: 0.466500 ms CreateObjectMapping: 0.113800 ms MarkObjects: 3.097600 ms  DeleteObjects: 0.167000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006849 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.474 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.1 MB.
-System memory in use after: 113.2 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3069.
-Total: 3.205900 ms (FindLiveObjects: 0.399300 ms CreateObjectMapping: 0.130000 ms MarkObjects: 2.409900 ms  DeleteObjects: 0.264600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006041 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.307 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.1 MB.
-System memory in use after: 113.2 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3073.
-Total: 4.807800 ms (FindLiveObjects: 0.838000 ms CreateObjectMapping: 0.230700 ms MarkObjects: 3.533600 ms  DeleteObjects: 0.202000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006178 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.182 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.1 MB.
-System memory in use after: 113.2 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3077.
-Total: 3.374000 ms (FindLiveObjects: 0.508300 ms CreateObjectMapping: 0.136800 ms MarkObjects: 2.578500 ms  DeleteObjects: 0.147700 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2954.
+Total: 2.937000 ms (FindLiveObjects: 0.375900 ms CreateObjectMapping: 0.117900 ms MarkObjects: 2.301600 ms  DeleteObjects: 0.140000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

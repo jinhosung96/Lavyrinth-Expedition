@@ -53,7 +53,7 @@ namespace JHS
                     {
                         sum += x[i];
                     }
-                    return sum;// /= x.Count;
+                    return sum;
                 })
                 .Scan((x, y) => (x + y) / 2)
                 .Subscribe(x => DPS = x);
