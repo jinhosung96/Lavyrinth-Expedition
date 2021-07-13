@@ -20,7 +20,6 @@ namespace JHS
         public override void AttackStart()
         {
             HeroSystem.Instance.CurrentTarget.CurrentHP -= BigInteger.Parse(attackDamage);
-            print(attackSounds[(int)(Random.value * attackSounds.Length)]);
             SoundSystem.Instance.PlaySoundEffect(attackSounds[(int)(Random.value * attackSounds.Length)]);
         }
 
