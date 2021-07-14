@@ -29,12 +29,13 @@ namespace JHS
             get => m_currentHP;
             set
             {
+                if (m_currentHP == value) return;
                 if (m_currentHP > value && m_currentHP <= 0) return;                    // 이미 체력이 0 이하인데 데미지를 입을 시
                 BigInteger delta = BigInteger.Abs(m_currentHP - value);
                 if (m_currentHP < value) OnHeal(delta);                                 // 체력이 회복 됬을 시
                 if (m_currentHP > value && value > 0) OnTakeDamage(delta);              // 데미지를 입었지만 죽지 않았을 시
                 m_currentHP = BigInteger.Max(BigInteger.Min(value, MaxHP), 0); RefreshUIElement();         // HP 변동치 적용
-                if (m_currentHP <= 0) OnDeath();                                        // 체력 0 이하 시 사망
+                if (m_currentHP <= 0) OnDeath(delta);                                        // 체력 0 이하 시 사망
             }
         }
 
@@ -49,7 +50,7 @@ namespace JHS
 
         #endregion
 
-        #region 가상 메소드
+        #region 추상 메소드
 
         protected virtual void OnSpawn() { }
 
@@ -59,7 +60,7 @@ namespace JHS
 
         protected virtual void RefreshUIElement() { }
 
-        protected virtual void OnDeath() { }
+        protected virtual void OnDeath(BigInteger delta) { }
 
         #endregion
     }

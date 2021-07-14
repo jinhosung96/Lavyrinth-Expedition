@@ -29,7 +29,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5430749330788331893, guid: d4daad0681e9cb64298becbb5b2aa430, type: 3}
       propertyPath: m_Text
-      value: <color=#DAD9FF>Total DPS</color> 356.2<color=#DAD9FF>aaa</color>
+      value: "<color=#DAD9FF>\uC6A9\uC0AC DPS</color> 356.2<color=#DAD9FF>aaa</color>"
       objectReference: {fileID: 0}
     - target: {fileID: 5430749330788331893, guid: d4daad0681e9cb64298becbb5b2aa430, type: 3}
       propertyPath: m_FontData.m_BestFit
@@ -129,7 +129,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5430749330788331895, guid: d4daad0681e9cb64298becbb5b2aa430, type: 3}
       propertyPath: m_Name
-      value: Text _TabDamage
+      value: Text _TapDamage
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4daad0681e9cb64298becbb5b2aa430, type: 3}

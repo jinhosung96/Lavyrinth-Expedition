@@ -45,7 +45,7 @@ namespace JHS
 
         #endregion
 
-        #region 가상 메소드
+        #region 추상 메소드
 
         protected abstract HPBar GetHPBar();
         protected abstract string GetEventName();
@@ -76,8 +76,13 @@ namespace JHS
             DPSSystem.Instance.OnNext(delta);
         }
 
-        protected override void OnDeath()
+        protected override void OnDeath(BigInteger delta)
         {
+            // 플로팅 데미지 출력
+            DamageTextSystem.Instance.PopDamageText(delta);
+            // 데미지 기록
+            DPSSystem.Instance.OnNext(delta);
+
             // Death 애니메이션 출력
             animator.SetTrigger("DoDeath");
             // Death 사운드 출력

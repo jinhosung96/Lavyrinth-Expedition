@@ -61,9 +61,10 @@ namespace JHS
             GameObject tile = TileSystem.Instance.SpawnRandomTile();
 
             HeroSystem.Instance.HeroRoundChangeMotion.StartRoundChange();
-            MercenarySystem.Instance.CurrentWarrior?.GetComponent<MercenaryRoundChangeMotion>().StartRoundChange();
-            MercenarySystem.Instance.CurrentArcher?.GetComponent<MercenaryRoundChangeMotion>().StartRoundChange();
-            MercenarySystem.Instance.CurrentMage?.GetComponent<MercenaryRoundChangeMotion>().StartRoundChange();
+            for (int i = 0; i < MercenarySystem.Instance.Mercenaries.Length; i++)
+            {
+                MercenarySystem.Instance.Mercenaries[i].ChangeMotion.StartRoundChange();
+            }                
             HeroSystem.Instance.CurrentTarget?.GetComponent<EnemyRoundEndMotion>().StartRoundChange();
             TileSystem.Instance.CurrentTile.GetComponent<TileRoundEndMotion>().StartRoundChange();
             enemy.GetComponent<EnemyRoundStartMotion>().StartRoundChange();
@@ -72,9 +73,10 @@ namespace JHS
             yield return new WaitForSeconds(RoundChangeDelay);
 
             HeroSystem.Instance.HeroRoundChangeMotion.EndRoundChange();
-            MercenarySystem.Instance.CurrentWarrior?.GetComponent<MercenaryRoundChangeMotion>().EndRoundChange();
-            MercenarySystem.Instance.CurrentArcher?.GetComponent<MercenaryRoundChangeMotion>().EndRoundChange();
-            MercenarySystem.Instance.CurrentMage?.GetComponent<MercenaryRoundChangeMotion>().EndRoundChange();
+            for (int i = 0; i < MercenarySystem.Instance.Mercenaries.Length; i++)
+            {
+                MercenarySystem.Instance.Mercenaries[i].ChangeMotion.EndRoundChange();
+            }                
             HeroSystem.Instance.CurrentTarget?.GetComponent<EnemyRoundEndMotion>().EndRoundChange();
             TileSystem.Instance.CurrentTile.GetComponent<TileRoundEndMotion>().EndRoundChange();
             enemy.GetComponent<EnemyRoundStartMotion>().EndRoundChange();

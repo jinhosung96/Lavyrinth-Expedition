@@ -17,9 +17,8 @@ namespace JHS
     {
         #region 필드
 
+        [SerializeField] protected int type;
         [SerializeField] Animator animator;
-        [SerializeField] protected string attackDamage;
-        [SerializeField] float attackSpeed;
         [SerializeField] protected AudioClip[] attackSounds;
 
         #endregion
@@ -33,7 +32,7 @@ namespace JHS
 
         #endregion
 
-        #region 가상 메소드
+        #region 추상 메소드
 
         public abstract void AttackStart();
 
@@ -46,7 +45,7 @@ namespace JHS
             bool IsTarget() => HeroSystem.Instance.CurrentTarget != null && HeroSystem.Instance.CurrentTarget.CurrentHP > 0;
             while (true)
             {
-                yield return new WaitForSeconds(1 / attackSpeed);
+                yield return new WaitForSeconds(1 / MercenarySystem.Instance.Mercenaries[type].AttackSpeed);
                 while (!IsTarget()) yield return null;
 
                 Attack();

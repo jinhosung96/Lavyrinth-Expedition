@@ -19,7 +19,7 @@ namespace JHS
 
         public override void AttackStart()
         {
-            HeroSystem.Instance.CurrentTarget.CurrentHP -= BigInteger.Parse(attackDamage);
+            HeroSystem.Instance.CurrentTarget.CurrentHP -= MercenarySystem.Instance.Mercenaries[type].AttackDamage;
             SoundSystem.Instance.PlaySoundEffect(attackSounds[(int)(Random.value * attackSounds.Length)]);
         }
 

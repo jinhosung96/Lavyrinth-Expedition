@@ -59,7 +59,7 @@ namespace JHS
 
         }
 
-        protected override void OnDeath()
+        protected override void OnDeath(BigInteger delta)
         {
             // Death 애니메이션 출력
             animator.SetTrigger("DoDeath");
