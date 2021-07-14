@@ -14,7 +14,7 @@ namespace JHS
     #endregion
     public interface IRoundChangeMotion
     {
-        #region 가상 메소드
+        #region 추상 메소드
 
         void StartRoundChange();
         void EndRoundChange();
