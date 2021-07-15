@@ -73,7 +73,7 @@ namespace JHS
             // 플로팅 데미지 출력
             DamageTextSystem.Instance.PopDamageText(delta);
             // 데미지 기록
-            DPSSystem.Instance.OnNext(delta);
+            RealTimeDPSSystem.Instance.OnNext(delta);
         }
 
         protected override void OnDeath(BigInteger delta)
@@ -81,7 +81,7 @@ namespace JHS
             // 플로팅 데미지 출력
             DamageTextSystem.Instance.PopDamageText(delta);
             // 데미지 기록
-            DPSSystem.Instance.OnNext(delta);
+            RealTimeDPSSystem.Instance.OnNext(delta);
 
             // Death 애니메이션 출력
             animator.SetTrigger("DoDeath");

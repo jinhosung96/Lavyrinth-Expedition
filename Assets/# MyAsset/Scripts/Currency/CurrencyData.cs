@@ -69,7 +69,7 @@ namespace JHS
             set
             {
                 gold = value;
-                ObserverSystem.Instance.PostNofication("SetGold");
+                ObserverSystem.Instance.PostNofication("Gold 갱신");
             }
         }
         public int Diamond
@@ -78,7 +78,7 @@ namespace JHS
             set
             {
                 diamond = value;
-                ObserverSystem.Instance.PostNofication("SetDiamond");
+                ObserverSystem.Instance.PostNofication("Diamond 갱신");
             }
         }
         public string GoldRoughNumber { get { return gold.GetRoughNumber(); } }

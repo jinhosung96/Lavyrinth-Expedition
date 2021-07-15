@@ -22,6 +22,17 @@ namespace JHS
         [SerializeField] float jumpDuration;
         [SerializeField] float jumpDelay;
 
+        Vector3 originPos;
+
+        #endregion
+
+        #region 유니티 생명주기
+
+        private void OnEnable()
+        {
+            originPos = transform.position;
+        }
+
         #endregion
 
         #region 공개 메소드
@@ -44,7 +55,7 @@ namespace JHS
         IEnumerator Co_DelayJump()
         {
             yield return new WaitForSeconds(jumpDelay);
-            transform.DOJump(transform.position, jumpPower, 1, jumpDuration);
+            transform.DOJump(originPos, jumpPower, 1, jumpDuration);
         }
 
         #endregion

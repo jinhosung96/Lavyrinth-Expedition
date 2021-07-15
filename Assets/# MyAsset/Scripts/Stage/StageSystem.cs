@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
@@ -39,9 +40,9 @@ namespace JHS
             }
         }
 
-        public BigInteger RoundHP => BigInteger.Parse(initRoundHP) * (int)(Mathf.Pow(increaseRoundHP, round - 1) * 100) / 100;
+        public BigInteger RoundHP => BigInteger.Parse(initRoundHP) * (BigInteger)(Math.Pow(increaseRoundHP, round - 1) * 100) / 100;
 
-        public BigInteger RoundGold => BigInteger.Parse(initRoundGold) * (int)(Mathf.Pow(increaseRoundGold, round - 1) * 100) / 100;
+        public BigInteger RoundGold => BigInteger.Parse(initRoundGold) * (BigInteger)(Math.Pow(increaseRoundGold, round - 1) * 100) / 100;
 
         #endregion
 

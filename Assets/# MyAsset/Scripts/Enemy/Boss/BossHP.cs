@@ -21,9 +21,9 @@ namespace JHS
 
         protected override HPBar GetHPBar() => HPBarSystem.Instance.BossHPBar;
 
-        protected override BigInteger GetRoundHP() => StageSystem.Instance.RoundHP * 10;
+        protected override BigInteger GetRoundHP() => StageSystem.Instance.RoundHP * 3;
 
-        protected override BigInteger GetRoundGold() => StageSystem.Instance.RoundGold * 30;
+        protected override BigInteger GetRoundGold() => StageSystem.Instance.RoundGold * 3;
 
         #endregion
     }

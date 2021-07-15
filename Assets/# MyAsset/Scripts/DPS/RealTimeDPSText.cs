@@ -13,13 +13,13 @@ namespace JHS
     /// 
     /// </summary>
     #endregion
-    public class DPSText : TextFrame
+    public class RealTimeDPSText : TextFrame
     {
         #region 재정의 메소드
 
         protected override string WriteText()
         {
-            BigInteger dps = DPSSystem.Instance.DPS;
+            BigInteger dps = RealTimeDPSSystem.Instance.DPS;
             return $"{dps.GetRoughNumber()}<color=#DAD9FF>{dps.GetUnit()}</color>";
 }
 

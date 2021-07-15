@@ -17,7 +17,7 @@ namespace JHS
     /// 
     /// </summary>
     #endregion
-    public class DPSSystem : JHS.SystemObject<DPSSystem>
+    public class RealTimeDPSSystem : JHS.SystemObject<RealTimeDPSSystem>
     {
         #region 필드
 
@@ -33,7 +33,7 @@ namespace JHS
             get => dps; private set
             {
                 dps = value;
-                ObserverSystem.Instance.PostNofication("SetDPS");
+                ObserverSystem.Instance.PostNofication("DPS 갱신");
             }
         }
 

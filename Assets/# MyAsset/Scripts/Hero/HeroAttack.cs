@@ -17,7 +17,6 @@ namespace JHS
     {
         #region 필드
 
-        [SerializeField] string tapDamage;
         [SerializeField] AudioClip[] attackSounds;
 
         #endregion
@@ -31,7 +30,7 @@ namespace JHS
 
         public void AttackStart()
         {
-            HeroSystem.Instance.CurrentTarget.CurrentHP -= BigInteger.Parse(tapDamage);
+            HeroSystem.Instance.CurrentTarget.CurrentHP -= HeroSystem.Instance.AttackDamage;
             SoundSystem.Instance.PlaySoundEffect(attackSounds[(int)(Random.value * attackSounds.Length)]);
         }
 
