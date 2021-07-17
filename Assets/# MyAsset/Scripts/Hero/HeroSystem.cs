@@ -18,7 +18,7 @@ namespace JHS
         #region 필드
 
         [SerializeField] GameObject heroGO;
-        int lv;
+        int lv = 1;
         [SerializeField] string initDPS;
         [SerializeField] string initCost;
         UpgradeInfo upgradeInfo = new UpgradeInfo();
@@ -43,7 +43,7 @@ namespace JHS
             get => lv; set
             {
                 lv = value;
-                ObserverSystem.Instance.PostNofication($"용사 Lv 갱신");
+                ObserverSystem.Instance.PostNofication($"용사 갱신");
             }
         }
 
@@ -64,7 +64,6 @@ namespace JHS
         protected override void Awake()
         {
             base.Awake();
-            Lv = 1;
         }
 
         #endregion

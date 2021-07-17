@@ -36,7 +36,8 @@ namespace JHS
             get => lv; set
             {
                 lv = value;
-                ObserverSystem.Instance.PostNofication($"{name} Lv 갱신");
+                ObserverSystem.Instance.PostNofication($"{name} 갱신");
+                ObserverSystem.Instance.PostNofication($"용병 갱신");
             }
         }
 

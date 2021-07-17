@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Numerics;
 using UnityEngine;
 
 namespace JHS
@@ -13,7 +12,7 @@ namespace JHS
     /// 
     /// </summary>
     #endregion
-    public class DPSByTypeText : TextFrame
+    public class AmplificationByTypeText : TextFrame
     {
         #region 필드
 
@@ -25,16 +24,8 @@ namespace JHS
 
         protected override string WriteText()
         {
-            if (type == UnitType.Hero)
-            {
-                BigInteger dps = HeroSystem.Instance.DPS;
-                return $"{dps.GetRoughNumber()}<color=#DAD9FF>{dps.GetUnit()}</color>";
-            }
-            else
-            {
-                BigInteger dps = MercenarySystem.Instance.Mercenaries[(int)type].DPS;
-                return $"{dps.GetRoughNumber()}<color=#DAD9FF>{dps.GetUnit()}</color>";
-            }
+            if (type == UnitType.Hero) return (UpgradeSystem.intervalLevel - (HeroSystem.Instance.Lv % UpgradeSystem.intervalLevel)).ToString();
+            else return (UpgradeSystem.intervalLevel - (MercenarySystem.Instance.Mercenaries[(int)type].Lv % UpgradeSystem.intervalLevel)).ToString();
         }
 
         #endregion

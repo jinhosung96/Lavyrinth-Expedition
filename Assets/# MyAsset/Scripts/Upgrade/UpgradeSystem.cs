@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace JHS
 {
@@ -27,6 +28,13 @@ namespace JHS
         Mage = 2
     }
 
+    public enum UpgradeSizeButtonType
+    {
+        x1,
+        x10,
+        Max
+    }
+
     #region 머리말 주석
     /// <summary>
     ///
@@ -39,11 +47,12 @@ namespace JHS
     {
         #region 필드
 
-        const int amplificationDPS= 2;
-        const int intervalLevel = 20;
+        public const int amplificationDPS= 2;
+        public const int intervalLevel = 20;
         [SerializeField] float increaseDPS;
         [SerializeField] float increaseCost;
         [SerializeField] int upgradeSize = 1;
+        [SerializeField] Image[] upgradeSizeButtons;
 
         #endregion
 
@@ -57,6 +66,8 @@ namespace JHS
                 ObserverSystem.Instance.PostNofication("UpgradeSize 갱신");
             }
         }
+
+        public Image[] UpgradeSizeButtons => upgradeSizeButtons;
 
         #endregion
 
