@@ -3344,3 +3344,731 @@ AssetImportParameters requested are different than current active one (requested
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.129639 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.747 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.9 MB.
+System memory in use after: 111.0 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3276.
+Total: 3.588600 ms (FindLiveObjects: 0.336600 ms CreateObjectMapping: 0.065900 ms MarkObjects: 2.961000 ms  DeleteObjects: 0.223100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 175978.343134 seconds.
+  path: Assets/Cave/Materials/Bigcrystal/Bigcrystal1.png
+  artifactKey: Guid(852c808bf650f2045b5578ef9a88449a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave/Materials/Bigcrystal/Bigcrystal1.png using Guid(852c808bf650f2045b5578ef9a88449a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12bea7386a05d5af051449b4fbd68d13') in 0.341940 seconds 
+  Import took 0.432996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Cave/Materials/Bigcrystal/Bigcrystal2.png
+  artifactKey: Guid(f1bb2145cbb438848bcd2be62e077c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave/Materials/Bigcrystal/Bigcrystal2.png using Guid(f1bb2145cbb438848bcd2be62e077c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9871f4e433bc1995803ec1af874fd419') in 0.024563 seconds 
+  Import took 0.029174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.626400 seconds.
+  path: Assets/Cave/Materials/Bigcrystal/Bigcrystal3.png
+  artifactKey: Guid(06ccfeb0faa576544a1968842bfa488d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave/Materials/Bigcrystal/Bigcrystal3.png using Guid(06ccfeb0faa576544a1968842bfa488d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ddf8d4772cdd496d47a94322b86ee8') in 0.023784 seconds 
+  Import took 0.029102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005467 seconds.
+  path: Assets/Cave/Materials/Bigcrystal/Bigcrystal3.png
+  artifactKey: Guid(06ccfeb0faa576544a1968842bfa488d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave/Materials/Bigcrystal/Bigcrystal3.png using Guid(06ccfeb0faa576544a1968842bfa488d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ddf8d4772cdd496d47a94322b86ee8') in 0.016716 seconds 
+  Import took 0.021097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.428469 seconds.
+  path: Assets/SPUM/Res/UI/Icons/Document.png
+  artifactKey: Guid(ff85d7dda4124104e9ed87a401189bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Res/UI/Icons/Document.png using Guid(ff85d7dda4124104e9ed87a401189bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f536548198d0faaefb0ace70717bfef5') in 0.024145 seconds 
+  Import took 0.028643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000873 seconds.
+  path: Assets/Cave/Materials/Eye/Eye1.png
+  artifactKey: Guid(60ab8e0a9bd1f134a87aaab8a088b284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave/Materials/Eye/Eye1.png using Guid(60ab8e0a9bd1f134a87aaab8a088b284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc48886d804bcdac5fc47a26b03090f') in 0.022028 seconds 
+  Import took 0.026741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Cave/Materials/Eye/Eye2.png
+  artifactKey: Guid(a8cdd27dbcb65644dab5b0aa0cc6001f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave/Materials/Eye/Eye2.png using Guid(a8cdd27dbcb65644dab5b0aa0cc6001f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411a691f8e5063cf4b30dfae54d6c86e') in 0.024294 seconds 
+  Import took 0.029202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Items/1_FaceHair/FaceHair_5.png
+  artifactKey: Guid(bfa75f0c08d3f4640aa2ae17a6fffedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Items/1_FaceHair/FaceHair_5.png using Guid(bfa75f0c08d3f4640aa2ae17a6fffedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977c4b6d36301516b94e79a6e803e22d') in 0.030893 seconds 
+  Import took 0.035487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.502242 seconds.
+  path: Assets/SPUM/Res/UI/Icons/Folder.png
+  artifactKey: Guid(03e3778d7fcbf9243a5787a6adac408f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Res/UI/Icons/Folder.png using Guid(03e3778d7fcbf9243a5787a6adac408f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f407f3b3205b1128e683fa791377c38') in 0.028463 seconds 
+  Import took 0.032842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.435959 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Items/0_Hair/Hair_2.png
+  artifactKey: Guid(1f06ce85824868147a17f907e8705c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Items/0_Hair/Hair_2.png using Guid(1f06ce85824868147a17f907e8705c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff53abbc943352af03a517a5b2f67b3') in 0.025950 seconds 
+  Import took 0.030883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Items/0_Hair/Hair_4.png
+  artifactKey: Guid(3df4b47682f0d234cab144e5d61a3113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Items/0_Hair/Hair_4.png using Guid(3df4b47682f0d234cab144e5d61a3113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53dbc5e4c2244dea7ee570af0cd9e09c') in 0.025037 seconds 
+  Import took 0.029523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Items/0_Hair/Hair_8.png
+  artifactKey: Guid(e32315edb08c3d64f88d2d8ba1df929b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Items/0_Hair/Hair_8.png using Guid(e32315edb08c3d64f88d2d8ba1df929b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd982fbde24e090ef7f68a879d89d07') in 0.023418 seconds 
+  Import took 0.028247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Items/0_Hair/Hair_7.png
+  artifactKey: Guid(68090f3b849875a449ac1947fec1aa89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Items/0_Hair/Hair_7.png using Guid(68090f3b849875a449ac1947fec1aa89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b011f33e1ad5d851fe562e20704302fa') in 0.022226 seconds 
+  Import took 0.026921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Items/0_Hair/Hair_5.png
+  artifactKey: Guid(5d27fbead3f581543b9931501de8dc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Items/0_Hair/Hair_5.png using Guid(5d27fbead3f581543b9931501de8dc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4342cd2c0f01f400317793cee943f07') in 0.021169 seconds 
+  Import took 0.025958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Items/0_Hair/Hair_3.png
+  artifactKey: Guid(419e44af4bc92ad43aa8d459459702f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Items/0_Hair/Hair_3.png using Guid(419e44af4bc92ad43aa8d459459702f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f943dffc1252c38801d5ab1a5dbead9') in 0.021870 seconds 
+  Import took 0.026439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Items/0_Hair/Hair_9.png
+  artifactKey: Guid(f6175da36ef59b745b6e63171278670a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Items/0_Hair/Hair_9.png using Guid(f6175da36ef59b745b6e63171278670a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b735e78199361687a9de62010775d2ee') in 0.025497 seconds 
+  Import took 0.030181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Items/0_Hair/Hair_6.png
+  artifactKey: Guid(95944f086fdc26744810d79bc2eb4c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Items/0_Hair/Hair_6.png using Guid(95944f086fdc26744810d79bc2eb4c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba50d0eff216f0322b72bec259e30e6') in 0.025939 seconds 
+  Import took 0.030377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Items/0_Hair/Hair_2.png
+  artifactKey: Guid(1f06ce85824868147a17f907e8705c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Items/0_Hair/Hair_2.png using Guid(1f06ce85824868147a17f907e8705c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff53abbc943352af03a517a5b2f67b3') in 0.017298 seconds 
+  Import took 0.021309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.240712 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Items/4_Helmet/Helmet_1.png
+  artifactKey: Guid(f1c75e718d14a4e47890be956d0e6a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Items/4_Helmet/Helmet_1.png using Guid(f1c75e718d14a4e47890be956d0e6a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e45d26a8524f724945f7d8863b5636b') in 0.022832 seconds 
+  Import took 0.027643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Items/4_Helmet/Helmet_2.png
+  artifactKey: Guid(ed02367a429404f43b55c60e7b1071ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Items/4_Helmet/Helmet_2.png using Guid(ed02367a429404f43b55c60e7b1071ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f0f4ce2d0a8efda0ea98e160ba078b') in 0.021794 seconds 
+  Import took 0.026121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Items/4_Helmet/Helmet_9.png
+  artifactKey: Guid(1e2b606e546d97048ab56a7c0afe3c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Items/4_Helmet/Helmet_9.png using Guid(1e2b606e546d97048ab56a7c0afe3c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50953d5404ce5ae891a9a317d5c4727d') in 0.022594 seconds 
+  Import took 0.027081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Items/4_Helmet/Helmet_4.png
+  artifactKey: Guid(add2e23784d4eed4393a3fa2d9ef20af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Items/4_Helmet/Helmet_4.png using Guid(add2e23784d4eed4393a3fa2d9ef20af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f22e70d64fa2ed16f62f99934a6084') in 0.021327 seconds 
+  Import took 0.025657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Items/4_Helmet/Helmet_7.png
+  artifactKey: Guid(24a9c1aedc8b8fa4cbe9722789689c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Items/4_Helmet/Helmet_7.png using Guid(24a9c1aedc8b8fa4cbe9722789689c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272fa67761820596b8416231749cc550') in 0.023304 seconds 
+  Import took 0.028234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Items/4_Helmet/Helmet_1.png
+  artifactKey: Guid(f1c75e718d14a4e47890be956d0e6a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Items/4_Helmet/Helmet_1.png using Guid(f1c75e718d14a4e47890be956d0e6a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e45d26a8524f724945f7d8863b5636b') in 0.008518 seconds 
+  Import took 0.012751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Items/4_Helmet/Helmet_3.png
+  artifactKey: Guid(529804306c1f28048a75ecb5cff0eb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Items/4_Helmet/Helmet_3.png using Guid(529804306c1f28048a75ecb5cff0eb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de047ec6eb081d138eb392094c0d86b1') in 0.020409 seconds 
+  Import took 0.024744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Items/4_Helmet/Helmet_8.png
+  artifactKey: Guid(a802ab14be883ea45b981b284f134128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Items/4_Helmet/Helmet_8.png using Guid(a802ab14be883ea45b981b284f134128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef27c753706ad3ccf0fba8f1394e219') in 0.023749 seconds 
+  Import took 0.028691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Items/4_Helmet/Helmet_5.png
+  artifactKey: Guid(e14a565075db7874ca8ca17a1cf2a69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Items/4_Helmet/Helmet_5.png using Guid(e14a565075db7874ca8ca17a1cf2a69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112e06188645cef11ba05afa707ce4a4') in 0.028958 seconds 
+  Import took 0.033753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Items/4_Helmet/Helmet_6.png
+  artifactKey: Guid(9a779bd3aa9f6974a8ae392cec596933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Items/4_Helmet/Helmet_6.png using Guid(9a779bd3aa9f6974a8ae392cec596933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deca35b17f071e2eb790ef5854a6ba94') in 0.024578 seconds 
+  Import took 0.029085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.287381 seconds.
+  path: Assets/Cave/Materials/Mongoose/Mongoose1.png
+  artifactKey: Guid(8d5cc21f6d58b1f48b8b8f4b72a100e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave/Materials/Mongoose/Mongoose1.png using Guid(8d5cc21f6d58b1f48b8b8f4b72a100e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884c340342a379cdb2a0b36df0f1f0ab') in 0.030180 seconds 
+  Import took 0.035579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/7_Back/New_Back_01.png
+  artifactKey: Guid(7600a3a6a412c5d4881672bc9e4e8327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/7_Back/New_Back_01.png using Guid(7600a3a6a412c5d4881672bc9e4e8327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa341f812985a4ebd339a5fa140a12ef') in 0.025299 seconds 
+  Import took 0.029836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_04.png
+  artifactKey: Guid(ff253225a169540459f25f96c5a2a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_04.png using Guid(ff253225a169540459f25f96c5a2a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83728f6aba75a35b0b67fce8d81f2f7') in 0.022056 seconds 
+  Import took 0.026566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_02.png
+  artifactKey: Guid(54d6ca67dc24ed143b54164fc3536686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_02.png using Guid(54d6ca67dc24ed143b54164fc3536686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79f0bc32b2bd05d4eebae22d6d3b347') in 0.020418 seconds 
+  Import took 0.024996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/7_Back/New_Back_02.Png
+  artifactKey: Guid(2f5e4d31627ee3f44be3a0b289b61dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/7_Back/New_Back_02.Png using Guid(2f5e4d31627ee3f44be3a0b289b61dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289da9d5eeb678429713618173189029') in 0.022230 seconds 
+  Import took 0.026770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Cave/Materials/Mongoose/Mongoose1.png
+  artifactKey: Guid(8d5cc21f6d58b1f48b8b8f4b72a100e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave/Materials/Mongoose/Mongoose1.png using Guid(8d5cc21f6d58b1f48b8b8f4b72a100e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884c340342a379cdb2a0b36df0f1f0ab') in 0.016891 seconds 
+  Import took 0.021093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_01.png
+  artifactKey: Guid(a2304c907f103bc45b11b3d4b134effa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_01.png using Guid(a2304c907f103bc45b11b3d4b134effa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d89184a0c2d3e6d860e4e34aaf19ff') in 0.020801 seconds 
+  Import took 0.025691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Cave/Materials/Mongoose/Mongoose2.png
+  artifactKey: Guid(1c16c87e5d500d84dbcf9d962b39be8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave/Materials/Mongoose/Mongoose2.png using Guid(1c16c87e5d500d84dbcf9d962b39be8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70e1cbe94d36e38408ba79bcecea117') in 0.021762 seconds 
+  Import took 0.026626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_09.png
+  artifactKey: Guid(8c3a25b5ffc2f5b45a8b160bead79881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_09.png using Guid(8c3a25b5ffc2f5b45a8b160bead79881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f924317601ed46ae95fe95223de623f1') in 0.019431 seconds 
+  Import took 0.024585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/4_Helmet/New_Helmet_08.png
+  artifactKey: Guid(dfb9d6ec930c33b4bbf89c48f461e81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/4_Helmet/New_Helmet_08.png using Guid(dfb9d6ec930c33b4bbf89c48f461e81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64717678ee8b8db00afc519d25bec952') in 0.020821 seconds 
+  Import took 0.025672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_08.png
+  artifactKey: Guid(b7d64284a7e89b84a8a5852abfad627b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_08.png using Guid(b7d64284a7e89b84a8a5852abfad627b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b01de46174d52cde8e50e248e5a365') in 0.022825 seconds 
+  Import took 0.027325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair7.png
+  artifactKey: Guid(3bc6629811023cd4b9581da6400ab834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair7.png using Guid(3bc6629811023cd4b9581da6400ab834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f6ec6dc8f285df6877c2ae33286cb4') in 0.022570 seconds 
+  Import took 0.027089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair9.png
+  artifactKey: Guid(0e416e60c589db34486c13dd7adcfb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair9.png using Guid(0e416e60c589db34486c13dd7adcfb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1ee33150c4b5cf319a1da27ae6e1e7') in 0.023204 seconds 
+  Import took 0.027338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_16.png
+  artifactKey: Guid(88a4daa39adc38e42a01352e30e8fc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_16.png using Guid(88a4daa39adc38e42a01352e30e8fc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1828538621a2ef14612c254ce32eba6c') in 0.019510 seconds 
+  Import took 0.024635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_19.png
+  artifactKey: Guid(205bc4c3b6a11fb42ba36c0a69d571a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_19.png using Guid(205bc4c3b6a11fb42ba36c0a69d571a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fbe69996f5ef442becc07b245d8dc4') in 0.020046 seconds 
+  Import took 0.024794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair10.png
+  artifactKey: Guid(257588478dcc6f541b3fa7cbb56181ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair10.png using Guid(257588478dcc6f541b3fa7cbb56181ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10686cb4209497b3be67b9a7dfdea33b') in 0.027244 seconds 
+  Import took 0.031954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair4.png
+  artifactKey: Guid(38b619eec25cf274397f9ff390b02464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair4.png using Guid(38b619eec25cf274397f9ff390b02464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a544084d9bf7d17fcde7030f3fe4e1b') in 0.026519 seconds 
+  Import took 0.030543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/1_FaceHair/Normal_Mustache1.png
+  artifactKey: Guid(b3cd714556446c341806a1624ee6e84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/1_FaceHair/Normal_Mustache1.png using Guid(b3cd714556446c341806a1624ee6e84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225d6fb73b12cc4b6930e8ca903341fe') in 0.024030 seconds 
+  Import took 0.029117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/4_Helmet/New_Helmet_03.png
+  artifactKey: Guid(8710b1824e473b1418a25b22aa0ca73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/4_Helmet/New_Helmet_03.png using Guid(8710b1824e473b1418a25b22aa0ca73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61648881e374d4105ede10e9085c266') in 0.022201 seconds 
+  Import took 0.026438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_07.png
+  artifactKey: Guid(86536e35786a1084fa095c0affa08ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_07.png using Guid(86536e35786a1084fa095c0affa08ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49deca11a03484f849f76a116b34534') in 0.021067 seconds 
+  Import took 0.025216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/4_Helmet/New_Helmet_06.png
+  artifactKey: Guid(2713882f8990c7449b38396372311728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/4_Helmet/New_Helmet_06.png using Guid(2713882f8990c7449b38396372311728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e662e987bbb491fde356be45f02f1fcc') in 0.020289 seconds 
+  Import took 0.024983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair12.png
+  artifactKey: Guid(fd2bbc408ae6d09439c1ba7dc2449926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair12.png using Guid(fd2bbc408ae6d09439c1ba7dc2449926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f8423294f4e0ec1fe6afe3aa8d0826') in 0.023119 seconds 
+  Import took 0.028113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/4_Helmet/New_Helmet_04.png
+  artifactKey: Guid(4f0c136c27feb6143bc3e1b31b9e1b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/4_Helmet/New_Helmet_04.png using Guid(4f0c136c27feb6143bc3e1b31b9e1b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbadd1f3825a45d6e376471c78733278') in 0.024143 seconds 
+  Import took 0.028311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/4_Helmet/New_Helmet_09.png
+  artifactKey: Guid(51797621dddad8f41b3391ddb7a1f618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/4_Helmet/New_Helmet_09.png using Guid(51797621dddad8f41b3391ddb7a1f618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cd2551e3580c8162599d3224ee3878') in 0.019590 seconds 
+  Import took 0.024483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/SPUM/Res/UI/Icons/Plus.png
+  artifactKey: Guid(66995b6b61aed864daa956ae255d7fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Res/UI/Icons/Plus.png using Guid(66995b6b61aed864daa956ae255d7fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba61732ea797288648039067449d187') in 0.026993 seconds 
+  Import took 0.031481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/4_Helmet/Normal_Helmet1.png
+  artifactKey: Guid(139c9be2fb0841a43b9bc5e92e431cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/4_Helmet/Normal_Helmet1.png using Guid(139c9be2fb0841a43b9bc5e92e431cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2235c2d173b1b68daa87f82251d76e') in 0.022551 seconds 
+  Import took 0.026896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_13.png
+  artifactKey: Guid(5085e3039a71a4740b0708fbdd86f478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_13.png using Guid(5085e3039a71a4740b0708fbdd86f478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb4857ad88ebf0d11c557c92ec05ff2') in 0.019099 seconds 
+  Import took 0.023371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/4_Helmet/New_Helmet_07.png
+  artifactKey: Guid(35cd215bce097c646996fb3b95efb629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/4_Helmet/New_Helmet_07.png using Guid(35cd215bce097c646996fb3b95efb629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76d23244fe79e9a20ad472b7d37ccfb') in 0.022053 seconds 
+  Import took 0.026520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_17.png
+  artifactKey: Guid(d69ab4b401378e840a0b10ebc94f833f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_17.png using Guid(d69ab4b401378e840a0b10ebc94f833f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814d2faec914bee72e7a3ab3b467b195') in 0.028664 seconds 
+  Import took 0.033476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/4_Helmet/New_Helmet_01.png
+  artifactKey: Guid(c181499c55892004e8feb495915db05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/4_Helmet/New_Helmet_01.png using Guid(c181499c55892004e8feb495915db05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed62f854734f6f3da36b6cc8bf93745b') in 0.027573 seconds 
+  Import took 0.031395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/4_Helmet/Normal_Helmet2.png
+  artifactKey: Guid(6d46d7486afd2c44a90325b0819b2047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/4_Helmet/Normal_Helmet2.png using Guid(6d46d7486afd2c44a90325b0819b2047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a28c99a633283886fa23aaff2e5312') in 0.019534 seconds 
+  Import took 0.023762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_20.png
+  artifactKey: Guid(76008f31dedad5a448d43f721a599003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_20.png using Guid(76008f31dedad5a448d43f721a599003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd6d6609e9c7152a040bb137c198004') in 0.021735 seconds 
+  Import took 0.026837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_10.png
+  artifactKey: Guid(d2d6dad97190d9943bc6737c7ad0b043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_10.png using Guid(d2d6dad97190d9943bc6737c7ad0b043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4d0855257c62e5a4b6c1dbdbe91126') in 0.018770 seconds 
+  Import took 0.023381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair2.png
+  artifactKey: Guid(bd0d710fbb010ee43a38877556e62bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair2.png using Guid(bd0d710fbb010ee43a38877556e62bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8847ee7c2ea58373491448fffab0ea6') in 0.023908 seconds 
+  Import took 0.028313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/4_Helmet/New_Helmet_02.png
+  artifactKey: Guid(d3d0f3ae69e20a44bad57f7f62745816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/4_Helmet/New_Helmet_02.png using Guid(d3d0f3ae69e20a44bad57f7f62745816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b75d0b5106cccef2e7e6727515671b') in 0.026485 seconds 
+  Import took 0.030692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_05.png
+  artifactKey: Guid(5b78ad56831a497468e72cbec2562bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_05.png using Guid(5b78ad56831a497468e72cbec2562bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29423a71bfcff3b1deb459e83419a694') in 0.027233 seconds 
+  Import took 0.031658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair8.png
+  artifactKey: Guid(14f87b759efd7f34dbe4bf47596b9ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair8.png using Guid(14f87b759efd7f34dbe4bf47596b9ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3b724fdff638da9181fa7d692297e1') in 0.026876 seconds 
+  Import took 0.031765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/SPUM/Res/UI/Icons/Refresh.png
+  artifactKey: Guid(16a091c7f8ad05b4da2be8ff9b929650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SPUM/Res/UI/Icons/Refresh.png using Guid(16a091c7f8ad05b4da2be8ff9b929650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f32f76338e2028d55d32f418d151d3') in 0.028618 seconds 
+  Import took 0.033355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair5.png
+  artifactKey: Guid(0526eb27dbe998446a61bba56b314c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair5.png using Guid(0526eb27dbe998446a61bba56b314c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2870048f24b8caafd822913c3cf2febc') in 0.021277 seconds 
+  Import took 0.025726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_14.png
+  artifactKey: Guid(68dc42ea143351145983cfd3bbf3e321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_14.png using Guid(68dc42ea143351145983cfd3bbf3e321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0eb7a7458ae14e6c958ebb4dee28c2b') in 0.020046 seconds 
+  Import took 0.024214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/6_Weapons/New_Weapon_12.png
+  artifactKey: Guid(3ece905d6c65c8a4b83f2d4a67a7bfb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/6_Weapons/New_Weapon_12.png using Guid(3ece905d6c65c8a4b83f2d4a67a7bfb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7de80c91ea65e9fd1bfd00a8bbca69') in 0.020040 seconds 
+  Import took 0.024167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_11.png
+  artifactKey: Guid(ad342938c5e08ba42938ce1e59444ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_11.png using Guid(ad342938c5e08ba42938ce1e59444ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea9a3a6ad5f139c5a18db93e46c2598') in 0.021625 seconds 
+  Import took 0.026089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/4_Helmet/New_Helmet_05.png
+  artifactKey: Guid(f09556f5d0afbb0418f10061fd414f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/4_Helmet/New_Helmet_05.png using Guid(f09556f5d0afbb0418f10061fd414f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39723f6482bcbd250533473bb4b7fe6d') in 0.020047 seconds 
+  Import took 0.024483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Cave/Materials/Mongoose/Mongoose4.png
+  artifactKey: Guid(ba78221466b666e4f96e1b64ae789cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave/Materials/Mongoose/Mongoose4.png using Guid(ba78221466b666e4f96e1b64ae789cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dffe6df6fe8e6e6be392221c4899b34') in 0.022449 seconds 
+  Import took 0.026853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair6.png
+  artifactKey: Guid(7ebbf0b90896bd849a0cfb5014a7a41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair6.png using Guid(7ebbf0b90896bd849a0cfb5014a7a41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c673694a137470b284b6ad73cb7de49') in 0.020412 seconds 
+  Import took 0.024818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_18.png
+  artifactKey: Guid(ae7191c4185e45f4cbf2780958497708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_18.png using Guid(ae7191c4185e45f4cbf2780958497708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e609f98ba6e6a7fec37f531b7635fa50') in 0.019211 seconds 
+  Import took 0.023723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/4_Helmet/New_Helmet_10.png
+  artifactKey: Guid(8469d66745b66d842b7a6b18a2c9ea9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/4_Helmet/New_Helmet_10.png using Guid(8469d66745b66d842b7a6b18a2c9ea9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819c62b4946b7d1314f6f8c8beea49e2') in 0.020732 seconds 
+  Import took 0.025195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Cave/Materials/Mongoose/Mongoose3.png
+  artifactKey: Guid(d9388002f978acd45bd7745e0e04655b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave/Materials/Mongoose/Mongoose3.png using Guid(d9388002f978acd45bd7745e0e04655b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded1c25225343980d3e3fa0d3f972ad9') in 0.022264 seconds 
+  Import took 0.026662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_12.png
+  artifactKey: Guid(f4d693d48a2c5b44f8d300bcd931c328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_12.png using Guid(f4d693d48a2c5b44f8d300bcd931c328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8571747e58978584eee37d331cb385') in 0.019144 seconds 
+  Import took 0.024116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair3.png
+  artifactKey: Guid(8da233a500442844db7be0e3e2377365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair3.png using Guid(8da233a500442844db7be0e3e2377365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb1c4782d6116e38020e0ed0911857a') in 0.019749 seconds 
+  Import took 0.024701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_03.png
+  artifactKey: Guid(3d699d9d7c009f243813dba8a53edabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_03.png using Guid(3d699d9d7c009f243813dba8a53edabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99522f2a2610dd2590f037725f528d97') in 0.024834 seconds 
+  Import took 0.029162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_15.png
+  artifactKey: Guid(3a2bc52b0fd7839429cbf4fdaffb2dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_15.png using Guid(3a2bc52b0fd7839429cbf4fdaffb2dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a799b7300d13cf651087be5680157e6c') in 0.020510 seconds 
+  Import took 0.026698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair13.png
+  artifactKey: Guid(3468e1d48a9cc5f48a2db0c806459543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair13.png using Guid(3468e1d48a9cc5f48a2db0c806459543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918d018551d48a60abb7360121736b4d') in 0.022585 seconds 
+  Import took 0.027192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/1_FaceHair/Normal_Mustache2.png
+  artifactKey: Guid(c8bf75faaf6f97745bc671796e1bb72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/1_FaceHair/Normal_Mustache2.png using Guid(c8bf75faaf6f97745bc671796e1bb72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f603fb6cae9bebb4a21af2b09aa352') in 0.020902 seconds 
+  Import took 0.025889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_06.png
+  artifactKey: Guid(2c049d381a2dfc449bebe6858d1d81d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver300/0_Hair/New_Hair_06.png using Guid(2c049d381a2dfc449bebe6858d1d81d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2343a7a21df6477f139b21ab722025') in 0.018271 seconds 
+  Import took 0.022695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/4_Helmet/Normal_Helmet3.png
+  artifactKey: Guid(870109c1d2ea7734aa023288f87e8733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/4_Helmet/Normal_Helmet3.png using Guid(870109c1d2ea7734aa023288f87e8733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b513c6df903f8932cfe796b64c6335') in 0.023746 seconds 
+  Import took 0.028011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair11.png
+  artifactKey: Guid(fc06cb48e33b85f428e3e2476580bd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SPUM/SPUM_Sprites/Packages/Ver121/0_Hair/Normal_Hair11.png using Guid(fc06cb48e33b85f428e3e2476580bd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb853cdcf636302b8249b8d9b41c61e0') in 0.020323 seconds 
+  Import took 0.025442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.188335 seconds.
+  path: Assets/Cave/Materials/CaveCut/Wall.png
+  artifactKey: Guid(01484a928270b3749b6dd25316712d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave/Materials/CaveCut/Wall.png using Guid(01484a928270b3749b6dd25316712d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a5e4d57a054d126c1e64c912bbf794') in 0.028365 seconds 
+  Import took 0.033737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Cave/Materials/CaveCut/Wall1.png
+  artifactKey: Guid(ffce76c42da40490394c77626c2468af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cave/Materials/CaveCut/Wall1.png using Guid(ffce76c42da40490394c77626c2468af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bce88ac2ceceb637287821d9cff648b') in 0.025906 seconds 
+  Import took 0.030790 seconds .
+
