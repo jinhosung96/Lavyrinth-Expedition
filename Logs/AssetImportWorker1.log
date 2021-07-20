@@ -4072,3 +4072,1436 @@ Received Import Request.
 Start importing Assets/Cave/Materials/CaveCut/Wall1.png using Guid(ffce76c42da40490394c77626c2468af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bce88ac2ceceb637287821d9cff648b') in 0.025906 seconds 
   Import took 0.030790 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 3976.378008 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_001.png
+  artifactKey: Guid(d06a333b5cc494474bf5f9718adb06d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_001.png using Guid(d06a333b5cc494474bf5f9718adb06d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd967cc66816f94e6b9acc551ce9c2874') in 0.017728 seconds 
+  Import took 0.022379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_023.png
+  artifactKey: Guid(71eb9e7d89acd441aa055c59e5f1bc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_023.png using Guid(71eb9e7d89acd441aa055c59e5f1bc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4898173eaa3be2afa8cd93e90fc2e13') in 0.014177 seconds 
+  Import took 0.018718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_004.png
+  artifactKey: Guid(ce6fa0353934146f5bbaa8ac99b3011c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_004.png using Guid(ce6fa0353934146f5bbaa8ac99b3011c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09b9304a51e615cf0f103dda45facf4') in 0.026449 seconds 
+  Import took 0.031161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_010.png
+  artifactKey: Guid(580f35bba3f1b41d2b7bccdc40bafe9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_010.png using Guid(580f35bba3f1b41d2b7bccdc40bafe9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ecde2bf9f4a4f17b946224ddaa772a') in 0.021352 seconds 
+  Import took 0.026196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_012.png
+  artifactKey: Guid(7610202737e7d4cb3bf36039d07c64ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_012.png using Guid(7610202737e7d4cb3bf36039d07c64ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f4e8bde576c4afef92b639f316b80f') in 0.013381 seconds 
+  Import took 0.017205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_007.png
+  artifactKey: Guid(7f2dfd408a2ef42eca3f51d54ee11ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_007.png using Guid(7f2dfd408a2ef42eca3f51d54ee11ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2d6aeed0b6fc8ac07204da539f1b59') in 0.015084 seconds 
+  Import took 0.020024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_021.png
+  artifactKey: Guid(cbcbbeaf1cc164c1da990aac2b1fa898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_021.png using Guid(cbcbbeaf1cc164c1da990aac2b1fa898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fccf8516e68b4fea5f3e23d215de1c96') in 0.018889 seconds 
+  Import took 0.023258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_011.png
+  artifactKey: Guid(b6a1e988afa0a41e194733aa52919ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_011.png using Guid(b6a1e988afa0a41e194733aa52919ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c0c5188a612ba7110b581fdeb91ae6') in 0.015388 seconds 
+  Import took 0.019860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_024.png
+  artifactKey: Guid(70823dbd12fa940b28908ffe822ee806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_024.png using Guid(70823dbd12fa940b28908ffe822ee806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6861f2fae8acf2bc7e809875290020') in 0.020234 seconds 
+  Import took 0.024618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_005.png
+  artifactKey: Guid(782f792a423e14c64b16361cc103e020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_005.png using Guid(782f792a423e14c64b16361cc103e020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2adb9840757c48a9c055dcc6c393a335') in 0.019600 seconds 
+  Import took 0.024187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_022.png
+  artifactKey: Guid(954baabdd2a3542648a71c5ff90186df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_022.png using Guid(954baabdd2a3542648a71c5ff90186df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c228254a326017136632ca8ed1ca3601') in 0.015205 seconds 
+  Import took 0.019366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_001.png
+  artifactKey: Guid(bc233c8b071004b488ed7d809e554313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_001.png using Guid(bc233c8b071004b488ed7d809e554313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59c15e56c22f36620a6b38808028eef') in 0.017472 seconds 
+  Import took 0.022397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_004.png
+  artifactKey: Guid(2e093c9cf140b4870a92741adb76b622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_004.png using Guid(2e093c9cf140b4870a92741adb76b622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f076c890432b61af9fbf1e3be812baa') in 0.021906 seconds 
+  Import took 0.026169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_015.png
+  artifactKey: Guid(add8ccc905dfe4a2cbbbc81fa308a162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_015.png using Guid(add8ccc905dfe4a2cbbbc81fa308a162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fa0ccbe69849957263c4fe2e977a1c') in 0.014861 seconds 
+  Import took 0.019034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_013.png
+  artifactKey: Guid(406c543cc52bb4f8494f7203c3bd7a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_013.png using Guid(406c543cc52bb4f8494f7203c3bd7a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1996a12215c04c25890de202fb46d61') in 0.015111 seconds 
+  Import took 0.019753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_003.png
+  artifactKey: Guid(579a3f06e654c495f9e11ac285d3e632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_003.png using Guid(579a3f06e654c495f9e11ac285d3e632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883e8c893d981b5eead8ff0afb65bf55') in 0.018048 seconds 
+  Import took 0.022409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_017.png
+  artifactKey: Guid(741038a6cabe34fe0a9202a669ed65d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_017.png using Guid(741038a6cabe34fe0a9202a669ed65d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2316f8b6ed24b3fae7c85f2c3484fd8b') in 0.014013 seconds 
+  Import took 0.018661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_016.png
+  artifactKey: Guid(5fdbe1dcd8f8c4d918c998f7df07ef3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_016.png using Guid(5fdbe1dcd8f8c4d918c998f7df07ef3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2faabcd03ca80b94f0b70f6c7fb670') in 0.014491 seconds 
+  Import took 0.018752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_006.png
+  artifactKey: Guid(5ea77f5b850c64c1c8c61fa70ff44da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_006.png using Guid(5ea77f5b850c64c1c8c61fa70ff44da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292fefa1198cdd01b70c3eea6d3cec0f') in 0.015317 seconds 
+  Import took 0.019383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_025.png
+  artifactKey: Guid(7f609486f741040cf897a6d394649645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_025.png using Guid(7f609486f741040cf897a6d394649645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a2f6450815572cc1fe9e35bb536b88') in 0.014935 seconds 
+  Import took 0.020188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_009.png
+  artifactKey: Guid(b6902284543bc4da08a7a0b41b741103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_009.png using Guid(b6902284543bc4da08a7a0b41b741103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371630a65c5e8eb8bb81f5b5c77d1a21') in 0.019055 seconds 
+  Import took 0.024084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_003.png
+  artifactKey: Guid(882564a96b43d4639a281d0c442d7583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_003.png using Guid(882564a96b43d4639a281d0c442d7583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae9505c7282a69f9ad2acfddbb3834b') in 0.013804 seconds 
+  Import took 0.017935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_012.png
+  artifactKey: Guid(8e4330c0a10a144d2bc28603cd2efc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_012.png using Guid(8e4330c0a10a144d2bc28603cd2efc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f065e2cade456b97eecd238fee709f0a') in 0.014792 seconds 
+  Import took 0.019037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_014.png
+  artifactKey: Guid(8c3f9de97b27d4d0ba5a17e7b7fcaeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_014.png using Guid(8c3f9de97b27d4d0ba5a17e7b7fcaeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb44238342fba56635c3af3fb3c4011') in 0.015380 seconds 
+  Import took 0.019726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_010.png
+  artifactKey: Guid(832ad33853ef04361acaf10b1333f783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_010.png using Guid(832ad33853ef04361acaf10b1333f783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a6c35319b9d8210c0cb9cd213e3469') in 0.013114 seconds 
+  Import took 0.017921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_008.png
+  artifactKey: Guid(7e88562f01ff14bffa8389938150ed52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_008.png using Guid(7e88562f01ff14bffa8389938150ed52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aff874e9c26c7bc2ab9bc15e308f339') in 0.019686 seconds 
+  Import took 0.023927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_020.png
+  artifactKey: Guid(90f2e4b2d64a740feb86e3a3a3103862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_020.png using Guid(90f2e4b2d64a740feb86e3a3a3103862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52b216c9a543d9ec883f59539ebe31a') in 0.014457 seconds 
+  Import took 0.018577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_006.png
+  artifactKey: Guid(c02a62d1afe744b6da7c88f70f8ff2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_006.png using Guid(c02a62d1afe744b6da7c88f70f8ff2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa00020e64f8c94b3ee7bb0138367de') in 0.013414 seconds 
+  Import took 0.017740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_011.png
+  artifactKey: Guid(f418af23730bf46b6bde610db026a2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_011.png using Guid(f418af23730bf46b6bde610db026a2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0569710ea3cd5b8867c80f6683c010cb') in 0.016406 seconds 
+  Import took 0.020788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_024.png
+  artifactKey: Guid(c25c8b005cbf54490997e0e87f4be7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_024.png using Guid(c25c8b005cbf54490997e0e87f4be7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59830f04b2f12b9da19988a8704ffcc') in 0.013062 seconds 
+  Import took 0.017472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_010.png
+  artifactKey: Guid(27c7c5742428048ba93d540b23988270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_010.png using Guid(27c7c5742428048ba93d540b23988270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07e896cde0a18345cee6bf9c6eede1c') in 0.019369 seconds 
+  Import took 0.023842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_013.png
+  artifactKey: Guid(7614ff7cd5db64f249ea894ecbc510ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_013.png using Guid(7614ff7cd5db64f249ea894ecbc510ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d8fc91fb6c98743b0d30dbc2469177') in 0.015148 seconds 
+  Import took 0.019301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_016.png
+  artifactKey: Guid(2cbfc2d4ba10f43eba034335e81095e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_016.png using Guid(2cbfc2d4ba10f43eba034335e81095e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0481a169999ceebf6d5d45cc4ec2aaa4') in 0.013425 seconds 
+  Import took 0.017881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_020.png
+  artifactKey: Guid(8e3ac7f465b9d47f8bcf319c8e80a96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_020.png using Guid(8e3ac7f465b9d47f8bcf319c8e80a96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af648ddb7ab97fc497dc6a2b878535ca') in 0.016607 seconds 
+  Import took 0.020774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_017.png
+  artifactKey: Guid(133205142d246456089b91881ad318b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_017.png using Guid(133205142d246456089b91881ad318b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea19c6c989bb4c4fa8331888195f01b7') in 0.013813 seconds 
+  Import took 0.018834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_005.png
+  artifactKey: Guid(3b0245052f7b04d7bae2bf39ce5b52f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_005.png using Guid(3b0245052f7b04d7bae2bf39ce5b52f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bab9bc17d2158f8dc8929ecd6e34511') in 0.016949 seconds 
+  Import took 0.021332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_003.png
+  artifactKey: Guid(5f363af04dd4445b88e3dfd4b67fa507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_003.png using Guid(5f363af04dd4445b88e3dfd4b67fa507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afdc6b03b960a2e982337d974f3da25') in 0.014100 seconds 
+  Import took 0.018406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_009.png
+  artifactKey: Guid(b7e2eff3b49b84e069a3dfb17e2475ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_009.png using Guid(b7e2eff3b49b84e069a3dfb17e2475ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece26ac9b10561a479b9f54e8c75aba7') in 0.013488 seconds 
+  Import took 0.017667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_001.png
+  artifactKey: Guid(7f4de05bac2bf4594b7ef3b6379b5af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_001.png using Guid(7f4de05bac2bf4594b7ef3b6379b5af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390f487f8e881d62c92abfdeb2d940f3') in 0.015086 seconds 
+  Import took 0.019455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_012.png
+  artifactKey: Guid(307f9514f71bc4f7196a2ac04b8c76b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_012.png using Guid(307f9514f71bc4f7196a2ac04b8c76b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99988f080dd59fdf8942dc3de7b5e4db') in 0.013879 seconds 
+  Import took 0.018320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_019.png
+  artifactKey: Guid(3552d99ffbe0a44fa9bdecfe068d83db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_019.png using Guid(3552d99ffbe0a44fa9bdecfe068d83db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d09d80af81385ead74b8f47f3a9ff3') in 0.016006 seconds 
+  Import took 0.020524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_005.png
+  artifactKey: Guid(6e1a42518ff3742f0bf626541dfc0d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_005.png using Guid(6e1a42518ff3742f0bf626541dfc0d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccc51865feb78c5607b43734570d640') in 0.015775 seconds 
+  Import took 0.020508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_019.png
+  artifactKey: Guid(b3845d8892a35412ea238cc9ea183783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_019.png using Guid(b3845d8892a35412ea238cc9ea183783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c83ec0bd2ffafe06ece94120fae269') in 0.013549 seconds 
+  Import took 0.018006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_026.png
+  artifactKey: Guid(c7529f1203ab24617818900bd0971d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_026.png using Guid(c7529f1203ab24617818900bd0971d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b54a37ac2d851dc7064995441ec401') in 0.013805 seconds 
+  Import took 0.018082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_014.png
+  artifactKey: Guid(7a09c5a5d6f9a4415829a0627ba9d991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_014.png using Guid(7a09c5a5d6f9a4415829a0627ba9d991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34d755815b6dd809a47f8653deb8fe5') in 0.013139 seconds 
+  Import took 0.017290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_007.png
+  artifactKey: Guid(fdc2c1b2f0a834eaf90d8b00d0c66273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_007.png using Guid(fdc2c1b2f0a834eaf90d8b00d0c66273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a49d8037e824757219c003ae3ffe3b') in 0.018013 seconds 
+  Import took 0.022211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_019.png
+  artifactKey: Guid(54f2669820ec245ea9857d60884d94b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_019.png using Guid(54f2669820ec245ea9857d60884d94b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca174654feee043842e001c4bf76db7') in 0.014598 seconds 
+  Import took 0.019186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_013.png
+  artifactKey: Guid(9bff2f2396465430884824ef8eb152f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_013.png using Guid(9bff2f2396465430884824ef8eb152f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69bea4e5f17d066ce16ef73fb5c336ff') in 0.014217 seconds 
+  Import took 0.018578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_018.png
+  artifactKey: Guid(49d707838307043d09bfec2fe5e84fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_018.png using Guid(49d707838307043d09bfec2fe5e84fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58550722cee967b8b9015807b203d936') in 0.013844 seconds 
+  Import took 0.018361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_009.png
+  artifactKey: Guid(7415f665d9e9a48898bf912f95a51438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_009.png using Guid(7415f665d9e9a48898bf912f95a51438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143f6854f4fe4f54376bcb73655d49a0') in 0.013462 seconds 
+  Import took 0.017823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_015.png
+  artifactKey: Guid(c4d5df035ac9d4124bad498bcd72f2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_015.png using Guid(c4d5df035ac9d4124bad498bcd72f2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72fce63d899e0bb789ab2a15f8de22dc') in 0.014564 seconds 
+  Import took 0.018833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_022.png
+  artifactKey: Guid(6a36517895bb64b94b9c7033e4020457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_022.png using Guid(6a36517895bb64b94b9c7033e4020457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ef28999f6021ae5512ca2c80d1f39e') in 0.013378 seconds 
+  Import took 0.017565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_021.png
+  artifactKey: Guid(d3b42691f8dce400b8344eb22fade2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_021.png using Guid(d3b42691f8dce400b8344eb22fade2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef2e3d8703da74574a0dfabc760731d') in 0.020849 seconds 
+  Import took 0.025770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_025.png
+  artifactKey: Guid(bb9a5ca3274b442beb9a6d9880e034cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_025.png using Guid(bb9a5ca3274b442beb9a6d9880e034cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19f4215ce94d48ba654fe9cbd726251') in 0.015691 seconds 
+  Import took 0.019839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_027.png
+  artifactKey: Guid(52467ad0c90bb4cfaa4edaa49b5ea5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_027.png using Guid(52467ad0c90bb4cfaa4edaa49b5ea5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5793d130ce9764548f5f20281a02a3e') in 0.013360 seconds 
+  Import took 0.017377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_007.png
+  artifactKey: Guid(07fcc67d8812c453282319a2b09db5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_007.png using Guid(07fcc67d8812c453282319a2b09db5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e870869c52159c28a60b82bd14de8c5c') in 0.023140 seconds 
+  Import took 0.027482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_008.png
+  artifactKey: Guid(b44fec3898b6c496f803dc8dbdc350b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_008.png using Guid(b44fec3898b6c496f803dc8dbdc350b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46bd7d39bc6730dfe1440bcec044caa4') in 0.016640 seconds 
+  Import took 0.020955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_026.png
+  artifactKey: Guid(25cc219f0f5b942b9a4cb8ef05b0b280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_026.png using Guid(25cc219f0f5b942b9a4cb8ef05b0b280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc0c3a228ff3b84304d56752094faa7') in 0.013841 seconds 
+  Import took 0.017937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_018.png
+  artifactKey: Guid(4ca70a48353194469b239750438eb3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_018.png using Guid(4ca70a48353194469b239750438eb3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3709a67260b51f8ea7343686c25ee7d1') in 0.014598 seconds 
+  Import took 0.018506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_011.png
+  artifactKey: Guid(03e694ad04e63402bad3fc8f93db27e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_011.png using Guid(03e694ad04e63402bad3fc8f93db27e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7cc42dd1ea7b70e573120337be5ee2c') in 0.013090 seconds 
+  Import took 0.017320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_002.png
+  artifactKey: Guid(164c3c8209b5d4268810476b218c2ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_002.png using Guid(164c3c8209b5d4268810476b218c2ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a19c48b221d17773c3ed234c9cd2ec7') in 0.017794 seconds 
+  Import took 0.022484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_006.png
+  artifactKey: Guid(d93a81718aeaa471e832afa525ec1128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_006.png using Guid(d93a81718aeaa471e832afa525ec1128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc41d27821c1cc503a5595cb645efac') in 0.013792 seconds 
+  Import took 0.018578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_004.png
+  artifactKey: Guid(b132893980e3640478a5d10dadb2dc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_004.png using Guid(b132893980e3640478a5d10dadb2dc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad0bc85dd8e0f66c2d2cd160eaba435') in 0.012666 seconds 
+  Import took 0.016744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_017.png
+  artifactKey: Guid(439563b4e7b75437892c242256da3b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_017.png using Guid(439563b4e7b75437892c242256da3b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9688436f21a6a9a52676eb8a86e3fe5d') in 0.015078 seconds 
+  Import took 0.019140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_008.png
+  artifactKey: Guid(6d8c9b7e7eb924ebbbe52cd06568fa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_008.png using Guid(6d8c9b7e7eb924ebbbe52cd06568fa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed4f518965c27e742cd780aa90f7584') in 0.013296 seconds 
+  Import took 0.017621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_002.png
+  artifactKey: Guid(cf65849092e764f1da2cfea544483864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_002.png using Guid(cf65849092e764f1da2cfea544483864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5cb370bbbefcab36d3a899e2cf364f3') in 0.021029 seconds 
+  Import took 0.025344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_016.png
+  artifactKey: Guid(acceee8686dfc4896b38d1bb1eb8935e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_016.png using Guid(acceee8686dfc4896b38d1bb1eb8935e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ac7a45fb985d2b3a6dec6ed014bb8a') in 0.015565 seconds 
+  Import took 0.020065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_021.png
+  artifactKey: Guid(38adb0e52443d414b9a2aa49ec1a41bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_021.png using Guid(38adb0e52443d414b9a2aa49ec1a41bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd753002211c36a0341c2f255e4403169') in 0.014959 seconds 
+  Import took 0.019031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_020.png
+  artifactKey: Guid(610dc5a8451414b68916b9e197f14966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_020.png using Guid(610dc5a8451414b68916b9e197f14966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e58b2a201c355a55233b21ecd7660b8') in 0.013624 seconds 
+  Import took 0.017708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_002.png
+  artifactKey: Guid(d46c52f79fd934d09beaca6e7951aa46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_002.png using Guid(d46c52f79fd934d09beaca6e7951aa46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94051a54d990effaeb6fad0d9dec75c8') in 0.014341 seconds 
+  Import took 0.018472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_014.png
+  artifactKey: Guid(b6716d4d88ad244efb9fa43c90adb9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_014.png using Guid(b6716d4d88ad244efb9fa43c90adb9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a618568895ec6383e8f32678a1200b') in 0.017420 seconds 
+  Import took 0.022197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_015.png
+  artifactKey: Guid(cc6b9545b397a4209a30a6b4c31a1372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Seal/seal_015.png using Guid(cc6b9545b397a4209a30a6b4c31a1372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72e84dac76a4f87bbade3d9f8599737') in 0.013687 seconds 
+  Import took 0.018021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_018.png
+  artifactKey: Guid(b0bbe53013d30421dab096af278e5463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Shield/shield_018.png using Guid(b0bbe53013d30421dab096af278e5463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d15176a35232f5840cf03bb356b8b19') in 0.014987 seconds 
+  Import took 0.019305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_023.png
+  artifactKey: Guid(b1e06ab5bf3c34ce5a6453e464e24e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ring/ring_023.png using Guid(b1e06ab5bf3c34ce5a6453e464e24e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b809334588d9d74389bd6051f35601b') in 0.014983 seconds 
+  Import took 0.019074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.578522 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_red_001.png
+  artifactKey: Guid(ae8c547b52a86487294fa5c5abe1adea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_red_001.png using Guid(ae8c547b52a86487294fa5c5abe1adea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5d4506c397b3b7bb2a65f7f2386058') in 0.014949 seconds 
+  Import took 0.019178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_yellow_004.png
+  artifactKey: Guid(b3d924126eeec4ea694e018b8e7fee54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_yellow_004.png using Guid(b3d924126eeec4ea694e018b8e7fee54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45aaf0e00f57427a168cf2400b688f02') in 0.013270 seconds 
+  Import took 0.017595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_012.png
+  artifactKey: Guid(32dd2d346ab764d3a898e5842f71528e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_012.png using Guid(32dd2d346ab764d3a898e5842f71528e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951b1fdd8f7d61607805cafb0fd6f6a4') in 0.013584 seconds 
+  Import took 0.018512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_blue_001.png
+  artifactKey: Guid(d7264190383a54321a63da7af20bccbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_blue_001.png using Guid(d7264190383a54321a63da7af20bccbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7206baf1553638819ad71364a2bbffa2') in 0.013700 seconds 
+  Import took 0.017750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_blue_002.png
+  artifactKey: Guid(396e8241d93e24681ae50bc568107a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_blue_002.png using Guid(396e8241d93e24681ae50bc568107a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf92008da0e40db29a25d200e5acb8d') in 0.018223 seconds 
+  Import took 0.022645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_011.png
+  artifactKey: Guid(0750e972b6b414f66af6f875520b0976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_011.png using Guid(0750e972b6b414f66af6f875520b0976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e39b8d84a0b19edf360fa8d1a4c77e0') in 0.014608 seconds 
+  Import took 0.019240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_005.png
+  artifactKey: Guid(bda24ea031aec45d7b0cec2f87b73feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_005.png using Guid(bda24ea031aec45d7b0cec2f87b73feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e0e8320056036059e529297beb3c30') in 0.018170 seconds 
+  Import took 0.022339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_010.png
+  artifactKey: Guid(f1de01f7f2fba413299654eb3ca5a9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_010.png using Guid(f1de01f7f2fba413299654eb3ca5a9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14a126eb79953bcd6cbd8a28fc9e02c') in 0.014838 seconds 
+  Import took 0.019476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_004.png
+  artifactKey: Guid(1cf19609d9a35435d998b574e312cef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_004.png using Guid(1cf19609d9a35435d998b574e312cef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb1c208955eade07fddd95376839879') in 0.014838 seconds 
+  Import took 0.019662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_005.png
+  artifactKey: Guid(9bf4cc62c46ce4ea9b3e696eb74b6934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_005.png using Guid(9bf4cc62c46ce4ea9b3e696eb74b6934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95d8d53d50c9a61b9384e6c4921c28a') in 0.015891 seconds 
+  Import took 0.020060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_red_002.png
+  artifactKey: Guid(5d479310253454a7493068bc7bafae8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_red_002.png using Guid(5d479310253454a7493068bc7bafae8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1bb1045be18e8571cdc31c21bf38c4c') in 0.016278 seconds 
+  Import took 0.020455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_green_004.png
+  artifactKey: Guid(9f34f73cfce5a4f3b95c5f6373b7f4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_green_004.png using Guid(9f34f73cfce5a4f3b95c5f6373b7f4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5185f02ec0a35c2e44497e239f353061') in 0.014232 seconds 
+  Import took 0.018432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_006.png
+  artifactKey: Guid(8cd88ffb599164f4cb6a41c0498e72a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_006.png using Guid(8cd88ffb599164f4cb6a41c0498e72a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272498d212a6d5e1e3dbaebe9060206f') in 0.014382 seconds 
+  Import took 0.018508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_012.png
+  artifactKey: Guid(f9efff57eb3a545858bc1893a8ff1a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_012.png using Guid(f9efff57eb3a545858bc1893a8ff1a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69770541d71091a21c60a2c7cd3600af') in 0.013214 seconds 
+  Import took 0.017310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_006.png
+  artifactKey: Guid(9d50ae9c97c294a63a80ced8fc89a495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_006.png using Guid(9d50ae9c97c294a63a80ced8fc89a495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b3918b101de5512cd62b95a82de250') in 0.017350 seconds 
+  Import took 0.021670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_008.png
+  artifactKey: Guid(f6157afbbc1494b3ca9766458c0d826a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_008.png using Guid(f6157afbbc1494b3ca9766458c0d826a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfecc76a4cb216dca8d994140d15df60') in 0.013715 seconds 
+  Import took 0.018299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_011.png
+  artifactKey: Guid(728586bc6772748c597f63bba52a2e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_011.png using Guid(728586bc6772748c597f63bba52a2e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a21b465c09b79d7e67c5c1d7d1bdcd') in 0.015613 seconds 
+  Import took 0.019900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_020.png
+  artifactKey: Guid(e20f1d2c90ecf43a6823d02d183fd739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_020.png using Guid(e20f1d2c90ecf43a6823d02d183fd739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efeacdc97cc685379cd03c9ca83ceff4') in 0.015654 seconds 
+  Import took 0.020088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_001.png
+  artifactKey: Guid(0f56781d49fd84d3691345ea83acb511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_001.png using Guid(0f56781d49fd84d3691345ea83acb511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c203f6dcf5456b30deb46cba93cf9a2') in 0.013201 seconds 
+  Import took 0.017431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_015.png
+  artifactKey: Guid(7a2063777e39045babff074caea9ba57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_015.png using Guid(7a2063777e39045babff074caea9ba57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ac2112660db042e3cd2a9d8366f2bf') in 0.013847 seconds 
+  Import took 0.018044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_021.png
+  artifactKey: Guid(d5de08ede85d64865ab729c4e565011c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_021.png using Guid(d5de08ede85d64865ab729c4e565011c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac64bb370070c85dd732a9da5e6c5eb') in 0.013263 seconds 
+  Import took 0.017371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_014.png
+  artifactKey: Guid(56b6d65df2d2b44d88384d165fb13c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_014.png using Guid(56b6d65df2d2b44d88384d165fb13c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca14d60ed7b22204f19ba0177b6bf10') in 0.014331 seconds 
+  Import took 0.018881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_009.png
+  artifactKey: Guid(9dcf2d4a2893148b48136a2676b09e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_009.png using Guid(9dcf2d4a2893148b48136a2676b09e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94045b387980f882d685dea48b2fa840') in 0.015815 seconds 
+  Import took 0.020292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_013.png
+  artifactKey: Guid(d0721fecd80794266b3f2c54eef0a2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_013.png using Guid(d0721fecd80794266b3f2c54eef0a2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96258286d4b376bc501475f62a9e0753') in 0.014737 seconds 
+  Import took 0.019181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_003.png
+  artifactKey: Guid(97ddf42872d2f40ba8dedef68a78eca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_003.png using Guid(97ddf42872d2f40ba8dedef68a78eca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb15477b975e091d2e384193d712800') in 0.014925 seconds 
+  Import took 0.019032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_002.png
+  artifactKey: Guid(cfecd44b9304c4e3792773cbc67438fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_002.png using Guid(cfecd44b9304c4e3792773cbc67438fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79f1b3e4a56d01c660830cc33c716c0') in 0.013880 seconds 
+  Import took 0.017852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_015.png
+  artifactKey: Guid(4232d1fd569c5463dbf8ead50df0bdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_015.png using Guid(4232d1fd569c5463dbf8ead50df0bdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab48b81c2795b25358b0a4fa93b2abe') in 0.015038 seconds 
+  Import took 0.019858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_003.png
+  artifactKey: Guid(3f17e4975df734c4f8b9458dc4044e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_003.png using Guid(3f17e4975df734c4f8b9458dc4044e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02935e92ee8b3ff9a6a0b49ca3acba65') in 0.014038 seconds 
+  Import took 0.018399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_004.png
+  artifactKey: Guid(3ed9820e2e3c943b5a1b32990ea1635e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_004.png using Guid(3ed9820e2e3c943b5a1b32990ea1635e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a8e7615075e9ff51e2c846d0acc59a') in 0.014887 seconds 
+  Import took 0.019078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_019.png
+  artifactKey: Guid(e7c2a00fe7b7141c1b1c701c33dda959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_019.png using Guid(e7c2a00fe7b7141c1b1c701c33dda959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59317ea3faffe2850980947ba083188f') in 0.014187 seconds 
+  Import took 0.018612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_green_001.png
+  artifactKey: Guid(6244898442f1d490aa2d1250624adaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_green_001.png using Guid(6244898442f1d490aa2d1250624adaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06553f068987f377b6c412003a3e44d') in 0.013719 seconds 
+  Import took 0.018085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_007.png
+  artifactKey: Guid(8a34397d3ff574c05b0b1b40f8227180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_007.png using Guid(8a34397d3ff574c05b0b1b40f8227180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550b46219c3237a42642fca85fe7aa34') in 0.015146 seconds 
+  Import took 0.019231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_010.png
+  artifactKey: Guid(21c0f5a546a3547068a9df52b7c69d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_010.png using Guid(21c0f5a546a3547068a9df52b7c69d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a8cc923769a3080c7e944d5717cd3b') in 0.012786 seconds 
+  Import took 0.017202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_red_003.png
+  artifactKey: Guid(2b3635d2c7e9e4959a159cf4cca625e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_red_003.png using Guid(2b3635d2c7e9e4959a159cf4cca625e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97fb7a4e0f76ea1a7a575adba5c7c99') in 0.017281 seconds 
+  Import took 0.021628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_yellow_003.png
+  artifactKey: Guid(f5860d86ee8da4c54b3a3e603504bcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_yellow_003.png using Guid(f5860d86ee8da4c54b3a3e603504bcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4edafe37f3aba5400ceaf33cddc5e7f') in 0.017659 seconds 
+  Import took 0.022235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_007.png
+  artifactKey: Guid(2742bac18b65b4002a9c18bd62aac73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_007.png using Guid(2742bac18b65b4002a9c18bd62aac73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08dd660d04e57ce22a177a3f5eaee705') in 0.013414 seconds 
+  Import took 0.017632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_yellow_005.png
+  artifactKey: Guid(991c2fab9c359484f826a1fa8eb52532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_yellow_005.png using Guid(991c2fab9c359484f826a1fa8eb52532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b1f3df1143fdb42cb5a1c9e2ed0cf1') in 0.013891 seconds 
+  Import took 0.018114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_red_005.png
+  artifactKey: Guid(2f2588252b75946358f087376c87f28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_red_005.png using Guid(2f2588252b75946358f087376c87f28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0b71d0158f810c493a260bbed69d9f') in 0.013161 seconds 
+  Import took 0.017562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_018.png
+  artifactKey: Guid(ccb504d3310694ce59087abf06b9f6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_018.png using Guid(ccb504d3310694ce59087abf06b9f6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0173e206f4fcf207ecf4cb5afd00108') in 0.017697 seconds 
+  Import took 0.021881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_blue_004.png
+  artifactKey: Guid(a1d899b86cbd644fd9ee7c536c03ca2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_blue_004.png using Guid(a1d899b86cbd644fd9ee7c536c03ca2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d3991c234e04916e4b713f0b51e2e1') in 0.014037 seconds 
+  Import took 0.019037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_green_002.png
+  artifactKey: Guid(7b5b0cc9be07c4253962468546ce1e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_green_002.png using Guid(7b5b0cc9be07c4253962468546ce1e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d11adff078b5eaf71519577fbeeb4e2') in 0.014425 seconds 
+  Import took 0.018727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_011.png
+  artifactKey: Guid(3ab8d0fcd69a3419f960fa998cbe470d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_011.png using Guid(3ab8d0fcd69a3419f960fa998cbe470d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9046e204ad8b4253a6789f8c2c97d4a') in 0.013980 seconds 
+  Import took 0.018458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_022.png
+  artifactKey: Guid(24df54a5499514a83a71bda1f710da86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_022.png using Guid(24df54a5499514a83a71bda1f710da86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500204d07fe521feffd80c41c9c06f32') in 0.015884 seconds 
+  Import took 0.020042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_green_003.png
+  artifactKey: Guid(9291cfd17682941f89e1dafb329cec39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_green_003.png using Guid(9291cfd17682941f89e1dafb329cec39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f779b53c19823325ab47a5dd750ef8') in 0.014479 seconds 
+  Import took 0.018787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_blue_005.png
+  artifactKey: Guid(feb397a572d4341919f54582593959d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_blue_005.png using Guid(feb397a572d4341919f54582593959d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13a7243ea8cabc765577eec8d74d464') in 0.012961 seconds 
+  Import took 0.017314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_017.png
+  artifactKey: Guid(6fa5798caea2b4345a78997b65c18d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_017.png using Guid(6fa5798caea2b4345a78997b65c18d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abed68289c37910f7f3bd368c94319e6') in 0.015262 seconds 
+  Import took 0.019749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_yellow_001.png
+  artifactKey: Guid(90c3030094a5740ba9a6efd000bc1182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_yellow_001.png using Guid(90c3030094a5740ba9a6efd000bc1182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7956c991eb36169f43cce7cf3cae29f8') in 0.015907 seconds 
+  Import took 0.020208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_008.png
+  artifactKey: Guid(735e275b699204e36a43b999da486796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_008.png using Guid(735e275b699204e36a43b999da486796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7e31a32abfd932eed83472ea2e483d') in 0.013714 seconds 
+  Import took 0.018021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_red_004.png
+  artifactKey: Guid(f20bc093e55fc4fbd9861a8915b5c7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_red_004.png using Guid(f20bc093e55fc4fbd9861a8915b5c7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0861287a6c9223dfd18d7c9d8b0ca537') in 0.014513 seconds 
+  Import took 0.018724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_005.png
+  artifactKey: Guid(0fef95fcf6ed24ee0bc272328df04508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_005.png using Guid(0fef95fcf6ed24ee0bc272328df04508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974d9861d298aa618254e57166a459e4') in 0.013885 seconds 
+  Import took 0.018032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_yellow_002.png
+  artifactKey: Guid(e98e354b08d884ef1a9979aa90c7d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_yellow_002.png using Guid(e98e354b08d884ef1a9979aa90c7d337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848becb7b7df4b73328acc12fb4fa0f3') in 0.015178 seconds 
+  Import took 0.019322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_001.png
+  artifactKey: Guid(17f63f20d11644ea9b288f3f0dc5b552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_001.png using Guid(17f63f20d11644ea9b288f3f0dc5b552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4fbb9a85e3c83f549f794a3fffb05d') in 0.013824 seconds 
+  Import took 0.018048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_green_005.png
+  artifactKey: Guid(f41f7d9f8a05b40bfbb1d4082cd89385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_green_005.png using Guid(f41f7d9f8a05b40bfbb1d4082cd89385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a46677d1a63133036da4f217d1ff830') in 0.016001 seconds 
+  Import took 0.020885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_010.png
+  artifactKey: Guid(76ad63d9410484a4997e7fd99494c16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_010.png using Guid(76ad63d9410484a4997e7fd99494c16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d9b68d76630532ad9b6ad5e349fd21') in 0.016574 seconds 
+  Import took 0.020810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_016.png
+  artifactKey: Guid(d8e15d575ee4b4b33b836bb498a27239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_016.png using Guid(d8e15d575ee4b4b33b836bb498a27239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9a5813ef2db7db43806c62e69c3d55') in 0.012881 seconds 
+  Import took 0.017086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_015.png
+  artifactKey: Guid(f79dd890a616f41a6a0e2045e1c83c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_015.png using Guid(f79dd890a616f41a6a0e2045e1c83c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb52cc262d64774b74c9174410120fff') in 0.014468 seconds 
+  Import took 0.018652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_003.png
+  artifactKey: Guid(273652120af0a456c8e037764b2050a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_003.png using Guid(273652120af0a456c8e037764b2050a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1f6ca970d5f8e212befac91c48dd7c') in 0.014085 seconds 
+  Import took 0.018411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_009.png
+  artifactKey: Guid(888c56cd6720049b2bbb8a1a194bc025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_009.png using Guid(888c56cd6720049b2bbb8a1a194bc025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae1a5802e464aa4e1050ee045c6eb41') in 0.019196 seconds 
+  Import took 0.023578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_008.png
+  artifactKey: Guid(24a69a1cc45994044a0501f09a7cc72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_008.png using Guid(24a69a1cc45994044a0501f09a7cc72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1f51e1cd8f0b9fd05c3c8c810d93f6') in 0.015234 seconds 
+  Import took 0.019757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_013.png
+  artifactKey: Guid(074e4b554e14c4a6fa5a723569393ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_013.png using Guid(074e4b554e14c4a6fa5a723569393ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4960deb71959a2dbc569deae1321d1d7') in 0.013168 seconds 
+  Import took 0.017631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_002.png
+  artifactKey: Guid(73f24774da3ea4306a9255542b13c16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_002.png using Guid(73f24774da3ea4306a9255542b13c16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77262ceecf7ddf9a0afdab23ef600b8') in 0.014777 seconds 
+  Import took 0.019019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_009.png
+  artifactKey: Guid(b40da763c80ad4c2ea670ba4984fd48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_009.png using Guid(b40da763c80ad4c2ea670ba4984fd48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfae2d3b0c238218e0beb92e73d8b09') in 0.013524 seconds 
+  Import took 0.017525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_014.png
+  artifactKey: Guid(37446ee1efc704694b1a7d4ca6199cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_014.png using Guid(37446ee1efc704694b1a7d4ca6199cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73c7274114cfebcb9477538155ef8ac') in 0.014960 seconds 
+  Import took 0.019281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_014.png
+  artifactKey: Guid(48189d15beb6e476fad9ff68e6856fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_014.png using Guid(48189d15beb6e476fad9ff68e6856fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28bd9842ac54222567662571f11a49ab') in 0.014138 seconds 
+  Import took 0.018303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_001.png
+  artifactKey: Guid(3732cab34f816419985d8fcf72b138e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_001.png using Guid(3732cab34f816419985d8fcf72b138e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de628e5673f9b9ffcd356bdbf2fa9ec') in 0.020379 seconds 
+  Import took 0.024884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_002.png
+  artifactKey: Guid(b72f372a41dde4b668a9f4906d324d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_002.png using Guid(b72f372a41dde4b668a9f4906d324d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b287a76196ff65f093a0b71a59bf57') in 0.014920 seconds 
+  Import took 0.019118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_006.png
+  artifactKey: Guid(f781dc4847c164b7aad76d7034d2fd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_006.png using Guid(f781dc4847c164b7aad76d7034d2fd96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bb7a8cb36c697680a8dd197889dbbc') in 0.013033 seconds 
+  Import took 0.017099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_blue_003.png
+  artifactKey: Guid(ed2917b542be94594b23043cf9364955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_blue_003.png using Guid(ed2917b542be94594b23043cf9364955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35116d165729570a4994f9f7a8a29c95') in 0.021347 seconds 
+  Import took 0.026270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_013.png
+  artifactKey: Guid(cb3f74bb947a544abad6937b5d7f069c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Plants/plants_013.png using Guid(cb3f74bb947a544abad6937b5d7f069c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8de303eb1044a0a0947d7226e7165a') in 0.014255 seconds 
+  Import took 0.018557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_012.png
+  artifactKey: Guid(b56b62f8a31ac474da00da256e926c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_012.png using Guid(b56b62f8a31ac474da00da256e926c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4afa2906ad51e7c87de950be0d67cd0') in 0.013160 seconds 
+  Import took 0.017584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_004.png
+  artifactKey: Guid(b38f74d9489bc49a1b3bab10d18850bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ore/ore_004.png using Guid(b38f74d9489bc49a1b3bab10d18850bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014d776e79d0660673cc51c27d0f6b33') in 0.013698 seconds 
+  Import took 0.018510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_007.png
+  artifactKey: Guid(23edbc3473a254fccb142ed355ee4870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_007.png using Guid(23edbc3473a254fccb142ed355ee4870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa19d57b3a0e24b65ba938065db57c6b') in 0.013485 seconds 
+  Import took 0.017481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019449 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_007.png
+  artifactKey: Guid(23edbc3473a254fccb142ed355ee4870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Postion/postion_007.png using Guid(23edbc3473a254fccb142ed355ee4870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa19d57b3a0e24b65ba938065db57c6b') in 0.008321 seconds 
+  Import took 0.012489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.661998 seconds.
+  path: Assets/2D Pixel RPG Icon Pack
+  artifactKey: Guid(3646eafc154f58a45b4a82665c3cca16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack using Guid(3646eafc154f58a45b4a82665c3cca16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c303067a46ad86d61d7a16f9489ed0') in 0.009485 seconds 
+  Import took 0.013734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.080211 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Font
+  artifactKey: Guid(cca768e6e5dd54dd69182d28d791ff60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Font using Guid(cca768e6e5dd54dd69182d28d791ff60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbc2c6cae321fc8356fb2267257cf9a') in 0.007559 seconds 
+  Import took 0.012874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000776 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Font
+  artifactKey: Guid(cca768e6e5dd54dd69182d28d791ff60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Font using Guid(cca768e6e5dd54dd69182d28d791ff60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbc2c6cae321fc8356fb2267257cf9a') in 0.003109 seconds 
+  Import took 0.007352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.387674 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons
+  artifactKey: Guid(840633ead2267457581a342e389cb286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons using Guid(840633ead2267457581a342e389cb286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c0be8ff45adf93e4ef4515af5a5d74') in 0.007736 seconds 
+  Import took 0.012171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.496166 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Font/Alata-Regular SDF.asset
+  artifactKey: Guid(9ff0faf1960b24dffa0e7f1b9c765e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Font/Alata-Regular SDF.asset using Guid(9ff0faf1960b24dffa0e7f1b9c765e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'd2ef064efbdebb06a9907293686243d3') in 0.163693 seconds 
+  Import took 0.168134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.838795 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Font/Alata-Regular.ttf
+  artifactKey: Guid(cbef7eefd49444c2381384e8be8f865f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Font/Alata-Regular.ttf using Guid(cbef7eefd49444c2381384e8be8f865f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53917d89c5160d976c574cbf2dd1feaf') in 0.046594 seconds 
+  Import took 0.051388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.888319 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Axe
+  artifactKey: Guid(88402bf2dcfc54df5845f788d9dd7cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Axe using Guid(88402bf2dcfc54df5845f788d9dd7cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ef18eb5d2960718e336c08aa47c294') in 0.007570 seconds 
+  Import took 0.012344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Axe
+  artifactKey: Guid(88402bf2dcfc54df5845f788d9dd7cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Axe using Guid(88402bf2dcfc54df5845f788d9dd7cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ef18eb5d2960718e336c08aa47c294') in 0.002956 seconds 
+  Import took 0.007092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.086369 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Axe/axe_001.png
+  artifactKey: Guid(8ffa59be6f5b048cab42ac44d2501330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Axe/axe_001.png using Guid(8ffa59be6f5b048cab42ac44d2501330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d74ea41d0eef8e610f74c91f287723') in 0.013962 seconds 
+  Import took 0.017999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.231748 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Axe/axe_002.png
+  artifactKey: Guid(917150ef6c0994b4f98a8ae8fa384a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Axe/axe_002.png using Guid(917150ef6c0994b4f98a8ae8fa384a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c827d0ec9505bac3e6f6accdf84ddd') in 0.017953 seconds 
+  Import took 0.023144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Axe/axe_002.png
+  artifactKey: Guid(917150ef6c0994b4f98a8ae8fa384a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Axe/axe_002.png using Guid(917150ef6c0994b4f98a8ae8fa384a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c827d0ec9505bac3e6f6accdf84ddd') in 0.009433 seconds 
+  Import took 0.013918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.475782 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Axe/axe_003.png
+  artifactKey: Guid(06802e70f09c9464eb5e3a9c1a9b895b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Axe/axe_003.png using Guid(06802e70f09c9464eb5e3a9c1a9b895b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652aeaabffe8772e4d863ba57e0df7e8') in 0.016187 seconds 
+  Import took 0.020731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025142 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Axe/axe_004.png
+  artifactKey: Guid(d28770a09b68a4552b9e83f09bd2b1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Axe/axe_004.png using Guid(d28770a09b68a4552b9e83f09bd2b1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a639811de01ddb2b0a042da466275393') in 0.025722 seconds 
+  Import took 0.030719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033672 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Axe/axe_005.png
+  artifactKey: Guid(76b6452ccc8d040a1bcb8c756f80aa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Axe/axe_005.png using Guid(76b6452ccc8d040a1bcb8c756f80aa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a8e60f96ffd05d08e7249c87adffa8') in 0.017962 seconds 
+  Import took 0.022847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022221 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Axe/axe_006.png
+  artifactKey: Guid(f3b53bfe105a146a397068be481e6036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Axe/axe_006.png using Guid(f3b53bfe105a146a397068be481e6036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60dc69eedaca4af3be590b3072e4f969') in 0.012904 seconds 
+  Import took 0.017344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027682 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Axe/axe_007.png
+  artifactKey: Guid(21e56234be9754d5b8f250d54a1dc791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Axe/axe_007.png using Guid(21e56234be9754d5b8f250d54a1dc791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e710b9edced9d22af4fc6e2b6467f5b') in 0.014984 seconds 
+  Import took 0.019787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023601 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Axe/axe_008.png
+  artifactKey: Guid(44b57edb61d2944c49cddace185ca19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Axe/axe_008.png using Guid(44b57edb61d2944c49cddace185ca19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c58fff4b602f28d700f09c500d09da') in 0.017591 seconds 
+  Import took 0.022464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.040254 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Icons/Ore
+  artifactKey: Guid(8f2220c903f884c7191da8fa0a68df24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Icons/Ore using Guid(8f2220c903f884c7191da8fa0a68df24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4573fea9c4ac17ce43b02dc41d8385') in 0.008205 seconds 
+  Import took 0.012220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 193.708168 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Scenes/PreviewScene.unity
+  artifactKey: Guid(889656c6222bb407d85d3cb7bf812eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Scenes/PreviewScene.unity using Guid(889656c6222bb407d85d3cb7bf812eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8655091387dccc3cd5507286e5fd8c31') in 0.010501 seconds 
+  Import took 0.015188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 189.936698 seconds.
+  path: Assets/# MyAsset/Scenes/Main.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Scenes/Main.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a9c0d9ece56f12a66b7dd1d9174ed3') in 0.008812 seconds 
+  Import took 0.013310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.322819 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Scenes
+  artifactKey: Guid(c3afb712f7b5944c08d9460c5845231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Scenes using Guid(c3afb712f7b5944c08d9460c5845231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41efca0707837041252ce2dcc393d195') in 0.007852 seconds 
+  Import took 0.013183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001198 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/Scenes
+  artifactKey: Guid(c3afb712f7b5944c08d9460c5845231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/Scenes using Guid(c3afb712f7b5944c08d9460c5845231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41efca0707837041252ce2dcc393d195') in 0.002680 seconds 
+  Import took 0.006583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.452455 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b4cbde9565bf190136f1148817e1ea') in 0.007909 seconds 
+  Import took 0.012856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b4cbde9565bf190136f1148817e1ea') in 0.002714 seconds 
+  Import took 0.006856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.283225 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/bg.png
+  artifactKey: Guid(5bb19db0a4016449caea716e96c9555e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/bg.png using Guid(5bb19db0a4016449caea716e96c9555e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad738218f4eca9c3976327df8c2d4fc9') in 0.044854 seconds 
+  Import took 0.049463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.652860 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/TextMesh Pro/Documentation
+  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5aa99e36510f23d626084d8be9669f') in 0.008270 seconds 
+  Import took 0.013440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.427219 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/TextMesh Pro/Fonts
+  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c860dfdf0522eec1202f36843e52d436') in 0.006959 seconds 
+  Import took 0.011775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/2D Pixel RPG Icon Pack/TextMesh Pro/Fonts
+  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel RPG Icon Pack/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c860dfdf0522eec1202f36843e52d436') in 0.003155 seconds 
+  Import took 0.007441 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.093246 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.637 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2486 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.2 MB.
+System memory in use after: 115.9 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3414.
+Total: 3.480600 ms (FindLiveObjects: 0.401000 ms CreateObjectMapping: 0.131200 ms MarkObjects: 2.635500 ms  DeleteObjects: 0.310900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
