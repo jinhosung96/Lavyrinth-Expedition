@@ -40,7 +40,7 @@ namespace JHS
         public void StartRoundChange()
         {
             animator.SetTrigger("DoRun");
-            StartCoroutine(Co_DelayJump());
+            if(gameObject.activeInHierarchy) StartCoroutine(Co_DelayJump());
         }
 
         public void EndRoundChange()

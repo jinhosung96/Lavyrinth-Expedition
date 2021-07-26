@@ -36,6 +36,7 @@ namespace JHS
             get => lv; set
             {
                 lv = value;
+                if (lv == 1) Obj.SetActive(true);
                 ObserverSystem.Instance.PostNofication($"{name} 갱신");
                 ObserverSystem.Instance.PostNofication($"용병 갱신");
             }
@@ -49,16 +50,16 @@ namespace JHS
         {
             BigInteger totalCost = BigInteger.Zero;
 
-            if(Lv != 0)
+            if(true)
             {
                 int nextLv = Lv;
-                BigInteger tempCost = UpgradeSystem.Instance.GetCostByLevel(BigInteger.Parse(initCost), nextLv);
+                BigInteger tempCost = UpgradeSystem.Instance.GetCostByLevel(BigInteger.Parse(initCost), nextLv + 1);
 
                 while (tempCost <= CurrencyData.Instance.Gold && (UpgradeSystem.Instance.UpgradeSize == -1 || nextLv - Lv < UpgradeSystem.Instance.UpgradeSize))
                 {
                     totalCost = tempCost;
                     nextLv++;
-                    tempCost = totalCost + UpgradeSystem.Instance.GetCostByLevel(BigInteger.Parse(initCost), nextLv);
+                    tempCost = totalCost + UpgradeSystem.Instance.GetCostByLevel(BigInteger.Parse(initCost), nextLv + 1);
                 }
 
 
@@ -68,14 +69,7 @@ namespace JHS
                 upgradeInfo.increaseLv = canPurchase ? nextLv - Lv : 1;
                 upgradeInfo.cost = upgradeInfo.canPurchase ? totalCost : tempCost;
                 upgradeInfo.increaseDPS = UpgradeSystem.Instance.GetDPSByLevel(BigInteger.Parse(initDPS), canPurchase ? nextLv : Lv + 1) - DPS;
-            }
-            else
-            {
-                upgradeInfo.canPurchase = true;
-                upgradeInfo.increaseLv = 1;
-                upgradeInfo.cost = 0;
-                upgradeInfo.increaseDPS = UpgradeSystem.Instance.GetDPSByLevel(BigInteger.Parse(initDPS), 1);
-            }            
+            }     
         }
 
         #endregion
