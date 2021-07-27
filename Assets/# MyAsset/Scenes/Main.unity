@@ -34903,7 +34903,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.8784314, g: 0.8784314, b: 0.8784314, a: 1}
     m_PressedColor: {r: 0.7529412, g: 0.7529412, b: 0.7529412, a: 1}
     m_SelectedColor: {r: 0.8784314, g: 0.8784314, b: 0.8784314, a: 1}
-    m_DisabledColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.5019608}
+    m_DisabledColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -34947,7 +34947,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.8784314, g: 0.8784314, b: 0.8784314, a: 1}
     m_PressedColor: {r: 0.7529412, g: 0.7529412, b: 0.7529412, a: 1}
     m_SelectedColor: {r: 0.8784314, g: 0.8784314, b: 0.8784314, a: 1}
-    m_DisabledColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.5019608}
+    m_DisabledColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -34991,7 +34991,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.8784314, g: 0.8784314, b: 0.8784314, a: 1}
     m_PressedColor: {r: 0.7529412, g: 0.7529412, b: 0.7529412, a: 1}
     m_SelectedColor: {r: 0.8784314, g: 0.8784314, b: 0.8784314, a: 1}
-    m_DisabledColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.5019608}
+    m_DisabledColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -35056,6 +35056,7 @@ GameObject:
   - component: {fileID: 3015440569192633859}
   - component: {fileID: 3429429086192060101}
   - component: {fileID: 3429429086192060100}
+  - component: {fileID: 3429429086192060102}
   m_Layer: 5
   m_Name: Button_Upgrade
   m_TagString: Untagged
@@ -35088,6 +35089,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73660885a6aedd841b9cd5169d65a957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3429429086192060102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3429429086192060099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1eb2b2c76042e43b50ff3bd36bfdde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventName: "UpgradeInfo \uAC31\uC2E0"
+  type: 1
 --- !u!1 &3429429086312600740
 GameObject:
   m_ObjectHideFlags: 0
@@ -35103,6 +35118,7 @@ GameObject:
   - component: {fileID: 3015440569340494948}
   - component: {fileID: 3429429086312600742}
   - component: {fileID: 3429429086312600741}
+  - component: {fileID: 3429429086312600743}
   m_Layer: 5
   m_Name: Button_Upgrade
   m_TagString: Untagged
@@ -35135,6 +35151,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73660885a6aedd841b9cd5169d65a957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3429429086312600743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3429429086312600740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1eb2b2c76042e43b50ff3bd36bfdde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventName: "UpgradeInfo \uAC31\uC2E0"
+  type: 2
 --- !u!1 &3429429086576549701
 GameObject:
   m_ObjectHideFlags: 0
@@ -35150,6 +35180,7 @@ GameObject:
   - component: {fileID: 3015440569579081605}
   - component: {fileID: 3429429086576549703}
   - component: {fileID: 3429429086576549702}
+  - component: {fileID: 3429429086576549704}
   m_Layer: 5
   m_Name: Button_Upgrade
   m_TagString: Untagged
@@ -35182,6 +35213,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73660885a6aedd841b9cd5169d65a957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3429429086576549704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3429429086576549701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1eb2b2c76042e43b50ff3bd36bfdde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventName: "UpgradeInfo \uAC31\uC2E0"
+  type: 0
 --- !u!1001 &3492391971521411649
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42700,7 +42745,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.8784314, g: 0.8784314, b: 0.8784314, a: 1}
     m_PressedColor: {r: 0.7529412, g: 0.7529412, b: 0.7529412, a: 1}
     m_SelectedColor: {r: 0.8784314, g: 0.8784314, b: 0.8784314, a: 1}
-    m_DisabledColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.5019608}
+    m_DisabledColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -42823,6 +42868,7 @@ GameObject:
   - component: {fileID: 8737007161079065374}
   - component: {fileID: 9155586139123416032}
   - component: {fileID: 9155586139123416031}
+  - component: {fileID: 9155586139123416033}
   m_Layer: 5
   m_Name: Button_Upgrade
   m_TagString: Untagged
@@ -42855,6 +42901,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73660885a6aedd841b9cd5169d65a957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &9155586139123416033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9155586139123416030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1eb2b2c76042e43b50ff3bd36bfdde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventName: "UpgradeInfo \uAC31\uC2E0"
+  type: -1
 --- !u!114 &9161689881726378762
 MonoBehaviour:
   m_ObjectHideFlags: 0

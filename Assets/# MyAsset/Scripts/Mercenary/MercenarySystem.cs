@@ -83,7 +83,7 @@ namespace JHS
     /// 
     /// </summary>
     #endregion
-    public class MercenarySystem : JHS.SystemObject<MercenarySystem>
+    public class MercenarySystem : JHS.SystemObject<MercenarySystem>                                    
     {
         #region 필드
 
