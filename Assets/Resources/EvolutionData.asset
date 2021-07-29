@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fede10f376814a04f94c70887349e310, type: 3}
   m_Name: EvolutionData
   m_EditorClassIdentifier: 
+  evolutionLevel: 0

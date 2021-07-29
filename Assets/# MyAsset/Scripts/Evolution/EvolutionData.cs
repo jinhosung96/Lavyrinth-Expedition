@@ -34,21 +34,6 @@ namespace JHS
 
     #endregion
 
-    public class EvolutionInfo
-    {
-        #region 필드
-
-        [SerializeField] Sprite icon;
-
-        #endregion
-
-        #region 속성
-
-        public Sprite Icon => icon;
-
-        #endregion
-    }
-
     #region 머리말 주석
     /// <summary>
     ///
@@ -61,15 +46,20 @@ namespace JHS
     {
         #region 필드
 
-        int evolutionLevel;
-        EvolutionInfo[] evolutions;
+        [SerializeField] int evolutionLevel;
 
         #endregion
 
         #region 속성
 
-        public int EvolutionLevel { get => evolutionLevel; set => evolutionLevel = value; }
-        public EvolutionInfo[] Evolutions { get => evolutions; set => evolutions = value; }
+        public int EvolutionLevel
+        {
+            get => evolutionLevel; set
+            {
+                evolutionLevel = value;
+                ObserverSystem.Instance.PostNofication("각성");
+            }
+        }
 
         #endregion
     }

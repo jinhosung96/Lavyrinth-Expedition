@@ -13,35 +13,30 @@ namespace JHS
     /// 
     /// </summary>
     #endregion
-    public class EvolutionSlot : MonoBehaviour
+    public class ToggleEvolutionSlot: MonoBehaviour
     {
         #region 필드
 
-        [SerializeField] Image icon;
-
-        #endregion
-
-        #region 속성
-
-    
+        [SerializeField] int level;
 
         #endregion
 
         #region 유니티 생명주기
 
-    
-
-        #endregion
-
-        #region 공개 메소드
-
-    
+        private void Awake()
+        {
+            ObserverSystem.Instance.AddListener("각성", gameObject, Toggle, false);
+            if (level > 4) gameObject.SetActive(false);
+        }
 
         #endregion
 
         #region 내부 메소드
 
-    
+        void Toggle()
+        {
+            if(EvolutionData.Instance.EvolutionLevel + 1 >= level) gameObject.SetActive(true);
+        }
 
         #endregion
     }
