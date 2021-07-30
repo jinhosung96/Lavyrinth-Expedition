@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace JHS
 {
@@ -17,6 +18,20 @@ namespace JHS
         #region 필드
 
         [SerializeField] int level;
+        Button button;
+
+        #endregion
+
+        #region 유니티 생명주기
+
+        private void Awake()
+        {
+            button = GetComponent<Button>();
+            ObserverSystem.Instance.AddListener("각성", gameObject, () =>
+            {
+                if (level <= EvolutionSystem.Instance.EvolutionLevel) button.interactable = false;
+            });
+        }
 
         #endregion
 
@@ -24,7 +39,10 @@ namespace JHS
 
         public override void OnClick()
         {
-            if (EvolutionSystem.Instance.EvolutionLevel + 1 == level) EvolutionSystem.Instance.EvolutionLevel++;
+            if (EvolutionSystem.Instance.EvolutionLevel + 1 == level)
+            {
+                EvolutionSystem.Instance.EvolutionLevel++;
+            }
         }
 
         #endregion
