@@ -35,7 +35,7 @@ namespace JHS
 
         void Toggle()
         {
-            if(EvolutionData.Instance.EvolutionLevel + 1 >= level) gameObject.SetActive(true);
+            if(EvolutionSystem.Instance.EvolutionLevel + 1 >= level) gameObject.SetActive(true);
         }
 
         #endregion

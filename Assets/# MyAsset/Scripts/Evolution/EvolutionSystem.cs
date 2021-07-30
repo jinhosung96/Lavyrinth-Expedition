@@ -12,19 +12,23 @@ namespace JHS
     /// 
     /// </summary>
     #endregion
-    public class EvolutionButton : ButtonClick
+    public class EvolutionSystem : JHS.SystemObject<EvolutionSystem>
     {
         #region 필드
 
-        [SerializeField] int level;
+        [SerializeField] int evolutionLevel;
 
         #endregion
 
-        #region 재정의 메소드
+        #region 속성
 
-        public override void OnClick()
+        public int EvolutionLevel
         {
-            if (EvolutionSystem.Instance.EvolutionLevel + 1 == level) EvolutionSystem.Instance.EvolutionLevel++;
+            get => evolutionLevel; set
+            {
+                evolutionLevel = value;
+                ObserverSystem.Instance.PostNofication("각성");
+            }
         }
 
         #endregion
