@@ -772,6 +772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 7
+  evolutionConditions: []
 --- !u!114 &52323736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2517,6 +2518,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 4
+  evolutionConditions: []
 --- !u!114 &165045241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10784,6 +10786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 6
+  evolutionConditions: []
 --- !u!114 &695074207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11239,6 +11242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 3
+  evolutionConditions: []
 --- !u!114 &728304650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25971,6 +25975,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 5
+  evolutionConditions: []
 --- !u!114 &1578862459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26531,6 +26536,7 @@ GameObject:
   - component: {fileID: 1599729019}
   - component: {fileID: 1599729017}
   - component: {fileID: 1599729016}
+  - component: {fileID: 1599729018}
   m_Layer: 5
   m_Name: Button_Evolution
   m_TagString: Untagged
@@ -26571,6 +26577,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 1
+  evolutionConditions:
+  - {fileID: 1599729018}
 --- !u!114 &1599729017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26583,6 +26591,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73660885a6aedd841b9cd5169d65a957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1599729018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599729014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9e649a5b06b4574199bfa4d3b8a4922, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitType: -1
+  level: 20
 --- !u!114 &1599729019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28617,6 +28639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 8
+  evolutionConditions: []
 --- !u!114 &1703434308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33707,6 +33730,8 @@ GameObject:
   - component: {fileID: 2073045431}
   - component: {fileID: 2073045429}
   - component: {fileID: 2073045428}
+  - component: {fileID: 2073045434}
+  - component: {fileID: 2073045430}
   m_Layer: 5
   m_Name: Button_Evolution
   m_TagString: Untagged
@@ -33747,6 +33772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 2
+  evolutionConditions: []
 --- !u!114 &2073045429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33759,6 +33785,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73660885a6aedd841b9cd5169d65a957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2073045430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073045426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9e649a5b06b4574199bfa4d3b8a4922, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitType: 0
+  level: 40
 --- !u!114 &2073045431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33841,6 +33881,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073045426}
   m_CullTransparentMesh: 1
+--- !u!114 &2073045434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073045426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9e649a5b06b4574199bfa4d3b8a4922, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitType: -1
+  level: 40
 --- !u!1 &2081144768
 GameObject:
   m_ObjectHideFlags: 0
@@ -45222,7 +45276,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.8784314, g: 0.8784314, b: 0.8784314, a: 1}
     m_PressedColor: {r: 0.7529412, g: 0.7529412, b: 0.7529412, a: 1}
     m_SelectedColor: {r: 0.8784314, g: 0.8784314, b: 0.8784314, a: 1}
-    m_DisabledColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+    m_DisabledColor: {r: 0.6, g: 0.6, b: 0.6, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:

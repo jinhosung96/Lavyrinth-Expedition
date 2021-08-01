@@ -12,21 +12,22 @@ namespace JHS
     /// 
     /// </summary>
     #endregion
-    public class EvolutionText : TextFrame
+    public class EvolutionConditionByMercenaryLevel : EvolutionCondition
     {
         #region 필드
 
+        [SerializeField] UnitType unitType;
         [SerializeField] int level;
 
         #endregion
 
         #region 재정의 메소드
 
-        protected override string WriteText()
+        public override bool GetCondition()
         {
-            if (level <= EvolutionSystem.Instance.EvolutionLevel) return "각성 완료";
-            else return "각성하기";
-        }    
+            if (unitType == UnitType.Hero) return HeroSystem.Instance.Lv >= level;
+            else return MercenarySystem.Instance.Mercenaries[(int)unitType].Lv >= level;
+        }
 
         #endregion
     }
