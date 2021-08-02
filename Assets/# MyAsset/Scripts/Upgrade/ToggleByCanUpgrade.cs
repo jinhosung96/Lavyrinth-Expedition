@@ -28,6 +28,7 @@ namespace JHS
         private void Awake()
         {
             button = GetComponent<Button>();
+            ToggleButton();
             ObserverSystem.Instance.AddListener(eventName, gameObject, ToggleButton);
         }
 

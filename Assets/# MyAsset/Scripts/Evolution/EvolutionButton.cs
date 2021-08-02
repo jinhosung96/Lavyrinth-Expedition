@@ -31,10 +31,27 @@ namespace JHS
         private void Awake()
         {
             button = GetComponent<Button>();
-            ObserverSystem.Instance.AddListener("각성", gameObject, () =>
-            {
-                if (level <= EvolutionSystem.Instance.EvolutionLevel) button.interactable = false;
-            });
+            Toggle();
+            ObserverSystem.Instance.AddListener("각성", gameObject, Toggle, false);
+            ObserverSystem.Instance.AddListener("용사 갱신", gameObject, Toggle, false);
+            ObserverSystem.Instance.AddListener("용병 갱신", gameObject, Toggle, false);
+        }
+
+        #endregion
+
+        #region 내부 메소드
+
+        private void Toggle()
+        {            
+            bool isSetting = !(evolutionConditions.Length == 0) 
+                && !Array.Exists(evolutionConditions, x => x == null);
+            
+            if (isSetting)
+            {                
+                bool isEvolution = EvolutionSystem.Instance.EvolutionLevel + 1 == level 
+                    && !Array.Exists(evolutionConditions, x => x.GetCondition() == false);                
+                button.interactable = isEvolution;
+            }            
         }
 
         #endregion
@@ -43,16 +60,7 @@ namespace JHS
 
         public override void OnClick()
         {
-            if (EvolutionSystem.Instance.EvolutionLevel + 1 == level)
-            {
-                Assert.IsFalse(evolutionConditions.Length == 0, "설정된 각성 조건이 없습니다 err01");
-                Assert.IsFalse(Array.Exists(evolutionConditions, x => x == null), "설정된 각성 조건이 없습니다 err02");
-
-                if (!Array.Exists(evolutionConditions, x => x.GetCondition() == false))
-                {
-                    EvolutionSystem.Instance.EvolutionLevel++;
-                }                
-            }
+            EvolutionSystem.Instance.EvolutionLevel++;
         }
 
         #endregion
