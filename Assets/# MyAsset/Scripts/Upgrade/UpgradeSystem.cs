@@ -73,7 +73,7 @@ namespace JHS
 
         #region 공개 메소드
 
-        public BigInteger GetDPSByLevel(BigInteger initDPS, int lv) => lv == 0 ? 0 : initDPS * (BigInteger)(Math.Pow(increaseDPS, lv - 1) * 1000000) / 1000000 * BigInteger.Pow(amplificationDPS, (int)(lv / intervalLevel));
+        public BigInteger GetDPSByLevel(BigInteger initDPS, int lv) => lv == 0 ? 0 : initDPS * (BigInteger)(Math.Pow(increaseDPS, lv - 1) * 1000000) / 1000000 * BigInteger.Pow(amplificationDPS, (int)(lv / intervalLevel)) * (100 + EvolutionSystem.Instance.Amplification) / 100;
 
         public BigInteger GetCostByLevel(BigInteger initCost, int lv) => initCost * (BigInteger)(Math.Pow(increaseCost, lv - 1) * 1000000) / 1000000;
 
@@ -86,6 +86,7 @@ namespace JHS
             base.Awake();
             ObserverSystem.Instance.AddListener("UpgradeSize 갱신", gameObject, SetUpgradeInfo);
             ObserverSystem.Instance.AddListener("Gold 갱신", gameObject, SetUpgradeInfo);
+            ObserverSystem.Instance.AddListener("각성 레벨 갱신", gameObject, SetUpgradeInfo);
             SetUpgradeInfo();
         }
 

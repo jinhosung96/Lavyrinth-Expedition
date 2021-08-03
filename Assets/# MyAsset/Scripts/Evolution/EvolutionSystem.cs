@@ -4,6 +4,22 @@ using UnityEngine;
 
 namespace JHS
 {
+    [System.Serializable]
+    public class EvolutionInfo
+    {
+        #region 필드
+
+        [SerializeField] int amplification;
+
+        #endregion
+
+        #region 속성
+
+        public int Amplification => amplification;
+
+        #endregion
+    }
+
     #region 머리말 주석
     /// <summary>
     ///
@@ -17,6 +33,7 @@ namespace JHS
         #region 필드
 
         [SerializeField] int evolutionLevel;
+        [SerializeField] EvolutionInfo[] evolutionInfos;
 
         #endregion
 
@@ -27,7 +44,17 @@ namespace JHS
             get => evolutionLevel; set
             {
                 evolutionLevel = value;
-                ObserverSystem.Instance.PostNofication("각성");
+                ObserverSystem.Instance.PostNofication("각성 레벨 갱신");
+            }
+        }
+
+        public int Amplification
+        {
+            get
+            {
+                int sum = 0;
+                for (int i = 0; i < evolutionLevel; i++) sum += evolutionInfos[i].Amplification;
+                return sum;
             }
         }
 

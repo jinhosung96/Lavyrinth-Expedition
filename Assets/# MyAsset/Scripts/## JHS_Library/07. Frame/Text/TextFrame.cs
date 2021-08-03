@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System;
+using UnityEngine.Serialization;
 
 namespace JHS
-{    
+{
     #region 머리말 주석
     /// <summary>
     ///
@@ -11,7 +12,7 @@ namespace JHS
     /// 개요 : 주어진 키워드의 이벤트 발생 시 텍스트를 갱신하는 프레임 <para></para>
     /// 
     /// </summary>
-     #endregion
+    #endregion
     [RequireComponent(typeof(Text))]
     public abstract class TextFrame : MonoBehaviour
     {
@@ -19,9 +20,9 @@ namespace JHS
 
         Text m_textUI;
 
-        [SerializeField, LabelName("접두사")] string m_prefix;
-        [SerializeField, LabelName("접미사")] string m_suffix;
-        [SerializeField, LabelName("키워드")] string m_keyword;
+        [SerializeField, LabelName("접두사")] string prefix;
+        [SerializeField, LabelName("접미사")] string suffix;
+        [SerializeField] string[] keywords;
 
         #endregion
 
@@ -30,7 +31,10 @@ namespace JHS
         void Awake()
         {
             m_textUI = GetComponent<Text>();
-            if (!String.IsNullOrWhiteSpace(m_keyword)) ObserverSystem.Instance.AddListener(m_keyword, gameObject, RefreshUIElement, false);
+            for (int i = 0; i < keywords.Length; i++)
+            {
+                ObserverSystem.Instance.AddListener(keywords[i], gameObject, RefreshUIElement, false);
+            }
         }
 
         void OnEnable()
@@ -44,7 +48,7 @@ namespace JHS
 
         public void RefreshUIElement()
         {
-            m_textUI.text = $"{m_prefix}{WriteText()}{m_suffix}";
+            m_textUI.text = $"{prefix}{WriteText()}{suffix}";
         }
 
         #endregion

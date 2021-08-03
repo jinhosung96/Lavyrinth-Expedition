@@ -25,7 +25,7 @@ namespace JHS
 
         private void Awake()
         {
-            ObserverSystem.Instance.AddListener("각성", gameObject, Toggle, false);
+            ObserverSystem.Instance.AddListener("각성 레벨 갱신", gameObject, Toggle, false);
             if (level > 4) gameObject.SetActive(false);
         }
 
