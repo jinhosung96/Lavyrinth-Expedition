@@ -13,11 +13,11 @@ namespace JHS
     /// 
     /// </summary>
     #endregion
-    public class ToggleByCanUpgrade : MonoBehaviour
+    public class ToggleInteractable : MonoBehaviour
     {
         #region 필드
 
-        [SerializeField] string eventName;
+        [SerializeField] string[] eventNames;
         [SerializeField] UnitType type;
         Button button;
 
@@ -29,7 +29,10 @@ namespace JHS
         {
             button = GetComponent<Button>();
             ToggleButton();
-            ObserverSystem.Instance.AddListener(eventName, gameObject, ToggleButton);
+            for (int i = 0; i < eventNames.Length; i++)
+            {
+                ObserverSystem.Instance.AddListener(eventNames[i], gameObject, ToggleButton);
+            }            
         }
 
         #endregion
@@ -39,7 +42,14 @@ namespace JHS
         void ToggleButton()
         {
             if (type == UnitType.Hero) button.interactable = HeroSystem.Instance.UpgradeInfo.canPurchase;
-            else button.interactable = MercenarySystem.Instance.Mercenaries[(int)type].UpgradeInfo.canPurchase;
+            else
+            {
+                if (AuthoritySystem.Instance.IsAuthorityByMercenary)
+                {
+                    button.interactable = MercenarySystem.Instance.Mercenaries[(int)type].UpgradeInfo.canPurchase;
+                }
+                else button.interactable = false;
+            }
         }
 
         #endregion

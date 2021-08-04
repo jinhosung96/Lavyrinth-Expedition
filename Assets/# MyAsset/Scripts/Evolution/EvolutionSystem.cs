@@ -44,6 +44,12 @@ namespace JHS
             get => evolutionLevel; set
             {
                 evolutionLevel = value;
+                switch (evolutionLevel)
+                {
+                    case 1:
+                        AuthoritySystem.Instance.IsAuthorityByMercenary = true;
+                        break;
+                }
                 ObserverSystem.Instance.PostNofication("각성 레벨 갱신");
             }
         }
