@@ -20,7 +20,11 @@ namespace JHS
         [SerializeField] GameObject heroGO;
         int lv = 1;
         [SerializeField] string initDPS;
+        [SerializeField] string initIncreaseDPS;
+        [SerializeField] float amplificationDPS;
         [SerializeField] string initCost;
+        [SerializeField] string initIncreaseCost;
+        [SerializeField] float amplificationCost;
         UpgradeInfo upgradeInfo = new UpgradeInfo();
 
         Transform heroTr;
@@ -34,8 +38,8 @@ namespace JHS
 
         #region 속성
 
-        public BigInteger DPS => UpgradeSystem.Instance.GetDPSByLevel(BigInteger.Parse(initDPS), Lv);
-        public BigInteger Cost => UpgradeSystem.Instance.GetCostByLevel(BigInteger.Parse(initCost), Lv);
+        public BigInteger DPS => UpgradeSystem.Instance.GetDPSByLevel(BigInteger.Parse(initDPS), BigInteger.Parse(initIncreaseDPS), amplificationDPS, Lv);
+        public BigInteger Cost => UpgradeSystem.Instance.GetCostByLevel(BigInteger.Parse(initCost), BigInteger.Parse(initIncreaseCost), amplificationCost, Lv);
         public BigInteger AttackDamage => DPS / 3;
 
         public int Lv
@@ -75,13 +79,13 @@ namespace JHS
             BigInteger totalCost = BigInteger.Zero;
 
             int nextLv = Lv;
-            BigInteger tempCost = UpgradeSystem.Instance.GetCostByLevel(BigInteger.Parse(initCost), nextLv);
+            BigInteger tempCost = UpgradeSystem.Instance.GetCostByLevel(BigInteger.Parse(initCost), BigInteger.Parse(initIncreaseCost), amplificationCost, nextLv);
 
             while (tempCost <= CurrencyData.Instance.Gold && (UpgradeSystem.Instance.UpgradeSize == -1 || nextLv - Lv < UpgradeSystem.Instance.UpgradeSize))
             {
                 totalCost = tempCost;
                 nextLv++;
-                tempCost = totalCost + UpgradeSystem.Instance.GetCostByLevel(BigInteger.Parse(initCost), nextLv);
+                tempCost = totalCost + UpgradeSystem.Instance.GetCostByLevel(BigInteger.Parse(initCost), BigInteger.Parse(initIncreaseCost), amplificationCost, nextLv);
             }
 
             bool canPurchase = nextLv - Lv > 0;
@@ -89,7 +93,7 @@ namespace JHS
             upgradeInfo.canPurchase = canPurchase;
             upgradeInfo.increaseLv = canPurchase ? nextLv - Lv : 1;
             upgradeInfo.cost = upgradeInfo.canPurchase ? totalCost : tempCost;
-            upgradeInfo.increaseDPS = UpgradeSystem.Instance.GetDPSByLevel(BigInteger.Parse(initDPS), canPurchase ? nextLv : Lv + 1) - DPS;
+            upgradeInfo.increaseDPS = UpgradeSystem.Instance.GetDPSByLevel(BigInteger.Parse(initDPS), BigInteger.Parse(initIncreaseDPS), amplificationDPS, canPurchase ? nextLv : Lv + 1) - DPS;
         }
 
         #endregion

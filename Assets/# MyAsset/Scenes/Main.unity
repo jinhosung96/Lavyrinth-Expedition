@@ -3153,8 +3153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91c8337c7cd52b4fbd87ee89bf7fc35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  increaseDPS: 1.15
-  increaseCost: 1.2
   upgradeSize: 1
   upgradeSizeButtons:
   - {fileID: 4127366707072835805}
@@ -3542,18 +3540,30 @@ MonoBehaviour:
   mercenaries:
   - obj: {fileID: 1220501758}
     name: "\uC804\uC0AC"
-    initDPS: 250
+    initDPS: 500
+    initIncreaseDPS: 100
+    amplificationDPS: 1.15
     initCost: 1000
+    initIncreaseCost: 200
+    amplificationCost: 1.2
     attackSpeed: 1
   - obj: {fileID: 1547308647}
     name: "\uAD81\uC218"
-    initDPS: 250
-    initCost: 1000
+    initDPS: 500
+    initIncreaseDPS: 200
+    amplificationDPS: 1.9175
+    initCost: 2000
+    initIncreaseCost: 400
+    amplificationCost: 2
     attackSpeed: 1.5
   - obj: {fileID: 967408453}
     name: "\uBC95\uC0AC"
-    initDPS: 250
-    initCost: 1000
+    initDPS: 500
+    initIncreaseDPS: 200
+    amplificationDPS: 4.795
+    initCost: 5000
+    initIncreaseCost: 1000
+    amplificationCost: 5
     attackSpeed: 0.6
 --- !u!1 &650433200
 GameObject:
@@ -8833,7 +8843,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   heroGO: {fileID: 48882547}
   initDPS: 300
+  initIncreaseDPS: 
+  amplificationDPS: 0
   initCost: 1000
+  initIncreaseCost: 
+  amplificationCost: 0
 --- !u!1 &1638518748
 GameObject:
   m_ObjectHideFlags: 0
