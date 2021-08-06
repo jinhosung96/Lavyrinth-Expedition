@@ -24,7 +24,7 @@ namespace JHS
 
         protected override string WriteText()
         {
-            if (type == UnitType.Hero) return $"{HeroSystem.Instance.UpgradeInfo.cost.GetRoughNumber()}{HeroSystem.Instance.UpgradeInfo.cost.GetUnit()}";
+            if (type == UnitType.Hero) return $"{HeroSystem.Instance.Hero.UpgradeInfo.cost.GetRoughNumber()}{HeroSystem.Instance.Hero.UpgradeInfo.cost.GetUnit()}";
             else return $"{MercenarySystem.Instance.Mercenaries[(int)type].UpgradeInfo.cost.GetRoughNumber()}{MercenarySystem.Instance.Mercenaries[(int)type].UpgradeInfo.cost.GetUnit()}";
         }
 

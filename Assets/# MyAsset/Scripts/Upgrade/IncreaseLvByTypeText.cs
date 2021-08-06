@@ -24,7 +24,7 @@ namespace JHS
 
         protected override string WriteText()
         {
-            if (type == UnitType.Hero) return HeroSystem.Instance.UpgradeInfo.increaseLv.ToString();
+            if (type == UnitType.Hero) return HeroSystem.Instance.Hero.UpgradeInfo.increaseLv.ToString();
             else return MercenarySystem.Instance.Mercenaries[(int)type].UpgradeInfo.increaseLv.ToString();
         }
 

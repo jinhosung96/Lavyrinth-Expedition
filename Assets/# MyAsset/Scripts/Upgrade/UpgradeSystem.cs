@@ -47,8 +47,6 @@ namespace JHS
     {
         #region 필드
 
-        public const int amplificationDPS= 2;
-        public const int intervalLevel = 20;
         [SerializeField] int upgradeSize = 1;
         [SerializeField] Image[] upgradeSizeButtons;
 
@@ -71,11 +69,11 @@ namespace JHS
 
         #region 공개 메소드
 
-        public BigInteger GetDPSByLevel(BigInteger initDPS, BigInteger initIncreaseDPS, float amplificationDPS, int lv) 
-            => lv == 0 ? 0 : initDPS + initIncreaseDPS * (BigInteger)(Math.Pow(amplificationDPS, lv - 1) * 1000000) / 1000000 * BigInteger.Pow(UpgradeSystem.amplificationDPS, (int)(lv / intervalLevel)) * (100 + EvolutionSystem.Instance.Amplification) / 100;
+        public BigInteger GetDPSByLevel(BigInteger initDPS, BigInteger initIncreaseDPS, float increaseDPS, int amplificationDPS, int intervalLevel, int lv) 
+            => lv == 0 ? 0 : (initDPS + initIncreaseDPS * (BigInteger)(Math.Pow(increaseDPS, lv - 1) * 1000000) / 1000000) * BigInteger.Pow(amplificationDPS, (int)(lv / intervalLevel)) * (100 + EvolutionSystem.Instance.Amplification) / 100;
 
-        public BigInteger GetCostByLevel(BigInteger initCost, BigInteger initIncreaseCost, float amplificationCost, int lv) 
-            => initCost + initIncreaseCost * (BigInteger)(Math.Pow(amplificationCost, lv - 1) * 1000000) / 1000000;
+        public BigInteger GetCostByLevel(BigInteger initCost, BigInteger initIncreaseCost, float increaseCost, int lv) 
+            => initCost + initIncreaseCost * (BigInteger)(Math.Pow(increaseCost, lv - 1) * 1000000) / 1000000;
 
         #endregion
 
@@ -96,7 +94,7 @@ namespace JHS
 
         void SetUpgradeInfo()
         {
-            HeroSystem.Instance.SetUpgradeInfo();
+            HeroSystem.Instance.Hero.SetUpgradeInfo();
             MercenarySystem.Instance.SetUpgradeInfo();
             ObserverSystem.Instance.PostNofication("UpgradeInfo 갱신");
         }

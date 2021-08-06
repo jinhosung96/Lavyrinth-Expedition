@@ -27,7 +27,7 @@ namespace JHS
         {
             if (type == UnitType.Hero)
             {
-                BigInteger dps = HeroSystem.Instance.DPS;
+                BigInteger dps = HeroSystem.Instance.Hero.DPS;
                 return $"{dps.GetRoughNumber()}<color=#DAD9FF>{dps.GetUnit()}</color>";
             }
             else

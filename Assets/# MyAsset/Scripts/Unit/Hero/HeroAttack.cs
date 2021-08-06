@@ -30,7 +30,7 @@ namespace JHS
 
         public void AttackStart()
         {
-            HeroSystem.Instance.CurrentTarget.CurrentHP -= HeroSystem.Instance.AttackDamage;
+            HeroSystem.Instance.CurrentTarget.CurrentHP -= HeroSystem.Instance.Hero.AttackDamage;
             SoundSystem.Instance.PlaySoundEffect(attackSounds[(int)(Random.value * attackSounds.Length)]);
         }
 

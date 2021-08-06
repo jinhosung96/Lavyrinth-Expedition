@@ -995,7 +995,7 @@ Transform:
   - {fileID: 1547308648}
   - {fileID: 778106637}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &165045238
 GameObject:
@@ -1707,7 +1707,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4504911016085165914, guid: 8d06f8a5ed56c44429a7288c53ddc012, type: 3}
       propertyPath: m_Name
-      value: Archer0
+      value: Archer
       objectReference: {fileID: 0}
     - target: {fileID: 4504911016085165914, guid: 8d06f8a5ed56c44429a7288c53ddc012, type: 3}
       propertyPath: m_IsActive
@@ -3523,7 +3523,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1516412629}
-  m_RootOrder: 6
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &643448994
 MonoBehaviour:
@@ -3538,33 +3538,48 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mercenaries:
-  - obj: {fileID: 1220501758}
-    name: "\uC804\uC0AC"
-    initDPS: 500
-    initIncreaseDPS: 100
-    amplificationDPS: 1.15
-    initCost: 1000
-    initIncreaseCost: 200
-    amplificationCost: 1.2
-    attackSpeed: 1
-  - obj: {fileID: 1547308647}
-    name: "\uAD81\uC218"
-    initDPS: 500
-    initIncreaseDPS: 200
-    amplificationDPS: 1.9175
-    initCost: 2000
-    initIncreaseCost: 400
-    amplificationCost: 2
-    attackSpeed: 1.5
-  - obj: {fileID: 967408453}
-    name: "\uBC95\uC0AC"
-    initDPS: 500
-    initIncreaseDPS: 200
-    amplificationDPS: 4.795
-    initCost: 5000
+  - lv: 0
+    go: {fileID: 1220501758}
+    initDPS: 0
+    initIncreaseDPS: 250
+    increaseDPS: 1.15
+    amplificationDPS: 2
+    intervalLevel: 20
+    initCost: 0
     initIncreaseCost: 1000
-    amplificationCost: 5
-    attackSpeed: 0.6
+    increaseCost: 1.2
+    eventNames:
+    - "\uC804\uC0AC \uAC31\uC2E0"
+    - "\uC6A9\uBCD1 \uAC31\uC2E0"
+    attackSpeed: 1
+  - lv: 0
+    go: {fileID: 1547308647}
+    initDPS: 0
+    initIncreaseDPS: 250
+    increaseDPS: 1.15
+    amplificationDPS: 2
+    intervalLevel: 20
+    initCost: 0
+    initIncreaseCost: 1000
+    increaseCost: 1.2
+    eventNames:
+    - "\uAD81\uC218 \uAC31\uC2E0"
+    - "\uC6A9\uBCD1 \uAC31\uC2E0"
+    attackSpeed: 2
+  - lv: 0
+    go: {fileID: 967408453}
+    initDPS: 0
+    initIncreaseDPS: 250
+    increaseDPS: 1.15
+    amplificationDPS: 2
+    intervalLevel: 20
+    initCost: 0
+    initIncreaseCost: 1000
+    increaseCost: 1.2
+    eventNames:
+    - "\uBC95\uC0AC \uAC31\uC2E0"
+    - "\uC6A9\uBCD1 \uAC31\uC2E0"
+    attackSpeed: 0.5
 --- !u!1 &650433200
 GameObject:
   m_ObjectHideFlags: 0
@@ -3935,7 +3950,7 @@ Transform:
   - {fileID: 1553358799}
   - {fileID: 55108634}
   m_Father: {fileID: 1516412629}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &726484048
 MonoBehaviour:
@@ -4431,7 +4446,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 5758c6d2a99a03845b96c7254decac30, type: 3}
     - target: {fileID: 7753139411361745920, guid: bb3cf95f2e0db7347a2b3976a8124523, type: 3}
       propertyPath: m_Name
-      value: Mage0
+      value: Mage
       objectReference: {fileID: 0}
     - target: {fileID: 7753139411361745920, guid: bb3cf95f2e0db7347a2b3976a8124523, type: 3}
       propertyPath: m_IsActive
@@ -4814,7 +4829,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &816936113 stripped
 GameObject:
@@ -5409,7 +5424,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1516412629}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &964723540
 MonoBehaviour:
@@ -6016,7 +6031,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9144302225806459097, guid: 95d2a809a05539447aae445cb9dd7fcb, type: 3}
       propertyPath: m_Name
-      value: Warrior0
+      value: Warrior
       objectReference: {fileID: 0}
     - target: {fileID: 9144302225806459097, guid: 95d2a809a05539447aae445cb9dd7fcb, type: 3}
       propertyPath: m_IsActive
@@ -6062,7 +6077,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1516412629}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1076885691
 MonoBehaviour:
@@ -6077,9 +6092,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roundChangeDelay: 0.5
-  initRoundHP: 1000
+  initRoundHP: 0
+  initIncreaseRoundHP: 1000
   increaseRoundHP: 1.2
-  initRoundGold: 1200
+  initRoundGold: 0
+  initIncreaseRoundGold: 1200
   increaseRoundGold: 1.2
 --- !u!114 &1076885692
 MonoBehaviour:
@@ -7710,7 +7727,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1516412629}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1476768898
 MonoBehaviour:
@@ -7967,12 +7984,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1613836856}
+  - {fileID: 643448993}
+  - {fileID: 1076885690}
   - {fileID: 1476768897}
   - {fileID: 964723539}
   - {fileID: 1791643062}
   - {fileID: 726484047}
-  - {fileID: 1076885690}
-  - {fileID: 643448993}
   - {fileID: 1282406502}
   - {fileID: 1529436241}
   - {fileID: 781661531}
@@ -8841,13 +8858,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f009d5c4d5758fe4a88a4b9bf39ea5e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heroGO: {fileID: 48882547}
-  initDPS: 300
-  initIncreaseDPS: 
-  amplificationDPS: 0
-  initCost: 1000
-  initIncreaseCost: 
-  amplificationCost: 0
+  hero:
+    lv: 1
+    go: {fileID: 48882547}
+    initDPS: 0
+    initIncreaseDPS: 250
+    increaseDPS: 1.15
+    amplificationDPS: 2
+    intervalLevel: 20
+    initCost: 0
+    initIncreaseCost: 1000
+    increaseCost: 1.2
+    eventNames:
+    - "\uC6A9\uC0AC \uAC31\uC2E0"
 --- !u!1 &1638518748
 GameObject:
   m_ObjectHideFlags: 0
@@ -9894,7 +9917,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1516412629}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1791643063
 MonoBehaviour:
@@ -12952,8 +12975,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2114e383605be1d48a284e8e1113d989, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefix: "<color=#D4D4D4>DPS \uB450\uBC30 \uC99D\uD3ED\uAE4C\uC9C0 </color>"
-  suffix: "<color=#D4D4D4> \uB0A8\uC74C...</color>"
+  prefix: 
+  suffix: 
   keywords:
   - "\uC6A9\uC0AC \uAC31\uC2E0"
   type: -1
@@ -16854,8 +16877,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2114e383605be1d48a284e8e1113d989, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefix: "<color=#D4D4D4>DPS \uB450\uBC30 \uC99D\uD3ED\uAE4C\uC9C0 </color>"
-  suffix: "<color=#D4D4D4> \uB0A8\uC74C...</color>"
+  prefix: 
+  suffix: 
   keywords:
   - "\uC804\uC0AC \uAC31\uC2E0"
   type: 0
@@ -16951,8 +16974,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2114e383605be1d48a284e8e1113d989, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefix: "<color=#D4D4D4>DPS \uB450\uBC30 \uC99D\uD3ED\uAE4C\uC9C0 </color>"
-  suffix: "<color=#D4D4D4> \uB0A8\uC74C...</color>"
+  prefix: 
+  suffix: 
   keywords:
   - "\uAD81\uC218 \uAC31\uC2E0"
   type: 1
@@ -17048,8 +17071,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2114e383605be1d48a284e8e1113d989, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefix: "<color=#D4D4D4>DPS \uB450\uBC30 \uC99D\uD3ED\uAE4C\uC9C0 </color>"
-  suffix: "<color=#D4D4D4> \uB0A8\uC74C...</color>"
+  prefix: 
+  suffix: 
   keywords:
   - "\uBC95\uC0AC \uAC31\uC2E0"
   type: 2

@@ -25,7 +25,7 @@ namespace JHS
 
         public override bool GetCondition()
         {
-            if (unitType == UnitType.Hero) return HeroSystem.Instance.Lv >= level;
+            if (unitType == UnitType.Hero) return HeroSystem.Instance.Hero.Lv >= level;
             else return MercenarySystem.Instance.Mercenaries[(int)unitType].Lv >= level;
         }
 

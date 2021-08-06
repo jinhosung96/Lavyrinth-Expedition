@@ -16,7 +16,7 @@ namespace JHS
     {
         #region 재정의 메소드
 
-        protected override string WriteText() => HeroSystem.Instance.AttackDamage.ToString();
+        protected override string WriteText() => HeroSystem.Instance.Hero.AttackDamage.ToString();
 
         #endregion
     }

@@ -26,9 +26,9 @@ namespace JHS
         {
             if (type == UnitType.Hero)
             {
-                if (!HeroSystem.Instance.UpgradeInfo.canPurchase) return;
-                HeroSystem.Instance.Lv += HeroSystem.Instance.UpgradeInfo.increaseLv;
-                CurrencyData.Instance.Gold -= HeroSystem.Instance.UpgradeInfo.cost;
+                if (!HeroSystem.Instance.Hero.UpgradeInfo.canPurchase) return;
+                HeroSystem.Instance.Hero.Lv += HeroSystem.Instance.Hero.UpgradeInfo.increaseLv;
+                CurrencyData.Instance.Gold -= HeroSystem.Instance.Hero.UpgradeInfo.cost;
             }
             else
             {

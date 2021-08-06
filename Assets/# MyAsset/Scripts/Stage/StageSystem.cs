@@ -20,8 +20,10 @@ namespace JHS
 
         [SerializeField] float roundChangeDelay;
         [SerializeField] string initRoundHP;
+        [SerializeField] string initIncreaseRoundHP;
         [SerializeField] float increaseRoundHP;
         [SerializeField] string initRoundGold;
+        [SerializeField] string initIncreaseRoundGold;
         [SerializeField] float increaseRoundGold;
         int round = 1;
 
@@ -40,9 +42,9 @@ namespace JHS
             }
         }
 
-        public BigInteger RoundHP => BigInteger.Parse(initRoundHP) * (BigInteger)(Math.Pow(increaseRoundHP, round - 1) * 100) / 100;
+        public BigInteger RoundHP => BigInteger.Parse(initRoundHP) + BigInteger.Parse(initIncreaseRoundHP) * (BigInteger)(Math.Pow(increaseRoundHP, round - 1) * 100) / 100;
 
-        public BigInteger RoundGold => BigInteger.Parse(initRoundGold) * (BigInteger)(Math.Pow(increaseRoundGold, round - 1) * 100) / 100;
+        public BigInteger RoundGold => BigInteger.Parse(initRoundGold) + BigInteger.Parse(initIncreaseRoundGold) * (BigInteger)(Math.Pow(increaseRoundGold, round - 1) * 100) / 100;
 
         #endregion
 

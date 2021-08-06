@@ -24,8 +24,8 @@ namespace JHS
 
         protected override float InputValue()
         {
-            if (type == UnitType.Hero) return (float)(HeroSystem.Instance.Lv % UpgradeSystem.intervalLevel) / UpgradeSystem.intervalLevel;
-            else return (float)(MercenarySystem.Instance.Mercenaries[(int)type].Lv % UpgradeSystem.intervalLevel) / UpgradeSystem.intervalLevel;
+            if (type == UnitType.Hero) return (float)(HeroSystem.Instance.Hero.Lv % HeroSystem.Instance.Hero.IntervalLevel) / HeroSystem.Instance.Hero.IntervalLevel;
+            else return (float)(MercenarySystem.Instance.Mercenaries[(int)type].Lv % MercenarySystem.Instance.Mercenaries[(int)type].IntervalLevel) / MercenarySystem.Instance.Mercenaries[(int)type].IntervalLevel;
         }
 
         #endregion

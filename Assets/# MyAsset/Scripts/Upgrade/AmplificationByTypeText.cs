@@ -24,8 +24,18 @@ namespace JHS
 
         protected override string WriteText()
         {
-            if (type == UnitType.Hero) return (UpgradeSystem.intervalLevel - (HeroSystem.Instance.Lv % UpgradeSystem.intervalLevel)).ToString();
-            else return (UpgradeSystem.intervalLevel - (MercenarySystem.Instance.Mercenaries[(int)type].Lv % UpgradeSystem.intervalLevel)).ToString();
+            if (type == UnitType.Hero)
+            {
+                int amplificationDPS = HeroSystem.Instance.Hero.AmplificationDPS;
+                int remainLevel = HeroSystem.Instance.Hero.IntervalLevel - (HeroSystem.Instance.Hero.Lv % HeroSystem.Instance.Hero.IntervalLevel);
+                return $"<color=#D4D4D4>DPS</color> {amplificationDPS}<color=#D4D4D4>배 증폭까지</color> {remainLevel}<color=#D4D4D4>레벨 남음...</color>";
+            }
+            else
+            {
+                int amplificationDPS = MercenarySystem.Instance.Mercenaries[(int)type].AmplificationDPS;
+                int remainLevel = MercenarySystem.Instance.Mercenaries[(int)type].IntervalLevel - (MercenarySystem.Instance.Mercenaries[(int)type].Lv % MercenarySystem.Instance.Mercenaries[(int)type].IntervalLevel);
+                return $"<color=#D4D4D4>DPS</color> {amplificationDPS}<color=#D4D4D4>배 증폭까지</color> {remainLevel}<color=#D4D4D4>레벨 남음...</color>";
+            }
         }
 
         #endregion

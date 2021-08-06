@@ -41,7 +41,7 @@ namespace JHS
 
         void ToggleButton()
         {
-            if (type == UnitType.Hero) button.interactable = HeroSystem.Instance.UpgradeInfo.canPurchase;
+            if (type == UnitType.Hero) button.interactable = HeroSystem.Instance.Hero.UpgradeInfo.canPurchase;
             else
             {
                 if (AuthoritySystem.Instance.IsAuthorityByMercenary)

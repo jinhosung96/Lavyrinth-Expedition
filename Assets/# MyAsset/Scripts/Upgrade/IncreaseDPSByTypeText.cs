@@ -27,7 +27,7 @@ namespace JHS
         {
             if (type == UnitType.Hero)
             {
-                BigInteger increaseDPS = HeroSystem.Instance.UpgradeInfo.increaseDPS;
+                BigInteger increaseDPS = HeroSystem.Instance.Hero.UpgradeInfo.increaseDPS;
                 return $"{increaseDPS.GetRoughNumber()}{increaseDPS.GetUnit()}";
             }
             else
