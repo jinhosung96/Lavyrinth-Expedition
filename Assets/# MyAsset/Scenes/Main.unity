@@ -2019,8 +2019,9 @@ GameObject:
   - component: {fileID: 255866169}
   - component: {fileID: 255866171}
   - component: {fileID: 255866170}
+  - component: {fileID: 255866172}
   m_Layer: 5
-  m_Name: Text_DPS
+  m_Name: Text_Amplification DPS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2067,18 +2068,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: bea655cf1137e344eb02c3f9989672c4, type: 3}
-    m_FontSize: 10
+    m_FontSize: 8
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 10
+    m_MaxSize: 8
     m_Alignment: 2
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: <color=#DAD9FF>DPS</color> 932.5<color=#DAD9FF>a</color>
+  m_Text: "<color=#DAD9FF>+ DPS </color>50<color=#DAD9FF>% \uC99D\uD3ED</color>"
 --- !u!222 &255866171
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2087,6 +2088,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 255866168}
   m_CullTransparentMesh: 1
+--- !u!114 &255866172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255866168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 455859afa23cedd49852b1ac77925e26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefix: <color=#DAD9FF>+ DPS </color>
+  suffix: "<color=#DAD9FF>% \uC99D\uD3ED</color>"
+  keywords: []
+  level: 3
 --- !u!1 &275114810
 GameObject:
   m_ObjectHideFlags: 0
@@ -2546,8 +2563,9 @@ GameObject:
   - component: {fileID: 380208480}
   - component: {fileID: 380208482}
   - component: {fileID: 380208481}
+  - component: {fileID: 380208483}
   m_Layer: 5
-  m_Name: Text_DPS
+  m_Name: Text_Amplification DPS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2594,18 +2612,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: bea655cf1137e344eb02c3f9989672c4, type: 3}
-    m_FontSize: 10
+    m_FontSize: 8
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 10
+    m_MaxSize: 8
     m_Alignment: 2
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: <color=#DAD9FF>DPS</color> 932.5<color=#DAD9FF>a</color>
+  m_Text: "<color=#DAD9FF>+ DPS </color>50<color=#DAD9FF>% \uC99D\uD3ED</color>"
 --- !u!222 &380208482
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2614,6 +2632,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 380208479}
   m_CullTransparentMesh: 1
+--- !u!114 &380208483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380208479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 455859afa23cedd49852b1ac77925e26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefix: <color=#DAD9FF>+ DPS </color>
+  suffix: "<color=#DAD9FF>% \uC99D\uD3ED</color>"
+  keywords: []
+  level: 5
 --- !u!1 &383776579
 GameObject:
   m_ObjectHideFlags: 0
@@ -5347,8 +5381,9 @@ GameObject:
   - component: {fileID: 865001830}
   - component: {fileID: 865001832}
   - component: {fileID: 865001831}
+  - component: {fileID: 865001833}
   m_Layer: 5
-  m_Name: Text_DPS
+  m_Name: Text_Amplification DPS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5395,18 +5430,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: bea655cf1137e344eb02c3f9989672c4, type: 3}
-    m_FontSize: 10
+    m_FontSize: 8
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 10
+    m_MaxSize: 8
     m_Alignment: 2
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: <color=#DAD9FF>DPS</color> 932.5<color=#DAD9FF>a</color>
+  m_Text: "<color=#DAD9FF>+ DPS </color>50<color=#DAD9FF>% \uC99D\uD3ED</color>"
 --- !u!222 &865001832
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5415,6 +5450,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 865001829}
   m_CullTransparentMesh: 1
+--- !u!114 &865001833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865001829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 455859afa23cedd49852b1ac77925e26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefix: <color=#DAD9FF>+ DPS </color>
+  suffix: "<color=#DAD9FF>% \uC99D\uD3ED</color>"
+  keywords: []
+  level: 1
 --- !u!1 &872940932
 GameObject:
   m_ObjectHideFlags: 0
@@ -6322,8 +6373,9 @@ GameObject:
   - component: {fileID: 1018521326}
   - component: {fileID: 1018521328}
   - component: {fileID: 1018521327}
+  - component: {fileID: 1018521329}
   m_Layer: 5
-  m_Name: Text_DPS
+  m_Name: Text_Amplification DPS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6370,18 +6422,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: bea655cf1137e344eb02c3f9989672c4, type: 3}
-    m_FontSize: 10
+    m_FontSize: 8
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 10
+    m_MaxSize: 8
     m_Alignment: 2
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: <color=#DAD9FF>DPS</color> 932.5<color=#DAD9FF>a</color>
+  m_Text: "<color=#DAD9FF>+ DPS </color>50<color=#DAD9FF>% \uC99D\uD3ED</color>"
 --- !u!222 &1018521328
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6390,6 +6442,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1018521325}
   m_CullTransparentMesh: 1
+--- !u!114 &1018521329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018521325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 455859afa23cedd49852b1ac77925e26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefix: <color=#DAD9FF>+ DPS </color>
+  suffix: "<color=#DAD9FF>% \uC99D\uD3ED</color>"
+  keywords: []
+  level: 2
 --- !u!1 &1050104747
 GameObject:
   m_ObjectHideFlags: 0
@@ -7369,8 +7437,9 @@ GameObject:
   - component: {fileID: 1197264259}
   - component: {fileID: 1197264262}
   - component: {fileID: 1197264261}
+  - component: {fileID: 1197264260}
   m_Layer: 5
-  m_Name: Text_DPS
+  m_Name: Text_Amplification DPS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7395,6 +7464,22 @@ RectTransform:
   m_AnchoredPosition: {x: -80, y: 10}
   m_SizeDelta: {x: 80, y: 10}
   m_Pivot: {x: 1, y: 0.5}
+--- !u!114 &1197264260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197264258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 455859afa23cedd49852b1ac77925e26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefix: <color=#DAD9FF>+ DPS </color>
+  suffix: "<color=#DAD9FF>% \uC99D\uD3ED</color>"
+  keywords: []
+  level: 0
 --- !u!114 &1197264261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7417,18 +7502,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: bea655cf1137e344eb02c3f9989672c4, type: 3}
-    m_FontSize: 10
+    m_FontSize: 8
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 10
+    m_MaxSize: 8
     m_Alignment: 2
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: <color=#DAD9FF>DPS</color> 932.5<color=#DAD9FF>a</color>
+  m_Text: "<color=#DAD9FF>+ DPS </color>50<color=#DAD9FF>% \uC99D\uD3ED</color>"
 --- !u!222 &1197264262
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10784,8 +10869,9 @@ GameObject:
   - component: {fileID: 1802099364}
   - component: {fileID: 1802099366}
   - component: {fileID: 1802099365}
+  - component: {fileID: 1802099367}
   m_Layer: 5
-  m_Name: Text_DPS
+  m_Name: Text_Amplification DPS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10832,18 +10918,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: bea655cf1137e344eb02c3f9989672c4, type: 3}
-    m_FontSize: 10
+    m_FontSize: 8
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 10
+    m_MaxSize: 8
     m_Alignment: 2
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: <color=#DAD9FF>DPS</color> 932.5<color=#DAD9FF>a</color>
+  m_Text: "<color=#DAD9FF>+ DPS </color>50<color=#DAD9FF>% \uC99D\uD3ED</color>"
 --- !u!222 &1802099366
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10852,6 +10938,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1802099363}
   m_CullTransparentMesh: 1
+--- !u!114 &1802099367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802099363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 455859afa23cedd49852b1ac77925e26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefix: <color=#DAD9FF>+ DPS </color>
+  suffix: "<color=#DAD9FF>% \uC99D\uD3ED</color>"
+  keywords: []
+  level: 7
 --- !u!1 &1811253191
 GameObject:
   m_ObjectHideFlags: 0
@@ -10863,8 +10965,9 @@ GameObject:
   - component: {fileID: 1811253192}
   - component: {fileID: 1811253194}
   - component: {fileID: 1811253193}
+  - component: {fileID: 1811253195}
   m_Layer: 5
-  m_Name: Text_DPS
+  m_Name: Text_Amplification DPS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10911,18 +11014,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: bea655cf1137e344eb02c3f9989672c4, type: 3}
-    m_FontSize: 10
+    m_FontSize: 8
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 10
+    m_MaxSize: 8
     m_Alignment: 2
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: <color=#DAD9FF>DPS</color> 932.5<color=#DAD9FF>a</color>
+  m_Text: "<color=#DAD9FF>+ DPS </color>50<color=#DAD9FF>% \uC99D\uD3ED</color>"
 --- !u!222 &1811253194
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10931,6 +11034,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1811253191}
   m_CullTransparentMesh: 1
+--- !u!114 &1811253195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811253191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 455859afa23cedd49852b1ac77925e26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefix: <color=#DAD9FF>+ DPS </color>
+  suffix: "<color=#DAD9FF>% \uC99D\uD3ED</color>"
+  keywords: []
+  level: 4
 --- !u!1 &1835790186
 GameObject:
   m_ObjectHideFlags: 0
@@ -11021,8 +11140,9 @@ GameObject:
   - component: {fileID: 1842284378}
   - component: {fileID: 1842284380}
   - component: {fileID: 1842284379}
+  - component: {fileID: 1842284381}
   m_Layer: 5
-  m_Name: Text_DPS
+  m_Name: Text_Amplification DPS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11069,18 +11189,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: bea655cf1137e344eb02c3f9989672c4, type: 3}
-    m_FontSize: 10
+    m_FontSize: 8
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 10
+    m_MaxSize: 8
     m_Alignment: 2
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: <color=#DAD9FF>DPS</color> 932.5<color=#DAD9FF>a</color>
+  m_Text: "<color=#DAD9FF>+ DPS </color>50<color=#DAD9FF>% \uC99D\uD3ED</color>"
 --- !u!222 &1842284380
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11089,6 +11209,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1842284377}
   m_CullTransparentMesh: 1
+--- !u!114 &1842284381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842284377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 455859afa23cedd49852b1ac77925e26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefix: <color=#DAD9FF>+ DPS </color>
+  suffix: "<color=#DAD9FF>% \uC99D\uD3ED</color>"
+  keywords: []
+  level: 6
 --- !u!222 &1858768889
 CanvasRenderer:
   m_ObjectHideFlags: 0

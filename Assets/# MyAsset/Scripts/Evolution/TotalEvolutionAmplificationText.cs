@@ -12,17 +12,11 @@ namespace JHS
     /// 
     /// </summary>
     #endregion
-    public class EvolutionAmplificationText : TextFrame
+    public class TotalEvolutionAmplificationText : TextFrame
     {
-        #region 필드
-
-        [SerializeField] int level;
-
-        #endregion
-
         #region 재정의 메소드
 
-        protected override string WriteText() => EvolutionSystem.Instance.EvolutionInfos[level].Amplification.ToString();
+        protected override string WriteText() => EvolutionSystem.Instance.Amplification.ToString();
 
         #endregion
     }

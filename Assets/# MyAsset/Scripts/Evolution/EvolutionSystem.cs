@@ -59,10 +59,12 @@ namespace JHS
             get
             {
                 int sum = 0;
-                for (int i = 0; i < evolutionLevel; i++) sum += evolutionInfos[i].Amplification;
+                for (int i = 0; i < evolutionLevel; i++) sum += EvolutionInfos[i].Amplification;
                 return sum;
             }
         }
+
+        public EvolutionInfo[] EvolutionInfos => evolutionInfos;
 
         #endregion
     }
