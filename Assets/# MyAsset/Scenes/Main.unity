@@ -16126,6 +16126,30 @@ PrefabInstance:
       propertyPath: attackSounds.Array.data[7]
       value: 
       objectReference: {fileID: 8300000, guid: b81548ecb68c2064da5f00ee5ad9457b, type: 3}
+    - target: {fileID: 1180563929840988293, guid: 96017de060889d4418f552504172921a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 34.279995
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180573571624591963, guid: 96017de060889d4418f552504172921a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180738342260068677, guid: 96017de060889d4418f552504172921a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 149.99998
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180762342778003247, guid: 96017de060889d4418f552504172921a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180772789796101495, guid: 96017de060889d4418f552504172921a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180834426864410735, guid: 96017de060889d4418f552504172921a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 9.999998
+      objectReference: {fileID: 0}
     - target: {fileID: 1180914886109717571, guid: 96017de060889d4418f552504172921a, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -16170,9 +16194,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1180935374103769957, guid: 96017de060889d4418f552504172921a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 9.000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181051754539716903, guid: 96017de060889d4418f552504172921a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -58.809994
+      objectReference: {fileID: 0}
     - target: {fileID: 1186179906813385329, guid: 96017de060889d4418f552504172921a, type: 3}
       propertyPath: m_Name
       value: berserker_male
+      objectReference: {fileID: 0}
+    - target: {fileID: 1187908282623410167, guid: 96017de060889d4418f552504172921a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -149.99998
+      objectReference: {fileID: 0}
+    - target: {fileID: 1187931741755339951, guid: 96017de060889d4418f552504172921a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -57.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 1187985731453012693, guid: 96017de060889d4418f552504172921a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -24.999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188171971569681743, guid: 96017de060889d4418f552504172921a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188227355454587951, guid: 96017de060889d4418f552504172921a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -175.99998
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188328136965156251, guid: 96017de060889d4418f552504172921a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 43.889996
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96017de060889d4418f552504172921a, type: 3}

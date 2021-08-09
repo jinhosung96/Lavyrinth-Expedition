@@ -6,6 +6,7 @@ using System.Numerics;
 using UniRx;
 using UniRx.Triggers;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace JHS
 {
