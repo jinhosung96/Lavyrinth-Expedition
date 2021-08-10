@@ -22,6 +22,7 @@ namespace JHS
 
         [SerializeField] int level;
         [SerializeField] EvolutionCondition[] evolutionConditions;
+        [SerializeField] Transform evolutionConditionList;
         Button button;
 
         #endregion
@@ -31,6 +32,10 @@ namespace JHS
         private void Awake()
         {
             button = GetComponent<Button>();
+            for (int i = 0; i < evolutionConditions.Length; i++)
+            {
+                evolutionConditions[i].AddConditionUI(evolutionConditionList);
+            }
             Toggle();
             ObserverSystem.Instance.AddListener("각성 레벨 갱신", gameObject, Toggle, false);
             ObserverSystem.Instance.AddListener("용사 갱신", gameObject, Toggle, false);

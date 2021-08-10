@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace JHS
 {
@@ -27,6 +28,13 @@ namespace JHS
         {
             if (unitType == UnitType.Hero) return HeroSystem.Instance.Hero.Lv >= level;
             else return MercenarySystem.Instance.Mercenaries[(int)unitType].Lv >= level;
+        }
+
+        public override void AddConditionUI(Transform evolutionConditionList)
+        {
+            GameObject condition = PoolManager.Instance.PopObject(EvolutionSystem.Instance.EvolutionConditions[(int)unitType + 1]);
+            condition.transform.SetParent(evolutionConditionList);
+            condition.transform.GetChild(1).GetComponent<Text>().text = $"Lv.{level}";
         }
 
         #endregion

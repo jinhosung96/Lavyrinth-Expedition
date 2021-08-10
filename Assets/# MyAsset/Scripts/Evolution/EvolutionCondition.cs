@@ -17,6 +17,7 @@ namespace JHS
         #region 추상 메소드
 
         public abstract bool GetCondition();
+        public abstract void AddConditionUI(Transform evolutionConditionList);
 
         #endregion
     }

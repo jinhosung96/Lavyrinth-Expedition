@@ -34,6 +34,7 @@ namespace JHS
 
         [SerializeField] int evolutionLevel;
         [SerializeField] EvolutionInfo[] evolutionInfos;
+        [SerializeField] GameObject[] evolutionConditions;
 
         #endregion
 
@@ -65,6 +66,8 @@ namespace JHS
         }
 
         public EvolutionInfo[] EvolutionInfos => evolutionInfos;
+
+        public GameObject[] EvolutionConditions => evolutionConditions;
 
         #endregion
     }
