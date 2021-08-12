@@ -8,7 +8,7 @@ namespace JHS
     [System.Serializable]
     public class Hero : UpgradeUnit
     {
-        public override BigInteger AttackDamage => DPS / 3;
+        public override BigInteger AttackDamage => DPS;
     }
 
     #region 머리말 주석

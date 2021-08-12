@@ -28,7 +28,7 @@ namespace JHS
             {
                 int amplificationDPS = HeroSystem.Instance.Hero.AmplificationDPS;
                 int remainLevel = HeroSystem.Instance.Hero.IntervalLevel - (HeroSystem.Instance.Hero.Lv % HeroSystem.Instance.Hero.IntervalLevel);
-                return $"<color=#D4D4D4>DPS</color> {amplificationDPS}<color=#D4D4D4>배 증폭까지</color> {remainLevel}<color=#D4D4D4>레벨 남음...</color>";
+                return $"<color=#D4D4D4>탭 데미지</color> {amplificationDPS}<color=#D4D4D4>배 증폭까지</color> {remainLevel}<color=#D4D4D4>레벨 남음...</color>";
             }
             else
             {

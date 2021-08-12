@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using UnityEngine;
 
 namespace JHS
@@ -16,7 +17,11 @@ namespace JHS
     {
         #region 재정의 메소드
 
-        protected override string WriteText() => HeroSystem.Instance.Hero.AttackDamage.ToString();
+        protected override string WriteText()
+        {
+            BigInteger attackDamage = HeroSystem.Instance.Hero.AttackDamage;
+            return $"{attackDamage.GetRoughNumber()}<color=#DAD9FF>{attackDamage.GetUnit()}</color>";
+        }
 
         #endregion
     }

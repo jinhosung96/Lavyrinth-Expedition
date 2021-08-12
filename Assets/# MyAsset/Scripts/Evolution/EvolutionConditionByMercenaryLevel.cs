@@ -34,6 +34,7 @@ namespace JHS
         {
             GameObject condition = PoolManager.Instance.PopObject(EvolutionSystem.Instance.EvolutionConditions[(int)unitType + 1]);
             condition.transform.SetParent(evolutionConditionList);
+            condition.transform.localScale = Vector3.one;
             condition.transform.GetChild(1).GetComponent<Text>().text = $"Lv.{level}";
         }
 

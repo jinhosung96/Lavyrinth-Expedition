@@ -21,7 +21,7 @@ namespace JHS
         #region 필드
 
         [SerializeField] int level;
-        [SerializeField] EvolutionCondition[] evolutionConditions;
+        EvolutionCondition[] evolutionConditions;
         [SerializeField] Transform evolutionConditionList;
         Button button;
 
@@ -32,6 +32,7 @@ namespace JHS
         private void Awake()
         {
             button = GetComponent<Button>();
+            evolutionConditions = GetComponents<EvolutionCondition>();
             for (int i = 0; i < evolutionConditions.Length; i++)
             {
                 evolutionConditions[i].AddConditionUI(evolutionConditionList);
