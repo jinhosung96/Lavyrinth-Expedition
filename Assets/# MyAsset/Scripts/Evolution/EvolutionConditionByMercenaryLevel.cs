@@ -19,6 +19,37 @@ namespace JHS
 
         [SerializeField] UnitType unitType;
         [SerializeField] int level;
+        GameObject condition;
+        string eventName;
+
+        #endregion
+
+        #region 유니티 생명주기
+
+        private void Awake()
+        {
+            switch (unitType)
+            {
+                case UnitType.Hero:
+                    eventName = "용사 갱신";
+                    break;
+                case UnitType.Warrior:
+                    eventName = "전사 갱신";
+                    break;
+                case UnitType.Archer:
+                    eventName = "궁수 갱신";
+                    break;
+                case UnitType.Mage:
+                    eventName = "법사 갱신";
+                    break;
+            }
+            ObserverSystem.Instance.AddListener(eventName, gameObject, RefreshConditionUI, false);
+        }
+
+        private void Start()
+        {
+            RefreshConditionUI();
+        }
 
         #endregion
 
@@ -32,10 +63,23 @@ namespace JHS
 
         public override void AddConditionUI(Transform evolutionConditionList)
         {
-            GameObject condition = PoolManager.Instance.PopObject(EvolutionSystem.Instance.EvolutionConditions[(int)unitType + 1]);
+            condition = PoolManager.Instance.PopObject(EvolutionSystem.Instance.EvolutionConditions[(int)unitType + 1]);
             condition.transform.SetParent(evolutionConditionList);
             condition.transform.localScale = Vector3.one;
             condition.transform.GetChild(1).GetComponent<Text>().text = $"Lv.{level}";
+        }
+
+        #endregion
+
+        #region 내부 메소드
+
+        void RefreshConditionUI()
+        {
+            if (GetCondition())
+            {
+                print("실행");
+                condition.transform.GetChild(1).GetComponent<Text>().color = Color.white;
+            }
         }
 
         #endregion
