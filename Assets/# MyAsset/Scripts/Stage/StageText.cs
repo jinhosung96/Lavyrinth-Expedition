@@ -18,7 +18,7 @@ namespace JHS
 
         protected override string WriteText()
         {
-            return StageSystem.Instance.Round.ToString();
+            return ((StageSystem.Instance.Round - 1) / 10 + 1).ToString();
         }    
 
         #endregion
