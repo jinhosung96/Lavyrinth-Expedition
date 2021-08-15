@@ -20,6 +20,7 @@ namespace JHS
 
         [SerializeField] Image fadeObj;
         [SerializeField] GameObject retryButton;
+        [SerializeField] GameObject roundViewer;
 
         #endregion
 
@@ -60,6 +61,7 @@ namespace JHS
         public override void OnEnter()
         {
             retryButton.SetActive(true);
+            roundViewer.SetActive(false);
             StageSystem.Instance.NextEnemy(EnemySystem.Instance.SpawnRandomMonster());
         }
 
@@ -69,6 +71,7 @@ namespace JHS
         public override void OnExit()
         {
             retryButton.SetActive(false);
+            roundViewer.SetActive(true);
         }
 
         #endregion
