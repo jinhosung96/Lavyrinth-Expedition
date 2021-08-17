@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BerserkerAnim
+  m_Controller: {fileID: 9100000, guid: 07fbbb2858650314486b99003b343a16, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: fb350dc00cb438d40a791cb1e6721adc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f3b37ceeb6fe0754c9c772d8e9c26020, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7749505b6ca6e48409a82fde8135ee51, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2bde8da835997b044a8ec21b376ccb80, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ab619db36d15e3743a9e9ab2a08b7dac, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6c926c73c459aa6459f8147dbf9c19bc, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 44f9c14c94e83164f983c9641173645f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d82ec97c778106a4ab1ff9cd1a7cdc6b, type: 2}

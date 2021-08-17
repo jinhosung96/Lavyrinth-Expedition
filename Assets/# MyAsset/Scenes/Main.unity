@@ -9466,8 +9466,14 @@ MonoBehaviour:
   enemySpawnPos: {x: 8.8, y: -0.5, z: 0}
   monsters:
   - {fileID: 1472482615739102760, guid: 24e719d5fe60af241990ef41bbdce476, type: 3}
+  - {fileID: 1294585055870648, guid: 950cb6a01bbbf494eacdd7439b04a486, type: 3}
+  - {fileID: 1465319305830372, guid: 78e3f61de5e41a545a0c15d8a1249774, type: 3}
+  - {fileID: 1856323584381234, guid: 735606130f08f0c41a795f09dca316cf, type: 3}
   bosses:
   - {fileID: 1472482615739102760, guid: 5fcf8d989eaf3e84b8dd1f3604f02d32, type: 3}
+  - {fileID: 1294585055870648, guid: 636997d6131fdcb448faaec82c15e5b1, type: 3}
+  - {fileID: 1465319305830372, guid: 2093c48b6a14dc343bd9a4c1c6b87c98, type: 3}
+  - {fileID: 1856323584381234, guid: be7c3749ede3e7f42b10c16c07b0a1c2, type: 3}
 --- !u!1 &1479744829
 GameObject:
   m_ObjectHideFlags: 0
