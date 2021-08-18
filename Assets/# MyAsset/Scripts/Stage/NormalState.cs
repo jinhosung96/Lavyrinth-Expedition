@@ -36,7 +36,8 @@ namespace JHS
         /// </summary>
         public override void OnEnter()
         {
-            StageSystem.Instance.NextEnemy(EnemySystem.Instance.SpawnRandomMonster());
+            if(StageSystem.Instance.Round % 10 != 5) StageSystem.Instance.NextEnemy(EnemySystem.Instance.SpawnRandomMonster());
+            else StageSystem.Instance.NextEnemy(EnemySystem.Instance.SpawnBonusMonster());
         }
 
         /// <summary>

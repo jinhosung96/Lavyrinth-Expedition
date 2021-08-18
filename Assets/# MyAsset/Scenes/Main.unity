@@ -9474,6 +9474,7 @@ MonoBehaviour:
   - {fileID: 1294585055870648, guid: 636997d6131fdcb448faaec82c15e5b1, type: 3}
   - {fileID: 1465319305830372, guid: 2093c48b6a14dc343bd9a4c1c6b87c98, type: 3}
   - {fileID: 1856323584381234, guid: be7c3749ede3e7f42b10c16c07b0a1c2, type: 3}
+  bonusMonster: {fileID: 1133313699010506, guid: 8dae99224f3100d40b9a456aad187123, type: 3}
 --- !u!1 &1479744829
 GameObject:
   m_ObjectHideFlags: 0

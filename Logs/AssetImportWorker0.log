@@ -15,11 +15,11 @@ C:/Users/user/Documents/## JHS/UnityProject/Lavyrinth-Expedition
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63303
+55130
 Successfully changed project path to: C:/Users/user/Documents/## JHS/UnityProject/Lavyrinth-Expedition
 C:/Users/user/Documents/## JHS/UnityProject/Lavyrinth-Expedition
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 84.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 87.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001633 seconds.
+Registered in 0.001687 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 88.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 88.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.913 seconds
+- Completed reload, in  1.595 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006243 seconds.
+Registered in 0.006636 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 87.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 87.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.110 seconds
+- Completed reload, in  1.115 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2503 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 112.1 MB.
 System memory in use after: 112.2 MB.
 
 Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2946.
-Total: 3.107100 ms (FindLiveObjects: 0.384200 ms CreateObjectMapping: 0.182700 ms MarkObjects: 2.392000 ms  DeleteObjects: 0.145700 ms)
+Total: 3.328000 ms (FindLiveObjects: 0.473100 ms CreateObjectMapping: 0.176500 ms MarkObjects: 2.532900 ms  DeleteObjects: 0.143200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,534 +79,439 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/black_knight 1.prefab
-  artifactKey: Guid(fb7203a1b18987543bfa1d14ca51c2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/black_knight 1.prefab using Guid(fb7203a1b18987543bfa1d14ca51c2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2867d6b8189da62d7d4056cb191d1c7') in 0.131206 seconds 
-  Import took 0.137095 seconds .
+  path: Assets/Polymer/venom_polymer
+  artifactKey: Guid(1164b6544e48bf6488a1270fbc371fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polymer/venom_polymer using Guid(1164b6544e48bf6488a1270fbc371fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616b6a2a10090eefa7da6f47e3d00a3a') in 0.009862 seconds 
+  Import took 0.014284 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.910388 seconds.
-  path: Assets/Berserker/berserker/berserker.prefab
-  artifactKey: Guid(92b9674a92007c74fab3a76e597dc20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Berserker/berserker/berserker.prefab using Guid(92b9674a92007c74fab3a76e597dc20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c5b76a8d395b57fd77edf03e741662') in 0.078379 seconds 
-  Import took 0.084695 seconds .
+  Time since last request: 12.759213 seconds.
+  path: Assets/# MyAsset/Animations/polymer
+  artifactKey: Guid(66740cfaf9c247d47914258df09de775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Animations/polymer using Guid(66740cfaf9c247d47914258df09de775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4eb4124332435cff5ca310a2dce32dc') in 0.007467 seconds 
+  Import took 0.012908 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.985187 seconds.
-  path: Assets/Berserker/berserker/berserker 1.prefab
-  artifactKey: Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Berserker/berserker/berserker 1.prefab using Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07320b9c8e00018262f0c3d601f61a88') in 0.079973 seconds 
-  Import took 0.086350 seconds .
+  Time since last request: 0.003419 seconds.
+  path: Assets/# MyAsset/Animations/polymer
+  artifactKey: Guid(66740cfaf9c247d47914258df09de775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Animations/polymer using Guid(66740cfaf9c247d47914258df09de775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4eb4124332435cff5ca310a2dce32dc') in 0.001964 seconds 
+  Import took 0.006059 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.198765 seconds.
-  path: Assets/# MyAsset/Scenes/Main.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Scenes/Main.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a8e0292942acc3c04d17a1ce8b360c') in 0.007734 seconds 
-  Import took 0.011970 seconds .
+  Time since last request: 6.366225 seconds.
+  path: Assets/Polymer/venom_polymer/death.anim
+  artifactKey: Guid(b99c46dfe6d0e4d4296f60df21c05f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polymer/venom_polymer/death.anim using Guid(b99c46dfe6d0e4d4296f60df21c05f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90055f3703b6dec0da197c1c15ee2f98') in 0.033877 seconds 
+  Import took 0.038936 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.665523 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/berserker 1.prefab
-  artifactKey: Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/berserker 1.prefab using Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049757ba68668093178e7b2fbca5b8ff') in 0.075140 seconds 
-  Import took 0.080893 seconds .
+  Time since last request: 15.105771 seconds.
+  path: Assets/Polymer/venom_polymer 1
+  artifactKey: Guid(42d77fa950e6ab441aae580a7fc02bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polymer/venom_polymer 1 using Guid(42d77fa950e6ab441aae580a7fc02bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212c65af827674d69ae10168156e9d32') in 0.007828 seconds 
+  Import took 0.013001 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.975875 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/berserker.prefab
-  artifactKey: Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/berserker.prefab using Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1571a3c805b788bd3b50886981c240a') in 0.074592 seconds 
-  Import took 0.082139 seconds .
+  Time since last request: 2.275170 seconds.
+  path: Assets/Polymer/venom_polymer_png
+  artifactKey: Guid(e4c04b5ad64e79144a98212f1e6a347e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polymer/venom_polymer_png using Guid(e4c04b5ad64e79144a98212f1e6a347e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff6643a296875b4787d7b4761bdfa3e') in 0.006887 seconds 
+  Import took 0.012344 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.517837 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/berserker.prefab
-  artifactKey: Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/berserker.prefab using Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b77dc44d6c5291fec8689121aa14639') in 0.074828 seconds 
-  Import took 0.081617 seconds .
+  Time since last request: 0.939713 seconds.
+  path: Assets/Polymer/venom_polymer 1/death.anim
+  artifactKey: Guid(60d1331f3a705b74b8d9ead081eaa318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polymer/venom_polymer 1/death.anim using Guid(60d1331f3a705b74b8d9ead081eaa318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4595f7dcd0b08a57e2c8925049e866ba') in 0.003719 seconds 
+  Import took 0.008608 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.469657 seconds.
-  path: Assets/# MyAsset/Animators/Monster/BlackKnightAnim 1.controller
-  artifactKey: Guid(f44b42de727002b4491a63e2389af410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animators/Monster/BlackKnightAnim 1.controller using Guid(f44b42de727002b4491a63e2389af410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9952920ce29ba044b25295a295f9cc7e') in 0.024185 seconds 
-  Import took 0.029407 seconds .
+  Time since last request: 0.005744 seconds.
+  path: Assets/Polymer/venom_polymer 1/death.anim
+  artifactKey: Guid(60d1331f3a705b74b8d9ead081eaa318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polymer/venom_polymer 1/death.anim using Guid(60d1331f3a705b74b8d9ead081eaa318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4595f7dcd0b08a57e2c8925049e866ba') in 0.003670 seconds 
+  Import took 0.007874 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.275816 seconds.
-  path: Assets/# MyAsset/Animators/Monster/Berserker.overrideController
-  artifactKey: Guid(d8b73581d0ca8da4fa70e1f6d2eeabec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animators/Monster/Berserker.overrideController using Guid(d8b73581d0ca8da4fa70e1f6d2eeabec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4e82fc6bee07295d4866649c460f99') in 0.009002 seconds 
-  Import took 0.014076 seconds .
+  Time since last request: 16.053143 seconds.
+  path: Assets/Polymer/venom_polymer 1/walk.anim
+  artifactKey: Guid(c99795667b8b12f49b28aa06b3189bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polymer/venom_polymer 1/walk.anim using Guid(c99795667b8b12f49b28aa06b3189bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e835decd855b21661b4b5be12309c635') in 0.008077 seconds 
+  Import took 0.012562 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.624965 seconds.
-  path: Assets/# MyAsset/Animators/Monster/BerserkerAnim.overrideController
-  artifactKey: Guid(d8b73581d0ca8da4fa70e1f6d2eeabec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animators/Monster/BerserkerAnim.overrideController using Guid(d8b73581d0ca8da4fa70e1f6d2eeabec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf518b6f791ab0f251a3cd52126bf10') in 0.007252 seconds 
-  Import took 0.012120 seconds .
+  Time since last request: 0.001173 seconds.
+  path: Assets/Polymer/venom_polymer 1/walk.anim
+  artifactKey: Guid(c99795667b8b12f49b28aa06b3189bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polymer/venom_polymer 1/walk.anim using Guid(c99795667b8b12f49b28aa06b3189bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e835decd855b21661b4b5be12309c635') in 0.004818 seconds 
+  Import took 0.009469 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.408420 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/berserker.prefab
-  artifactKey: Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/berserker.prefab using Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (BerserkerAnim) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (BerserkerAnim) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: '9be024cf1efb1127b5b87f5dea6b3b13') in 0.018502 seconds 
-  Import took 0.023363 seconds .
+  Time since last request: 13.083947 seconds.
+  path: Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab
+  artifactKey: Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab using Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b090325de69ea1de080f15aac2189727') in 0.119300 seconds 
+  Import took 0.124442 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.960114 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/berserker.prefab
-  artifactKey: Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/berserker.prefab using Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (BerserkerAnim) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (BerserkerAnim) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: 'bf7ea0c470ae9440314c61459a283a51') in 0.017772 seconds 
-  Import took 0.023203 seconds .
+  Time since last request: 32.948320 seconds.
+  path: Assets/Black Knight/black_knight 1
+  artifactKey: Guid(82cfb17ac63d41349824ee21e53e09fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Black Knight/black_knight 1 using Guid(82cfb17ac63d41349824ee21e53e09fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4219efc9fd35b52de3e245c6e41df8bb') in 0.006605 seconds 
+  Import took 0.011480 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.015263 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/berserker.prefab
-  artifactKey: Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/berserker.prefab using Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (BerserkerAnim) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (BerserkerAnim) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: 'bf7ea0c470ae9440314c61459a283a51') in 0.020009 seconds 
-  Import took 0.024958 seconds .
+  Time since last request: 2.822487 seconds.
+  path: Assets/Black Knight/black_knight 1/death.anim
+  artifactKey: Guid(ffb3c2c8c4efe3c4db164cb7b73ea406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Black Knight/black_knight 1/death.anim using Guid(ffb3c2c8c4efe3c4db164cb7b73ea406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3818f0efb56bdd2d4ff69a93989053') in 0.006868 seconds 
+  Import took 0.011954 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.411192 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/berserker.prefab
-  artifactKey: Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/berserker.prefab using Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (BerserkerAnim) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (BerserkerAnim) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: '2f1428e6e0856ecff06eb90f385a4a41') in 0.017545 seconds 
-  Import took 0.023024 seconds .
+  Time since last request: 0.006443 seconds.
+  path: Assets/Black Knight/black_knight 1/death.anim
+  artifactKey: Guid(ffb3c2c8c4efe3c4db164cb7b73ea406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Black Knight/black_knight 1/death.anim using Guid(ffb3c2c8c4efe3c4db164cb7b73ea406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3818f0efb56bdd2d4ff69a93989053') in 0.006362 seconds 
+  Import took 0.010621 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.014567 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/berserker.prefab
-  artifactKey: Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/berserker.prefab using Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (BerserkerAnim) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (BerserkerAnim) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: '2f1428e6e0856ecff06eb90f385a4a41') in 0.029981 seconds 
-  Import took 0.035481 seconds .
+  Time since last request: 15.505242 seconds.
+  path: Assets/black_mage/black_mage_png
+  artifactKey: Guid(1533b59fc7f59474094072550af0a44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/black_mage/black_mage_png using Guid(1533b59fc7f59474094072550af0a44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e75c4d800c6a498fc9c28893f49eda') in 0.007402 seconds 
+  Import took 0.012582 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.160648 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/berserker.prefab
-  artifactKey: Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/berserker.prefab using Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (BerserkerAnim) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (BerserkerAnim) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: '72a6e21a362b4a6ffa30a100027d097e') in 0.017927 seconds 
-  Import took 0.023549 seconds .
+  Time since last request: 12.304974 seconds.
+  path: Assets/# MyAsset/Animations/black_mage
+  artifactKey: Guid(8a898c6826e19084194577b3902c064a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Animations/black_mage using Guid(8a898c6826e19084194577b3902c064a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2874c03ff24300e8badb54b94278cb96') in 0.006239 seconds 
+  Import took 0.011154 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.019081 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/berserker.prefab
-  artifactKey: Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/berserker.prefab using Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (BerserkerAnim) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (BerserkerAnim) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: '72a6e21a362b4a6ffa30a100027d097e') in 0.016982 seconds 
-  Import took 0.022737 seconds .
+  Time since last request: 7.233015 seconds.
+  path: Assets/black_mage/black_mage 1
+  artifactKey: Guid(69b45420842b73e45ab82bdfbdc3bb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/black_mage/black_mage 1 using Guid(69b45420842b73e45ab82bdfbdc3bb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd6034d57c4a142bc6a249a50d43e60') in 0.006642 seconds 
+  Import took 0.011670 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.612195 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/berserker 1.prefab
-  artifactKey: Guid(636997d6131fdcb448faaec82c15e5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/berserker 1.prefab using Guid(636997d6131fdcb448faaec82c15e5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c8a08ef3dd1f03fba30f5eb097a84a') in 0.054036 seconds 
-  Import took 0.060441 seconds .
+  Time since last request: 2.489206 seconds.
+  path: Assets/black_mage/black_mage 1/death.anim
+  artifactKey: Guid(e22e48fd0f0d92a4698fd04865b44cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/black_mage/black_mage 1/death.anim using Guid(e22e48fd0f0d92a4698fd04865b44cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f560ddb35e4ee3c4161d0e739654f28f') in 0.005139 seconds 
+  Import took 0.010376 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.515465 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Boss/berserker 1.prefab
-  artifactKey: Guid(636997d6131fdcb448faaec82c15e5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Boss/berserker 1.prefab using Guid(636997d6131fdcb448faaec82c15e5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abafb16c29d64fbe5c8e6acc8370fbb') in 0.051571 seconds 
-  Import took 0.057514 seconds .
+  Time since last request: 0.007790 seconds.
+  path: Assets/black_mage/black_mage 1/death.anim
+  artifactKey: Guid(e22e48fd0f0d92a4698fd04865b44cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/black_mage/black_mage 1/death.anim using Guid(e22e48fd0f0d92a4698fd04865b44cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f560ddb35e4ee3c4161d0e739654f28f') in 0.004921 seconds 
+  Import took 0.009395 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.761257 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Boss/berserker_boss.prefab
-  artifactKey: Guid(636997d6131fdcb448faaec82c15e5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Boss/berserker_boss.prefab using Guid(636997d6131fdcb448faaec82c15e5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61aa672c6563fbdff8ea262b65d0632') in 0.052602 seconds 
-  Import took 0.057864 seconds .
+  Time since last request: 19.526753 seconds.
+  path: Assets/Blood Mage/blood_mage 1
+  artifactKey: Guid(db8b707ca37218146a816a8390c16ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blood Mage/blood_mage 1 using Guid(db8b707ca37218146a816a8390c16ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f20d2a2e1ce5e5ec6e3380476f1b23') in 0.007113 seconds 
+  Import took 0.011763 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.222447 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Boss/berserker_boss.prefab
-  artifactKey: Guid(636997d6131fdcb448faaec82c15e5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Boss/berserker_boss.prefab using Guid(636997d6131fdcb448faaec82c15e5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6587c684898ccde8f82d520b029fc4ab') in 0.056199 seconds 
-  Import took 0.062957 seconds .
+  Time since last request: 9.050616 seconds.
+  path: Assets/# MyAsset/Animations/blood_mage
+  artifactKey: Guid(0c87e7915b97ffc4889a204e1a39aef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Animations/blood_mage using Guid(0c87e7915b97ffc4889a204e1a39aef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd9a3e80e5bf652139a1d0c640ea930') in 0.006643 seconds 
+  Import took 0.011295 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.888109 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Boss/berserker_boss.prefab
-  artifactKey: Guid(636997d6131fdcb448faaec82c15e5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Boss/berserker_boss.prefab using Guid(636997d6131fdcb448faaec82c15e5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25732de481f9daefb38daffc1728c3ac') in 0.064187 seconds 
-  Import took 0.069700 seconds .
+  Time since last request: 3.709167 seconds.
+  path: Assets/Blood Mage/blood_mage 1/death.anim
+  artifactKey: Guid(5cf7ac20f5373d74ea46acc6f20edc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blood Mage/blood_mage 1/death.anim using Guid(5cf7ac20f5373d74ea46acc6f20edc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd254ca27db8549149d9812220490ba') in 0.005563 seconds 
+  Import took 0.010715 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.403334 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Boss/berserker_boss.prefab
-  artifactKey: Guid(636997d6131fdcb448faaec82c15e5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Boss/berserker_boss.prefab using Guid(636997d6131fdcb448faaec82c15e5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e3c72055d992ddf1e4496038282b6f') in 0.056726 seconds 
-  Import took 0.062710 seconds .
+  Time since last request: 15.805449 seconds.
+  path: Assets/Berserker/berserker 1
+  artifactKey: Guid(9f80e1304a72b5b43b07e3d2674e7cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Berserker/berserker 1 using Guid(9f80e1304a72b5b43b07e3d2674e7cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128cfa00f1bfe2701b0e6fc4bfb3a309') in 0.007177 seconds 
+  Import took 0.011775 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.965176 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Boss/berserker_boss.prefab
-  artifactKey: Guid(636997d6131fdcb448faaec82c15e5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Boss/berserker_boss.prefab using Guid(636997d6131fdcb448faaec82c15e5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f7b870dc3389b5dce24132ef6818b1') in 0.045209 seconds 
-  Import took 0.051184 seconds .
+  Time since last request: 1.699041 seconds.
+  path: Assets/Berserker/berserker 1/hit_1.anim
+  artifactKey: Guid(a2f7885099baf7842bcbbd08e34d5713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Berserker/berserker 1/hit_1.anim using Guid(a2f7885099baf7842bcbbd08e34d5713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3b5b98e64fa2079b1b82579fb904ce') in 0.009407 seconds 
+  Import took 0.014686 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000495 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Boss/berserker_boss.prefab
-  artifactKey: Guid(636997d6131fdcb448faaec82c15e5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Boss/berserker_boss.prefab using Guid(636997d6131fdcb448faaec82c15e5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f7b870dc3389b5dce24132ef6818b1') in 0.051548 seconds 
-  Import took 0.056788 seconds .
+  Time since last request: 0.002214 seconds.
+  path: Assets/Berserker/berserker 1/hit_1.anim
+  artifactKey: Guid(a2f7885099baf7842bcbbd08e34d5713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Berserker/berserker 1/hit_1.anim using Guid(a2f7885099baf7842bcbbd08e34d5713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3b5b98e64fa2079b1b82579fb904ce') in 0.005273 seconds 
+  Import took 0.009428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.213782 seconds.
+  path: Assets/Berserker/berserker 1/death.anim
+  artifactKey: Guid(b73d795d1a7aeb146bb0cc944436cdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Berserker/berserker 1/death.anim using Guid(b73d795d1a7aeb146bb0cc944436cdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6593c412ea889b89b499472d26f42a3d') in 0.005230 seconds 
+  Import took 0.010213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.619411 seconds.
+  path: Assets/# MyAsset/Animations/berserker
+  artifactKey: Guid(68ef5306f96b13847ae6a3411ef7850a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Animations/berserker using Guid(68ef5306f96b13847ae6a3411ef7850a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e8bba34e5f8a46de623142ab9f39fd') in 0.006014 seconds 
+  Import took 0.011227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.251492 seconds.
+  path: Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab
+  artifactKey: Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab using Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d8fceab2eabadd16061f086c74e61a') in 0.044595 seconds 
+  Import took 0.050371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.082542 seconds.
+  path: Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab
+  artifactKey: Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab using Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4bba2b59bc6950b47213bb371b77bd') in 0.052041 seconds 
+  Import took 0.057682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.312728 seconds.
+  path: Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab
+  artifactKey: Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab using Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13dba2a2c014d378186ed3685be82783') in 0.036498 seconds 
+  Import took 0.042562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002728 seconds.
+  path: Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab
+  artifactKey: Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab using Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13dba2a2c014d378186ed3685be82783') in 0.035930 seconds 
+  Import took 0.041240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.263167 seconds.
+  path: Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab
+  artifactKey: Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab using Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd8635a3f3e5e877145899d45636308') in 0.057537 seconds 
+  Import took 0.064112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002194 seconds.
+  path: Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab
+  artifactKey: Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab using Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd8635a3f3e5e877145899d45636308') in 0.052145 seconds 
+  Import took 0.057603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.069151 seconds.
+  path: Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab
+  artifactKey: Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab using Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8944723e343106bdb18c5d329e780c1d') in 0.073270 seconds 
+  Import took 0.078613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.418229 seconds.
+  path: Assets/# MyAsset/Animators/Monster/BloodMage.overrideController
+  artifactKey: Guid(dab30c48dbd737c45b911e6f809b7a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Animators/Monster/BloodMage.overrideController using Guid(dab30c48dbd737c45b911e6f809b7a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03d028666ba2d0ef6450bd1a32d179b') in 0.037444 seconds 
+  Import took 0.042966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.714414 seconds.
+  path: Assets/# MyAsset/Animators/Monster/BloodMage 1.overrideController
+  artifactKey: Guid(b26f8ba719f18414abe8f094276803a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Animators/Monster/BloodMage 1.overrideController using Guid(b26f8ba719f18414abe8f094276803a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616f73183e330234c187601dc5a95aca') in 0.036003 seconds 
+  Import took 0.041436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.861683 seconds.
+  path: Assets/# MyAsset/Animators/Monster/VenomPolymer.overrideController
+  artifactKey: Guid(b26f8ba719f18414abe8f094276803a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Animators/Monster/VenomPolymer.overrideController using Guid(b26f8ba719f18414abe8f094276803a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9224f3b8d00aa1ca4e705b419caae682') in 0.038799 seconds 
+  Import took 0.043532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.870886 seconds.
+  path: Assets/# MyAsset/Animations/venom_polymer
+  artifactKey: Guid(66740cfaf9c247d47914258df09de775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Animations/venom_polymer using Guid(66740cfaf9c247d47914258df09de775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff6343d0f9089456211ef8206e0591d') in 0.002510 seconds 
+  Import took 0.006942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.813020 seconds.
+  path: Assets/# MyAsset/Animations/venom_polymer/skill_1.anim
+  artifactKey: Guid(5c53c4ba1d0122d4abbf277961e060c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Animations/venom_polymer/skill_1.anim using Guid(5c53c4ba1d0122d4abbf277961e060c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc81244db4e7623c3ca8a66fea4c95e') in 0.008723 seconds 
+  Import took 0.013206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000826 seconds.
+  path: Assets/# MyAsset/Animations/venom_polymer/skill_1.anim
+  artifactKey: Guid(5c53c4ba1d0122d4abbf277961e060c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Animations/venom_polymer/skill_1.anim using Guid(5c53c4ba1d0122d4abbf277961e060c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc81244db4e7623c3ca8a66fea4c95e') in 0.004818 seconds 
+  Import took 0.009209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.994559 seconds.
+  path: Assets/# MyAsset/Animations/venom_polymer/skill_2.anim
+  artifactKey: Guid(04ee24f328e162b47a1510ff57de3be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Animations/venom_polymer/skill_2.anim using Guid(04ee24f328e162b47a1510ff57de3be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0623d30e8dbf0eb5c05c4d15eeb0d66') in 0.011337 seconds 
+  Import took 0.016031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/# MyAsset/Animations/venom_polymer/skill_2.anim
+  artifactKey: Guid(04ee24f328e162b47a1510ff57de3be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Animations/venom_polymer/skill_2.anim using Guid(04ee24f328e162b47a1510ff57de3be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0623d30e8dbf0eb5c05c4d15eeb0d66') in 0.004542 seconds 
+  Import took 0.008870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.723820 seconds.
+  path: Assets/# MyAsset/Animations/venom_polymer/skill_3.anim
+  artifactKey: Guid(9e5d9fb2f3549e3469dcb082ea907162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Animations/venom_polymer/skill_3.anim using Guid(9e5d9fb2f3549e3469dcb082ea907162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4259191b26e0ccc33f769a01570d1f') in 0.008700 seconds 
+  Import took 0.013227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006137 seconds.
+  path: Assets/# MyAsset/Animations/venom_polymer/skill_3.anim
+  artifactKey: Guid(9e5d9fb2f3549e3469dcb082ea907162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Animations/venom_polymer/skill_3.anim using Guid(9e5d9fb2f3549e3469dcb082ea907162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4259191b26e0ccc33f769a01570d1f') in 0.005278 seconds 
+  Import took 0.009662 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005984 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.926 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2490 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.3 MB.
-System memory in use after: 114.4 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2957.
-Total: 2.919600 ms (FindLiveObjects: 0.289100 ms CreateObjectMapping: 0.065300 ms MarkObjects: 2.445900 ms  DeleteObjects: 0.117900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 30.469195 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/berserker.prefab
-  artifactKey: Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/berserker.prefab using Guid(950cb6a01bbbf494eacdd7439b04a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7b9e3ffa3d70434d725e467e84a3f2') in 0.098416 seconds 
-  Import took 0.104341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.299016 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Boss/berserker_boss.prefab
-  artifactKey: Guid(636997d6131fdcb448faaec82c15e5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Boss/berserker_boss.prefab using Guid(636997d6131fdcb448faaec82c15e5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8289a840d0fe651d7092322e044d97') in 0.061609 seconds 
-  Import took 0.067271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.488532 seconds.
-  path: Assets/Berserker/berserker/skill_1.anim
-  artifactKey: Guid(44d02a76eb61080478d3f31991a57798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Berserker/berserker/skill_1.anim using Guid(44d02a76eb61080478d3f31991a57798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9798b6caee3b7fd7eff81c5d41f6006e') in 0.015994 seconds 
-  Import took 0.020773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003111 seconds.
-  path: Assets/Berserker/berserker/skill_1.anim
-  artifactKey: Guid(44d02a76eb61080478d3f31991a57798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Berserker/berserker/skill_1.anim using Guid(44d02a76eb61080478d3f31991a57798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9798b6caee3b7fd7eff81c5d41f6006e') in 0.011779 seconds 
-  Import took 0.016815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.731713 seconds.
-  path: Assets/Berserker/berserker/skill_2.anim
-  artifactKey: Guid(6f2158c8e69d26f4b9a37595e40088a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Berserker/berserker/skill_2.anim using Guid(6f2158c8e69d26f4b9a37595e40088a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6104bba360f0986f937af1ad075e55') in 0.012219 seconds 
-  Import took 0.017323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001626 seconds.
-  path: Assets/Berserker/berserker/skill_2.anim
-  artifactKey: Guid(6f2158c8e69d26f4b9a37595e40088a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Berserker/berserker/skill_2.anim using Guid(6f2158c8e69d26f4b9a37595e40088a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6104bba360f0986f937af1ad075e55') in 0.008054 seconds 
-  Import took 0.012235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.061065 seconds.
-  path: Assets/Berserker/berserker/skill_3.anim
-  artifactKey: Guid(e833d00aa80d7b84ba26e54a06cd659d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Berserker/berserker/skill_3.anim using Guid(e833d00aa80d7b84ba26e54a06cd659d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81cebbb1f1cee0d23378df4ea90521bc') in 0.011454 seconds 
-  Import took 0.015787 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003588 seconds.
-  path: Assets/Berserker/berserker/skill_3.anim
-  artifactKey: Guid(e833d00aa80d7b84ba26e54a06cd659d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Berserker/berserker/skill_3.anim using Guid(e833d00aa80d7b84ba26e54a06cd659d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81cebbb1f1cee0d23378df4ea90521bc') in 0.006861 seconds 
-  Import took 0.012165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.459919 seconds.
-  path: Assets/Berserker/berserker/skill_4.anim
-  artifactKey: Guid(d82ec97c778106a4ab1ff9cd1a7cdc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Berserker/berserker/skill_4.anim using Guid(d82ec97c778106a4ab1ff9cd1a7cdc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f13851e4e8a50d1e78069299dbb43f6') in 0.011284 seconds 
-  Import took 0.016232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001406 seconds.
-  path: Assets/Berserker/berserker/skill_4.anim
-  artifactKey: Guid(d82ec97c778106a4ab1ff9cd1a7cdc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Berserker/berserker/skill_4.anim using Guid(d82ec97c778106a4ab1ff9cd1a7cdc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f13851e4e8a50d1e78069299dbb43f6') in 0.007524 seconds 
-  Import took 0.011414 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.954962 seconds.
-  path: Assets/# MyAsset/Animators/Monster/BerserkerAnim.overrideController
-  artifactKey: Guid(d8b73581d0ca8da4fa70e1f6d2eeabec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animators/Monster/BerserkerAnim.overrideController using Guid(d8b73581d0ca8da4fa70e1f6d2eeabec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c26b578a167b40c52958b281a4571a') in 0.033629 seconds 
-  Import took 0.038851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.567765 seconds.
-  path: Assets/black_mage/black_mage
-  artifactKey: Guid(6ddb81634ed8a674a984a3cd494413ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage using Guid(6ddb81634ed8a674a984a3cd494413ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9069b5b1fc72266d3b4134f0ac687d94') in 0.005999 seconds 
-  Import took 0.011020 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.392622 seconds.
-  path: Assets/black_mage/black_mage/black_mage.controller
-  artifactKey: Guid(dc382387f8693084b95e9927960e8f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage/black_mage.controller using Guid(dc382387f8693084b95e9927960e8f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dee85f84297161de00b65de917bddf2') in 0.033476 seconds 
-  Import took 0.039083 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005947 seconds.
+Registered in 0.005968 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.934 seconds
+- Completed reload, in  1.013 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2490 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.4 MB.
-System memory in use after: 114.4 MB.
+System memory in use before: 114.0 MB.
+System memory in use after: 114.1 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2962.
-Total: 2.486600 ms (FindLiveObjects: 0.354600 ms CreateObjectMapping: 0.110400 ms MarkObjects: 1.891700 ms  DeleteObjects: 0.128300 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2957.
+Total: 2.780400 ms (FindLiveObjects: 0.279600 ms CreateObjectMapping: 0.064700 ms MarkObjects: 2.316200 ms  DeleteObjects: 0.118600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006080 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.977 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.1 MB.
+System memory in use after: 114.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2961.
+Total: 2.905800 ms (FindLiveObjects: 0.363400 ms CreateObjectMapping: 0.130400 ms MarkObjects: 2.288400 ms  DeleteObjects: 0.121800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005938 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.960 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.1 MB.
+System memory in use after: 114.2 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2965.
+Total: 2.480700 ms (FindLiveObjects: 0.313800 ms CreateObjectMapping: 0.066500 ms MarkObjects: 1.975400 ms  DeleteObjects: 0.123700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -621,744 +526,216 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.689936 seconds.
-  path: Assets/black_mage/black_mage/black_mage 1.prefab
-  artifactKey: Guid(78e3f61de5e41a545a0c15d8a1249774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage/black_mage 1.prefab using Guid(78e3f61de5e41a545a0c15d8a1249774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81cf23f18770443a9973bb6b7bddfd9') in 0.092059 seconds 
-  Import took 0.097713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.648204 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/black_mage 1.prefab
-  artifactKey: Guid(78e3f61de5e41a545a0c15d8a1249774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/black_mage 1.prefab using Guid(78e3f61de5e41a545a0c15d8a1249774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561a39da9a9cec53b49ea5e89956f5ae') in 0.043486 seconds 
-  Import took 0.048700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.635459 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/black_mage.prefab
-  artifactKey: Guid(78e3f61de5e41a545a0c15d8a1249774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/black_mage.prefab using Guid(78e3f61de5e41a545a0c15d8a1249774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4fee25f311ab944380e5fa256a2926') in 0.045963 seconds 
-  Import took 0.051374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.093426 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/black_mage.prefab
-  artifactKey: Guid(78e3f61de5e41a545a0c15d8a1249774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/black_mage.prefab using Guid(78e3f61de5e41a545a0c15d8a1249774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd9e88e43cad0f4fb829e81f351a689') in 0.055267 seconds 
-  Import took 0.060871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.624455 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/black_mage.prefab
-  artifactKey: Guid(78e3f61de5e41a545a0c15d8a1249774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/black_mage.prefab using Guid(78e3f61de5e41a545a0c15d8a1249774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c21a4cba15ec026da957bf4eabd4518') in 0.051907 seconds 
-  Import took 0.057293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.545098 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/black_mage.prefab
-  artifactKey: Guid(78e3f61de5e41a545a0c15d8a1249774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/black_mage.prefab using Guid(78e3f61de5e41a545a0c15d8a1249774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59dc8f8d9afb398165a4b41a72415b48') in 0.050278 seconds 
-  Import took 0.056710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.026432 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/black_mage.prefab
-  artifactKey: Guid(78e3f61de5e41a545a0c15d8a1249774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/black_mage.prefab using Guid(78e3f61de5e41a545a0c15d8a1249774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2ce5e88fa8d63f2d191d5731e7f185') in 0.046115 seconds 
-  Import took 0.052345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.575564 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/black_mage.prefab
-  artifactKey: Guid(78e3f61de5e41a545a0c15d8a1249774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/black_mage.prefab using Guid(78e3f61de5e41a545a0c15d8a1249774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c4dd418ff5f57f771f1ccab71d4d70') in 0.050395 seconds 
-  Import took 0.056119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.030092 seconds.
-  path: Assets/# MyAsset/Animators/Monster/BerserkerAnim.overrideController
-  artifactKey: Guid(d8b73581d0ca8da4fa70e1f6d2eeabec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animators/Monster/BerserkerAnim.overrideController using Guid(d8b73581d0ca8da4fa70e1f6d2eeabec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e670a608bf05e7b7241bea2df66f505b') in 0.031649 seconds 
-  Import took 0.036648 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.370601 seconds.
-  path: Assets/# MyAsset/Animators/Monster/BerserkerAnim 1.overrideController
-  artifactKey: Guid(8d6da82a0a2615b4d93d013d86c34f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animators/Monster/BerserkerAnim 1.overrideController using Guid(8d6da82a0a2615b4d93d013d86c34f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae9722519433ce84f6f97a4a72176be') in 0.035324 seconds 
-  Import took 0.040590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.331352 seconds.
-  path: Assets/# MyAsset/Animators/Monster/BlackMage.overrideController
-  artifactKey: Guid(8d6da82a0a2615b4d93d013d86c34f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animators/Monster/BlackMage.overrideController using Guid(8d6da82a0a2615b4d93d013d86c34f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baeb7b7ea8e97a8628016889d77d49b1') in 0.034747 seconds 
-  Import took 0.040243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.093689 seconds.
-  path: Assets/black_mage/black_mage/skill_1.anim
-  artifactKey: Guid(355e1e6dd7a2c0c4db3aae16ae483b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage/skill_1.anim using Guid(355e1e6dd7a2c0c4db3aae16ae483b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3255a9b4633df0925c8ae6b002471e5') in 0.005630 seconds 
-  Import took 0.009733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.816957 seconds.
-  path: Assets/black_mage/black_mage/skill_2.anim
-  artifactKey: Guid(8370ed08b06490446ac9a53ce259b5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage/skill_2.anim using Guid(8370ed08b06490446ac9a53ce259b5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128526b4f55ab03071126cf9874c7cd1') in 0.007772 seconds 
-  Import took 0.012138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005391 seconds.
-  path: Assets/black_mage/black_mage/skill_2.anim
-  artifactKey: Guid(8370ed08b06490446ac9a53ce259b5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage/skill_2.anim using Guid(8370ed08b06490446ac9a53ce259b5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128526b4f55ab03071126cf9874c7cd1') in 0.006191 seconds 
-  Import took 0.010773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.998023 seconds.
-  path: Assets/black_mage/black_mage/skill_3.anim
-  artifactKey: Guid(e7eb5009a5d4d39498164476a9eea44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage/skill_3.anim using Guid(e7eb5009a5d4d39498164476a9eea44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c254fec1e4632c8bee5456e59025418') in 0.006858 seconds 
-  Import took 0.011621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/black_mage/black_mage/skill_3.anim
-  artifactKey: Guid(e7eb5009a5d4d39498164476a9eea44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage/skill_3.anim using Guid(e7eb5009a5d4d39498164476a9eea44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c254fec1e4632c8bee5456e59025418') in 0.006217 seconds 
-  Import took 0.011670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.890413 seconds.
-  path: Assets/black_mage/black_mage/idle_1.anim
-  artifactKey: Guid(f123fe7b20454fb4ea9d297eab25e186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage/idle_1.anim using Guid(f123fe7b20454fb4ea9d297eab25e186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe38625d9eb0b1ae1b663cf62980603') in 0.012222 seconds 
-  Import took 0.016821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001626 seconds.
-  path: Assets/black_mage/black_mage/idle_1.anim
-  artifactKey: Guid(f123fe7b20454fb4ea9d297eab25e186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage/idle_1.anim using Guid(f123fe7b20454fb4ea9d297eab25e186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe38625d9eb0b1ae1b663cf62980603') in 0.005524 seconds 
-  Import took 0.010167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.725357 seconds.
-  path: Assets/black_mage/black_mage/idle_2.anim
-  artifactKey: Guid(95e5e285025dd2e4e81f75cfd1bf7414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage/idle_2.anim using Guid(95e5e285025dd2e4e81f75cfd1bf7414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46585d4c6decac212710c1047509ccf8') in 0.009367 seconds 
-  Import took 0.015139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000639 seconds.
-  path: Assets/black_mage/black_mage/idle_2.anim
-  artifactKey: Guid(95e5e285025dd2e4e81f75cfd1bf7414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage/idle_2.anim using Guid(95e5e285025dd2e4e81f75cfd1bf7414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46585d4c6decac212710c1047509ccf8') in 0.005915 seconds 
-  Import took 0.009620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.935417 seconds.
-  path: Assets/black_mage/black_mage/hit_1.anim
-  artifactKey: Guid(6b9dfeec062a56e48bb28b67d0230658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage/hit_1.anim using Guid(6b9dfeec062a56e48bb28b67d0230658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fc9a47ce033ce10c29103bd4b1e270') in 0.009756 seconds 
-  Import took 0.014596 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001609 seconds.
-  path: Assets/black_mage/black_mage/hit_1.anim
-  artifactKey: Guid(6b9dfeec062a56e48bb28b67d0230658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage/hit_1.anim using Guid(6b9dfeec062a56e48bb28b67d0230658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fc9a47ce033ce10c29103bd4b1e270') in 0.005386 seconds 
-  Import took 0.009524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.919164 seconds.
-  path: Assets/black_mage/black_mage/hit_2.anim
-  artifactKey: Guid(34cd9208a19abe14eada8d8f15faf31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage/hit_2.anim using Guid(34cd9208a19abe14eada8d8f15faf31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb8de301e011762de0e2a8454704768') in 0.009678 seconds 
-  Import took 0.014972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004876 seconds.
-  path: Assets/black_mage/black_mage/hit_2.anim
-  artifactKey: Guid(34cd9208a19abe14eada8d8f15faf31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage/hit_2.anim using Guid(34cd9208a19abe14eada8d8f15faf31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb8de301e011762de0e2a8454704768') in 0.004402 seconds 
-  Import took 0.009859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.298017 seconds.
-  path: Assets/black_mage/black_mage/evade_1.anim
-  artifactKey: Guid(70079c8a954c8794c9bd73935aeb39aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage/evade_1.anim using Guid(70079c8a954c8794c9bd73935aeb39aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc5905de360b31f972d22cdd9418dc4') in 0.010541 seconds 
-  Import took 0.015682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000797 seconds.
-  path: Assets/black_mage/black_mage/evade_1.anim
-  artifactKey: Guid(70079c8a954c8794c9bd73935aeb39aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage/evade_1.anim using Guid(70079c8a954c8794c9bd73935aeb39aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc5905de360b31f972d22cdd9418dc4') in 0.006903 seconds 
-  Import took 0.011296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.121249 seconds.
-  path: Assets/black_mage/black_mage/death.anim
-  artifactKey: Guid(822d586c8dd93964693ad08ba490cdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage/death.anim using Guid(822d586c8dd93964693ad08ba490cdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d0d3f56ef9c93b707f5113e40d48cd') in 0.009435 seconds 
-  Import took 0.014932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001211 seconds.
-  path: Assets/black_mage/black_mage/death.anim
-  artifactKey: Guid(822d586c8dd93964693ad08ba490cdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage/death.anim using Guid(822d586c8dd93964693ad08ba490cdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d0d3f56ef9c93b707f5113e40d48cd') in 0.004423 seconds 
-  Import took 0.008447 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.860785 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/black_mage.prefab
-  artifactKey: Guid(78e3f61de5e41a545a0c15d8a1249774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/black_mage.prefab using Guid(78e3f61de5e41a545a0c15d8a1249774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e148d3333ff2f25813a5ca74115d61') in 0.045521 seconds 
-  Import took 0.051017 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.190168 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/black_mage 1.prefab
-  artifactKey: Guid(2093c48b6a14dc343bd9a4c1c6b87c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/black_mage 1.prefab using Guid(2093c48b6a14dc343bd9a4c1c6b87c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209d820761149505b0026700ae3a9a76') in 0.048448 seconds 
-  Import took 0.053952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.378082 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Boss/black_mage 1.prefab
-  artifactKey: Guid(2093c48b6a14dc343bd9a4c1c6b87c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Boss/black_mage 1.prefab using Guid(2093c48b6a14dc343bd9a4c1c6b87c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a61069e4f65a58ca86bff5081cefb33') in 0.037655 seconds 
-  Import took 0.042747 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.895707 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Boss/black_mage_boss.prefab
-  artifactKey: Guid(2093c48b6a14dc343bd9a4c1c6b87c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Boss/black_mage_boss.prefab using Guid(2093c48b6a14dc343bd9a4c1c6b87c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e95796000d67abf2a511099cee132a') in 0.044416 seconds 
-  Import took 0.049838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.706414 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Boss/black_mage_boss.prefab
-  artifactKey: Guid(2093c48b6a14dc343bd9a4c1c6b87c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Boss/black_mage_boss.prefab using Guid(2093c48b6a14dc343bd9a4c1c6b87c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a729071f41e230603cd81efd85109f') in 0.039002 seconds 
-  Import took 0.045078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.792163 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Boss/black_mage_boss.prefab
-  artifactKey: Guid(2093c48b6a14dc343bd9a4c1c6b87c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Boss/black_mage_boss.prefab using Guid(2093c48b6a14dc343bd9a4c1c6b87c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6ea4e95671c7a740787e62c03ff267') in 0.052581 seconds 
-  Import took 0.058967 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.554849 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Boss/black_mage_boss.prefab
-  artifactKey: Guid(2093c48b6a14dc343bd9a4c1c6b87c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Boss/black_mage_boss.prefab using Guid(2093c48b6a14dc343bd9a4c1c6b87c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea4064fa2aa793290a9fb31b1e7b626') in 0.044469 seconds 
-  Import took 0.050138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.791944 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Boss/black_mage_boss.prefab
-  artifactKey: Guid(2093c48b6a14dc343bd9a4c1c6b87c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Boss/black_mage_boss.prefab using Guid(2093c48b6a14dc343bd9a4c1c6b87c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89701e0a0b9cbd8145d1aab5a2d2b047') in 0.039394 seconds 
-  Import took 0.045540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.265708 seconds.
-  path: Assets/Blood Mage/blood_mage
-  artifactKey: Guid(42a5457bd4b12ee49b6755b1b2525958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage using Guid(42a5457bd4b12ee49b6755b1b2525958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3103997f35273268fd1a86f049f74b62') in 0.006561 seconds 
-  Import took 0.011781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.163821 seconds.
-  path: Assets/Blood Mage/blood_mage/blood_mage.controller
-  artifactKey: Guid(ae8c36547d76bd84b8c8664d6e540501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/blood_mage.controller using Guid(ae8c36547d76bd84b8c8664d6e540501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ae76e1fcca12f88ba95e0c4fa9b2fb') in 0.052904 seconds 
-  Import took 0.058048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.477168 seconds.
-  path: Assets/Blood Mage/blood_mage/blood_mage.prefab
-  artifactKey: Guid(d40b749743ea5144881751dab0a07fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/blood_mage.prefab using Guid(d40b749743ea5144881751dab0a07fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83a8422707bb198621b7d45b920dd6a') in 0.104926 seconds 
-  Import took 0.111533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.528924 seconds.
-  path: Assets/Blood Mage/blood_mage/death.anim
-  artifactKey: Guid(04d7d9d20fd653841ac8e0c079e93867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/death.anim using Guid(04d7d9d20fd653841ac8e0c079e93867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04d02e205eed1dbd64f6babe795ec80') in 0.006007 seconds 
-  Import took 0.010508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005724 seconds.
-  path: Assets/Blood Mage/blood_mage/death.anim
-  artifactKey: Guid(04d7d9d20fd653841ac8e0c079e93867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/death.anim using Guid(04d7d9d20fd653841ac8e0c079e93867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04d02e205eed1dbd64f6babe795ec80') in 0.005941 seconds 
-  Import took 0.011031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.539630 seconds.
-  path: Assets/Blood Mage/blood_mage/evade_1.anim
-  artifactKey: Guid(e762cb3dcbd19274cb07698fe5dc2f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/evade_1.anim using Guid(e762cb3dcbd19274cb07698fe5dc2f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0193be7d0b4f7bb3e8ec9d10444ba2') in 0.006738 seconds 
-  Import took 0.011600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003256 seconds.
-  path: Assets/Blood Mage/blood_mage/evade_1.anim
-  artifactKey: Guid(e762cb3dcbd19274cb07698fe5dc2f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/evade_1.anim using Guid(e762cb3dcbd19274cb07698fe5dc2f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0193be7d0b4f7bb3e8ec9d10444ba2') in 0.006950 seconds 
-  Import took 0.011677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.533086 seconds.
-  path: Assets/Blood Mage/blood_mage/evade_2.anim
-  artifactKey: Guid(a4a69caea1d7b7948b2bc1188a14632f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/evade_2.anim using Guid(a4a69caea1d7b7948b2bc1188a14632f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f145f87af669b76fdfe6c1aed3668b24') in 0.012114 seconds 
-  Import took 0.017261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000559 seconds.
-  path: Assets/Blood Mage/blood_mage/evade_2.anim
-  artifactKey: Guid(a4a69caea1d7b7948b2bc1188a14632f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/evade_2.anim using Guid(a4a69caea1d7b7948b2bc1188a14632f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f145f87af669b76fdfe6c1aed3668b24') in 0.006344 seconds 
-  Import took 0.010558 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.244216 seconds.
-  path: Assets/Blood Mage/blood_mage/hit_1.anim
-  artifactKey: Guid(7b284b4b9575f9948ba0427f57ff21a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/hit_1.anim using Guid(7b284b4b9575f9948ba0427f57ff21a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a03ed4f5e32ac8d6cf2607a6b7082da') in 0.006387 seconds 
-  Import took 0.011342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004306 seconds.
-  path: Assets/Blood Mage/blood_mage/hit_1.anim
-  artifactKey: Guid(7b284b4b9575f9948ba0427f57ff21a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/hit_1.anim using Guid(7b284b4b9575f9948ba0427f57ff21a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a03ed4f5e32ac8d6cf2607a6b7082da') in 0.005493 seconds 
-  Import took 0.010374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.372675 seconds.
-  path: Assets/Blood Mage/blood_mage/hit_2.anim
-  artifactKey: Guid(4f65c5c1cea802c499a109b140f2c9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/hit_2.anim using Guid(4f65c5c1cea802c499a109b140f2c9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2f7e90e83d26242c18e0c1412ecaf7') in 0.005926 seconds 
-  Import took 0.011047 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005040 seconds.
-  path: Assets/Blood Mage/blood_mage/hit_2.anim
-  artifactKey: Guid(4f65c5c1cea802c499a109b140f2c9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/hit_2.anim using Guid(4f65c5c1cea802c499a109b140f2c9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2f7e90e83d26242c18e0c1412ecaf7') in 0.004684 seconds 
-  Import took 0.008940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.455057 seconds.
-  path: Assets/Blood Mage/blood_mage/idle_1.anim
-  artifactKey: Guid(c9449712b907f3a459b5f00629b961c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/idle_1.anim using Guid(c9449712b907f3a459b5f00629b961c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133a089096370402ba0f33aaea4511f6') in 0.005086 seconds 
-  Import took 0.009952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006332 seconds.
-  path: Assets/Blood Mage/blood_mage/idle_1.anim
-  artifactKey: Guid(c9449712b907f3a459b5f00629b961c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/idle_1.anim using Guid(c9449712b907f3a459b5f00629b961c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133a089096370402ba0f33aaea4511f6') in 0.006351 seconds 
-  Import took 0.011560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.481218 seconds.
-  path: Assets/Blood Mage/blood_mage/idle_2.anim
-  artifactKey: Guid(b4b6d69617a32a74aa5b399549acee2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/idle_2.anim using Guid(b4b6d69617a32a74aa5b399549acee2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276180628fb43bc3fc6a07e4a486d45d') in 0.005533 seconds 
-  Import took 0.009730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.034057 seconds.
-  path: Assets/Blood Mage/blood_mage/jump.anim
-  artifactKey: Guid(988bfadba2c3cb34a983f02959e21e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/jump.anim using Guid(988bfadba2c3cb34a983f02959e21e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d00dfd5b4af12b4cf7a04239f76884c') in 0.012522 seconds 
-  Import took 0.017353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020249 seconds.
-  path: Assets/Blood Mage/blood_mage/jump_down.anim
-  artifactKey: Guid(1a717d2eca85961418b2327ec72254b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/jump_down.anim using Guid(1a717d2eca85961418b2327ec72254b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7c9a8dc31152d00577670bfb8ee306') in 0.012377 seconds 
-  Import took 0.017770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.027321 seconds.
-  path: Assets/Blood Mage/blood_mage/jump_up.anim
-  artifactKey: Guid(6a90b40fed51568488a6442eaaa7d074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/jump_up.anim using Guid(6a90b40fed51568488a6442eaaa7d074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0072ad981db31e2d8d34cac2a044387f') in 0.010264 seconds 
-  Import took 0.015460 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.040574 seconds.
-  path: Assets/Blood Mage/blood_mage/run.anim
-  artifactKey: Guid(e0e065450a6ac5b4f816f574076eaf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/run.anim using Guid(e0e065450a6ac5b4f816f574076eaf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27407400e8c0b72b36adfc12ce27ca9') in 0.010490 seconds 
-  Import took 0.016134 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.468258 seconds.
-  path: Assets/Blood Mage/blood_mage/skill_1.anim
-  artifactKey: Guid(dd2de40b85e286440b9723bf7859099c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/skill_1.anim using Guid(dd2de40b85e286440b9723bf7859099c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e2ae6ba25a91368d3ce458248fbaf0') in 0.007329 seconds 
-  Import took 0.011557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005450 seconds.
-  path: Assets/Blood Mage/blood_mage/skill_1.anim
-  artifactKey: Guid(dd2de40b85e286440b9723bf7859099c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/skill_1.anim using Guid(dd2de40b85e286440b9723bf7859099c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e2ae6ba25a91368d3ce458248fbaf0') in 0.006286 seconds 
-  Import took 0.010382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.219044 seconds.
-  path: Assets/Blood Mage/blood_mage/skill_2.anim
-  artifactKey: Guid(feeea5018d214fb42894193b618158ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/skill_2.anim using Guid(feeea5018d214fb42894193b618158ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12e60c235b00e8009c561a82af6fb13') in 0.007682 seconds 
-  Import took 0.012295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003729 seconds.
-  path: Assets/Blood Mage/blood_mage/skill_2.anim
-  artifactKey: Guid(feeea5018d214fb42894193b618158ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/skill_2.anim using Guid(feeea5018d214fb42894193b618158ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12e60c235b00e8009c561a82af6fb13') in 0.007621 seconds 
-  Import took 0.012191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.220723 seconds.
-  path: Assets/Blood Mage/blood_mage/skill_3.anim
-  artifactKey: Guid(c87cc775414c22e4bbd03b3db60f8d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/skill_3.anim using Guid(c87cc775414c22e4bbd03b3db60f8d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897a17fcbc5a27b661554da41ad2c862') in 0.006903 seconds 
-  Import took 0.010951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005130 seconds.
-  path: Assets/Blood Mage/blood_mage/skill_3.anim
-  artifactKey: Guid(c87cc775414c22e4bbd03b3db60f8d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/skill_3.anim using Guid(c87cc775414c22e4bbd03b3db60f8d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897a17fcbc5a27b661554da41ad2c862') in 0.006820 seconds 
-  Import took 0.011441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.268332 seconds.
-  path: Assets/Blood Mage/blood_mage/walk.anim
-  artifactKey: Guid(413658c6c4961d54083843839c864168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/walk.anim using Guid(413658c6c4961d54083843839c864168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d8ab19fc3e304b94e5867e76ff2bb6') in 0.009666 seconds 
-  Import took 0.014126 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004416 seconds.
-  path: Assets/Blood Mage/blood_mage/walk.anim
-  artifactKey: Guid(413658c6c4961d54083843839c864168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/walk.anim using Guid(413658c6c4961d54083843839c864168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d8ab19fc3e304b94e5867e76ff2bb6') in 0.006047 seconds 
-  Import took 0.010849 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.107979 seconds.
-  path: Assets/# MyAsset/Animators/Monster/BlackMage.overrideController
-  artifactKey: Guid(8d6da82a0a2615b4d93d013d86c34f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animators/Monster/BlackMage.overrideController using Guid(8d6da82a0a2615b4d93d013d86c34f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e52133f7020b58c3687d60781c4af6b') in 0.031924 seconds 
-  Import took 0.037480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.519501 seconds.
-  path: Assets/# MyAsset/Animators/Monster/BlackMage 1.overrideController
-  artifactKey: Guid(dab30c48dbd737c45b911e6f809b7a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animators/Monster/BlackMage 1.overrideController using Guid(dab30c48dbd737c45b911e6f809b7a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05e6a42e91b02dd7dfa82e45f525b9b') in 0.032627 seconds 
-  Import took 0.038779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.447633 seconds.
-  path: Assets/# MyAsset/Animators/Monster/BloodMage.overrideController
-  artifactKey: Guid(dab30c48dbd737c45b911e6f809b7a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animators/Monster/BloodMage.overrideController using Guid(dab30c48dbd737c45b911e6f809b7a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba65cba33c2007c07e48a1208fba9d5b') in 0.032419 seconds 
-  Import took 0.037943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.497738 seconds.
-  path: Assets/Blood Mage/blood_mage/blood_mage 1.prefab
-  artifactKey: Guid(735606130f08f0c41a795f09dca316cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage/blood_mage 1.prefab using Guid(735606130f08f0c41a795f09dca316cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d25a515c46a3097f6def8980b62de2') in 0.069160 seconds 
-  Import took 0.075775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.257750 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/blood_mage 1.prefab
-  artifactKey: Guid(735606130f08f0c41a795f09dca316cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/blood_mage 1.prefab using Guid(735606130f08f0c41a795f09dca316cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc77c6b91bbe69c2f943b7363985505') in 0.070304 seconds 
-  Import took 0.076733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.756238 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/blood_mage.prefab
-  artifactKey: Guid(735606130f08f0c41a795f09dca316cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/blood_mage.prefab using Guid(735606130f08f0c41a795f09dca316cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0bb57fb1e4363f2c8889895e57b81ef') in 0.067238 seconds 
-  Import took 0.074374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.805073 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/blood_mage.prefab
-  artifactKey: Guid(735606130f08f0c41a795f09dca316cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/blood_mage.prefab using Guid(735606130f08f0c41a795f09dca316cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce70fc1d8c9e8500b6a705c0ce71103a') in 0.082915 seconds 
-  Import took 0.088784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.871347 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/blood_mage.prefab
-  artifactKey: Guid(735606130f08f0c41a795f09dca316cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/blood_mage.prefab using Guid(735606130f08f0c41a795f09dca316cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef1699bf4084acabe87344f9229da56') in 0.070083 seconds 
-  Import took 0.076851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.531172 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/blood_mage.prefab
-  artifactKey: Guid(735606130f08f0c41a795f09dca316cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/blood_mage.prefab using Guid(735606130f08f0c41a795f09dca316cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3988906075d67d76638358499c9ad62') in 0.069751 seconds 
-  Import took 0.077190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.912823 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/blood_mage.prefab
-  artifactKey: Guid(735606130f08f0c41a795f09dca316cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/blood_mage.prefab using Guid(735606130f08f0c41a795f09dca316cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1178b90ff8343299d3d6a8dc263b117') in 0.067296 seconds 
-  Import took 0.074314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.656458 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/blood_mage.prefab
-  artifactKey: Guid(735606130f08f0c41a795f09dca316cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/blood_mage.prefab using Guid(735606130f08f0c41a795f09dca316cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ee776e3e2ba28a6c19d7e5240c2b9c') in 0.081862 seconds 
-  Import took 0.088855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.562492 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/blood_mage.prefab
-  artifactKey: Guid(735606130f08f0c41a795f09dca316cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/blood_mage.prefab using Guid(735606130f08f0c41a795f09dca316cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0dfb04549ec47cc09d10003f723d308') in 0.054319 seconds 
-  Import took 0.060496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.226313 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/blood_mage 1.prefab
-  artifactKey: Guid(be7c3749ede3e7f42b10c16c07b0a1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/blood_mage 1.prefab using Guid(be7c3749ede3e7f42b10c16c07b0a1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362af82ccf7971d434767d03099a3549') in 0.052822 seconds 
-  Import took 0.058962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.020694 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/blood_mage 1.prefab
-  artifactKey: Guid(be7c3749ede3e7f42b10c16c07b0a1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/blood_mage 1.prefab using Guid(be7c3749ede3e7f42b10c16c07b0a1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bad6ef65e16d8dc3db45cf325b36083') in 0.043771 seconds 
-  Import took 0.050555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.145804 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Boss/blood_mage_boss.prefab
-  artifactKey: Guid(be7c3749ede3e7f42b10c16c07b0a1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Boss/blood_mage_boss.prefab using Guid(be7c3749ede3e7f42b10c16c07b0a1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1409c20e839d58fe18bd98f8619d987') in 0.043363 seconds 
-  Import took 0.049575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.833156 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Boss/blood_mage_boss.prefab
-  artifactKey: Guid(be7c3749ede3e7f42b10c16c07b0a1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Boss/blood_mage_boss.prefab using Guid(be7c3749ede3e7f42b10c16c07b0a1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd59b185c31597a177f45e8960e59be9') in 0.049181 seconds 
-  Import took 0.055041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.813411 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Boss/blood_mage_boss.prefab
-  artifactKey: Guid(be7c3749ede3e7f42b10c16c07b0a1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Boss/blood_mage_boss.prefab using Guid(be7c3749ede3e7f42b10c16c07b0a1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5640131c8e8d1a4f07fde7d33740856c') in 0.052372 seconds 
-  Import took 0.058180 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000459 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Boss/blood_mage_boss.prefab
-  artifactKey: Guid(be7c3749ede3e7f42b10c16c07b0a1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Boss/blood_mage_boss.prefab using Guid(be7c3749ede3e7f42b10c16c07b0a1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5640131c8e8d1a4f07fde7d33740856c') in 0.045288 seconds 
-  Import took 0.050702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.219482 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Boss/blood_mage_boss.prefab
-  artifactKey: Guid(be7c3749ede3e7f42b10c16c07b0a1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Boss/blood_mage_boss.prefab using Guid(be7c3749ede3e7f42b10c16c07b0a1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66319bb454e8413ff6fcac5f69218d7c') in 0.046678 seconds 
-  Import took 0.052575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.988196 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Boss/blood_mage_boss.prefab
-  artifactKey: Guid(be7c3749ede3e7f42b10c16c07b0a1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Boss/blood_mage_boss.prefab using Guid(be7c3749ede3e7f42b10c16c07b0a1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191b6c184b0d936522cd7c612df5c9d3') in 0.043166 seconds 
-  Import took 0.049224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 132.160426 seconds.
-  path: Assets/# MyAsset/Animations/berserker_male/skill_1.anim
-  artifactKey: Guid(15b5b46a394636146ade6a8e201c120d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animations/berserker_male/skill_1.anim using Guid(15b5b46a394636146ade6a8e201c120d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cad0c797861876ec23565469dedd6d0') in 0.007736 seconds 
-  Import took 0.013268 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011538 seconds.
-  path: Assets/# MyAsset/Animations/berserker_male/skill_1.anim
-  artifactKey: Guid(15b5b46a394636146ade6a8e201c120d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animations/berserker_male/skill_1.anim using Guid(15b5b46a394636146ade6a8e201c120d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cad0c797861876ec23565469dedd6d0') in 0.006559 seconds 
-  Import took 0.011501 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.473446 seconds.
-  path: Assets/# MyAsset/Animations/berserker_male/skill_2.anim
-  artifactKey: Guid(4e0f2b5942606964bbe28693c7c01a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animations/berserker_male/skill_2.anim using Guid(4e0f2b5942606964bbe28693c7c01a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1592090e34e5afe2e13db6c1398b5dd1') in 0.006920 seconds 
-  Import took 0.011130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007986 seconds.
-  path: Assets/# MyAsset/Animations/berserker_male/skill_2.anim
-  artifactKey: Guid(4e0f2b5942606964bbe28693c7c01a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animations/berserker_male/skill_2.anim using Guid(4e0f2b5942606964bbe28693c7c01a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1592090e34e5afe2e13db6c1398b5dd1') in 0.006938 seconds 
-  Import took 0.011135 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.387032 seconds.
-  path: Assets/# MyAsset/Animations/berserker_male/skill_3.anim
-  artifactKey: Guid(107bf7ff13245b74295b08e5e06cff25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animations/berserker_male/skill_3.anim using Guid(107bf7ff13245b74295b08e5e06cff25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befe89b16a25c6b5b54feac302e486a9') in 0.007869 seconds 
-  Import took 0.012776 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009267 seconds.
-  path: Assets/# MyAsset/Animations/berserker_male/skill_3.anim
-  artifactKey: Guid(107bf7ff13245b74295b08e5e06cff25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animations/berserker_male/skill_3.anim using Guid(107bf7ff13245b74295b08e5e06cff25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befe89b16a25c6b5b54feac302e486a9') in 0.007910 seconds 
-  Import took 0.012829 seconds .
+  Time since last request: 387.233272 seconds.
+  path: Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab
+  artifactKey: Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab using Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ba8ceb2025880259c1ad3a72c26a14') in 0.101235 seconds 
+  Import took 0.106726 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005856 seconds.
+Registered in 0.006663 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.942 seconds
+- Completed reload, in  1.015 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.1 MB.
+System memory in use after: 114.2 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2970.
+Total: 2.863700 ms (FindLiveObjects: 0.286000 ms CreateObjectMapping: 0.068600 ms MarkObjects: 2.379600 ms  DeleteObjects: 0.128400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005952 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.0 MB.
+System memory in use after: 114.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2974.
+Total: 3.241700 ms (FindLiveObjects: 0.328800 ms CreateObjectMapping: 0.115200 ms MarkObjects: 2.660600 ms  DeleteObjects: 0.134900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 59.916568 seconds.
+  path: Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab
+  artifactKey: Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab using Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90accb3c9815b36a7a506e4d272d25bd') in 0.088440 seconds 
+  Import took 0.094432 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005964 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.965 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.1 MB.
+System memory in use after: 114.2 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2979.
+Total: 3.248900 ms (FindLiveObjects: 0.356900 ms CreateObjectMapping: 0.120900 ms MarkObjects: 2.642600 ms  DeleteObjects: 0.126500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 123.889073 seconds.
+  path: Assets/# MyAsset/Animations/black_knight/idle_1.anim
+  artifactKey: Guid(ab619db36d15e3743a9e9ab2a08b7dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Animations/black_knight/idle_1.anim using Guid(ab619db36d15e3743a9e9ab2a08b7dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0619683d1bdebe54a7b092e563eac883') in 0.022653 seconds 
+  Import took 0.027476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003025 seconds.
+  path: Assets/# MyAsset/Animations/black_knight/idle_1.anim
+  artifactKey: Guid(ab619db36d15e3743a9e9ab2a08b7dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Animations/black_knight/idle_1.anim using Guid(ab619db36d15e3743a9e9ab2a08b7dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0619683d1bdebe54a7b092e563eac883') in 0.006397 seconds 
+  Import took 0.010755 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005986 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.052 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.2 MB.
+System memory in use after: 114.2 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2983.
+Total: 2.847900 ms (FindLiveObjects: 0.306200 ms CreateObjectMapping: 0.090600 ms MarkObjects: 2.329500 ms  DeleteObjects: 0.120300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 46.674380 seconds.
+  path: Assets/# MyAsset/Animators/Hero/HeroAnim.controller
+  artifactKey: Guid(41c6d5a4b0e9c5f4f91a585acf9b3f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Animators/Hero/HeroAnim.controller using Guid(41c6d5a4b0e9c5f4f91a585acf9b3f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d94b159d2eae5eddf0efe0f33ad375') in 0.040600 seconds 
+  Import took 0.046732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.468939 seconds.
+  path: Assets/# MyAsset/Animators/Mercenary/ArcherAnim.overrideController
+  artifactKey: Guid(93f6a3b269db6314797206bc67ede85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Animators/Mercenary/ArcherAnim.overrideController using Guid(93f6a3b269db6314797206bc67ede85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046300e4fc8037ce317dab7fe86926b8') in 0.014294 seconds 
+  Import took 0.018943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.641987 seconds.
+  path: Assets/# MyAsset/Animations/black_mage/idle_1.anim
+  artifactKey: Guid(31661ebc4f62c074288dd902d9ea61c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Animations/black_mage/idle_1.anim using Guid(31661ebc4f62c074288dd902d9ea61c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d0cb9e9d83d14ccc6db7e5d114653b') in 0.005510 seconds 
+  Import took 0.010543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004651 seconds.
+  path: Assets/# MyAsset/Animations/black_mage/idle_1.anim
+  artifactKey: Guid(31661ebc4f62c074288dd902d9ea61c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Animations/black_mage/idle_1.anim using Guid(31661ebc4f62c074288dd902d9ea61c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d0cb9e9d83d14ccc6db7e5d114653b') in 0.006181 seconds 
+  Import took 0.010566 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006050 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.990 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2490 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.7 MB.
-System memory in use after: 114.8 MB.
+System memory in use before: 114.2 MB.
+System memory in use after: 114.3 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2967.
-Total: 2.984000 ms (FindLiveObjects: 0.300800 ms CreateObjectMapping: 0.067900 ms MarkObjects: 2.489800 ms  DeleteObjects: 0.123900 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2987.
+Total: 2.610800 ms (FindLiveObjects: 0.285300 ms CreateObjectMapping: 0.066600 ms MarkObjects: 2.122200 ms  DeleteObjects: 0.134900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
