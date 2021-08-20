@@ -15,11 +15,11 @@ C:/Users/user/Documents/## JHS/UnityProject/Lavyrinth-Expedition
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55130
+52920
 Successfully changed project path to: C:/Users/user/Documents/## JHS/UnityProject/Lavyrinth-Expedition
 C:/Users/user/Documents/## JHS/UnityProject/Lavyrinth-Expedition
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 87.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 84.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001687 seconds.
+Registered in 0.001645 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 88.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 89.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.595 seconds
+- Completed reload, in  1.501 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006636 seconds.
+Registered in 0.006386 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 87.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 87.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.115 seconds
+- Completed reload, in  1.084 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2503 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 112.1 MB.
 System memory in use after: 112.2 MB.
 
 Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2946.
-Total: 3.328000 ms (FindLiveObjects: 0.473100 ms CreateObjectMapping: 0.176500 ms MarkObjects: 2.532900 ms  DeleteObjects: 0.143200 ms)
+Total: 2.527000 ms (FindLiveObjects: 0.300600 ms CreateObjectMapping: 0.066800 ms MarkObjects: 2.015300 ms  DeleteObjects: 0.143000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,407 +79,39 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Polymer/venom_polymer
-  artifactKey: Guid(1164b6544e48bf6488a1270fbc371fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polymer/venom_polymer using Guid(1164b6544e48bf6488a1270fbc371fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616b6a2a10090eefa7da6f47e3d00a3a') in 0.009862 seconds 
-  Import took 0.014284 seconds .
+  path: Assets/# MyAsset/Scripts/## JHS_Library/04. System/Timer
+  artifactKey: Guid(8cd937726e5f0384486c4e1386d71988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Scripts/## JHS_Library/04. System/Timer using Guid(8cd937726e5f0384486c4e1386d71988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b0515730195712712fac26acba6b8d') in 0.010257 seconds 
+  Import took 0.014691 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.759213 seconds.
-  path: Assets/# MyAsset/Animations/polymer
-  artifactKey: Guid(66740cfaf9c247d47914258df09de775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animations/polymer using Guid(66740cfaf9c247d47914258df09de775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4eb4124332435cff5ca310a2dce32dc') in 0.007467 seconds 
-  Import took 0.012908 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003419 seconds.
-  path: Assets/# MyAsset/Animations/polymer
-  artifactKey: Guid(66740cfaf9c247d47914258df09de775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animations/polymer using Guid(66740cfaf9c247d47914258df09de775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4eb4124332435cff5ca310a2dce32dc') in 0.001964 seconds 
-  Import took 0.006059 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.366225 seconds.
-  path: Assets/Polymer/venom_polymer/death.anim
-  artifactKey: Guid(b99c46dfe6d0e4d4296f60df21c05f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polymer/venom_polymer/death.anim using Guid(b99c46dfe6d0e4d4296f60df21c05f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90055f3703b6dec0da197c1c15ee2f98') in 0.033877 seconds 
-  Import took 0.038936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.105771 seconds.
-  path: Assets/Polymer/venom_polymer 1
-  artifactKey: Guid(42d77fa950e6ab441aae580a7fc02bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polymer/venom_polymer 1 using Guid(42d77fa950e6ab441aae580a7fc02bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212c65af827674d69ae10168156e9d32') in 0.007828 seconds 
-  Import took 0.013001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.275170 seconds.
-  path: Assets/Polymer/venom_polymer_png
-  artifactKey: Guid(e4c04b5ad64e79144a98212f1e6a347e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polymer/venom_polymer_png using Guid(e4c04b5ad64e79144a98212f1e6a347e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff6643a296875b4787d7b4761bdfa3e') in 0.006887 seconds 
-  Import took 0.012344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.939713 seconds.
-  path: Assets/Polymer/venom_polymer 1/death.anim
-  artifactKey: Guid(60d1331f3a705b74b8d9ead081eaa318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polymer/venom_polymer 1/death.anim using Guid(60d1331f3a705b74b8d9ead081eaa318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4595f7dcd0b08a57e2c8925049e866ba') in 0.003719 seconds 
-  Import took 0.008608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005744 seconds.
-  path: Assets/Polymer/venom_polymer 1/death.anim
-  artifactKey: Guid(60d1331f3a705b74b8d9ead081eaa318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polymer/venom_polymer 1/death.anim using Guid(60d1331f3a705b74b8d9ead081eaa318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4595f7dcd0b08a57e2c8925049e866ba') in 0.003670 seconds 
-  Import took 0.007874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.053143 seconds.
-  path: Assets/Polymer/venom_polymer 1/walk.anim
-  artifactKey: Guid(c99795667b8b12f49b28aa06b3189bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polymer/venom_polymer 1/walk.anim using Guid(c99795667b8b12f49b28aa06b3189bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e835decd855b21661b4b5be12309c635') in 0.008077 seconds 
-  Import took 0.012562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001173 seconds.
-  path: Assets/Polymer/venom_polymer 1/walk.anim
-  artifactKey: Guid(c99795667b8b12f49b28aa06b3189bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polymer/venom_polymer 1/walk.anim using Guid(c99795667b8b12f49b28aa06b3189bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e835decd855b21661b4b5be12309c635') in 0.004818 seconds 
-  Import took 0.009469 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.083947 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab
-  artifactKey: Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab using Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b090325de69ea1de080f15aac2189727') in 0.119300 seconds 
-  Import took 0.124442 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.948320 seconds.
-  path: Assets/Black Knight/black_knight 1
-  artifactKey: Guid(82cfb17ac63d41349824ee21e53e09fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Black Knight/black_knight 1 using Guid(82cfb17ac63d41349824ee21e53e09fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4219efc9fd35b52de3e245c6e41df8bb') in 0.006605 seconds 
-  Import took 0.011480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.822487 seconds.
-  path: Assets/Black Knight/black_knight 1/death.anim
-  artifactKey: Guid(ffb3c2c8c4efe3c4db164cb7b73ea406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Black Knight/black_knight 1/death.anim using Guid(ffb3c2c8c4efe3c4db164cb7b73ea406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3818f0efb56bdd2d4ff69a93989053') in 0.006868 seconds 
-  Import took 0.011954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006443 seconds.
-  path: Assets/Black Knight/black_knight 1/death.anim
-  artifactKey: Guid(ffb3c2c8c4efe3c4db164cb7b73ea406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Black Knight/black_knight 1/death.anim using Guid(ffb3c2c8c4efe3c4db164cb7b73ea406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3818f0efb56bdd2d4ff69a93989053') in 0.006362 seconds 
-  Import took 0.010621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.505242 seconds.
-  path: Assets/black_mage/black_mage_png
-  artifactKey: Guid(1533b59fc7f59474094072550af0a44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage_png using Guid(1533b59fc7f59474094072550af0a44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e75c4d800c6a498fc9c28893f49eda') in 0.007402 seconds 
-  Import took 0.012582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.304974 seconds.
-  path: Assets/# MyAsset/Animations/black_mage
-  artifactKey: Guid(8a898c6826e19084194577b3902c064a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animations/black_mage using Guid(8a898c6826e19084194577b3902c064a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2874c03ff24300e8badb54b94278cb96') in 0.006239 seconds 
-  Import took 0.011154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.233015 seconds.
-  path: Assets/black_mage/black_mage 1
-  artifactKey: Guid(69b45420842b73e45ab82bdfbdc3bb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage 1 using Guid(69b45420842b73e45ab82bdfbdc3bb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd6034d57c4a142bc6a249a50d43e60') in 0.006642 seconds 
-  Import took 0.011670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.489206 seconds.
-  path: Assets/black_mage/black_mage 1/death.anim
-  artifactKey: Guid(e22e48fd0f0d92a4698fd04865b44cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage 1/death.anim using Guid(e22e48fd0f0d92a4698fd04865b44cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f560ddb35e4ee3c4161d0e739654f28f') in 0.005139 seconds 
-  Import took 0.010376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007790 seconds.
-  path: Assets/black_mage/black_mage 1/death.anim
-  artifactKey: Guid(e22e48fd0f0d92a4698fd04865b44cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black_mage/black_mage 1/death.anim using Guid(e22e48fd0f0d92a4698fd04865b44cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f560ddb35e4ee3c4161d0e739654f28f') in 0.004921 seconds 
-  Import took 0.009395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.526753 seconds.
-  path: Assets/Blood Mage/blood_mage 1
-  artifactKey: Guid(db8b707ca37218146a816a8390c16ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage 1 using Guid(db8b707ca37218146a816a8390c16ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f20d2a2e1ce5e5ec6e3380476f1b23') in 0.007113 seconds 
-  Import took 0.011763 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.050616 seconds.
-  path: Assets/# MyAsset/Animations/blood_mage
-  artifactKey: Guid(0c87e7915b97ffc4889a204e1a39aef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animations/blood_mage using Guid(0c87e7915b97ffc4889a204e1a39aef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd9a3e80e5bf652139a1d0c640ea930') in 0.006643 seconds 
-  Import took 0.011295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.709167 seconds.
-  path: Assets/Blood Mage/blood_mage 1/death.anim
-  artifactKey: Guid(5cf7ac20f5373d74ea46acc6f20edc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blood Mage/blood_mage 1/death.anim using Guid(5cf7ac20f5373d74ea46acc6f20edc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd254ca27db8549149d9812220490ba') in 0.005563 seconds 
-  Import took 0.010715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.805449 seconds.
-  path: Assets/Berserker/berserker 1
-  artifactKey: Guid(9f80e1304a72b5b43b07e3d2674e7cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Berserker/berserker 1 using Guid(9f80e1304a72b5b43b07e3d2674e7cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128cfa00f1bfe2701b0e6fc4bfb3a309') in 0.007177 seconds 
-  Import took 0.011775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.699041 seconds.
-  path: Assets/Berserker/berserker 1/hit_1.anim
-  artifactKey: Guid(a2f7885099baf7842bcbbd08e34d5713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Berserker/berserker 1/hit_1.anim using Guid(a2f7885099baf7842bcbbd08e34d5713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3b5b98e64fa2079b1b82579fb904ce') in 0.009407 seconds 
-  Import took 0.014686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002214 seconds.
-  path: Assets/Berserker/berserker 1/hit_1.anim
-  artifactKey: Guid(a2f7885099baf7842bcbbd08e34d5713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Berserker/berserker 1/hit_1.anim using Guid(a2f7885099baf7842bcbbd08e34d5713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3b5b98e64fa2079b1b82579fb904ce') in 0.005273 seconds 
-  Import took 0.009428 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.213782 seconds.
-  path: Assets/Berserker/berserker 1/death.anim
-  artifactKey: Guid(b73d795d1a7aeb146bb0cc944436cdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Berserker/berserker 1/death.anim using Guid(b73d795d1a7aeb146bb0cc944436cdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6593c412ea889b89b499472d26f42a3d') in 0.005230 seconds 
-  Import took 0.010213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.619411 seconds.
-  path: Assets/# MyAsset/Animations/berserker
-  artifactKey: Guid(68ef5306f96b13847ae6a3411ef7850a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animations/berserker using Guid(68ef5306f96b13847ae6a3411ef7850a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e8bba34e5f8a46de623142ab9f39fd') in 0.006014 seconds 
-  Import took 0.011227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.251492 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab
-  artifactKey: Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab using Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d8fceab2eabadd16061f086c74e61a') in 0.044595 seconds 
-  Import took 0.050371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.082542 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab
-  artifactKey: Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab using Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4bba2b59bc6950b47213bb371b77bd') in 0.052041 seconds 
-  Import took 0.057682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.312728 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab
-  artifactKey: Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab using Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13dba2a2c014d378186ed3685be82783') in 0.036498 seconds 
-  Import took 0.042562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002728 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab
-  artifactKey: Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab using Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13dba2a2c014d378186ed3685be82783') in 0.035930 seconds 
-  Import took 0.041240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.263167 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab
-  artifactKey: Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab using Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd8635a3f3e5e877145899d45636308') in 0.057537 seconds 
-  Import took 0.064112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002194 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab
-  artifactKey: Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab using Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd8635a3f3e5e877145899d45636308') in 0.052145 seconds 
-  Import took 0.057603 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.069151 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab
-  artifactKey: Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab using Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8944723e343106bdb18c5d329e780c1d') in 0.073270 seconds 
-  Import took 0.078613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.418229 seconds.
-  path: Assets/# MyAsset/Animators/Monster/BloodMage.overrideController
-  artifactKey: Guid(dab30c48dbd737c45b911e6f809b7a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animators/Monster/BloodMage.overrideController using Guid(dab30c48dbd737c45b911e6f809b7a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03d028666ba2d0ef6450bd1a32d179b') in 0.037444 seconds 
-  Import took 0.042966 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.714414 seconds.
-  path: Assets/# MyAsset/Animators/Monster/BloodMage 1.overrideController
-  artifactKey: Guid(b26f8ba719f18414abe8f094276803a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animators/Monster/BloodMage 1.overrideController using Guid(b26f8ba719f18414abe8f094276803a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616f73183e330234c187601dc5a95aca') in 0.036003 seconds 
-  Import took 0.041436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.861683 seconds.
-  path: Assets/# MyAsset/Animators/Monster/VenomPolymer.overrideController
-  artifactKey: Guid(b26f8ba719f18414abe8f094276803a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animators/Monster/VenomPolymer.overrideController using Guid(b26f8ba719f18414abe8f094276803a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9224f3b8d00aa1ca4e705b419caae682') in 0.038799 seconds 
-  Import took 0.043532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.870886 seconds.
-  path: Assets/# MyAsset/Animations/venom_polymer
-  artifactKey: Guid(66740cfaf9c247d47914258df09de775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animations/venom_polymer using Guid(66740cfaf9c247d47914258df09de775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff6343d0f9089456211ef8206e0591d') in 0.002510 seconds 
-  Import took 0.006942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.813020 seconds.
-  path: Assets/# MyAsset/Animations/venom_polymer/skill_1.anim
-  artifactKey: Guid(5c53c4ba1d0122d4abbf277961e060c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animations/venom_polymer/skill_1.anim using Guid(5c53c4ba1d0122d4abbf277961e060c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc81244db4e7623c3ca8a66fea4c95e') in 0.008723 seconds 
-  Import took 0.013206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000826 seconds.
-  path: Assets/# MyAsset/Animations/venom_polymer/skill_1.anim
-  artifactKey: Guid(5c53c4ba1d0122d4abbf277961e060c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animations/venom_polymer/skill_1.anim using Guid(5c53c4ba1d0122d4abbf277961e060c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc81244db4e7623c3ca8a66fea4c95e') in 0.004818 seconds 
-  Import took 0.009209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.994559 seconds.
-  path: Assets/# MyAsset/Animations/venom_polymer/skill_2.anim
-  artifactKey: Guid(04ee24f328e162b47a1510ff57de3be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animations/venom_polymer/skill_2.anim using Guid(04ee24f328e162b47a1510ff57de3be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0623d30e8dbf0eb5c05c4d15eeb0d66') in 0.011337 seconds 
-  Import took 0.016031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000510 seconds.
-  path: Assets/# MyAsset/Animations/venom_polymer/skill_2.anim
-  artifactKey: Guid(04ee24f328e162b47a1510ff57de3be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animations/venom_polymer/skill_2.anim using Guid(04ee24f328e162b47a1510ff57de3be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0623d30e8dbf0eb5c05c4d15eeb0d66') in 0.004542 seconds 
-  Import took 0.008870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.723820 seconds.
-  path: Assets/# MyAsset/Animations/venom_polymer/skill_3.anim
-  artifactKey: Guid(9e5d9fb2f3549e3469dcb082ea907162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animations/venom_polymer/skill_3.anim using Guid(9e5d9fb2f3549e3469dcb082ea907162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4259191b26e0ccc33f769a01570d1f') in 0.008700 seconds 
-  Import took 0.013227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006137 seconds.
-  path: Assets/# MyAsset/Animations/venom_polymer/skill_3.anim
-  artifactKey: Guid(9e5d9fb2f3549e3469dcb082ea907162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animations/venom_polymer/skill_3.anim using Guid(9e5d9fb2f3549e3469dcb082ea907162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4259191b26e0ccc33f769a01570d1f') in 0.005278 seconds 
-  Import took 0.009662 seconds .
+  Time since last request: 0.000195 seconds.
+  path: Assets/# MyAsset/Scripts/## JHS_Library/04. System/Sound
+  artifactKey: Guid(6282e70c0c11bca4e9c2f88843d8f2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Scripts/## JHS_Library/04. System/Sound using Guid(6282e70c0c11bca4e9c2f88843d8f2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420ca6a1569f83f8d7e6f502f6428525') in 0.006279 seconds 
+  Import took 0.010203 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005968 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.013 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2490 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.0 MB.
-System memory in use after: 114.1 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2957.
-Total: 2.780400 ms (FindLiveObjects: 0.279600 ms CreateObjectMapping: 0.064700 ms MarkObjects: 2.316200 ms  DeleteObjects: 0.118600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006080 seconds.
+Registered in 0.006010 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.977 seconds
+- Completed reload, in  0.973 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2490 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.1 MB.
-System memory in use after: 114.1 MB.
+System memory in use before: 110.9 MB.
+System memory in use after: 111.0 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2961.
-Total: 2.905800 ms (FindLiveObjects: 0.363400 ms CreateObjectMapping: 0.130400 ms MarkObjects: 2.288400 ms  DeleteObjects: 0.121800 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2950.
+Total: 2.853700 ms (FindLiveObjects: 0.352900 ms CreateObjectMapping: 0.118100 ms MarkObjects: 2.266900 ms  DeleteObjects: 0.114300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -495,95 +127,23 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005938 seconds.
+Registered in 0.005809 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.960 seconds
+- Completed reload, in  0.940 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2490 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.1 MB.
-System memory in use after: 114.2 MB.
+System memory in use before: 111.0 MB.
+System memory in use after: 111.1 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2965.
-Total: 2.480700 ms (FindLiveObjects: 0.313800 ms CreateObjectMapping: 0.066500 ms MarkObjects: 1.975400 ms  DeleteObjects: 0.123700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 387.233272 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab
-  artifactKey: Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab using Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ba8ceb2025880259c1ad3a72c26a14') in 0.101235 seconds 
-  Import took 0.106726 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006663 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.015 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2490 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.1 MB.
-System memory in use after: 114.2 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2970.
-Total: 2.863700 ms (FindLiveObjects: 0.286000 ms CreateObjectMapping: 0.068600 ms MarkObjects: 2.379600 ms  DeleteObjects: 0.128400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005952 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.038 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2490 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.0 MB.
-System memory in use after: 114.1 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2974.
-Total: 3.241700 ms (FindLiveObjects: 0.328800 ms CreateObjectMapping: 0.115200 ms MarkObjects: 2.660600 ms  DeleteObjects: 0.134900 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2954.
+Total: 2.563800 ms (FindLiveObjects: 0.307100 ms CreateObjectMapping: 0.064000 ms MarkObjects: 2.073900 ms  DeleteObjects: 0.116900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -598,144 +158,80 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 59.916568 seconds.
-  path: Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab
-  artifactKey: Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Prefabs/Unit/Enemy/venom_polymer.prefab using Guid(8dae99224f3100d40b9a456aad187123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90accb3c9815b36a7a506e4d272d25bd') in 0.088440 seconds 
-  Import took 0.094432 seconds .
+  Time since last request: 322.686656 seconds.
+  path: Assets/# MyAsset/Scripts/Enemy/Monster/BonusMonster
+  artifactKey: Guid(255be2ac158d37c4d94f97a50b204c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Scripts/Enemy/Monster/BonusMonster using Guid(255be2ac158d37c4d94f97a50b204c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949e6eb0b98c3e526116dd1985a15174') in 0.008919 seconds 
+  Import took 0.013886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.027722 seconds.
+  path: Assets/# MyAsset/Scripts/Enemy/Monster/BonusMonster/BonusMonsterHP.cs
+  artifactKey: Guid(b2cff27d7fedd4941a78c3651c6a6295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Scripts/Enemy/Monster/BonusMonster/BonusMonsterHP.cs using Guid(b2cff27d7fedd4941a78c3651c6a6295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9eff28719b2fd2250e7cc92f9d5245') in 0.022400 seconds 
+  Import took 0.026912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002318 seconds.
+  path: Assets/# MyAsset/Scripts/Enemy/Monster/BonusMonster/BonusMonsterHP.cs
+  artifactKey: Guid(b2cff27d7fedd4941a78c3651c6a6295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/# MyAsset/Scripts/Enemy/Monster/BonusMonster/BonusMonsterHP.cs using Guid(b2cff27d7fedd4941a78c3651c6a6295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9eff28719b2fd2250e7cc92f9d5245') in 0.002218 seconds 
+  Import took 0.006679 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005964 seconds.
+Registered in 0.006323 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.965 seconds
+- Completed reload, in  0.955 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2491 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.0 MB.
+System memory in use after: 111.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2959.
+Total: 4.266100 ms (FindLiveObjects: 0.371300 ms CreateObjectMapping: 0.077800 ms MarkObjects: 3.598600 ms  DeleteObjects: 0.215700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005881 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.942 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2490 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.1 MB.
-System memory in use after: 114.2 MB.
+Unloading 2491 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.1 MB.
+System memory in use after: 111.1 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2979.
-Total: 3.248900 ms (FindLiveObjects: 0.356900 ms CreateObjectMapping: 0.120900 ms MarkObjects: 2.642600 ms  DeleteObjects: 0.126500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 123.889073 seconds.
-  path: Assets/# MyAsset/Animations/black_knight/idle_1.anim
-  artifactKey: Guid(ab619db36d15e3743a9e9ab2a08b7dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animations/black_knight/idle_1.anim using Guid(ab619db36d15e3743a9e9ab2a08b7dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0619683d1bdebe54a7b092e563eac883') in 0.022653 seconds 
-  Import took 0.027476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003025 seconds.
-  path: Assets/# MyAsset/Animations/black_knight/idle_1.anim
-  artifactKey: Guid(ab619db36d15e3743a9e9ab2a08b7dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animations/black_knight/idle_1.anim using Guid(ab619db36d15e3743a9e9ab2a08b7dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0619683d1bdebe54a7b092e563eac883') in 0.006397 seconds 
-  Import took 0.010755 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005986 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.052 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2490 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.2 MB.
-System memory in use after: 114.2 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2983.
-Total: 2.847900 ms (FindLiveObjects: 0.306200 ms CreateObjectMapping: 0.090600 ms MarkObjects: 2.329500 ms  DeleteObjects: 0.120300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 46.674380 seconds.
-  path: Assets/# MyAsset/Animators/Hero/HeroAnim.controller
-  artifactKey: Guid(41c6d5a4b0e9c5f4f91a585acf9b3f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animators/Hero/HeroAnim.controller using Guid(41c6d5a4b0e9c5f4f91a585acf9b3f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d94b159d2eae5eddf0efe0f33ad375') in 0.040600 seconds 
-  Import took 0.046732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.468939 seconds.
-  path: Assets/# MyAsset/Animators/Mercenary/ArcherAnim.overrideController
-  artifactKey: Guid(93f6a3b269db6314797206bc67ede85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animators/Mercenary/ArcherAnim.overrideController using Guid(93f6a3b269db6314797206bc67ede85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046300e4fc8037ce317dab7fe86926b8') in 0.014294 seconds 
-  Import took 0.018943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.641987 seconds.
-  path: Assets/# MyAsset/Animations/black_mage/idle_1.anim
-  artifactKey: Guid(31661ebc4f62c074288dd902d9ea61c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animations/black_mage/idle_1.anim using Guid(31661ebc4f62c074288dd902d9ea61c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d0cb9e9d83d14ccc6db7e5d114653b') in 0.005510 seconds 
-  Import took 0.010543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004651 seconds.
-  path: Assets/# MyAsset/Animations/black_mage/idle_1.anim
-  artifactKey: Guid(31661ebc4f62c074288dd902d9ea61c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/# MyAsset/Animations/black_mage/idle_1.anim using Guid(31661ebc4f62c074288dd902d9ea61c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d0cb9e9d83d14ccc6db7e5d114653b') in 0.006181 seconds 
-  Import took 0.010566 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006050 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.990 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2490 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.2 MB.
-System memory in use after: 114.3 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2987.
-Total: 2.610800 ms (FindLiveObjects: 0.285300 ms CreateObjectMapping: 0.066600 ms MarkObjects: 2.122200 ms  DeleteObjects: 0.134900 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2963.
+Total: 2.879000 ms (FindLiveObjects: 0.289200 ms CreateObjectMapping: 0.064200 ms MarkObjects: 2.403100 ms  DeleteObjects: 0.120900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
