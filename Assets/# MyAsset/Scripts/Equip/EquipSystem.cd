@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="JHS.EquipSystem">
+    <Position X="1" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\# MyAsset\Scripts\Equip\EquipSystem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="equipItemList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="JHS.EquipItem">
+    <Position X="7.75" Y="3" Width="1.5" />
+    <Members>
+      <Field Name="count" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACABACAgAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\# MyAsset\Scripts\Equip\EquipItem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="def" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="JHS.EquipItemList">
+    <Position X="4.25" Y="3" Width="2" />
+    <Members>
+      <Property Name="this" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAACAAACAAAAQkgABEBIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\# MyAsset\Scripts\Equip\EquipItemList.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="weaponList" />
+      <Field Name="helmetList" />
+      <Field Name="armorList" />
+      <Field Name="glovesList" />
+      <Field Name="shoesList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="JHS.EquipItemDef">
+    <Position X="9.75" Y="3" Width="1.5" />
+    <Members>
+      <Field Name="icon" Hidden="true" />
+      <Field Name="name" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAQAAAAEAAAA=</HashCode>
+      <FileName>Assets\# MyAsset\Scripts\Equip\EquipItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="JHS.EquipItemType">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAABAAAAAAAAAAgAEAAAAAAAAAI=</HashCode>
+      <FileName>Assets\# MyAsset\Scripts\Equip\EquipSystem.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
