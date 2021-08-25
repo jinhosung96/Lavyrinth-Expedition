@@ -11,14 +11,16 @@ namespace JHS
         #region 필드
 
         [SerializeField] string name;
-        [SerializeField] Image icon;
+        [SerializeField] Sprite icon_noEffect;
+        [SerializeField] Sprite icon_effect;
 
         #endregion
 
         #region 속성
 
         public string Name => name;
-        public Image Icon => icon;
+        public Sprite Icon_NoEffect => icon_noEffect;
+        public Sprite Icon_Effect => icon_effect;
 
         #endregion
     }
@@ -47,15 +49,13 @@ namespace JHS
         /// 해당 아이템의 정의 반환
         /// </summary>
         public EquipItemDef Def => def;
-        public int Count { get => count; private set => count = value; }
-
-        #endregion
-
-        #region 외부 메소드
-
-        public void Looting()
+        public int Count
         {
-            Count++;
+            get => count;
+            set {
+                count = value;
+                ObserverSystem.Instance.PostNofication("장비 보유 개수 갱신");
+            }
         }
 
         #endregion

@@ -26,12 +26,16 @@ namespace JHS
         #region 필드
 
         [SerializeField] private EquipItemList equipItemList;
+        [SerializeField] GameObject slot;
+        [SerializeField] int synthesisCount;
 
         #endregion
 
         #region 속성
 
         public EquipItemList EquipItemList => equipItemList;
+        public GameObject Slot => slot;
+        public int SynthesisCount => synthesisCount;
 
         #endregion
     }
