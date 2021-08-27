@@ -21,6 +21,7 @@ namespace JHS
         public string Name => name;
         public Sprite Icon_NoEffect => icon_noEffect;
         public Sprite Icon_Effect => icon_effect;
+        public EquipItemSlot Slot { get; set; }
 
         #endregion
     }
@@ -54,8 +55,24 @@ namespace JHS
             get => count;
             set {
                 count = value;
+                Def.Slot.Icon.sprite = Def.Icon_NoEffect;
+                Def.Slot.Count.text = $"{Count}/{EquipSystem.Instance.SynthesisCount}";
+                if (count > 0) Def.Slot.gameObject.SetActive(true);
+                else Def.Slot.gameObject.SetActive(false);
                 ObserverSystem.Instance.PostNofication("장비 보유 개수 갱신");
             }
+        }
+
+        #endregion
+
+        #region 공개 메소드
+
+        public void InitUIElemental(int tier)
+        {
+            Def.Slot.Icon.sprite = Def.Icon_NoEffect;
+            Def.Slot.Tier.text = $"T{tier}";
+            Def.Slot.Count.text = $"{Count}/{EquipSystem.Instance.SynthesisCount}";
+            if(Count <= 0) Def.Slot.gameObject.SetActive(false);
         }
 
         #endregion

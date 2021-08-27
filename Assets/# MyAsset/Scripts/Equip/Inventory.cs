@@ -17,7 +17,6 @@ namespace JHS
         #region 필드
 
         [SerializeField] EquipItemType type;
-        List<EquipItemSlot> equipItemSlots;
 
         #endregion
 
@@ -25,42 +24,15 @@ namespace JHS
 
         private void Awake()
         {
-            ObserverSystem.Instance.AddListener("장비 보유 개수 갱신", gameObject, RefreshUIElement, false);
-
-            equipItemSlots = new List<EquipItemSlot>();
-            for (int i = 0; i < EquipSystem.Instance.EquipItemList[type].Length; i++)
+            for (int i = 0; i < EquipSystem.Instance.EquipItemList[type].Items.Length; i++)
             {
-                EquipItem equipItem = EquipSystem.Instance.EquipItemList[type][i];
+                EquipItem equipItem = EquipSystem.Instance.EquipItemList[type].Items[i];
 
                 GameObject slotObj = PoolManager.Instance.PopObject(EquipSystem.Instance.Slot);
                 EquipItemSlot slot = slotObj.GetComponent<EquipItemSlot>();
-                slot.Icon.sprite = equipItem.Def.Icon_NoEffect;
-                slot.Tier.text = $"T{i}";
-                slot.Count.text = $"{equipItem.Count.ToString()}/{EquipSystem.Instance.SynthesisCount}";
                 slotObj.transform.SetParent(transform);
-                if (equipItem.Count == 0) slotObj.SetActive(false);
-                equipItemSlots.Add(slot);
-            }
-        }
-
-        #endregion
-
-        #region 공개 메소드
-
-
-
-        #endregion
-
-        #region 내부 메소드
-
-        void RefreshUIElement()
-        {
-            for (int i = 0; i < EquipSystem.Instance.EquipItemList[type].Length; i++)
-            {
-                EquipItem equipItem = EquipSystem.Instance.EquipItemList[type][i];
-                equipItemSlots[i].Count.text = equipItem.Count.ToString();
-                if (equipItem.Count > 0) equipItemSlots[i].gameObject.SetActive(true);
-                else equipItemSlots[i].gameObject.SetActive(false);
+                equipItem.Def.Slot = slot;
+                equipItem.InitUIElemental(i);
             }
         }
 

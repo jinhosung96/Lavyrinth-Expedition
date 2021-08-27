@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace JHS
@@ -25,7 +26,7 @@ namespace JHS
     {
         #region 필드
 
-        [SerializeField] private EquipItemList equipItemList;
+        [SerializeField] private EquipItemByType equipItemList;
         [SerializeField] GameObject slot;
         [SerializeField] int synthesisCount;
 
@@ -33,7 +34,7 @@ namespace JHS
 
         #region 속성
 
-        public EquipItemList EquipItemList => equipItemList;
+        public EquipItemByType EquipItemList => equipItemList;
         public GameObject Slot => slot;
         public int SynthesisCount => synthesisCount;
 

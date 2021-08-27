@@ -209,8 +209,9 @@ GameObject:
   - component: {fileID: 12848704}
   - component: {fileID: 12848706}
   - component: {fileID: 12848705}
+  - component: {fileID: 12848707}
   m_Layer: 5
-  m_Name: Portrait
+  m_Name: Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -233,7 +234,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 40, y: 40}
+  m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &12848705
 MonoBehaviour:
@@ -248,7 +249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: 7d7ccc8bc40d1df4e850a5e7888f977d, type: 2}
-  m_Color: {r: 0.69411767, g: 0.64705884, b: 0.7176471, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -273,6 +274,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 12848703}
   m_CullTransparentMesh: 1
+--- !u!114 &12848707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12848703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39dcb7ce398877e49ba24151029a7671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 3
 --- !u!1 &43421123
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,8 +1047,9 @@ GameObject:
   - component: {fileID: 114449321}
   - component: {fileID: 114449323}
   - component: {fileID: 114449322}
+  - component: {fileID: 114449324}
   m_Layer: 5
-  m_Name: Portrait
+  m_Name: Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1057,7 +1072,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 40, y: 40}
+  m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &114449322
 MonoBehaviour:
@@ -1072,7 +1087,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: 7d7ccc8bc40d1df4e850a5e7888f977d, type: 2}
-  m_Color: {r: 0.69411767, g: 0.64705884, b: 0.7176471, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1097,6 +1112,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 114449320}
   m_CullTransparentMesh: 1
+--- !u!114 &114449324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114449320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39dcb7ce398877e49ba24151029a7671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 2
 --- !u!1 &114780442
 GameObject:
   m_ObjectHideFlags: 0
@@ -2307,8 +2335,9 @@ GameObject:
   - component: {fileID: 223022121}
   - component: {fileID: 223022123}
   - component: {fileID: 223022122}
+  - component: {fileID: 223022124}
   m_Layer: 5
-  m_Name: Portrait
+  m_Name: Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2331,7 +2360,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 40, y: 40}
+  m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &223022122
 MonoBehaviour:
@@ -2346,7 +2375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: 7d7ccc8bc40d1df4e850a5e7888f977d, type: 2}
-  m_Color: {r: 0.69411767, g: 0.64705884, b: 0.7176471, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2371,6 +2400,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 223022120}
   m_CullTransparentMesh: 1
+--- !u!114 &223022124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223022120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39dcb7ce398877e49ba24151029a7671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
 --- !u!1 &234309908
 GameObject:
   m_ObjectHideFlags: 0
@@ -5096,260 +5138,65 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   equipItemList:
     weaponList:
-    - def:
-        name: 
-        icon_noEffect: {fileID: 21300000, guid: 5e60925f0f18dc1429b8d40ba1a77182, type: 3}
-        icon_effect: {fileID: 21300000, guid: 1fc5feff769160246a5f83837196f7d5, type: 3}
-      count: 1
-    - def:
-        name: 
-        icon_noEffect: {fileID: 21300000, guid: 053677dbb5d591548a9ced88115d9805, type: 3}
-        icon_effect: {fileID: 21300000, guid: 4790cbe4f0f43a94c9971f9e7402cdb3, type: 3}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 21300000, guid: ac6917791ef3d12428393dffe6cba6fd, type: 3}
-        icon_effect: {fileID: 21300000, guid: ddae9fcc430ab1d42a1e862fb80ea6c0, type: 3}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 21300000, guid: 4434cf00682b86440a01b19aa7c6ecaf, type: 3}
-        icon_effect: {fileID: 21300000, guid: 37bf8536aa67e2949b3cdef33bef905d, type: 3}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 21300000, guid: ed6113572bcf6004eb2e001383c63d39, type: 3}
-        icon_effect: {fileID: 21300000, guid: 0071bac850034d4409a5eadf37b24f58, type: 3}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 21300000, guid: a17ce52ae9b5c634b863b86532d8ead1, type: 3}
-        icon_effect: {fileID: 21300000, guid: fab98f50f7f78d14f95fbcf91210f42a, type: 3}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 21300000, guid: 08ecb110839761048b79d44805c5f268, type: 3}
-        icon_effect: {fileID: 21300000, guid: 250be4d1dfdaea848a50141d859b5209, type: 3}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 21300000, guid: acb5b43928776b84ab4f1b6c80d1757f, type: 3}
-        icon_effect: {fileID: 21300000, guid: a78c329fd13b6d14bb0906f34a349c3a, type: 3}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 21300000, guid: ec9d8e458fef0ec4f84e904425f96650, type: 3}
-        icon_effect: {fileID: 21300000, guid: 711c9e784edb02c429dfaa9da7cab37f, type: 3}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 21300000, guid: 543e2b79c41c2d4408165336f067dfb7, type: 3}
-        icon_effect: {fileID: 21300000, guid: 6078650a08f4dd74997f11345ba61c94, type: 3}
-      count: 0
+      items:
+      - def:
+          name: 1
+          icon_noEffect: {fileID: 21300000, guid: 5e60925f0f18dc1429b8d40ba1a77182, type: 3}
+          icon_effect: {fileID: 21300000, guid: 1fc5feff769160246a5f83837196f7d5, type: 3}
+        count: 1
+      - def:
+          name: 2
+          icon_noEffect: {fileID: 21300000, guid: 053677dbb5d591548a9ced88115d9805, type: 3}
+          icon_effect: {fileID: 21300000, guid: 4790cbe4f0f43a94c9971f9e7402cdb3, type: 3}
+        count: 1
+      - def:
+          name: 3
+          icon_noEffect: {fileID: 21300000, guid: ac6917791ef3d12428393dffe6cba6fd, type: 3}
+          icon_effect: {fileID: 21300000, guid: ddae9fcc430ab1d42a1e862fb80ea6c0, type: 3}
+        count: 0
+      - def:
+          name: 4
+          icon_noEffect: {fileID: 21300000, guid: 4434cf00682b86440a01b19aa7c6ecaf, type: 3}
+          icon_effect: {fileID: 21300000, guid: 37bf8536aa67e2949b3cdef33bef905d, type: 3}
+        count: 0
+      - def:
+          name: 5
+          icon_noEffect: {fileID: 21300000, guid: ed6113572bcf6004eb2e001383c63d39, type: 3}
+          icon_effect: {fileID: 21300000, guid: 0071bac850034d4409a5eadf37b24f58, type: 3}
+        count: 0
+      - def:
+          name: 6
+          icon_noEffect: {fileID: 21300000, guid: a17ce52ae9b5c634b863b86532d8ead1, type: 3}
+          icon_effect: {fileID: 21300000, guid: fab98f50f7f78d14f95fbcf91210f42a, type: 3}
+        count: 0
+      - def:
+          name: 7
+          icon_noEffect: {fileID: 21300000, guid: 08ecb110839761048b79d44805c5f268, type: 3}
+          icon_effect: {fileID: 21300000, guid: 250be4d1dfdaea848a50141d859b5209, type: 3}
+        count: 0
+      - def:
+          name: 8
+          icon_noEffect: {fileID: 21300000, guid: acb5b43928776b84ab4f1b6c80d1757f, type: 3}
+          icon_effect: {fileID: 21300000, guid: a78c329fd13b6d14bb0906f34a349c3a, type: 3}
+        count: 0
+      - def:
+          name: 9
+          icon_noEffect: {fileID: 21300000, guid: ec9d8e458fef0ec4f84e904425f96650, type: 3}
+          icon_effect: {fileID: 21300000, guid: 711c9e784edb02c429dfaa9da7cab37f, type: 3}
+        count: 0
+      - def:
+          name: 10
+          icon_noEffect: {fileID: 21300000, guid: 543e2b79c41c2d4408165336f067dfb7, type: 3}
+          icon_effect: {fileID: 21300000, guid: 6078650a08f4dd74997f11345ba61c94, type: 3}
+        count: 0
     helmetList:
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
+      items: []
     armorList:
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
+      items: []
     glovesList:
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
+      items: []
     shoesList:
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
-    - def:
-        name: 
-        icon_noEffect: {fileID: 0}
-        icon_effect: {fileID: 0}
-      count: 0
+      items: []
   slot: {fileID: 2139782011056223909, guid: 4fa157909740915469686f65c710803d, type: 3}
   synthesisCount: 10
 --- !u!1 &519212825
@@ -6021,8 +5868,9 @@ GameObject:
   - component: {fileID: 642816703}
   - component: {fileID: 642816705}
   - component: {fileID: 642816704}
+  - component: {fileID: 642816706}
   m_Layer: 5
-  m_Name: Portrait
+  m_Name: Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6045,7 +5893,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 40, y: 40}
+  m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &642816704
 MonoBehaviour:
@@ -6060,7 +5908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: 7d7ccc8bc40d1df4e850a5e7888f977d, type: 2}
-  m_Color: {r: 0.69411767, g: 0.64705884, b: 0.7176471, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6085,6 +5933,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 642816702}
   m_CullTransparentMesh: 1
+--- !u!114 &642816706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642816702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39dcb7ce398877e49ba24151029a7671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 4
 --- !u!1 &643448992
 GameObject:
   m_ObjectHideFlags: 0
@@ -15143,8 +15004,9 @@ GameObject:
   - component: {fileID: 1508141019}
   - component: {fileID: 1508141021}
   - component: {fileID: 1508141020}
+  - component: {fileID: 1508141022}
   m_Layer: 5
-  m_Name: Portrait
+  m_Name: Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15167,7 +15029,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 40, y: 40}
+  m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1508141020
 MonoBehaviour:
@@ -15182,7 +15044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: 7d7ccc8bc40d1df4e850a5e7888f977d, type: 2}
-  m_Color: {r: 0.69411767, g: 0.64705884, b: 0.7176471, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -15207,6 +15069,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1508141018}
   m_CullTransparentMesh: 1
+--- !u!114 &1508141022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508141018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39dcb7ce398877e49ba24151029a7671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 1
 --- !u!1 &1509473896
 GameObject:
   m_ObjectHideFlags: 0
