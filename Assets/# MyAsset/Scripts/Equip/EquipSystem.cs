@@ -26,7 +26,7 @@ namespace JHS
     {
         #region 필드
 
-        [SerializeField] private EquipItemByType equipItemList;
+        [SerializeField] EquipItemByType equipItemList;
         [SerializeField] GameObject slot;
         [SerializeField] int synthesisCount;
 
@@ -37,6 +37,33 @@ namespace JHS
         public EquipItemByType EquipItemList => equipItemList;
         public GameObject Slot => slot;
         public int SynthesisCount => synthesisCount;
+
+        #endregion
+
+        #region 유니티 생명주기
+
+        protected override void Awake()
+        {
+            base.Awake();
+
+            for (int type = 0; type < 5; type++)
+            {
+                EquipItemList equipItemListByType = EquipItemList[(EquipItemType)type];
+                for (int i = 0; i < equipItemListByType.Items.Length; i++)
+                {
+                    EquipItem equipItem = equipItemListByType.Items[i];
+                    equipItem.Def.Type = (EquipItemType)type;
+
+                    GameObject slotObj = PoolManager.Instance.PopObject(Slot);
+                    EquipItemSlot slot = slotObj.GetComponent<EquipItemSlot>();
+                    slotObj.transform.SetParent(equipItemListByType.Inventory);
+                    equipItem.Def.Slot = slot;
+                    equipItem.InitUIElemental(i);
+                }
+                equipItemListByType.UpdateHoldingItem();
+                equipItemListByType.UpdateCurrentEquip();
+            }
+        }
 
         #endregion
     }

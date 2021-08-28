@@ -10,6 +10,7 @@ namespace JHS
     {
         #region 필드
 
+        EquipItemType type;
         [SerializeField] string name;
         [SerializeField] Sprite icon_noEffect;
         [SerializeField] Sprite icon_effect;
@@ -18,6 +19,7 @@ namespace JHS
 
         #region 속성
 
+        public EquipItemType Type { get => type; set => type = value; }
         public string Name => name;
         public Sprite Icon_NoEffect => icon_noEffect;
         public Sprite Icon_Effect => icon_effect;
@@ -54,12 +56,21 @@ namespace JHS
         {
             get => count;
             set {
+                if (count <= 0 && value > 0)
+                {
+                    Def.Slot.gameObject.SetActive(true);
+                    EquipSystem.Instance.EquipItemList[Def.Type].UpdateHoldingItem();
+                    EquipSystem.Instance.EquipItemList[Def.Type].UpdateCurrentEquip();
+                }
+                else if (count > 0 && value <= 0)
+                {
+                    Def.Slot.gameObject.SetActive(false);
+                    EquipSystem.Instance.EquipItemList[Def.Type].UpdateHoldingItem();
+                    EquipSystem.Instance.EquipItemList[Def.Type].UpdateCurrentEquip();
+                }
+
                 count = value;
-                Def.Slot.Icon.sprite = Def.Icon_NoEffect;
-                Def.Slot.Count.text = $"{Count}/{EquipSystem.Instance.SynthesisCount}";
-                if (count > 0) Def.Slot.gameObject.SetActive(true);
-                else Def.Slot.gameObject.SetActive(false);
-                ObserverSystem.Instance.PostNofication("장비 보유 개수 갱신");
+                Def.Slot.Count.text = $"{count}/{EquipSystem.Instance.SynthesisCount}";
             }
         }
 

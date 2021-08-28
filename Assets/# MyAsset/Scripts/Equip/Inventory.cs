@@ -34,6 +34,8 @@ namespace JHS
                 equipItem.Def.Slot = slot;
                 equipItem.InitUIElemental(i);
             }
+            EquipSystem.Instance.EquipItemList[type].UpdateHoldingItem();
+            EquipSystem.Instance.EquipItemList[type].UpdateCurrentEquip();
         }
 
         #endregion
