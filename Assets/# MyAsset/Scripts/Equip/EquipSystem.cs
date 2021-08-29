@@ -27,7 +27,7 @@ namespace JHS
         #region 필드
 
         [SerializeField] EquipItemByType equipItemList;
-        [SerializeField] GameObject slot;
+        [SerializeField] GameObject slotPrefab;
         [SerializeField] int synthesisCount;
 
         #endregion
@@ -35,7 +35,6 @@ namespace JHS
         #region 속성
 
         public EquipItemByType EquipItemList => equipItemList;
-        public GameObject Slot => slot;
         public int SynthesisCount => synthesisCount;
 
         #endregion
@@ -45,23 +44,24 @@ namespace JHS
         protected override void Awake()
         {
             base.Awake();
+            InitEquipItemLists();
+        }
 
+        private void InitEquipItemLists()
+        {
             for (int type = 0; type < 5; type++)
             {
-                EquipItemList equipItemListByType = EquipItemList[(EquipItemType)type];
-                for (int i = 0; i < equipItemListByType.Items.Length; i++)
+                EquipItemList equipItemList = EquipItemList[(EquipItemType)type];
+                for (int i = 0; i < equipItemList.Totals.Length; i++)
                 {
-                    EquipItem equipItem = equipItemListByType.Items[i];
-                    equipItem.Def.Type = (EquipItemType)type;
+                    EquipItemSlot slot = equipItemList.EquipSlot.CreateSlotObject(slotPrefab);
 
-                    GameObject slotObj = PoolManager.Instance.PopObject(Slot);
-                    EquipItemSlot slot = slotObj.GetComponent<EquipItemSlot>();
-                    slotObj.transform.SetParent(equipItemListByType.Inventory);
-                    equipItem.Def.Slot = slot;
-                    equipItem.InitUIElemental(i);
+                    EquipItem equipItem = equipItemList.Totals[i];
+                    equipItem.InitDef((EquipItemType)type, i);
+                    equipItem.InitSlotUI(slot);
                 }
-                equipItemListByType.UpdateHoldingItem();
-                equipItemListByType.UpdateCurrentEquip();
+                equipItemList.UpdateHoldingItem();
+                equipItemList.UpdateCurrentEquip();
             }
         }
 

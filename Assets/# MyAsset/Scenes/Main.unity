@@ -255,7 +255,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9dd78c33cd76b48119b0e2161af90f6d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4cff8e9fe76f34b679f4c80833b33d02, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -790,10 +790,10 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC7A5\uBE44 \uC774\uB984"
+  m_Text: "\uBCF4\uC720 \uC7A5\uBE44 \uC5C6\uC74C"
 --- !u!222 &91690013
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1079,7 +1079,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9dd78c33cd76b48119b0e2161af90f6d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4cff8e9fe76f34b679f4c80833b33d02, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2353,7 +2353,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9dd78c33cd76b48119b0e2161af90f6d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4cff8e9fe76f34b679f4c80833b33d02, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3693,6 +3693,7 @@ GameObject:
   - component: {fileID: 358787052}
   - component: {fileID: 358787051}
   - component: {fileID: 358787050}
+  - component: {fileID: 358787053}
   m_Layer: 5
   m_Name: EquipSlot_Weapon
   m_TagString: Untagged
@@ -3807,6 +3808,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 358787048}
   m_CullTransparentMesh: 1
+--- !u!114 &358787053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358787048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e132760bf078eef44a5551cebc1df6e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 223022122}
+  name: {fileID: 1064319108}
+  tier: {fileID: 865380234}
+  amplificationDPS: {fileID: 976286242}
+  inventoryTr: {fileID: 1134370937}
 --- !u!1 &360575296
 GameObject:
   m_ObjectHideFlags: 0
@@ -4668,6 +4686,7 @@ GameObject:
   - component: {fileID: 456304776}
   - component: {fileID: 456304775}
   - component: {fileID: 456304774}
+  - component: {fileID: 456304777}
   m_Layer: 5
   m_Name: EquipSlot_Armor
   m_TagString: Untagged
@@ -4782,6 +4801,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 456304772}
   m_CullTransparentMesh: 1
+--- !u!114 &456304777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456304772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e132760bf078eef44a5551cebc1df6e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 114449322}
+  name: {fileID: 675828733}
+  tier: {fileID: 2100823250}
+  amplificationDPS: {fileID: 924238329}
+  inventoryTr: {fileID: 1470125079}
 --- !u!1 &462904429
 GameObject:
   m_ObjectHideFlags: 0
@@ -5082,76 +5118,81 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   equipItemList:
     weaponList:
-      icon: {fileID: 223022122}
-      inventory: {fileID: 1134370937}
-      items:
+      equipSlot: {fileID: 358787053}
+      totals:
       - def:
           name: 1
+          amplicationDPS: 0
           icon_noEffect: {fileID: 21300000, guid: 5e60925f0f18dc1429b8d40ba1a77182, type: 3}
           icon_effect: {fileID: 21300000, guid: 1fc5feff769160246a5f83837196f7d5, type: 3}
         count: 1
       - def:
           name: 2
+          amplicationDPS: 0
           icon_noEffect: {fileID: 21300000, guid: 053677dbb5d591548a9ced88115d9805, type: 3}
           icon_effect: {fileID: 21300000, guid: 4790cbe4f0f43a94c9971f9e7402cdb3, type: 3}
         count: 1
       - def:
           name: 3
+          amplicationDPS: 0
           icon_noEffect: {fileID: 21300000, guid: ac6917791ef3d12428393dffe6cba6fd, type: 3}
           icon_effect: {fileID: 21300000, guid: ddae9fcc430ab1d42a1e862fb80ea6c0, type: 3}
         count: 0
       - def:
           name: 4
+          amplicationDPS: 0
           icon_noEffect: {fileID: 21300000, guid: 4434cf00682b86440a01b19aa7c6ecaf, type: 3}
           icon_effect: {fileID: 21300000, guid: 37bf8536aa67e2949b3cdef33bef905d, type: 3}
         count: 0
       - def:
           name: 5
+          amplicationDPS: 0
           icon_noEffect: {fileID: 21300000, guid: ed6113572bcf6004eb2e001383c63d39, type: 3}
           icon_effect: {fileID: 21300000, guid: 0071bac850034d4409a5eadf37b24f58, type: 3}
         count: 0
       - def:
           name: 6
+          amplicationDPS: 0
           icon_noEffect: {fileID: 21300000, guid: a17ce52ae9b5c634b863b86532d8ead1, type: 3}
           icon_effect: {fileID: 21300000, guid: fab98f50f7f78d14f95fbcf91210f42a, type: 3}
         count: 0
       - def:
           name: 7
+          amplicationDPS: 0
           icon_noEffect: {fileID: 21300000, guid: 08ecb110839761048b79d44805c5f268, type: 3}
           icon_effect: {fileID: 21300000, guid: 250be4d1dfdaea848a50141d859b5209, type: 3}
         count: 0
       - def:
           name: 8
+          amplicationDPS: 0
           icon_noEffect: {fileID: 21300000, guid: acb5b43928776b84ab4f1b6c80d1757f, type: 3}
           icon_effect: {fileID: 21300000, guid: a78c329fd13b6d14bb0906f34a349c3a, type: 3}
         count: 0
       - def:
           name: 9
+          amplicationDPS: 0
           icon_noEffect: {fileID: 21300000, guid: ec9d8e458fef0ec4f84e904425f96650, type: 3}
           icon_effect: {fileID: 21300000, guid: 711c9e784edb02c429dfaa9da7cab37f, type: 3}
         count: 0
       - def:
           name: 10
+          amplicationDPS: 0
           icon_noEffect: {fileID: 21300000, guid: 543e2b79c41c2d4408165336f067dfb7, type: 3}
           icon_effect: {fileID: 21300000, guid: 6078650a08f4dd74997f11345ba61c94, type: 3}
         count: 0
     helmetList:
-      icon: {fileID: 1508141020}
-      inventory: {fileID: 1509473897}
-      items: []
+      equipSlot: {fileID: 1164305420}
+      totals: []
     armorList:
-      icon: {fileID: 114449322}
-      inventory: {fileID: 1470125079}
-      items: []
+      equipSlot: {fileID: 456304777}
+      totals: []
     glovesList:
-      icon: {fileID: 12848705}
-      inventory: {fileID: 273087635}
-      items: []
+      equipSlot: {fileID: 659771610}
+      totals: []
     shoesList:
-      icon: {fileID: 642816704}
-      inventory: {fileID: 1573545170}
-      items: []
-  slot: {fileID: 2139782011056223909, guid: 4fa157909740915469686f65c710803d, type: 3}
+      equipSlot: {fileID: 1096138861}
+      totals: []
+  slotPrefab: {fileID: 2139782011056223909, guid: 4fa157909740915469686f65c710803d, type: 3}
   synthesisCount: 10
 --- !u!1 &519212825
 GameObject:
@@ -5868,7 +5909,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9dd78c33cd76b48119b0e2161af90f6d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4cff8e9fe76f34b679f4c80833b33d02, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6061,6 +6102,7 @@ GameObject:
   - component: {fileID: 659771609}
   - component: {fileID: 659771608}
   - component: {fileID: 659771607}
+  - component: {fileID: 659771610}
   m_Layer: 5
   m_Name: EquipSlot_Gloves
   m_TagString: Untagged
@@ -6175,6 +6217,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 659771605}
   m_CullTransparentMesh: 1
+--- !u!114 &659771610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659771605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e132760bf078eef44a5551cebc1df6e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 12848705}
+  name: {fileID: 1548640983}
+  tier: {fileID: 677963726}
+  amplificationDPS: {fileID: 765177246}
+  inventoryTr: {fileID: 273087635}
 --- !u!1 &661116161
 GameObject:
   m_ObjectHideFlags: 0
@@ -6354,10 +6413,10 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC7A5\uBE44 \uC774\uB984"
+  m_Text: "\uBCF4\uC720 \uC7A5\uBE44 \uC5C6\uC74C"
 --- !u!222 &675828734
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6378,7 +6437,7 @@ GameObject:
   - component: {fileID: 677963727}
   - component: {fileID: 677963726}
   m_Layer: 5
-  m_Name: Text_Lv
+  m_Name: Text_Tier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6436,7 +6495,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lv. 1
+  m_Text: 
 --- !u!222 &677963727
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7599,7 +7658,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "<color=#DAD9FF>+ DPS </color>50<color=#DAD9FF>% \uC99D\uD3ED</color>"
+  m_Text: "<color=#DAD9FF>+ DPS </color>0<color=#DAD9FF>% \uC99D\uD3ED</color>"
 --- !u!222 &765177247
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8340,10 +8399,10 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC7A5\uBE44 \uC774\uB984"
+  m_Text: "\uBCF4\uC720 \uC7A5\uBE44 \uC5C6\uC74C"
 --- !u!222 &820165872
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8537,7 +8596,7 @@ GameObject:
   - component: {fileID: 865380235}
   - component: {fileID: 865380234}
   m_Layer: 5
-  m_Name: Text_Lv
+  m_Name: Text_Tier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8595,7 +8654,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lv. 1
+  m_Text: 
 --- !u!222 &865380235
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9194,7 +9253,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "<color=#DAD9FF>+ DPS </color>50<color=#DAD9FF>% \uC99D\uD3ED</color>"
+  m_Text: "<color=#DAD9FF>+ DPS </color>0<color=#DAD9FF>% \uC99D\uD3ED</color>"
 --- !u!222 &924238330
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9949,7 +10008,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "<color=#DAD9FF>+ DPS </color>50<color=#DAD9FF>% \uC99D\uD3ED</color>"
+  m_Text: "<color=#DAD9FF>+ DPS </color>0<color=#DAD9FF>% \uC99D\uD3ED</color>"
 --- !u!222 &976286243
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10502,7 +10561,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "<color=#DAD9FF>+ DPS </color>50<color=#DAD9FF>% \uC99D\uD3ED</color>"
+  m_Text: "<color=#DAD9FF>+ DPS </color>0<color=#DAD9FF>% \uC99D\uD3ED</color>"
 --- !u!222 &1020840664
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10732,10 +10791,10 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC7A5\uBE44 \uC774\uB984"
+  m_Text: "\uBCF4\uC720 \uC7A5\uBE44 \uC5C6\uC74C"
 --- !u!222 &1064319109
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11016,7 +11075,7 @@ GameObject:
   - component: {fileID: 1085680002}
   - component: {fileID: 1085680001}
   m_Layer: 5
-  m_Name: Text_Lv
+  m_Name: Text_Tier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11074,7 +11133,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lv. 1
+  m_Text: 
 --- !u!222 &1085680002
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11172,6 +11231,7 @@ GameObject:
   - component: {fileID: 1096138860}
   - component: {fileID: 1096138859}
   - component: {fileID: 1096138858}
+  - component: {fileID: 1096138861}
   m_Layer: 5
   m_Name: EquipSlot_Shoes
   m_TagString: Untagged
@@ -11286,6 +11346,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096138856}
   m_CullTransparentMesh: 1
+--- !u!114 &1096138861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096138856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e132760bf078eef44a5551cebc1df6e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 642816704}
+  name: {fileID: 91690012}
+  tier: {fileID: 1085680001}
+  amplificationDPS: {fileID: 1256000386}
+  inventoryTr: {fileID: 1573545170}
 --- !u!1 &1102626155
 GameObject:
   m_ObjectHideFlags: 0
@@ -12075,6 +12152,7 @@ GameObject:
   - component: {fileID: 1164305423}
   - component: {fileID: 1164305422}
   - component: {fileID: 1164305421}
+  - component: {fileID: 1164305420}
   m_Layer: 5
   m_Name: EquipSlot_Helmet
   m_TagString: Untagged
@@ -12107,6 +12185,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 56}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1164305420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164305418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e132760bf078eef44a5551cebc1df6e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 1508141020}
+  name: {fileID: 820165871}
+  tier: {fileID: 1415414338}
+  amplificationDPS: {fileID: 1020840663}
+  inventoryTr: {fileID: 1509473897}
 --- !u!114 &1164305421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12965,7 +13060,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "<color=#DAD9FF>+ DPS </color>50<color=#DAD9FF>% \uC99D\uD3ED</color>"
+  m_Text: "<color=#DAD9FF>+ DPS </color>0<color=#DAD9FF>% \uC99D\uD3ED</color>"
 --- !u!222 &1256000387
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14052,7 +14147,7 @@ GameObject:
   - component: {fileID: 1415414339}
   - component: {fileID: 1415414338}
   m_Layer: 5
-  m_Name: Text_Lv
+  m_Name: Text_Tier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14110,7 +14205,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lv. 1
+  m_Text: 
 --- !u!222 &1415414339
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14962,7 +15057,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9dd78c33cd76b48119b0e2161af90f6d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4cff8e9fe76f34b679f4c80833b33d02, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15358,10 +15453,10 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC7A5\uBE44 \uC774\uB984"
+  m_Text: "\uBCF4\uC720 \uC7A5\uBE44 \uC5C6\uC74C"
 --- !u!222 &1548640984
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20835,7 +20930,7 @@ GameObject:
   - component: {fileID: 2100823251}
   - component: {fileID: 2100823250}
   m_Layer: 5
-  m_Name: Text_Lv
+  m_Name: Text_Tier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20893,7 +20988,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lv. 1
+  m_Text: 
 --- !u!222 &2100823251
 CanvasRenderer:
   m_ObjectHideFlags: 0

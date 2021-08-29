@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Assertions;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace JHS
@@ -20,30 +21,29 @@ namespace JHS
     {
         #region 필드
 
-        [SerializeField] Image icon;
-        [SerializeField] Transform inventory;
-        [SerializeField] EquipItem[] items;
-        EquipItem[] holdingItems;
+        [SerializeField] EquipSlot equipSlot;
+        [SerializeField] EquipItem[] totals;
+        EquipItem[] holdings;
         EquipItem currentEquip;
 
         #endregion
 
         #region 속성
 
-        public Image Icon => icon;
-        public Transform Inventory => inventory;
-        public EquipItem[] Items => items;
-        public EquipItem[] HoldingItems { get => holdingItems; private set => holdingItems = value; }
+        public EquipSlot EquipSlot => equipSlot;
+        public EquipItem[] Totals => totals;
+        public EquipItem[] Holdings { get => holdings; private set => holdings = value; }
         public EquipItem CurrentEquip
         {
-            get => HoldingItems[HoldingItems.Length - 1]; private set
+            get => currentEquip; private set
             {
                 if(currentEquip != null) currentEquip.Def.Slot.Icon.sprite = currentEquip.Def.Icon_NoEffect;
                 currentEquip = value;
-                Assert.IsNotNull(currentEquip, "이후에 장착할 장비가 없네??");
-                Assert.IsNotNull(currentEquip.Def.Slot, "이후에 장착할 장비에 대한 슬롯이 없네??");
                 currentEquip.Def.Slot.Icon.sprite = currentEquip.Def.Icon_Effect;
-                Icon.sprite = currentEquip.Def.Icon_Effect;
+                EquipSlot.Icon.sprite = currentEquip.Def.Icon_Effect;
+                EquipSlot.Name.text = currentEquip.Def.Name;
+                EquipSlot.Tier.text = $"Tier {currentEquip.Def.Tier}";
+                EquipSlot.AmplificationDPS.text = $"<color=#DAD9FF>+ DPS </color>{currentEquip.Def.AmplicationDPS}<color=#DAD9FF>% 증폭</color>";
             }
         }
 
@@ -53,12 +53,12 @@ namespace JHS
 
         public void UpdateHoldingItem()
         {
-            HoldingItems = (from item in items where item.Count > 0 select item).ToArray();
+            Holdings = (from item in totals where item.Count > 0 select item).ToArray();
         }
 
         public void UpdateCurrentEquip()
         {
-            if(HoldingItems.Length > 0) CurrentEquip = HoldingItems[HoldingItems.Length - 1];
+            if(Holdings.Length > 0) CurrentEquip = Holdings[Holdings.Length - 1];
         }
 
         #endregion

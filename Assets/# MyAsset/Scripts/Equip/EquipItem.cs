@@ -11,7 +11,9 @@ namespace JHS
         #region 필드
 
         EquipItemType type;
+        int tier;
         [SerializeField] string name;
+        [SerializeField] int amplicationDPS;
         [SerializeField] Sprite icon_noEffect;
         [SerializeField] Sprite icon_effect;
 
@@ -20,7 +22,9 @@ namespace JHS
         #region 속성
 
         public EquipItemType Type { get => type; set => type = value; }
+        public int Tier { get => tier; set => tier = value; }
         public string Name => name;
+        public int AmplicationDPS => amplicationDPS;
         public Sprite Icon_NoEffect => icon_noEffect;
         public Sprite Icon_Effect => icon_effect;
         public EquipItemSlot Slot { get; set; }
@@ -78,10 +82,17 @@ namespace JHS
 
         #region 공개 메소드
 
-        public void InitUIElemental(int tier)
+        public void InitDef(EquipItemType type, int tier)
         {
+            Def.Type = type;
+            Def.Tier = tier;
+        }
+
+        public void InitSlotUI(EquipItemSlot slot)
+        {
+            Def.Slot = slot;
             Def.Slot.Icon.sprite = Def.Icon_NoEffect;
-            Def.Slot.Tier.text = $"T{tier}";
+            Def.Slot.Tier.text = $"T{Def.Tier}";
             Def.Slot.Count.text = $"{Count}/{EquipSystem.Instance.SynthesisCount}";
             if(Count <= 0) Def.Slot.gameObject.SetActive(false);
         }
