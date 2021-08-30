@@ -13,7 +13,7 @@ namespace JHS
         EquipItemType type;
         int tier;
         [SerializeField] string name;
-        [SerializeField] int amplicationDPS;
+        [SerializeField] int amplificationDPS;
         [SerializeField] Sprite icon_noEffect;
         [SerializeField] Sprite icon_effect;
 
@@ -24,7 +24,7 @@ namespace JHS
         public EquipItemType Type { get => type; set => type = value; }
         public int Tier { get => tier; set => tier = value; }
         public string Name => name;
-        public int AmplicationDPS => amplicationDPS;
+        public int AmplificationDPS => amplificationDPS;
         public Sprite Icon_NoEffect => icon_noEffect;
         public Sprite Icon_Effect => icon_effect;
         public EquipItemSlot Slot { get; set; }

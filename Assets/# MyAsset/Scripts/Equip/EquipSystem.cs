@@ -36,6 +36,19 @@ namespace JHS
 
         public EquipItemByType EquipItemList => equipItemList;
         public int SynthesisCount => synthesisCount;
+        public int Amplification
+        {
+            get
+            {
+                int amplification = 0;
+                for (int type = 0; type < 5; type++)
+                {
+                    EquipItemList equipItemList = EquipItemList[(EquipItemType)type];
+                    if(equipItemList.CurrentEquip != null) amplification += equipItemList.CurrentEquip.Def.AmplificationDPS;
+                }
+                return amplification;
+            }
+        }
 
         #endregion
 

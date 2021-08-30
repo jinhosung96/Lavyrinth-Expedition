@@ -43,7 +43,7 @@ namespace JHS
                 EquipSlot.Icon.sprite = currentEquip.Def.Icon_Effect;
                 EquipSlot.Name.text = currentEquip.Def.Name;
                 EquipSlot.Tier.text = $"Tier {currentEquip.Def.Tier}";
-                EquipSlot.AmplificationDPS.text = $"<color=#DAD9FF>+ DPS </color>{currentEquip.Def.AmplicationDPS}<color=#DAD9FF>% 증폭</color>";
+                EquipSlot.AmplificationDPS.text = $"<color=#DAD9FF>+ DPS </color>{currentEquip.Def.AmplificationDPS}<color=#DAD9FF>% 증폭</color>";
             }
         }
 
