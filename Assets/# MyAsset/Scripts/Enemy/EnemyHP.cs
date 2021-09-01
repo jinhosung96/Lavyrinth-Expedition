@@ -51,6 +51,7 @@ namespace JHS
         protected abstract string GetEventName();
         protected abstract BigInteger GetRoundHP();
         protected abstract BigInteger GetRoundGold();
+        protected abstract float GetPropByLooting();
 
         #endregion
 
@@ -89,6 +90,8 @@ namespace JHS
             SoundSystem.Instance.PlaySoundEffect(deathSound);
             // 골드 드랍
             CurrencyData.Instance.Gold += GetRoundGold();
+            // 장비 아이템 드랍
+            LootingEquipItem();
             // 다음 라운드 시작
             StartCoroutine(Co_ChangeRound());
         }
@@ -101,6 +104,12 @@ namespace JHS
         #endregion
 
         #region 내부 메소드
+
+        private void LootingEquipItem()
+        {
+            float prop = Random.value;
+            if(prop < GetPropByLooting()) EquipSystem.Instance.EquipItemList[(EquipItemType)(int)(Random.value * 5)].Totals[0].Count++;
+        }
 
         IEnumerator Co_ChangeRound()
         {

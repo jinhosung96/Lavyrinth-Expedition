@@ -14,8 +14,7 @@ namespace JHS
         int tier;
         [SerializeField] string name;
         [SerializeField] int amplificationDPS;
-        [SerializeField] Sprite icon_noEffect;
-        [SerializeField] Sprite icon_effect;
+        [SerializeField] Sprite icon;
 
         #endregion
 
@@ -25,8 +24,7 @@ namespace JHS
         public int Tier { get => tier; set => tier = value; }
         public string Name => name;
         public int AmplificationDPS => amplificationDPS;
-        public Sprite Icon_NoEffect => icon_noEffect;
-        public Sprite Icon_Effect => icon_effect;
+        public Sprite Icon => icon;
         public EquipItemSlot Slot { get; set; }
 
         #endregion
@@ -62,18 +60,19 @@ namespace JHS
             set {
                 if (count <= 0 && value > 0)
                 {
+                    count = value;
                     Def.Slot.gameObject.SetActive(true);
                     EquipSystem.Instance.EquipItemList[Def.Type].UpdateHoldingItem();
                     EquipSystem.Instance.EquipItemList[Def.Type].UpdateCurrentEquip();
                 }
                 else if (count > 0 && value <= 0)
                 {
+                    count = value;
                     Def.Slot.gameObject.SetActive(false);
                     EquipSystem.Instance.EquipItemList[Def.Type].UpdateHoldingItem();
                     EquipSystem.Instance.EquipItemList[Def.Type].UpdateCurrentEquip();
                 }
 
-                count = value;
                 Def.Slot.Count.text = $"{count}/{EquipSystem.Instance.SynthesisCount}";
             }
         }
@@ -91,7 +90,7 @@ namespace JHS
         public void InitSlotUI(EquipItemSlot slot)
         {
             Def.Slot = slot;
-            Def.Slot.Icon.sprite = Def.Icon_NoEffect;
+            Def.Slot.Icon.sprite = Def.Icon;
             Def.Slot.Tier.text = $"T{Def.Tier}";
             Def.Slot.Count.text = $"{Count}/{EquipSystem.Instance.SynthesisCount}";
             if(Count <= 0) Def.Slot.gameObject.SetActive(false);

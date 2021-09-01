@@ -19,7 +19,9 @@ namespace JHS
 
         protected override BigInteger GetRoundHP() => StageSystem.Instance.RoundHP * 2;
 
-        protected override BigInteger GetRoundGold() => StageSystem.Instance.RoundGold * 2;
+        protected override BigInteger GetRoundGold() => StageSystem.Instance.RoundGold * 5;
+
+        protected override float GetPropByLooting() => base.GetPropByLooting() * 3;
 
         #endregion
     }

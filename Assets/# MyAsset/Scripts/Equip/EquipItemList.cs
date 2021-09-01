@@ -37,10 +37,10 @@ namespace JHS
         {
             get => currentEquip; private set
             {
-                if(currentEquip != null) currentEquip.Def.Slot.Icon.sprite = currentEquip.Def.Icon_NoEffect;
+                if(currentEquip != null) currentEquip.Def.Slot.Icon.sprite = currentEquip.Def.Icon;
                 currentEquip = value;
-                currentEquip.Def.Slot.Icon.sprite = currentEquip.Def.Icon_Effect;
-                EquipSlot.Icon.sprite = currentEquip.Def.Icon_Effect;
+                currentEquip.Def.Slot.Icon.sprite = currentEquip.Def.Icon;
+                EquipSlot.Icon.sprite = currentEquip.Def.Icon;
                 EquipSlot.Name.text = currentEquip.Def.Name;
                 EquipSlot.Tier.text = $"Tier {currentEquip.Def.Tier}";
                 EquipSlot.AmplificationDPS.text = $"<color=#DAD9FF>+ DPS </color>{currentEquip.Def.AmplificationDPS}<color=#DAD9FF>% 증폭</color>";
@@ -59,6 +59,7 @@ namespace JHS
         public void UpdateCurrentEquip()
         {
             if(Holdings.Length > 0) CurrentEquip = Holdings[Holdings.Length - 1];
+            ObserverSystem.Instance.PostNofication("CurrentEquip 갱신");
         }
 
         #endregion

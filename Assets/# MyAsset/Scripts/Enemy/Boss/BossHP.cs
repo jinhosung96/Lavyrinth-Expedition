@@ -25,6 +25,8 @@ namespace JHS
 
         protected override BigInteger GetRoundGold() => StageSystem.Instance.RoundGold * 3;
 
+        protected override float GetPropByLooting() => 1f;
+
         #endregion
     }
 }
