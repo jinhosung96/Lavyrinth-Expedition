@@ -108,7 +108,7 @@ namespace JHS
         private void LootingEquipItem()
         {
             float prop = Random.value;
-            if(prop < GetPropByLooting()) EquipSystem.Instance.EquipItemList[(EquipItemType)(int)(Random.value * 5)].Totals[0].Count++;
+            if(prop < GetPropByLooting()) LootingSystem.Instance.Looting(EquipSystem.Instance.EquipItemList[(EquipItemType)(int)(Random.value * 5)].Totals[0]);
         }
 
         IEnumerator Co_ChangeRound()

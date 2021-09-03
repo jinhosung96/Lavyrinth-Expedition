@@ -30,6 +30,7 @@ namespace JHS
         [SerializeField] GameObject slotPrefab;
         [SerializeField] int synthesisCount;
 
+
         #endregion
 
         #region 속성

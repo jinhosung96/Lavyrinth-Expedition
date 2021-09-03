@@ -5123,84 +5123,84 @@ MonoBehaviour:
       - def:
           name: 1
           amplificationDPS: 0
-          icon_noEffect: {fileID: 21300000, guid: 5e60925f0f18dc1429b8d40ba1a77182, type: 3}
+          icon: {fileID: 21300000, guid: 5e60925f0f18dc1429b8d40ba1a77182, type: 3}
         count: 1
       - def:
           name: 2
           amplificationDPS: 50
-          icon_noEffect: {fileID: 21300000, guid: 053677dbb5d591548a9ced88115d9805, type: 3}
+          icon: {fileID: 21300000, guid: 053677dbb5d591548a9ced88115d9805, type: 3}
         count: 1
       - def:
           name: 3
           amplificationDPS: 0
-          icon_noEffect: {fileID: 21300000, guid: ac6917791ef3d12428393dffe6cba6fd, type: 3}
+          icon: {fileID: 21300000, guid: ac6917791ef3d12428393dffe6cba6fd, type: 3}
         count: 0
       - def:
           name: 4
           amplificationDPS: 0
-          icon_noEffect: {fileID: 21300000, guid: 4434cf00682b86440a01b19aa7c6ecaf, type: 3}
+          icon: {fileID: 21300000, guid: 4434cf00682b86440a01b19aa7c6ecaf, type: 3}
         count: 0
       - def:
           name: 5
           amplificationDPS: 0
-          icon_noEffect: {fileID: 21300000, guid: ed6113572bcf6004eb2e001383c63d39, type: 3}
+          icon: {fileID: 21300000, guid: 548de133cf7335c488322ea27d78b60d, type: 3}
         count: 0
       - def:
           name: 6
           amplificationDPS: 0
-          icon_noEffect: {fileID: 21300000, guid: a17ce52ae9b5c634b863b86532d8ead1, type: 3}
+          icon: {fileID: 21300000, guid: b9e02a6b0c30f74438ccfe8757b499ca, type: 3}
         count: 0
       - def:
           name: 7
           amplificationDPS: 0
-          icon_noEffect: {fileID: 21300000, guid: 08ecb110839761048b79d44805c5f268, type: 3}
+          icon: {fileID: 21300000, guid: ed6113572bcf6004eb2e001383c63d39, type: 3}
         count: 0
       - def:
           name: 8
           amplificationDPS: 0
-          icon_noEffect: {fileID: 21300000, guid: acb5b43928776b84ab4f1b6c80d1757f, type: 3}
+          icon: {fileID: 21300000, guid: a17ce52ae9b5c634b863b86532d8ead1, type: 3}
         count: 0
       - def:
           name: 9
           amplificationDPS: 0
-          icon_noEffect: {fileID: 21300000, guid: ec9d8e458fef0ec4f84e904425f96650, type: 3}
+          icon: {fileID: 21300000, guid: 08ecb110839761048b79d44805c5f268, type: 3}
         count: 0
       - def:
           name: 10
           amplificationDPS: 0
-          icon_noEffect: {fileID: 21300000, guid: 543e2b79c41c2d4408165336f067dfb7, type: 3}
+          icon: {fileID: 21300000, guid: acb5b43928776b84ab4f1b6c80d1757f, type: 3}
         count: 0
     helmetList:
       equipSlot: {fileID: 1164305420}
       totals:
       - def:
           name: 1
-          amplificationDPS: 50
-          icon_noEffect: {fileID: 21300000, guid: c75ec0465ab23934391a3343caad5cc6, type: 3}
+          amplificationDPS: 0
+          icon: {fileID: 21300000, guid: c75ec0465ab23934391a3343caad5cc6, type: 3}
         count: 0
     armorList:
       equipSlot: {fileID: 456304777}
       totals:
       - def:
           name: 1
-          amplificationDPS: 50
-          icon_noEffect: {fileID: 21300000, guid: 954c49195929dbb4594fcb90391b0802, type: 3}
+          amplificationDPS: 0
+          icon: {fileID: 21300000, guid: 954c49195929dbb4594fcb90391b0802, type: 3}
         count: 0
     glovesList:
       equipSlot: {fileID: 659771610}
       totals:
       - def:
           name: 1
-          amplificationDPS: 50
-          icon_noEffect: {fileID: 21300000, guid: 4e517ec5707c18842838979ddc19874c, type: 3}
+          amplificationDPS: 0
+          icon: {fileID: 21300000, guid: 4e517ec5707c18842838979ddc19874c, type: 3}
         count: 0
     shoesList:
       equipSlot: {fileID: 1096138861}
       totals:
       - def:
           name: 1
-          amplificationDPS: 50
-          icon_noEffect: {fileID: 21300000, guid: ed0f00181291ea34baa5c1560ca78afa, type: 3}
+          amplificationDPS: 0
+          icon: {fileID: 21300000, guid: ed0f00181291ea34baa5c1560ca78afa, type: 3}
         count: 0
   slotPrefab: {fileID: 2139782011056223909, guid: 4fa157909740915469686f65c710803d, type: 3}
   synthesisCount: 10
@@ -13622,6 +13622,41 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1346512074}
   m_CullTransparentMesh: 1
+--- !u!1 &1351999912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1351999913}
+  m_Layer: 5
+  m_Name: LootingItemPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1351999913
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351999912}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224275401078508626}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1356445616
 GameObject:
   m_ObjectHideFlags: 0
@@ -15162,6 +15197,54 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 1
   m_ReverseArrangement: 1
+--- !u!1 &1511319911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1511319912}
+  - component: {fileID: 1511319913}
+  m_Layer: 0
+  m_Name: LootingSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1511319912
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511319911}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1516412629}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1511319913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511319911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaecaf7937a942c40a660cc98de586bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lootingItem: {fileID: 6054453974480848358, guid: ae02d80aa8765994db605dad5c47fcf4, type: 3}
+  lootingItemPool: {fileID: 1351999913}
+  lootingItemStartPos: {x: 50, y: 60, z: 0}
+  lootingItemEndPos: {x: 50, y: 80, z: 0}
+  duration: 0.5
 --- !u!1 &1516412628
 GameObject:
   m_ObjectHideFlags: 0
@@ -15205,6 +15288,7 @@ Transform:
   - {fileID: 1785079487}
   - {fileID: 435623397}
   - {fileID: 500726883}
+  - {fileID: 1511319912}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -21547,6 +21631,7 @@ RectTransform:
   - {fileID: 1306856034}
   - {fileID: 1050104748}
   - {fileID: 5522470617041340867}
+  - {fileID: 1351999913}
   - {fileID: 5522470616261567494}
   m_Father: {fileID: 360575297}
   m_RootOrder: 0
@@ -26970,7 +27055,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 224275401078508626}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -27017,7 +27102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5522470617041340867}
   m_Layer: 5
-  m_Name: FloatingText
+  m_Name: FloatingTextPool
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
