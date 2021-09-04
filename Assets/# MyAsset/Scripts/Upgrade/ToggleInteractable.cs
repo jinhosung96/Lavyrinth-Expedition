@@ -31,7 +31,7 @@ namespace JHS
             ToggleButton();
             for (int i = 0; i < eventNames.Length; i++)
             {
-                ObserverSystem.Instance.AddListener(eventNames[i], gameObject, ToggleButton);
+                ObserverSystem.Instance.AddListener(eventNames[i], gameObject, ToggleButton, false);
             }            
         }
 

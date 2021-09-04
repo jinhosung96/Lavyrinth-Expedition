@@ -20,6 +20,7 @@ namespace JHS
         [SerializeField] Image icon;
         [SerializeField] Text tier;
         [SerializeField] Text count;
+        [SerializeField] SynthesisButton button;
 
         #endregion
 
@@ -28,6 +29,7 @@ namespace JHS
         public Image Icon => icon;
         public Text Tier => tier;
         public Text Count => count;
+        public SynthesisButton Button => button;
 
         #endregion
     }

@@ -72,6 +72,10 @@ namespace JHS
                     EquipSystem.Instance.EquipItemList[Def.Type].UpdateHoldingItem();
                     EquipSystem.Instance.EquipItemList[Def.Type].UpdateCurrentEquip();
                 }
+                else
+                {
+                    count = value;
+                }
 
                 Def.Slot.Count.text = $"{count}/{EquipSystem.Instance.SynthesisCount}";
             }
@@ -93,7 +97,9 @@ namespace JHS
             Def.Slot.Icon.sprite = Def.Icon;
             Def.Slot.Tier.text = $"T{Def.Tier}";
             Def.Slot.Count.text = $"{Count}/{EquipSystem.Instance.SynthesisCount}";
-            if(Count <= 0) Def.Slot.gameObject.SetActive(false);
+            Def.Slot.Button.Tier = Def.Tier;
+            Def.Slot.Button.Type = Def.Type;
+            if (Count <= 0) Def.Slot.gameObject.SetActive(false);
         }
 
         #endregion
