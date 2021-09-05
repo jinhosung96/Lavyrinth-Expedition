@@ -77,7 +77,11 @@ namespace JHS
                     count = value;
                 }
 
-                Def.Slot.Count.text = $"{count}/{EquipSystem.Instance.SynthesisCount}";
+                if (EquipSystem.Instance.EquipItemList[Def.Type].Totals.Length - 1 != Def.Tier)
+                {
+                    Def.Slot.Count.text = $"{count}/{EquipSystem.Instance.SynthesisCount}";
+                }
+                else Def.Slot.Count.text = $"{count}";
             }
         }
 
@@ -97,9 +101,19 @@ namespace JHS
             Def.Slot.Icon.sprite = Def.Icon;
             Def.Slot.Tier.text = $"T{Def.Tier}";
             Def.Slot.Count.text = $"{Count}/{EquipSystem.Instance.SynthesisCount}";
-            Def.Slot.Button.Tier = Def.Tier;
-            Def.Slot.Button.Type = Def.Type;
+            Def.Slot.Button.Item = this;
             if (Count <= 0) Def.Slot.gameObject.SetActive(false);
+        }
+
+        public void Synthesis()
+        {
+            if (EquipSystem.Instance.EquipItemList[Def.Type].Totals.Length - 1 == Def.Tier) return;
+
+            while (EquipSystem.Instance.EquipItemList[Def.Type].Totals[Def.Tier].Count >= EquipSystem.Instance.SynthesisCount)
+            {
+                EquipSystem.Instance.EquipItemList[Def.Type].Totals[Def.Tier].Count -= EquipSystem.Instance.SynthesisCount;
+                EquipSystem.Instance.EquipItemList[Def.Type].Totals[Def.Tier + 1].Count++;
+            }
         }
 
         #endregion

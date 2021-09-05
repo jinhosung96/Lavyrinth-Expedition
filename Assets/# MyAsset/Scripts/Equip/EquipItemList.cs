@@ -62,6 +62,14 @@ namespace JHS
             ObserverSystem.Instance.PostNofication("CurrentEquip 갱신");
         }
 
+        public void TotalSynthesis()
+        {
+            for (int i = 0; i < Totals.Length; i++)
+            {
+                Totals[i].Synthesis();
+            }
+        }
+
         #endregion
     }
 }

@@ -12,17 +12,11 @@ namespace JHS
     /// 
     /// </summary>
     #endregion
-    public class SynthesisButton : ButtonClick
+    public class TotalSynthesisButton : ButtonClick
     {
         #region 필드
 
-        EquipItem item;
-
-        #endregion
-
-        #region 속성
-
-        public EquipItem Item { get => item; set => item = value; }
+        [SerializeField] EquipItemType type;
 
         #endregion
 
@@ -30,7 +24,7 @@ namespace JHS
 
         public override void OnClick()
         {
-            Item.Synthesis();
+            EquipSystem.Instance.EquipItemList[type].TotalSynthesis();
         }
 
         #endregion
