@@ -30,6 +30,22 @@ namespace JHS
         public Text Tier => tier;
         public Text Count => count;
         public SynthesisButton Button => button;
+        public EquipItem Item { get; set; }
+
+        #endregion
+
+        #region 공개 메소드
+
+        public void UpdateCount()
+        {
+            if (EquipSystem.Instance.EquipItemList[Item.Def.Type].Totals.Length - 1 != Item.Def.Tier)
+            {
+                Count.text = $"{Item.Count}/{EquipSystem.Instance.SynthesisCount}";
+                if (Item.Count < EquipSystem.Instance.SynthesisCount) Count.color = Color.white;
+                else Count.color = Color.green;
+            }
+            else Count.text = $"{Item.Count}";
+        }
 
         #endregion
     }

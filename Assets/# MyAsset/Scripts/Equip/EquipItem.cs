@@ -77,11 +77,7 @@ namespace JHS
                     count = value;
                 }
 
-                if (EquipSystem.Instance.EquipItemList[Def.Type].Totals.Length - 1 != Def.Tier)
-                {
-                    Def.Slot.Count.text = $"{count}/{EquipSystem.Instance.SynthesisCount}";
-                }
-                else Def.Slot.Count.text = $"{count}";
+                Def.Slot.UpdateCount();
             }
         }
 
@@ -98,10 +94,11 @@ namespace JHS
         public void InitSlotUI(EquipItemSlot slot)
         {
             Def.Slot = slot;
+            Def.Slot.Item = this;
             Def.Slot.Icon.sprite = Def.Icon;
             Def.Slot.Tier.text = $"T{Def.Tier}";
-            Def.Slot.Count.text = $"{Count}/{EquipSystem.Instance.SynthesisCount}";
             Def.Slot.Button.Item = this;
+            Def.Slot.UpdateCount();
             if (Count <= 0) Def.Slot.gameObject.SetActive(false);
         }
 
