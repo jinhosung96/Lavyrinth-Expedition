@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace JHS
 {
@@ -26,15 +27,16 @@ namespace JHS
     {
         #region 필드
 
+        [SerializeField] ScrollRect scrollRect;
         [SerializeField] EquipItemByType equipItemList;
         [SerializeField] GameObject slotPrefab;
         [SerializeField] int synthesisCount;
-
 
         #endregion
 
         #region 속성
 
+        public ScrollRect ScrollRect => scrollRect;
         public EquipItemByType EquipItemList => equipItemList;
         public int SynthesisCount => synthesisCount;
         public int Amplification
