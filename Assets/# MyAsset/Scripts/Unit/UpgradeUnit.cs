@@ -32,7 +32,8 @@ namespace JHS
         [SerializeField] string initIncreaseCost;
         [SerializeField] float increaseCost;
 
-        [SerializeField] string[] eventNames;
+        [SerializeField] string[] eventNames_LevelUp;
+        [SerializeField] string eventNames_CanPurchase;
 
         UpgradeInfo upgradeInfo = new UpgradeInfo();
 
@@ -48,9 +49,9 @@ namespace JHS
             {
                 lv = value;
                 if (lv == 1) GO.SetActive(true);
-                for (int i = 0; i < eventNames.Length; i++)
+                for (int i = 0; i < eventNames_LevelUp.Length; i++)
                 {
-                    ObserverSystem.Instance.PostNofication(eventNames[i]);
+                    ObserverSystem.Instance.PostNofication(eventNames_LevelUp[i]);
                 }                
             }
         }
@@ -88,7 +89,8 @@ namespace JHS
                 tempCost = totalCost + UpgradeSystem.Instance.GetCostByLevel(BigInteger.Parse(InitCost), BigInteger.Parse(InitIncreaseCost), IncreaseCost, nextLv + 1);
             }
 
-            bool canPurchase = nextLv - Lv > 0;
+            bool canPurchase = nextLv > Lv;
+            if (canPurchase) ObserverSystem.Instance.PostNofication(eventNames_CanPurchase);
 
             UpgradeInfo.canPurchase = canPurchase;
             UpgradeInfo.increaseLv = canPurchase ? nextLv - Lv : 1;

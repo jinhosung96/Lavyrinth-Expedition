@@ -77,7 +77,6 @@ namespace JHS
         {
             if (GetCondition())
             {
-                print("실행");
                 condition.transform.GetChild(1).GetComponent<Text>().color = Color.white;
             }
         }

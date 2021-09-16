@@ -17,6 +17,7 @@ namespace JHS
         #region 필드
 
         [SerializeField] int targetIndex;
+        [SerializeField] string eventName;
 
         #endregion
 
@@ -24,6 +25,8 @@ namespace JHS
 
         public override void OnClick()
         {
+            ObserverSystem.Instance.PostNofication(eventName);
+
             for (int i = 0; i < TabSystem.Instance.BottomTabs.Length; i++)
             {
                 if(targetIndex != i)
